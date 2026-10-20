@@ -401,7 +401,21 @@
         "vi": "Bộ gắn đưa một sợi cảm biến nhỏ, mềm dẻo vào ngay dưới da chỉ với một tiếng tách. Bạn cảm thấy như một cái chạm nhẹ, không phải mũi kim. Cảm biến bám trên da suốt 15 ngày — qua những lần tắm, bơi lội và chơi thể thao.",
         "hi": "एप्लिकेटर एक क्लिक में एक छोटा लचीला फ़िलामेंट त्वचा के ठीक नीचे रख देता है। आपको चुभन नहीं, बस हल्की थपकी महसूस होती है। सेंसर 15 दिनों तक लगा रहता है — नहाते, तैरते और खेलते हुए भी।"
        },
-       "icon": "disc"
+       "icon": "disc",
+       "image": {
+        "src": "/media/renders/sensor.webp",
+        "alt": {
+         "en": "Flystat applicator and sensor",
+         "ru": "Аппликатор и сенсор Flystat",
+         "fr": "Applicateur et capteur Flystat",
+         "es": "Aplicador y sensor Flystat",
+         "it": "Applicatore e sensore Flystat",
+         "de": "Flystat Applikator und Sensor",
+         "zh": "Flystat 敷贴器与传感器",
+         "vi": "Bộ gắn và cảm biến Flystat",
+         "hi": "Flystat एप्लिकेटर और सेंसर"
+        }
+       }
       },
       {
        "title": {
@@ -426,7 +440,21 @@
         "vi": "Cảm biến đo glucose trong dịch kẽ giữa các tế bào và gửi về điện thoại của bạn qua Bluetooth. Khi thay đổi nhanh, số liệu được gửi mỗi phút; khi ổn định, năm phút một lần.",
         "hi": "सेंसर आपकी कोशिकाओं के बीच के द्रव में ग्लूकोज़ मापता है और Bluetooth से आपके फ़ोन पर भेजता है। तेज़ बदलाव हर मिनट रिपोर्ट होते हैं, स्थिर समय में हर पाँच मिनट पर।"
        },
-       "icon": "smartphone"
+       "icon": "smartphone",
+       "image": {
+        "src": "/media/app/home.webp",
+        "alt": {
+         "en": "App home screen",
+         "ru": "Главный экран приложения",
+         "fr": "Écran d'accueil de l'application",
+         "es": "Pantalla de inicio de la aplicación",
+         "it": "Schermata iniziale dell'app",
+         "de": "Startbildschirm der App",
+         "zh": "应用主屏幕",
+         "vi": "Màn hình chính của ứng dụng",
+         "hi": "ऐप की होम स्क्रीन"
+        }
+       }
       },
       {
        "title": {
@@ -451,7 +479,21 @@
         "vi": "Xuất một báo cáo rõ ràng cho buổi khám — xu hướng, thời gian trong mục tiêu, các sự kiện. Dữ liệu vẫn là của bạn; bạn chọn khi nào bác sĩ được xem.",
         "hi": "अपनी अपॉइंटमेंट के लिए एक साफ़ रिपोर्ट एक्सपोर्ट करें — रुझान, लक्ष्य सीमा में समय, घटनाएँ। आपका डेटा आपका ही रहता है; डॉक्टर इसे कब देखे, यह आप तय करते हैं।"
        },
-       "icon": "file-text"
+       "icon": "file-text",
+       "image": {
+        "src": "/media/app/reports.webp",
+        "alt": {
+         "en": "Reports screen",
+         "ru": "Экран отчётов",
+         "fr": "Écran des rapports",
+         "es": "Pantalla de informes",
+         "it": "Schermata dei report",
+         "de": "Berichtsbildschirm",
+         "zh": "报告屏幕",
+         "vi": "Màn hình báo cáo",
+         "hi": "रिपोर्ट स्क्रीन"
+        }
+       }
       }
      ]
     }
@@ -495,7 +537,7 @@
       "hi": "<p>सेंसर 24 mm चौड़ा और 4.5 mm पतला है, वज़न दो ग्राम, और यह एक गोल पैच के नीचे रहता है। डिस्पोज़ेबल एप्लिकेटर सेंसर के साथ पहले से असेंबल आता है, इसलिए लगाना एक ही कदम है: दबाएँ, क्लिक, हो गया।</p><p>दोनों IP58 रेटेड हैं — नहाना, स्विमिंग पूल और पसीने वाली कसरत, सब ठीक है।</p>"
      },
      "image": {
-      "src": "/media/renders/front.webp",
+      "src": "/media/renders/applicator-front.webp",
       "alt": {
        "en": "Flystat applicator and sensor",
        "ru": "Аппликатор и сенсор Flystat",
@@ -510,6 +552,12 @@
      },
      "media_side": "right",
      "tone": "light",
+     "chips": [
+      "Ø 24 mm",
+      "4.5 mm",
+      "2 g",
+      "IP58"
+     ],
      "cta": {
       "label": {
        "en": "Explore the device",
@@ -1156,20 +1204,19 @@
       "hi": "<p>Flystat को MLC समूह विकसित करता है और इसे हमारे इंजीनियरिंग नियंत्रण में कॉन्ट्रैक्ट मैन्युफ़ैक्चरिंग लाइनों पर बनाया जाता है — क्लीन रूम, जैव-अनुकूलता परीक्षण और बैच ट्रेसेबिलिटी के साथ।</p><p>हम CE मार्किंग प्रक्रिया के बीच में हैं, जिसे 2027 के अंत तक पूरा करने की उम्मीद है। तब तक हम डिवाइस नहीं बेचते और ऐसी कीमतें या तारीख़ें नहीं बताते जिन्हें हम निभा न सकें।</p>"
      },
      "image": {
-      "src": "/media/production/cleanroom.webp",
+      "src": "/media/renders/sensor-exploded.webp",
       "alt": {
-       "en": "Visualisation of the production line",
-       "ru": "Визуализация производственной линии",
-       "fr": "Visualisation de la ligne de production",
-       "es": "Visualización de la línea de producción",
-       "it": "Visualizzazione della linea di produzione",
-       "de": "Visualisierung der Produktionslinie",
-       "zh": "生产线可视化示意",
-       "vi": "Hình ảnh mô phỏng dây chuyền sản xuất",
-       "hi": "उत्पादन लाइन का विज़ुअलाइज़ेशन"
+       "en": "Sensor layers: housing, board and adhesive patch",
+       "ru": "Слои сенсора: корпус, плата и клейкий пластырь",
+       "fr": "Couches du capteur : boîtier, carte et patch adhésif",
+       "es": "Capas del sensor: carcasa, placa y parche adhesivo",
+       "it": "Strati del sensore: involucro, scheda e cerotto adesivo",
+       "de": "Schichten des Sensors: Gehäuse, Platine und Klebepflaster",
+       "zh": "传感器分层：外壳、电路板和粘贴贴片",
+       "vi": "Các lớp của cảm biến: vỏ, bo mạch và miếng dán",
+       "hi": "सेंसर की परतें: आवरण, बोर्ड और चिपकने वाला पैच"
       }
      },
-     "generated_badge": true,
      "media_side": "left",
      "tone": "warm",
      "cta": {
@@ -1612,7 +1659,13 @@
       }
      },
      "media_side": "right",
-     "tone": "dark"
+     "tone": "dark",
+     "chips": [
+      "Ø 24 mm",
+      "4.5 mm",
+      "2 g",
+      "IP58"
+     ]
     }
    },
    {
@@ -6432,17 +6485,17 @@
       "hi": "Flystat MLC समूह का ब्रांड है। हम सेंसर, एप्लिकेटर और ऐप डिज़ाइन करते हैं, और उन्हें अपने इंजीनियरिंग नियंत्रण में कॉन्ट्रैक्ट मैन्युफ़ैक्चरिंग लाइनों पर बनाते हैं। हम साफ़ कहते हैं कि क्या पूरा हो चुका है और क्या नहीं।"
      },
      "image": {
-      "src": "/media/production/line.webp",
+      "src": "/media/renders/applicator-angle.webp",
       "alt": {
-       "en": "Visualisation of the production line",
-       "ru": "Визуализация производственной линии",
-       "fr": "Visualisation de la ligne de production",
-       "es": "Visualización de la línea de producción",
-       "it": "Visualizzazione della linea di produzione",
-       "de": "Visualisierung der Produktionslinie",
-       "zh": "生产线可视化示意",
-       "vi": "Hình ảnh mô phỏng dây chuyền sản xuất",
-       "hi": "उत्पादन लाइन का विज़ुअलाइज़ेशन"
+       "en": "Flystat applicator",
+       "ru": "Аппликатор Flystat",
+       "fr": "Applicateur Flystat",
+       "es": "Aplicador Flystat",
+       "it": "Applicatore Flystat",
+       "de": "Flystat Applikator",
+       "zh": "Flystat 敷贴器",
+       "vi": "Bộ gắn Flystat",
+       "hi": "Flystat एप्लिकेटर"
       }
      },
      "cta": {
