@@ -942,17 +942,17 @@
        "icon": "sun",
        "href": "/for/pregnancy",
        "image": {
-        "src": "/media/lifestyle/pregnant.webp",
+        "src": "/media/photo/pregnant.webp",
         "alt": {
-         "en": "Pregnant woman with a sensor",
-         "ru": "Беременная женщина с сенсором",
-         "fr": "Femme enceinte portant un capteur",
-         "es": "Mujer embarazada con un sensor",
-         "it": "Donna incinta con un sensore",
-         "de": "Schwangere Frau mit Sensor",
-         "zh": "佩戴传感器的孕妇",
-         "vi": "Phụ nữ mang thai đeo cảm biến",
-         "hi": "सेंसर लगाए एक गर्भवती महिला"
+         "en": "Pregnant woman with a Flystat sensor on her arm",
+         "ru": "Беременная женщина с сенсором Flystat на руке",
+         "fr": "Femme enceinte portant un capteur Flystat sur le bras",
+         "es": "Mujer embarazada con un sensor Flystat en el brazo",
+         "it": "Donna incinta con un sensore Flystat sul braccio",
+         "de": "Schwangere Frau mit einem Flystat-Sensor am Arm",
+         "zh": "手臂上佩戴 Flystat 传感器的孕妇",
+         "vi": "Phụ nữ mang thai đeo cảm biến Flystat trên cánh tay",
+         "hi": "बांह पर Flystat सेंसर पहने गर्भवती महिला"
         }
        }
       }
@@ -4824,7 +4824,7 @@
       "hi": "गर्भकालीन डायबिटीज़ और टाइप 1 या टाइप 2 के साथ गर्भावस्था का मतलब है ज़्यादा जाँच और संकरे लक्ष्य। हर मिनट पढ़ने वाला सेंसर उंगली की कई जाँचों की जगह लेता है और उनके बीच की तस्वीर दिखाता है।"
      },
      "image": {
-      "src": "/media/lifestyle/pregnant.webp",
+      "src": "/media/photo/pregnant.webp",
       "alt": {
        "en": "Pregnancy",
        "ru": "Беременность",

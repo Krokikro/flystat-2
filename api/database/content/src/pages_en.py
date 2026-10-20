@@ -87,7 +87,7 @@ PAGES.append(page("", "home", T("Flystat — continuous glucose monitoring"), na
                 item(T("Type 1 and type 2 diabetes"), T("Fewer finger pricks, more time in range, and a clearer conversation with your doctor."), icon="activity", href="/for/diabetes", image=img("photo/arm-kitchen.webp", T("Woman with a Flystat sensor on her arm at home"))),
                 item(T("Parents and families"), T("Readings you can check at a glance when it is your child or your parent wearing the sensor."), icon="heart", href="/for/family", image=img("photo/family.webp", T("Father and daughter at the kitchen table, the daughter wearing a sensor"))),
                 item(T("Sport and nutrition"), T("See how a long run, a late dinner or a new routine actually moves your glucose."), icon="zap", href="/for/sport", image=img("photo/run.webp", T("Running with a Flystat sensor"))),
-                item(T("Pregnancy"), T("Gentle, continuous monitoring when the targets are tighter and the stakes feel higher."), icon="sun", href="/for/pregnancy", image=img("lifestyle/pregnant.webp", T("Pregnant woman with a sensor"))),
+                item(T("Pregnancy"), T("Gentle, continuous monitoring when the targets are tighter and the stakes feel higher."), icon="sun", href="/for/pregnancy", image=img("photo/pregnant.webp", T("Pregnant woman with a Flystat sensor on her arm"))),
             ])),
         block("steps", anchor="install", data=dict(
             eyebrow=T("Applying the sensor"), title=T("Six steps, about a minute"),
@@ -250,7 +250,7 @@ SEGMENTS = [
       item(T("Nights"), T("Lows at night are easier to catch with an alarm than with an alarm clock."), icon="moon"),
       item(T("For the clinic"), T("Weekly reports with time in range help your team adjust the plan without guesswork."), icon="stethoscope"),
       item(T("Comfort"), T("A 24 mm sensor on the back of the arm, out of the way of everything else that is changing."), icon="heart")],
-     "lifestyle/pregnant.webp"),
+     "photo/pregnant.webp"),
 ]
 for slug, nav, h1, title, lead, items, photo in SEGMENTS:
     PAGES.append(page(f"for/{slug}", "segment", h1, nav=nav, seo_title=h1,
