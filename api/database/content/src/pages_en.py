@@ -336,7 +336,7 @@ PAGES.append(page("company", "company", T("About Flystat and MLC"), nav=T("Compa
                 dict(date="2026", title=T("Trademark and CE process"), text=T("Flystat trademark registered in the UAE; CE conformity assessment under MDR started.")),
                 dict(date="2027", title=T("Clinical studies and CE marking"), text=T("Clinical performance studies; CE marking planned for the end of the year.")),
             ])),
-        block("video", anchor="production", data=dict(title=T("The sensor and applicator, up close"), video="/media/hero-device.mp4", poster=img("renders/front.webp", T("Flystat sensor and applicator")),
+        block("video", anchor="production", data=dict(title=T("The sensor and applicator, up close"), video="/media/hero-device.mp4", poster=img("hero/h_000.webp", T("Flystat sensor and applicator")),
             caption=T("Studio animation of the current sensor and applicator design."))),
         block("cards", anchor="values", data=dict(eyebrow=T("How we work"), title=T("Three rules we do not break"), columns=3,
             items=[

@@ -6458,7 +6458,7 @@
      },
      "video": "/media/hero-device.mp4",
      "poster": {
-      "src": "/media/renders/front.webp",
+      "src": "/media/hero/h_000.webp",
       "alt": {
        "en": "Flystat sensor and applicator",
        "ru": "Сенсор и аппликатор Flystat",
