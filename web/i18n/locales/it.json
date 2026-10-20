@@ -1,0 +1,186 @@
+{
+ "nav": {
+  "people": "Per le persone",
+  "partners": "Per i partner",
+  "menu": "Menu",
+  "close": "Chiudi",
+  "account": "Area personale",
+  "language": "Lingua",
+  "units": "Unità",
+  "skip": "Vai al contenuto",
+  "waitlist": "Iscriversi alla lista d'attesa"
+ },
+ "footer": {
+  "company": "Flystat è un marchio del gruppo MLC.",
+  "rights": "Tutti i diritti riservati.",
+  "legal": "Note legali",
+  "contacts": "Contatti",
+  "newsletter": "Notizie via email",
+  "newsletter_text": "Una email al mese — aggiornamenti di prodotto, avanzamento della certificazione, eventi.",
+  "subscribe": "Iscriviti",
+  "cookies": "Cookie",
+  "made": "Dispositivo medico in fase di valutazione della conformità. Non disponibile per la vendita.",
+  "channels": "Canali Telegram",
+  "address": "Indirizzo"
+ },
+ "cookie": {
+  "title": "Cookie su flystat.com",
+  "text": "Usiamo cookie necessari per far funzionare il sito e, con il consenso dell'utente, cookie analitici per capire quali pagine sono utili. Nessun cookie pubblicitario.",
+  "accept": "Accetta analitici",
+  "decline": "Solo necessari",
+  "settings": "Informativa sui cookie"
+ },
+ "form": {
+  "name": "Nome",
+  "email": "Email",
+  "phone": "Telefono con prefisso internazionale",
+  "company": "Azienda",
+  "position": "Posizione in azienda",
+  "country": "Paese",
+  "city": "Città",
+  "website": "Sito web dell'azienda",
+  "channels": "Canali di vendita",
+  "channels_opts": {
+   "pharmacies": "Farmacie",
+   "clinics": "Cliniche e ospedali",
+   "ecom": "E-commerce",
+   "tenders": "Gare e appalti pubblici"
+  },
+  "volume": "Volume previsto all'anno",
+  "volume_opts": {
+   "lt1k": "meno di 1 000 sensori",
+   "1k": "1 000 – 10 000",
+   "10k": "10 000 – 50 000",
+   "50k": "oltre 50 000"
+  },
+  "for_whom": "Per chi",
+  "for_opts": {
+   "me": "Per me",
+   "relative": "Per un familiare",
+   "child": "Per un bambino"
+  },
+  "role": "Ruolo",
+  "role_opts": {
+   "user": "Utente / paziente",
+   "clinician": "Medico",
+   "partner": "Partner / distributore",
+   "other": "Altro"
+  },
+  "kind": "Tipo di richiesta",
+  "kind_opts": {
+   "bug": "Errore sul sito",
+   "question": "Domanda sul dispositivo o sull'app",
+   "idea": "Suggerimento",
+   "other": "Altro"
+  },
+  "subject": "Oggetto",
+  "message": "Messaggio",
+  "comment": "Commento",
+  "attachment": "Allegato (screenshot o foto, fino a 10 MB)",
+  "direction": "Ambito",
+  "direction_opts": {
+   "investment": "Investimenti",
+   "supplier": "Fornitori",
+   "clinic": "Cliniche",
+   "research": "Ricerca",
+   "press": "Stampa",
+   "other": "Altro"
+  },
+  "distributor_country": "Paese del distributore",
+  "consent": "Acconsento al trattamento dei miei dati personali come descritto nell'{privacy} e nel {consent}.",
+  "privacy": "Informativa sulla privacy",
+  "consent_doc": "Consenso",
+  "required": "Campo obbligatorio",
+  "invalid_email": "Verificare l'indirizzo email",
+  "invalid_phone": "Verificare il numero di telefono",
+  "sending": "Invio in corso…",
+  "error": "Qualcosa è andato storto e il messaggio non è stato inviato. Riprovare o scriverci via email.",
+  "too_many": "Troppe richieste da questa rete. Riprovare più tardi.",
+  "success_title": "Inviato",
+  "optional": "facoltativo",
+  "select": "Seleziona…",
+  "other_country": "Altro"
+ },
+ "news": {
+  "all": "Tutte",
+  "news": "Notizie",
+  "events": "Eventi",
+  "research": "Ricerca",
+  "company": "Azienda",
+  "read": "Leggi",
+  "more": "Altre notizie",
+  "back": "Tutte le notizie",
+  "share": "Condividi",
+  "related": "Da leggere anche"
+ },
+ "faq": {
+  "search": "Cerca tra le domande",
+  "nothing": "Nessun risultato — provare con un'altra parola o scrivere all'assistenza.",
+  "all": "Tutti gli argomenti",
+  "cats": {
+   "device": "Dispositivo",
+   "app": "App",
+   "purchase": "Acquisto",
+   "partners": "Partner",
+   "clinicians": "Medici",
+   "support": "Assistenza"
+  }
+ },
+ "map": {
+  "present": "Distributore presente",
+  "negotiation": "In trattativa",
+  "free": "Regione aperta",
+  "legend": "Legenda",
+  "choose": "Scegliere un paese",
+  "no_distributor": "Nessun distributore per ora — il messaggio arriva al nostro team.",
+  "regions": {
+   "middle_east": "Medio Oriente",
+   "europe": "Europa",
+   "africa": "Africa",
+   "asia": "Asia",
+   "americas": "Americhe",
+   "cis": "CSI"
+  }
+ },
+ "common": {
+  "learn_more": "Scopri di più",
+  "download": "Scarica",
+  "pdf": "PDF",
+  "version": "Versione",
+  "updated": "Aggiornato",
+  "generated": "Visualizzazione",
+  "generated_hint": "Immagine generata al computer — le fotografie reali seguiranno gli audit di produzione.",
+  "scroll": "Scorri",
+  "play": "Riproduci il video",
+  "pause": "Pausa",
+  "mmol": "mmol/L",
+  "mgdl": "mg/dL",
+  "contents": "Indice",
+  "soon": "Prossimamente",
+  "app_store": "App Store",
+  "google_play": "Google Play",
+  "notify_app": "Avvisami quando l'app è disponibile",
+  "demo_badge": "Versione demo — non indicizzata",
+  "reduced_motion": "Le animazioni sono ridotte in base alle impostazioni di sistema."
+ },
+ "errors": {
+  "404_title": "Pagina non trovata",
+  "404_text": "L'indirizzo potrebbe essere errato o la pagina è stata spostata. Provare dalla home page o dal menu.",
+  "500_title": "Qualcosa è andato storto",
+  "500_text": "Ne siamo già al corrente. Riprovare tra un minuto.",
+  "home": "Vai alla home page"
+ },
+ "thanks": {
+  "title": "Grazie",
+  "waitlist": "L'iscrizione alla lista d'attesa è confermata. Scriveremo quando Flystat sarà disponibile nel suo paese.",
+  "distribution": "La richiesta è stata ricevuta. Scriveremo entro due giorni lavorativi per fissare una chiamata.",
+  "support": "La richiesta è stata registrata. Il numero di ticket è in arrivo via email.",
+  "default": "Il messaggio è stato ricevuto.",
+  "back": "Torna al sito",
+  "meanwhile": "Nel frattempo"
+ },
+ "seo": {
+  "suffix": "Flystat",
+  "default_description": "Flystat — un sistema di monitoraggio continuo del glucosio: sensore da 15 giorni, letture ogni minuto, nessuna calibrazione con puntura del dito."
+ }
+}

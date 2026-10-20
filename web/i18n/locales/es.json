@@ -1,0 +1,186 @@
+{
+ "nav": {
+  "people": "Para personas",
+  "partners": "Para socios",
+  "menu": "Menú",
+  "close": "Cerrar",
+  "account": "Cuenta personal",
+  "language": "Idioma",
+  "units": "Unidades",
+  "skip": "Saltar al contenido",
+  "waitlist": "Unirse a la lista de espera"
+ },
+ "footer": {
+  "company": "Flystat es una marca del grupo MLC.",
+  "rights": "Todos los derechos reservados.",
+  "legal": "Información legal",
+  "contacts": "Contacto",
+  "newsletter": "Noticias por correo",
+  "newsletter_text": "Un correo al mes: novedades del producto, avances de la certificación, eventos.",
+  "subscribe": "Suscribirse",
+  "cookies": "Cookies",
+  "made": "Producto sanitario en evaluación de la conformidad. No disponible para la venta.",
+  "channels": "Canales de Telegram",
+  "address": "Dirección"
+ },
+ "cookie": {
+  "title": "Cookies en flystat.com",
+  "text": "Usamos cookies necesarias para que el sitio funcione y, con su consentimiento, cookies analíticas para ver qué páginas resultan útiles. Sin cookies publicitarias.",
+  "accept": "Aceptar analíticas",
+  "decline": "Solo las necesarias",
+  "settings": "Política de cookies"
+ },
+ "form": {
+  "name": "Nombre",
+  "email": "Correo electrónico",
+  "phone": "Teléfono con prefijo de país",
+  "company": "Empresa",
+  "position": "Cargo",
+  "country": "País",
+  "city": "Ciudad",
+  "website": "Sitio web de la empresa",
+  "channels": "Canales de venta",
+  "channels_opts": {
+   "pharmacies": "Farmacias",
+   "clinics": "Clínicas y hospitales",
+   "ecom": "Comercio electrónico",
+   "tenders": "Licitaciones y contratación pública"
+  },
+  "volume": "Volumen anual previsto",
+  "volume_opts": {
+   "lt1k": "menos de 1 000 sensores",
+   "1k": "1 000 – 10 000",
+   "10k": "10 000 – 50 000",
+   "50k": "más de 50 000"
+  },
+  "for_whom": "Para quién",
+  "for_opts": {
+   "me": "Para mí",
+   "relative": "Para un familiar",
+   "child": "Para un niño"
+  },
+  "role": "Su perfil",
+  "role_opts": {
+   "user": "Usuario / paciente",
+   "clinician": "Profesional sanitario",
+   "partner": "Socio / distribuidor",
+   "other": "Otro"
+  },
+  "kind": "Tipo de solicitud",
+  "kind_opts": {
+   "bug": "Error en el sitio web",
+   "question": "Pregunta sobre el dispositivo o la aplicación",
+   "idea": "Sugerencia",
+   "other": "Otro"
+  },
+  "subject": "Asunto",
+  "message": "Mensaje",
+  "comment": "Comentario",
+  "attachment": "Archivo adjunto (captura de pantalla o foto, hasta 10 MB)",
+  "direction": "Área",
+  "direction_opts": {
+   "investment": "Inversión",
+   "supplier": "Proveedores",
+   "clinic": "Clínicas",
+   "research": "Investigación",
+   "press": "Prensa",
+   "other": "Otro"
+  },
+  "distributor_country": "País del distribuidor",
+  "consent": "Acepto el tratamiento de mis datos personales según se describe en la {privacy} y el {consent}.",
+  "privacy": "Política de privacidad",
+  "consent_doc": "Consentimiento",
+  "required": "Campo obligatorio",
+  "invalid_email": "Compruebe la dirección de correo electrónico",
+  "invalid_phone": "Compruebe el número de teléfono",
+  "sending": "Enviando…",
+  "error": "Algo ha fallado y el mensaje no se ha enviado. Inténtelo de nuevo o escríbanos por correo electrónico.",
+  "too_many": "Demasiadas solicitudes desde esta red. Inténtelo de nuevo más tarde.",
+  "success_title": "Enviado",
+  "optional": "opcional",
+  "select": "Seleccione…",
+  "other_country": "Otro"
+ },
+ "news": {
+  "all": "Todas",
+  "news": "Noticias",
+  "events": "Eventos",
+  "research": "Investigación",
+  "company": "Empresa",
+  "read": "Leer",
+  "more": "Más noticias",
+  "back": "Todas las noticias",
+  "share": "Compartir",
+  "related": "Lea también"
+ },
+ "faq": {
+  "search": "Buscar preguntas",
+  "nothing": "No se ha encontrado nada: pruebe con otra palabra o escriba a soporte.",
+  "all": "Todos los temas",
+  "cats": {
+   "device": "Dispositivo",
+   "app": "Aplicación",
+   "purchase": "Compra",
+   "partners": "Socios",
+   "clinicians": "Profesionales sanitarios",
+   "support": "Soporte"
+  }
+ },
+ "map": {
+  "present": "Distribuidor presente",
+  "negotiation": "En negociación",
+  "free": "Región abierta",
+  "legend": "Leyenda",
+  "choose": "Elija un país",
+  "no_distributor": "Todavía no hay distribuidor: su mensaje llega a nuestro equipo.",
+  "regions": {
+   "middle_east": "Oriente Medio",
+   "europe": "Europa",
+   "africa": "África",
+   "asia": "Asia",
+   "americas": "América",
+   "cis": "CEI"
+  }
+ },
+ "common": {
+  "learn_more": "Más información",
+  "download": "Descargar",
+  "pdf": "PDF",
+  "version": "Versión",
+  "updated": "Actualizado",
+  "generated": "Visualización",
+  "generated_hint": "Imagen generada por ordenador; las fotografías reales llegarán tras las auditorías de producción.",
+  "scroll": "Desplazar",
+  "play": "Reproducir vídeo",
+  "pause": "Pausa",
+  "mmol": "mmol/L",
+  "mgdl": "mg/dL",
+  "contents": "Contenido",
+  "soon": "Próximamente",
+  "app_store": "App Store",
+  "google_play": "Google Play",
+  "notify_app": "Avisarme cuando la aplicación esté disponible",
+  "demo_badge": "Versión de demostración — no indexada",
+  "reduced_motion": "Las animaciones están reducidas según la configuración de su sistema."
+ },
+ "errors": {
+  "404_title": "Página no encontrada",
+  "404_text": "Puede que la dirección sea incorrecta o que la página se haya movido. Pruebe con la página de inicio o el menú.",
+  "500_title": "Algo ha fallado",
+  "500_text": "Ya estamos al tanto. Inténtelo de nuevo en un minuto.",
+  "home": "Ir a la página de inicio"
+ },
+ "thanks": {
+  "title": "Gracias",
+  "waitlist": "Está en la lista de espera. Le escribiremos cuando Flystat esté disponible en su país.",
+  "distribution": "Hemos recibido su solicitud. Le escribiremos en dos días laborables para concertar una llamada.",
+  "support": "Su solicitud ha quedado registrada. El número de ticket va de camino a su correo.",
+  "default": "Hemos recibido su mensaje.",
+  "back": "Volver al sitio",
+  "meanwhile": "Mientras tanto"
+ },
+ "seo": {
+  "suffix": "Flystat",
+  "default_description": "Flystat — un sistema de monitorización continua de glucosa: sensor de 15 días, lecturas cada minuto, sin calibración con pinchazos en el dedo."
+ }
+}

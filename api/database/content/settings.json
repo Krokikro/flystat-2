@@ -1,0 +1,169 @@
+{
+ "site_mode": {
+  "value": "demo",
+  "group": "site",
+  "secret": false
+ },
+ "preview_token": {
+  "value": "flystat-preview-2026",
+  "group": "site",
+  "secret": true
+ },
+ "account_url": {
+  "value": "",
+  "group": "site",
+  "secret": false
+ },
+ "app_status": {
+  "value": "soon",
+  "group": "site",
+  "secret": false
+ },
+ "app_store_url": {
+  "value": "",
+  "group": "site",
+  "secret": false
+ },
+ "play_store_url": {
+  "value": "",
+  "group": "site",
+  "secret": false
+ },
+ "default_units": {
+  "value": "mmol",
+  "group": "site",
+  "secret": false
+ },
+ "certification_status": {
+  "value": "CE marking in progress — completion planned for the end of 2027. Not available for sale.",
+  "group": "site",
+  "secret": false
+ },
+ "legal_version": {
+  "value": "2026-10",
+  "group": "site",
+  "secret": false
+ },
+ "company": {
+  "value": {
+   "name": "Shenzhen Mailian Testing Technology Co., Ltd.",
+   "name_cn": "深圳脉联测科技有限公司",
+   "brand": "Flystat",
+   "group": "MLC group",
+   "address": "Room 1603, Kangtai Chuangxin Plaza, Yuehai Street, Nanshan District, Shenzhen, China",
+   "reg_number": "91440300MAELF8TL15",
+   "founded": "2025-05-30",
+   "representative": "Ivan Saltanov",
+   "email": "info@flycgm.com"
+  },
+  "group": "company",
+  "secret": false
+ },
+ "contact_emails": {
+  "value": {
+   "distribution": "distributors@flycgm.com",
+   "support": "support@flycgm.com",
+   "clinical": "clinical@flycgm.com",
+   "press": "press@flycgm.com",
+   "info": "info@flycgm.com",
+   "privacy": "privacy@flycgm.com"
+  },
+  "group": "company",
+  "secret": false
+ },
+ "social": {
+  "value": {
+   "telegram": "",
+   "linkedin": "",
+   "instagram": "",
+   "youtube": "",
+   "x": ""
+  },
+  "group": "company",
+  "secret": false
+ },
+ "telegram_channels": {
+  "value": {},
+  "group": "company",
+  "secret": false
+ },
+ "telegram_bot_token": {
+  "value": "",
+  "group": "telegram",
+  "secret": true
+ },
+ "telegram_leads_chat_id": {
+  "value": "",
+  "group": "telegram",
+  "secret": false
+ },
+ "telegram_leads_topics": {
+  "value": {},
+  "group": "telegram",
+  "secret": false
+ },
+ "telegram_news_channels": {
+  "value": {},
+  "group": "telegram",
+  "secret": false
+ },
+ "telegram_daily_digest": {
+  "value": false,
+  "group": "telegram",
+  "secret": false
+ },
+ "jsm_base_url": {
+  "value": "https://mlc-heatlh.atlassian.net",
+  "group": "jsm",
+  "secret": false
+ },
+ "jsm_email": {
+  "value": "",
+  "group": "jsm",
+  "secret": false
+ },
+ "jsm_api_token": {
+  "value": "",
+  "group": "jsm",
+  "secret": true
+ },
+ "jsm_service_desk_id": {
+  "value": "",
+  "group": "jsm",
+  "secret": false
+ },
+ "jsm_request_types": {
+  "value": {
+   "bug": "",
+   "question": "",
+   "idea": "",
+   "other": ""
+  },
+  "group": "jsm",
+  "secret": false
+ },
+ "jsm_webhook_secret": {
+  "value": "",
+  "group": "jsm",
+  "secret": true
+ },
+ "mail_enabled": {
+  "value": false,
+  "group": "mail",
+  "secret": false
+ },
+ "mail_from": {
+  "value": "no-reply@flycgm.com",
+  "group": "mail",
+  "secret": false
+ },
+ "analytics": {
+  "value": {
+   "ga4": "",
+   "ym": "",
+   "plausible": ""
+  },
+  "group": "analytics",
+  "secret": false
+ }
+}

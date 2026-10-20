@@ -1,0 +1,186 @@
+{
+ "nav": {
+  "people": "Für Menschen",
+  "partners": "Für Partner",
+  "menu": "Menü",
+  "close": "Schließen",
+  "account": "Persönliches Konto",
+  "language": "Sprache",
+  "units": "Einheiten",
+  "skip": "Zum Inhalt springen",
+  "waitlist": "Auf die Warteliste"
+ },
+ "footer": {
+  "company": "Flystat ist eine Marke der MLC-Gruppe.",
+  "rights": "Alle Rechte vorbehalten.",
+  "legal": "Rechtliches",
+  "contacts": "Kontakt",
+  "newsletter": "Neuigkeiten per E-Mail",
+  "newsletter_text": "Eine E-Mail im Monat — Produkt-Updates, Fortschritte bei der Zertifizierung, Veranstaltungen.",
+  "subscribe": "Abonnieren",
+  "cookies": "Cookies",
+  "made": "Medizinprodukt in der Konformitätsbewertung. Nicht im Handel erhältlich.",
+  "channels": "Telegram-Kanäle",
+  "address": "Anschrift"
+ },
+ "cookie": {
+  "title": "Cookies auf flystat.com",
+  "text": "Wir verwenden notwendige Cookies, damit die Website funktioniert, und mit Ihrer Einwilligung Analyse-Cookies, um zu sehen, welche Seiten nützlich sind. Keine Werbe-Cookies.",
+  "accept": "Analyse akzeptieren",
+  "decline": "Nur notwendige",
+  "settings": "Cookie-Richtlinie"
+ },
+ "form": {
+  "name": "Name",
+  "email": "E-Mail",
+  "phone": "Telefon mit Ländervorwahl",
+  "company": "Unternehmen",
+  "position": "Position",
+  "country": "Land",
+  "city": "Stadt",
+  "website": "Website des Unternehmens",
+  "channels": "Vertriebskanäle",
+  "channels_opts": {
+   "pharmacies": "Apotheken",
+   "clinics": "Kliniken und Krankenhäuser",
+   "ecom": "Onlinehandel",
+   "tenders": "Ausschreibungen und öffentliche Beschaffung"
+  },
+  "volume": "Erwartete Menge pro Jahr",
+  "volume_opts": {
+   "lt1k": "unter 1 000 Sensoren",
+   "1k": "1 000 – 10 000",
+   "10k": "10 000 – 50 000",
+   "50k": "über 50 000"
+  },
+  "for_whom": "Für wen",
+  "for_opts": {
+   "me": "Für mich",
+   "relative": "Für einen Angehörigen",
+   "child": "Für ein Kind"
+  },
+  "role": "Ihre Rolle",
+  "role_opts": {
+   "user": "Nutzer / Patient",
+   "clinician": "Medizinisches Fachpersonal",
+   "partner": "Partner / Vertriebspartner",
+   "other": "Sonstiges"
+  },
+  "kind": "Art der Anfrage",
+  "kind_opts": {
+   "bug": "Fehler auf der Website",
+   "question": "Frage zum Gerät oder zur App",
+   "idea": "Vorschlag",
+   "other": "Sonstiges"
+  },
+  "subject": "Betreff",
+  "message": "Nachricht",
+  "comment": "Kommentar",
+  "attachment": "Anhang (Screenshot oder Foto, bis 10 MB)",
+  "direction": "Bereich",
+  "direction_opts": {
+   "investment": "Investition",
+   "supplier": "Lieferanten",
+   "clinic": "Kliniken",
+   "research": "Forschung",
+   "press": "Presse",
+   "other": "Sonstiges"
+  },
+  "distributor_country": "Land des Vertriebspartners",
+  "consent": "Ich bin mit der Verarbeitung meiner personenbezogenen Daten gemäß der {privacy} und der {consent} einverstanden.",
+  "privacy": "Datenschutzerklärung",
+  "consent_doc": "Einwilligung",
+  "required": "Pflichtfeld",
+  "invalid_email": "Bitte prüfen Sie die E-Mail-Adresse",
+  "invalid_phone": "Bitte prüfen Sie die Telefonnummer",
+  "sending": "Wird gesendet…",
+  "error": "Etwas ist schiefgelaufen, die Nachricht wurde nicht gesendet. Bitte versuchen Sie es erneut oder schreiben Sie uns per E-Mail.",
+  "too_many": "Zu viele Anfragen aus diesem Netzwerk. Bitte versuchen Sie es später noch einmal.",
+  "success_title": "Gesendet",
+  "optional": "optional",
+  "select": "Auswählen…",
+  "other_country": "Sonstiges"
+ },
+ "news": {
+  "all": "Alle",
+  "news": "Neuigkeiten",
+  "events": "Ereignisse",
+  "research": "Forschung",
+  "company": "Unternehmen",
+  "read": "Lesen",
+  "more": "Weitere Neuigkeiten",
+  "back": "Alle Neuigkeiten",
+  "share": "Teilen",
+  "related": "Auch interessant"
+ },
+ "faq": {
+  "search": "Fragen durchsuchen",
+  "nothing": "Nichts gefunden — versuchen Sie ein anderes Wort oder schreiben Sie an den Support.",
+  "all": "Alle Themen",
+  "cats": {
+   "device": "Gerät",
+   "app": "App",
+   "purchase": "Kauf",
+   "partners": "Partner",
+   "clinicians": "Fachkreise",
+   "support": "Support"
+  }
+ },
+ "map": {
+  "present": "Vertriebspartner vorhanden",
+  "negotiation": "In Verhandlung",
+  "free": "Offene Region",
+  "legend": "Legende",
+  "choose": "Land wählen",
+  "no_distributor": "Noch kein Vertriebspartner — Ihre Nachricht geht an unser Team.",
+  "regions": {
+   "middle_east": "Naher Osten",
+   "europe": "Europa",
+   "africa": "Afrika",
+   "asia": "Asien",
+   "americas": "Amerika",
+   "cis": "GUS"
+  }
+ },
+ "common": {
+  "learn_more": "Mehr erfahren",
+  "download": "Herunterladen",
+  "pdf": "PDF",
+  "version": "Version",
+  "updated": "Aktualisiert",
+  "generated": "Visualisierung",
+  "generated_hint": "Computergeneriertes Bild — echte Fotos folgen nach den Produktionsaudits.",
+  "scroll": "Scrollen",
+  "play": "Video abspielen",
+  "pause": "Pause",
+  "mmol": "mmol/l",
+  "mgdl": "mg/dl",
+  "contents": "Inhalt",
+  "soon": "Demnächst",
+  "app_store": "App Store",
+  "google_play": "Google Play",
+  "notify_app": "Benachrichtigen, wenn die App verfügbar ist",
+  "demo_badge": "Demoversion — nicht indexiert",
+  "reduced_motion": "Animationen sind entsprechend Ihren Systemeinstellungen reduziert."
+ },
+ "errors": {
+  "404_title": "Seite nicht gefunden",
+  "404_text": "Die Adresse ist möglicherweise falsch, oder die Seite wurde verschoben. Versuchen Sie es über die Startseite oder das Menü.",
+  "500_title": "Etwas ist schiefgelaufen",
+  "500_text": "Wir wissen schon Bescheid. Bitte versuchen Sie es in einer Minute noch einmal.",
+  "home": "Zur Startseite"
+ },
+ "thanks": {
+  "title": "Vielen Dank",
+  "waitlist": "Sie stehen auf der Warteliste. Wir schreiben Ihnen, sobald Flystat in Ihrem Land verfügbar ist.",
+  "distribution": "Ihre Anfrage ist eingegangen. Wir melden uns innerhalb von zwei Werktagen, um ein Gespräch zu vereinbaren.",
+  "support": "Ihre Anfrage ist registriert. Die Ticketnummer ist auf dem Weg in Ihr E-Mail-Postfach.",
+  "default": "Ihre Nachricht ist eingegangen.",
+  "back": "Zurück zur Website",
+  "meanwhile": "In der Zwischenzeit"
+ },
+ "seo": {
+  "suffix": "Flystat",
+  "default_description": "Flystat — ein System zur kontinuierlichen Glukosemessung: Sensor für 15 Tage, Messwerte jede Minute, keine Kalibrierung per Fingerstich."
+ }
+}

@@ -1,0 +1,1646 @@
+{
+ "nav": {
+  "people": {
+   "en": "For people",
+   "ru": "Людям",
+   "fr": "Pour les particuliers",
+   "es": "Para personas",
+   "it": "Per le persone",
+   "de": "Für Menschen",
+   "zh": "面向用户",
+   "vi": "Dành cho người dùng",
+   "hi": "लोगों के लिए"
+  },
+  "partners": {
+   "en": "For partners",
+   "ru": "Партнёрам",
+   "fr": "Pour les partenaires",
+   "es": "Para socios",
+   "it": "Per i partner",
+   "de": "Für Partner",
+   "zh": "面向合作伙伴",
+   "vi": "Dành cho đối tác",
+   "hi": "साझेदारों के लिए"
+  },
+  "menu": {
+   "en": "Menu",
+   "ru": "Меню",
+   "fr": "Menu",
+   "es": "Menú",
+   "it": "Menu",
+   "de": "Menü",
+   "zh": "菜单",
+   "vi": "Menu",
+   "hi": "मेन्यू"
+  },
+  "close": {
+   "en": "Close",
+   "ru": "Закрыть",
+   "fr": "Fermer",
+   "es": "Cerrar",
+   "it": "Chiudi",
+   "de": "Schließen",
+   "zh": "关闭",
+   "vi": "Đóng",
+   "hi": "बंद करें"
+  },
+  "account": {
+   "en": "Personal account",
+   "ru": "Личный кабинет",
+   "fr": "Espace personnel",
+   "es": "Cuenta personal",
+   "it": "Area personale",
+   "de": "Persönliches Konto",
+   "zh": "个人账户",
+   "vi": "Tài khoản cá nhân",
+   "hi": "व्यक्तिगत खाता"
+  },
+  "language": {
+   "en": "Language",
+   "ru": "Язык",
+   "fr": "Langue",
+   "es": "Idioma",
+   "it": "Lingua",
+   "de": "Sprache",
+   "zh": "语言",
+   "vi": "Ngôn ngữ",
+   "hi": "भाषा"
+  },
+  "units": {
+   "en": "Units",
+   "ru": "Единицы",
+   "fr": "Unités",
+   "es": "Unidades",
+   "it": "Unità",
+   "de": "Einheiten",
+   "zh": "单位",
+   "vi": "Đơn vị",
+   "hi": "इकाइयाँ"
+  },
+  "skip": {
+   "en": "Skip to content",
+   "ru": "Перейти к содержимому",
+   "fr": "Aller au contenu",
+   "es": "Saltar al contenido",
+   "it": "Vai al contenuto",
+   "de": "Zum Inhalt springen",
+   "zh": "跳至正文",
+   "vi": "Chuyển đến nội dung",
+   "hi": "सामग्री पर जाएँ"
+  },
+  "waitlist": {
+   "en": "Join the waiting list",
+   "ru": "Встать в лист ожидания",
+   "fr": "Rejoindre la liste d'attente",
+   "es": "Unirse a la lista de espera",
+   "it": "Iscriversi alla lista d'attesa",
+   "de": "Auf die Warteliste",
+   "zh": "加入候补名单",
+   "vi": "Tham gia danh sách chờ",
+   "hi": "प्रतीक्षा सूची में शामिल हों"
+  }
+ },
+ "footer": {
+  "company": {
+   "en": "Flystat is a brand of the MLC group.",
+   "ru": "Flystat — бренд группы MLC.",
+   "fr": "Flystat est une marque du groupe MLC.",
+   "es": "Flystat es una marca del grupo MLC.",
+   "it": "Flystat è un marchio del gruppo MLC.",
+   "de": "Flystat ist eine Marke der MLC-Gruppe.",
+   "zh": "Flystat 是 MLC 集团旗下的品牌。",
+   "vi": "Flystat là thương hiệu của tập đoàn MLC.",
+   "hi": "Flystat MLC समूह का ब्रांड है।"
+  },
+  "rights": {
+   "en": "All rights reserved.",
+   "ru": "Все права защищены.",
+   "fr": "Tous droits réservés.",
+   "es": "Todos los derechos reservados.",
+   "it": "Tutti i diritti riservati.",
+   "de": "Alle Rechte vorbehalten.",
+   "zh": "保留所有权利。",
+   "vi": "Bảo lưu mọi quyền.",
+   "hi": "सर्वाधिकार सुरक्षित।"
+  },
+  "legal": {
+   "en": "Legal",
+   "ru": "Правовая информация",
+   "fr": "Mentions légales",
+   "es": "Información legal",
+   "it": "Note legali",
+   "de": "Rechtliches",
+   "zh": "法律信息",
+   "vi": "Pháp lý",
+   "hi": "क़ानूनी"
+  },
+  "contacts": {
+   "en": "Contacts",
+   "ru": "Контакты",
+   "fr": "Contacts",
+   "es": "Contacto",
+   "it": "Contatti",
+   "de": "Kontakt",
+   "zh": "联系方式",
+   "vi": "Liên hệ",
+   "hi": "संपर्क"
+  },
+  "newsletter": {
+   "en": "News by email",
+   "ru": "Новости по почте",
+   "fr": "Actualités par e-mail",
+   "es": "Noticias por correo",
+   "it": "Notizie via email",
+   "de": "Neuigkeiten per E-Mail",
+   "zh": "邮件订阅新闻",
+   "vi": "Tin tức qua email",
+   "hi": "ईमेल से समाचार"
+  },
+  "newsletter_text": {
+   "en": "One email a month — product updates, certification progress, events.",
+   "ru": "Одно письмо в месяц — обновления продукта, ход сертификации, события.",
+   "fr": "Un e-mail par mois — nouveautés produit, avancement de la certification, événements.",
+   "es": "Un correo al mes: novedades del producto, avances de la certificación, eventos.",
+   "it": "Una email al mese — aggiornamenti di prodotto, avanzamento della certificazione, eventi.",
+   "de": "Eine E-Mail im Monat — Produkt-Updates, Fortschritte bei der Zertifizierung, Veranstaltungen.",
+   "zh": "每月一封邮件——产品动态、认证进展、活动。",
+   "vi": "Một email mỗi tháng — cập nhật sản phẩm, tiến độ chứng nhận, sự kiện.",
+   "hi": "महीने में एक ईमेल — उत्पाद अपडेट, प्रमाणन की प्रगति, आयोजन।"
+  },
+  "subscribe": {
+   "en": "Subscribe",
+   "ru": "Подписаться",
+   "fr": "S'abonner",
+   "es": "Suscribirse",
+   "it": "Iscriviti",
+   "de": "Abonnieren",
+   "zh": "订阅",
+   "vi": "Đăng ký nhận tin",
+   "hi": "सदस्यता लें"
+  },
+  "cookies": {
+   "en": "Cookies",
+   "ru": "Cookie",
+   "fr": "Cookies",
+   "es": "Cookies",
+   "it": "Cookie",
+   "de": "Cookies",
+   "zh": "Cookie",
+   "vi": "Cookie",
+   "hi": "कुकीज़"
+  },
+  "made": {
+   "en": "Medical device under conformity assessment. Not available for sale.",
+   "ru": "Медицинское изделие проходит оценку соответствия. Не продаётся.",
+   "fr": "Dispositif médical en cours d'évaluation de la conformité. Non disponible à la vente.",
+   "es": "Producto sanitario en evaluación de la conformidad. No disponible para la venta.",
+   "it": "Dispositivo medico in fase di valutazione della conformità. Non disponibile per la vendita.",
+   "de": "Medizinprodukt in der Konformitätsbewertung. Nicht im Handel erhältlich.",
+   "zh": "正在接受符合性评估的医疗器械。暂不销售。",
+   "vi": "Thiết bị y tế đang trong quá trình đánh giá sự phù hợp. Chưa được bán.",
+   "hi": "अनुरूपता मूल्यांकन के अधीन चिकित्सा उपकरण। बिक्री के लिए उपलब्ध नहीं।"
+  },
+  "channels": {
+   "en": "Telegram channels",
+   "ru": "Каналы в Telegram",
+   "fr": "Canaux Telegram",
+   "es": "Canales de Telegram",
+   "it": "Canali Telegram",
+   "de": "Telegram-Kanäle",
+   "zh": "Telegram 频道",
+   "vi": "Kênh Telegram",
+   "hi": "Telegram चैनल"
+  },
+  "address": {
+   "en": "Address",
+   "ru": "Адрес",
+   "fr": "Adresse",
+   "es": "Dirección",
+   "it": "Indirizzo",
+   "de": "Anschrift",
+   "zh": "地址",
+   "vi": "Địa chỉ",
+   "hi": "पता"
+  }
+ },
+ "cookie": {
+  "title": {
+   "en": "Cookies on flystat.com",
+   "ru": "Cookie на flystat.com",
+   "fr": "Les cookies sur flystat.com",
+   "es": "Cookies en flystat.com",
+   "it": "Cookie su flystat.com",
+   "de": "Cookies auf flystat.com",
+   "zh": "flystat.com 上的 Cookie",
+   "vi": "Cookie trên flystat.com",
+   "hi": "flystat.com पर कुकीज़"
+  },
+  "text": {
+   "en": "We use necessary cookies to make the site work and, with your consent, analytics cookies to see which pages are useful. No advertising cookies.",
+   "ru": "Мы используем необходимые cookie, чтобы сайт работал, и, с вашего согласия, аналитические cookie, чтобы понимать, какие страницы полезны. Рекламных cookie нет.",
+   "fr": "Nous utilisons des cookies nécessaires au fonctionnement du site et, avec votre consentement, des cookies d'analyse pour voir quelles pages sont utiles. Aucun cookie publicitaire.",
+   "es": "Usamos cookies necesarias para que el sitio funcione y, con su consentimiento, cookies analíticas para ver qué páginas resultan útiles. Sin cookies publicitarias.",
+   "it": "Usiamo cookie necessari per far funzionare il sito e, con il consenso dell'utente, cookie analitici per capire quali pagine sono utili. Nessun cookie pubblicitario.",
+   "de": "Wir verwenden notwendige Cookies, damit die Website funktioniert, und mit Ihrer Einwilligung Analyse-Cookies, um zu sehen, welche Seiten nützlich sind. Keine Werbe-Cookies.",
+   "zh": "我们使用必要的 Cookie 来保证网站运行，并在您同意后使用分析类 Cookie 来了解哪些页面有用。没有广告 Cookie。",
+   "vi": "Chúng tôi dùng cookie cần thiết để website hoạt động và, với sự đồng ý của bạn, cookie phân tích để xem những trang nào hữu ích. Không có cookie quảng cáo.",
+   "hi": "हम साइट को चलाने के लिए आवश्यक कुकीज़ का उपयोग करते हैं और, आपकी सहमति से, यह देखने के लिए एनालिटिक्स कुकीज़ का कि कौन से पृष्ठ उपयोगी हैं। कोई विज्ञापन कुकीज़ नहीं।"
+  },
+  "accept": {
+   "en": "Accept analytics",
+   "ru": "Разрешить аналитику",
+   "fr": "Accepter l'analyse",
+   "es": "Aceptar analíticas",
+   "it": "Accetta analitici",
+   "de": "Analyse akzeptieren",
+   "zh": "接受分析类 Cookie",
+   "vi": "Chấp nhận phân tích",
+   "hi": "एनालिटिक्स स्वीकार करें"
+  },
+  "decline": {
+   "en": "Only necessary",
+   "ru": "Только необходимые",
+   "fr": "Nécessaires uniquement",
+   "es": "Solo las necesarias",
+   "it": "Solo necessari",
+   "de": "Nur notwendige",
+   "zh": "仅必要的",
+   "vi": "Chỉ cookie cần thiết",
+   "hi": "केवल आवश्यक"
+  },
+  "settings": {
+   "en": "Cookie policy",
+   "ru": "Политика в отношении cookie",
+   "fr": "Politique relative aux cookies",
+   "es": "Política de cookies",
+   "it": "Informativa sui cookie",
+   "de": "Cookie-Richtlinie",
+   "zh": "Cookie 政策",
+   "vi": "Chính sách cookie",
+   "hi": "कुकी नीति"
+  }
+ },
+ "form": {
+  "name": {
+   "en": "Name",
+   "ru": "Имя",
+   "fr": "Nom",
+   "es": "Nombre",
+   "it": "Nome",
+   "de": "Name",
+   "zh": "姓名",
+   "vi": "Họ tên",
+   "hi": "नाम"
+  },
+  "email": {
+   "en": "Email",
+   "ru": "Email",
+   "fr": "E-mail",
+   "es": "Correo electrónico",
+   "it": "Email",
+   "de": "E-Mail",
+   "zh": "邮箱",
+   "vi": "Email",
+   "hi": "ईमेल"
+  },
+  "phone": {
+   "en": "Phone with country code",
+   "ru": "Телефон с кодом страны",
+   "fr": "Téléphone avec l'indicatif du pays",
+   "es": "Teléfono con prefijo de país",
+   "it": "Telefono con prefisso internazionale",
+   "de": "Telefon mit Ländervorwahl",
+   "zh": "电话（含国家代码）",
+   "vi": "Số điện thoại kèm mã quốc gia",
+   "hi": "देश कोड सहित फ़ोन"
+  },
+  "company": {
+   "en": "Company",
+   "ru": "Компания",
+   "fr": "Entreprise",
+   "es": "Empresa",
+   "it": "Azienda",
+   "de": "Unternehmen",
+   "zh": "公司",
+   "vi": "Công ty",
+   "hi": "कंपनी"
+  },
+  "position": {
+   "en": "Position",
+   "ru": "Должность",
+   "fr": "Fonction",
+   "es": "Cargo",
+   "it": "Posizione in azienda",
+   "de": "Position",
+   "zh": "职位",
+   "vi": "Chức vụ",
+   "hi": "पद"
+  },
+  "country": {
+   "en": "Country",
+   "ru": "Страна",
+   "fr": "Pays",
+   "es": "País",
+   "it": "Paese",
+   "de": "Land",
+   "zh": "国家/地区",
+   "vi": "Quốc gia",
+   "hi": "देश"
+  },
+  "city": {
+   "en": "City",
+   "ru": "Город",
+   "fr": "Ville",
+   "es": "Ciudad",
+   "it": "Città",
+   "de": "Stadt",
+   "zh": "城市",
+   "vi": "Thành phố",
+   "hi": "शहर"
+  },
+  "website": {
+   "en": "Company website",
+   "ru": "Сайт компании",
+   "fr": "Site web de la société",
+   "es": "Sitio web de la empresa",
+   "it": "Sito web dell'azienda",
+   "de": "Website des Unternehmens",
+   "zh": "公司网站",
+   "vi": "Website công ty",
+   "hi": "कंपनी की वेबसाइट"
+  },
+  "channels": {
+   "en": "Sales channels",
+   "ru": "Каналы продаж",
+   "fr": "Canaux de vente",
+   "es": "Canales de venta",
+   "it": "Canali di vendita",
+   "de": "Vertriebskanäle",
+   "zh": "销售渠道",
+   "vi": "Kênh bán hàng",
+   "hi": "बिक्री चैनल"
+  },
+  "channels_opts": {
+   "pharmacies": {
+    "en": "Pharmacies",
+    "ru": "Аптеки",
+    "fr": "Pharmacies",
+    "es": "Farmacias",
+    "it": "Farmacie",
+    "de": "Apotheken",
+    "zh": "药店",
+    "vi": "Nhà thuốc",
+    "hi": "फ़ार्मेसियाँ"
+   },
+   "clinics": {
+    "en": "Clinics and hospitals",
+    "ru": "Клиники и больницы",
+    "fr": "Cliniques et hôpitaux",
+    "es": "Clínicas y hospitales",
+    "it": "Cliniche e ospedali",
+    "de": "Kliniken und Krankenhäuser",
+    "zh": "诊所与医院",
+    "vi": "Phòng khám và bệnh viện",
+    "hi": "क्लिनिक और अस्पताल"
+   },
+   "ecom": {
+    "en": "E-commerce",
+    "ru": "Онлайн-торговля",
+    "fr": "E-commerce",
+    "es": "Comercio electrónico",
+    "it": "E-commerce",
+    "de": "Onlinehandel",
+    "zh": "电商",
+    "vi": "Thương mại điện tử",
+    "hi": "ई-कॉमर्स"
+   },
+   "tenders": {
+    "en": "Tenders and public procurement",
+    "ru": "Тендеры и госзакупки",
+    "fr": "Appels d'offres et marchés publics",
+    "es": "Licitaciones y contratación pública",
+    "it": "Gare e appalti pubblici",
+    "de": "Ausschreibungen und öffentliche Beschaffung",
+    "zh": "招标与公共采购",
+    "vi": "Đấu thầu và mua sắm công",
+    "hi": "निविदाएँ और सरकारी ख़रीद"
+   }
+  },
+  "volume": {
+   "en": "Expected volume per year",
+   "ru": "Ожидаемый объём в год",
+   "fr": "Volume annuel attendu",
+   "es": "Volumen anual previsto",
+   "it": "Volume previsto all'anno",
+   "de": "Erwartete Menge pro Jahr",
+   "zh": "预期年销量",
+   "vi": "Sản lượng dự kiến mỗi năm",
+   "hi": "प्रति वर्ष अपेक्षित मात्रा"
+  },
+  "volume_opts": {
+   "lt1k": {
+    "en": "under 1 000 sensors",
+    "ru": "до 1 000 сенсоров",
+    "fr": "moins de 1 000 capteurs",
+    "es": "menos de 1 000 sensores",
+    "it": "meno di 1 000 sensori",
+    "de": "unter 1 000 Sensoren",
+    "zh": "1 000 个传感器以下",
+    "vi": "dưới 1 000 cảm biến",
+    "hi": "1,000 सेंसर से कम"
+   },
+   "1k": {
+    "en": "1 000 – 10 000",
+    "ru": "1 000 – 10 000",
+    "fr": "1 000 – 10 000",
+    "es": "1 000 – 10 000",
+    "it": "1 000 – 10 000",
+    "de": "1 000 – 10 000",
+    "zh": "1 000 – 10 000",
+    "vi": "1 000 – 10 000",
+    "hi": "1,000 – 10,000"
+   },
+   "10k": {
+    "en": "10 000 – 50 000",
+    "ru": "10 000 – 50 000",
+    "fr": "10 000 – 50 000",
+    "es": "10 000 – 50 000",
+    "it": "10 000 – 50 000",
+    "de": "10 000 – 50 000",
+    "zh": "10 000 – 50 000",
+    "vi": "10 000 – 50 000",
+    "hi": "10,000 – 50,000"
+   },
+   "50k": {
+    "en": "over 50 000",
+    "ru": "более 50 000",
+    "fr": "plus de 50 000",
+    "es": "más de 50 000",
+    "it": "oltre 50 000",
+    "de": "über 50 000",
+    "zh": "50 000 以上",
+    "vi": "trên 50 000",
+    "hi": "50,000 से अधिक"
+   }
+  },
+  "for_whom": {
+   "en": "For whom",
+   "ru": "Для кого",
+   "fr": "Pour qui",
+   "es": "Para quién",
+   "it": "Per chi",
+   "de": "Für wen",
+   "zh": "为谁申请",
+   "vi": "Dành cho ai",
+   "hi": "किसके लिए"
+  },
+  "for_opts": {
+   "me": {
+    "en": "For myself",
+    "ru": "Для себя",
+    "fr": "Pour moi",
+    "es": "Para mí",
+    "it": "Per me",
+    "de": "Für mich",
+    "zh": "为我自己",
+    "vi": "Cho bản thân tôi",
+    "hi": "अपने लिए"
+   },
+   "relative": {
+    "en": "For a relative",
+    "ru": "Для близкого человека",
+    "fr": "Pour un proche",
+    "es": "Para un familiar",
+    "it": "Per un familiare",
+    "de": "Für einen Angehörigen",
+    "zh": "为亲属",
+    "vi": "Cho người thân",
+    "hi": "किसी रिश्तेदार के लिए"
+   },
+   "child": {
+    "en": "For a child",
+    "ru": "Для ребёнка",
+    "fr": "Pour un enfant",
+    "es": "Para un niño",
+    "it": "Per un bambino",
+    "de": "Für ein Kind",
+    "zh": "为孩子",
+    "vi": "Cho con",
+    "hi": "बच्चे के लिए"
+   }
+  },
+  "role": {
+   "en": "Your role",
+   "ru": "Ваша роль",
+   "fr": "Votre rôle",
+   "es": "Su perfil",
+   "it": "Ruolo",
+   "de": "Ihre Rolle",
+   "zh": "您的身份",
+   "vi": "Vai trò của bạn",
+   "hi": "आपकी भूमिका"
+  },
+  "role_opts": {
+   "user": {
+    "en": "User / patient",
+    "ru": "Пользователь / пациент",
+    "fr": "Utilisateur / patient",
+    "es": "Usuario / paciente",
+    "it": "Utente / paziente",
+    "de": "Nutzer / Patient",
+    "zh": "用户 / 患者",
+    "vi": "Người dùng / bệnh nhân",
+    "hi": "उपयोगकर्ता / मरीज़"
+   },
+   "clinician": {
+    "en": "Clinician",
+    "ru": "Врач",
+    "fr": "Professionnel de santé",
+    "es": "Profesional sanitario",
+    "it": "Medico",
+    "de": "Medizinisches Fachpersonal",
+    "zh": "医疗专业人员",
+    "vi": "Nhân viên y tế",
+    "hi": "डॉक्टर"
+   },
+   "partner": {
+    "en": "Partner / distributor",
+    "ru": "Партнёр / дистрибьютор",
+    "fr": "Partenaire / distributeur",
+    "es": "Socio / distribuidor",
+    "it": "Partner / distributore",
+    "de": "Partner / Vertriebspartner",
+    "zh": "合作伙伴 / 经销商",
+    "vi": "Đối tác / nhà phân phối",
+    "hi": "साझेदार / वितरक"
+   },
+   "other": {
+    "en": "Other",
+    "ru": "Другое",
+    "fr": "Autre",
+    "es": "Otro",
+    "it": "Altro",
+    "de": "Sonstiges",
+    "zh": "其他",
+    "vi": "Khác",
+    "hi": "अन्य"
+   }
+  },
+  "kind": {
+   "en": "Type of request",
+   "ru": "Тип обращения",
+   "fr": "Type de demande",
+   "es": "Tipo de solicitud",
+   "it": "Tipo di richiesta",
+   "de": "Art der Anfrage",
+   "zh": "请求类型",
+   "vi": "Loại yêu cầu",
+   "hi": "अनुरोध का प्रकार"
+  },
+  "kind_opts": {
+   "bug": {
+    "en": "Error on the website",
+    "ru": "Ошибка на сайте",
+    "fr": "Erreur sur le site",
+    "es": "Error en el sitio web",
+    "it": "Errore sul sito",
+    "de": "Fehler auf der Website",
+    "zh": "网站错误",
+    "vi": "Lỗi trên website",
+    "hi": "वेबसाइट में त्रुटि"
+   },
+   "question": {
+    "en": "Question about the device or app",
+    "ru": "Вопрос об устройстве или приложении",
+    "fr": "Question sur le dispositif ou l'application",
+    "es": "Pregunta sobre el dispositivo o la aplicación",
+    "it": "Domanda sul dispositivo o sull'app",
+    "de": "Frage zum Gerät oder zur App",
+    "zh": "关于设备或应用的问题",
+    "vi": "Câu hỏi về thiết bị hoặc ứng dụng",
+    "hi": "डिवाइस या ऐप के बारे में सवाल"
+   },
+   "idea": {
+    "en": "Suggestion",
+    "ru": "Предложение",
+    "fr": "Suggestion",
+    "es": "Sugerencia",
+    "it": "Suggerimento",
+    "de": "Vorschlag",
+    "zh": "建议",
+    "vi": "Góp ý",
+    "hi": "सुझाव"
+   },
+   "other": {
+    "en": "Other",
+    "ru": "Другое",
+    "fr": "Autre",
+    "es": "Otro",
+    "it": "Altro",
+    "de": "Sonstiges",
+    "zh": "其他",
+    "vi": "Khác",
+    "hi": "अन्य"
+   }
+  },
+  "subject": {
+   "en": "Subject",
+   "ru": "Тема",
+   "fr": "Objet",
+   "es": "Asunto",
+   "it": "Oggetto",
+   "de": "Betreff",
+   "zh": "主题",
+   "vi": "Chủ đề",
+   "hi": "विषय"
+  },
+  "message": {
+   "en": "Message",
+   "ru": "Сообщение",
+   "fr": "Message",
+   "es": "Mensaje",
+   "it": "Messaggio",
+   "de": "Nachricht",
+   "zh": "留言",
+   "vi": "Tin nhắn",
+   "hi": "संदेश"
+  },
+  "comment": {
+   "en": "Comment",
+   "ru": "Комментарий",
+   "fr": "Commentaire",
+   "es": "Comentario",
+   "it": "Commento",
+   "de": "Kommentar",
+   "zh": "备注",
+   "vi": "Ghi chú",
+   "hi": "टिप्पणी"
+  },
+  "attachment": {
+   "en": "Attachment (screenshot or photo, up to 10 MB)",
+   "ru": "Вложение (скриншот или фото, до 10 МБ)",
+   "fr": "Pièce jointe (capture d'écran ou photo, 10 Mo max.)",
+   "es": "Archivo adjunto (captura de pantalla o foto, hasta 10 MB)",
+   "it": "Allegato (screenshot o foto, fino a 10 MB)",
+   "de": "Anhang (Screenshot oder Foto, bis 10 MB)",
+   "zh": "附件（截图或照片，最大 10 MB）",
+   "vi": "Tệp đính kèm (ảnh chụp màn hình hoặc ảnh, tối đa 10 MB)",
+   "hi": "अटैचमेंट (स्क्रीनशॉट या फ़ोटो, 10 MB तक)"
+  },
+  "direction": {
+   "en": "Direction",
+   "ru": "Направление",
+   "fr": "Domaine",
+   "es": "Área",
+   "it": "Ambito",
+   "de": "Bereich",
+   "zh": "方向",
+   "vi": "Lĩnh vực",
+   "hi": "दिशा"
+  },
+  "direction_opts": {
+   "investment": {
+    "en": "Investment",
+    "ru": "Инвестиции",
+    "fr": "Investissement",
+    "es": "Inversión",
+    "it": "Investimenti",
+    "de": "Investition",
+    "zh": "投资",
+    "vi": "Đầu tư",
+    "hi": "निवेश"
+   },
+   "supplier": {
+    "en": "Suppliers",
+    "ru": "Поставщики",
+    "fr": "Fournisseurs",
+    "es": "Proveedores",
+    "it": "Fornitori",
+    "de": "Lieferanten",
+    "zh": "供应商",
+    "vi": "Nhà cung cấp",
+    "hi": "आपूर्तिकर्ता"
+   },
+   "clinic": {
+    "en": "Clinics",
+    "ru": "Клиники",
+    "fr": "Cliniques",
+    "es": "Clínicas",
+    "it": "Cliniche",
+    "de": "Kliniken",
+    "zh": "诊所",
+    "vi": "Phòng khám",
+    "hi": "क्लिनिक"
+   },
+   "research": {
+    "en": "Research",
+    "ru": "Исследования",
+    "fr": "Recherche",
+    "es": "Investigación",
+    "it": "Ricerca",
+    "de": "Forschung",
+    "zh": "研究",
+    "vi": "Nghiên cứu",
+    "hi": "शोध"
+   },
+   "press": {
+    "en": "Press",
+    "ru": "Пресса",
+    "fr": "Presse",
+    "es": "Prensa",
+    "it": "Stampa",
+    "de": "Presse",
+    "zh": "媒体",
+    "vi": "Báo chí",
+    "hi": "प्रेस"
+   },
+   "other": {
+    "en": "Other",
+    "ru": "Другое",
+    "fr": "Autre",
+    "es": "Otro",
+    "it": "Altro",
+    "de": "Sonstiges",
+    "zh": "其他",
+    "vi": "Khác",
+    "hi": "अन्य"
+   }
+  },
+  "distributor_country": {
+   "en": "Distributor's country",
+   "ru": "Страна дистрибьютора",
+   "fr": "Pays du distributeur",
+   "es": "País del distribuidor",
+   "it": "Paese del distributore",
+   "de": "Land des Vertriebspartners",
+   "zh": "经销商所在国家/地区",
+   "vi": "Quốc gia của nhà phân phối",
+   "hi": "वितरक का देश"
+  },
+  "consent": {
+   "en": "I agree to the processing of my personal data as described in the {privacy} and the {consent}.",
+   "ru": "Я соглашаюсь на обработку моих персональных данных в соответствии с {privacy} и {consent}.",
+   "fr": "J'accepte le traitement de mes données personnelles tel que décrit dans la {privacy} et le {consent}.",
+   "es": "Acepto el tratamiento de mis datos personales según se describe en la {privacy} y el {consent}.",
+   "it": "Acconsento al trattamento dei miei dati personali come descritto nell'{privacy} e nel {consent}.",
+   "de": "Ich bin mit der Verarbeitung meiner personenbezogenen Daten gemäß der {privacy} und der {consent} einverstanden.",
+   "zh": "我同意按照{privacy}和{consent}中的说明处理我的个人数据。",
+   "vi": "Tôi đồng ý cho xử lý dữ liệu cá nhân của mình như được mô tả trong {privacy} và {consent}.",
+   "hi": "मैं {privacy} और {consent} में बताए अनुसार अपने व्यक्तिगत डेटा के प्रसंस्करण से सहमत हूँ।"
+  },
+  "privacy": {
+   "en": "Privacy Policy",
+   "ru": "Политика конфиденциальности",
+   "fr": "Politique de confidentialité",
+   "es": "Política de privacidad",
+   "it": "Informativa sulla privacy",
+   "de": "Datenschutzerklärung",
+   "zh": "隐私政策",
+   "vi": "Chính sách bảo mật",
+   "hi": "गोपनीयता नीति"
+  },
+  "consent_doc": {
+   "en": "Consent",
+   "ru": "Согласие",
+   "fr": "Consentement",
+   "es": "Consentimiento",
+   "it": "Consenso",
+   "de": "Einwilligung",
+   "zh": "同意书",
+   "vi": "Văn bản đồng ý",
+   "hi": "सहमति"
+  },
+  "required": {
+   "en": "Required field",
+   "ru": "Обязательное поле",
+   "fr": "Champ obligatoire",
+   "es": "Campo obligatorio",
+   "it": "Campo obbligatorio",
+   "de": "Pflichtfeld",
+   "zh": "必填项",
+   "vi": "Trường bắt buộc",
+   "hi": "आवश्यक फ़ील्ड"
+  },
+  "invalid_email": {
+   "en": "Please check the email address",
+   "ru": "Проверьте адрес электронной почты",
+   "fr": "Veuillez vérifier l'adresse e-mail",
+   "es": "Compruebe la dirección de correo electrónico",
+   "it": "Verificare l'indirizzo email",
+   "de": "Bitte prüfen Sie die E-Mail-Adresse",
+   "zh": "请检查邮箱地址",
+   "vi": "Vui lòng kiểm tra lại địa chỉ email",
+   "hi": "कृपया ईमेल पता जाँचें"
+  },
+  "invalid_phone": {
+   "en": "Please check the phone number",
+   "ru": "Проверьте номер телефона",
+   "fr": "Veuillez vérifier le numéro de téléphone",
+   "es": "Compruebe el número de teléfono",
+   "it": "Verificare il numero di telefono",
+   "de": "Bitte prüfen Sie die Telefonnummer",
+   "zh": "请检查电话号码",
+   "vi": "Vui lòng kiểm tra lại số điện thoại",
+   "hi": "कृपया फ़ोन नंबर जाँचें"
+  },
+  "sending": {
+   "en": "Sending…",
+   "ru": "Отправка…",
+   "fr": "Envoi…",
+   "es": "Enviando…",
+   "it": "Invio in corso…",
+   "de": "Wird gesendet…",
+   "zh": "发送中……",
+   "vi": "Đang gửi…",
+   "hi": "भेजा जा रहा है…"
+  },
+  "error": {
+   "en": "Something went wrong and the message was not sent. Please try again or write to us by email.",
+   "ru": "Что-то пошло не так, и сообщение не отправилось. Попробуйте ещё раз или напишите нам по электронной почте.",
+   "fr": "Une erreur s'est produite et le message n'a pas été envoyé. Veuillez réessayer ou nous écrire par e-mail.",
+   "es": "Algo ha fallado y el mensaje no se ha enviado. Inténtelo de nuevo o escríbanos por correo electrónico.",
+   "it": "Qualcosa è andato storto e il messaggio non è stato inviato. Riprovare o scriverci via email.",
+   "de": "Etwas ist schiefgelaufen, die Nachricht wurde nicht gesendet. Bitte versuchen Sie es erneut oder schreiben Sie uns per E-Mail.",
+   "zh": "出了点问题，消息未能发送。请重试，或通过邮件联系我们。",
+   "vi": "Đã xảy ra lỗi và tin nhắn chưa được gửi. Vui lòng thử lại hoặc viết cho chúng tôi qua email.",
+   "hi": "कुछ गड़बड़ हुई और संदेश नहीं भेजा जा सका। कृपया फिर से कोशिश करें या हमें ईमेल से लिखें।"
+  },
+  "too_many": {
+   "en": "Too many requests from this network. Please try again later.",
+   "ru": "Слишком много запросов из этой сети. Попробуйте позже.",
+   "fr": "Trop de demandes depuis ce réseau. Veuillez réessayer plus tard.",
+   "es": "Demasiadas solicitudes desde esta red. Inténtelo de nuevo más tarde.",
+   "it": "Troppe richieste da questa rete. Riprovare più tardi.",
+   "de": "Zu viele Anfragen aus diesem Netzwerk. Bitte versuchen Sie es später noch einmal.",
+   "zh": "来自此网络的请求过多。请稍后再试。",
+   "vi": "Quá nhiều yêu cầu từ mạng này. Vui lòng thử lại sau.",
+   "hi": "इस नेटवर्क से बहुत ज़्यादा अनुरोध आए हैं। कृपया बाद में फिर कोशिश करें।"
+  },
+  "success_title": {
+   "en": "Sent",
+   "ru": "Отправлено",
+   "fr": "Envoyé",
+   "es": "Enviado",
+   "it": "Inviato",
+   "de": "Gesendet",
+   "zh": "已发送",
+   "vi": "Đã gửi",
+   "hi": "भेजा गया"
+  },
+  "optional": {
+   "en": "optional",
+   "ru": "необязательно",
+   "fr": "facultatif",
+   "es": "opcional",
+   "it": "facoltativo",
+   "de": "optional",
+   "zh": "选填",
+   "vi": "không bắt buộc",
+   "hi": "वैकल्पिक"
+  },
+  "select": {
+   "en": "Select…",
+   "ru": "Выберите…",
+   "fr": "Sélectionner…",
+   "es": "Seleccione…",
+   "it": "Seleziona…",
+   "de": "Auswählen…",
+   "zh": "请选择……",
+   "vi": "Chọn…",
+   "hi": "चुनें…"
+  },
+  "other_country": {
+   "en": "Other",
+   "ru": "Другое",
+   "fr": "Autre",
+   "es": "Otro",
+   "it": "Altro",
+   "de": "Sonstiges",
+   "zh": "其他",
+   "vi": "Khác",
+   "hi": "अन्य"
+  }
+ },
+ "news": {
+  "all": {
+   "en": "All",
+   "ru": "Все",
+   "fr": "Tout",
+   "es": "Todas",
+   "it": "Tutte",
+   "de": "Alle",
+   "zh": "全部",
+   "vi": "Tất cả",
+   "hi": "सभी"
+  },
+  "news": {
+   "en": "News",
+   "ru": "Новости",
+   "fr": "Actualités",
+   "es": "Noticias",
+   "it": "Notizie",
+   "de": "Neuigkeiten",
+   "zh": "新闻",
+   "vi": "Tin tức",
+   "hi": "समाचार"
+  },
+  "events": {
+   "en": "Events",
+   "ru": "События",
+   "fr": "Événements",
+   "es": "Eventos",
+   "it": "Eventi",
+   "de": "Ereignisse",
+   "zh": "事件",
+   "vi": "Sự kiện",
+   "hi": "घटनाएँ"
+  },
+  "research": {
+   "en": "Research",
+   "ru": "Исследования",
+   "fr": "Recherche",
+   "es": "Investigación",
+   "it": "Ricerca",
+   "de": "Forschung",
+   "zh": "研究",
+   "vi": "Nghiên cứu",
+   "hi": "शोध"
+  },
+  "company": {
+   "en": "Company",
+   "ru": "Компания",
+   "fr": "Entreprise",
+   "es": "Empresa",
+   "it": "Azienda",
+   "de": "Unternehmen",
+   "zh": "公司",
+   "vi": "Công ty",
+   "hi": "कंपनी"
+  },
+  "read": {
+   "en": "Read",
+   "ru": "Читать",
+   "fr": "Lire",
+   "es": "Leer",
+   "it": "Leggi",
+   "de": "Lesen",
+   "zh": "阅读",
+   "vi": "Đọc",
+   "hi": "पढ़ें"
+  },
+  "more": {
+   "en": "More news",
+   "ru": "Ещё новости",
+   "fr": "Plus d'actualités",
+   "es": "Más noticias",
+   "it": "Altre notizie",
+   "de": "Weitere Neuigkeiten",
+   "zh": "更多新闻",
+   "vi": "Thêm tin tức",
+   "hi": "और समाचार"
+  },
+  "back": {
+   "en": "All news",
+   "ru": "Все новости",
+   "fr": "Toutes les actualités",
+   "es": "Todas las noticias",
+   "it": "Tutte le notizie",
+   "de": "Alle Neuigkeiten",
+   "zh": "全部新闻",
+   "vi": "Tất cả tin tức",
+   "hi": "सभी समाचार"
+  },
+  "share": {
+   "en": "Share",
+   "ru": "Поделиться",
+   "fr": "Partager",
+   "es": "Compartir",
+   "it": "Condividi",
+   "de": "Teilen",
+   "zh": "分享",
+   "vi": "Chia sẻ",
+   "hi": "साझा करें"
+  },
+  "related": {
+   "en": "Also read",
+   "ru": "Читайте также",
+   "fr": "À lire aussi",
+   "es": "Lea también",
+   "it": "Da leggere anche",
+   "de": "Auch interessant",
+   "zh": "延伸阅读",
+   "vi": "Đọc thêm",
+   "hi": "यह भी पढ़ें"
+  }
+ },
+ "faq": {
+  "search": {
+   "en": "Search questions",
+   "ru": "Поиск по вопросам",
+   "fr": "Rechercher une question",
+   "es": "Buscar preguntas",
+   "it": "Cerca tra le domande",
+   "de": "Fragen durchsuchen",
+   "zh": "搜索问题",
+   "vi": "Tìm câu hỏi",
+   "hi": "सवाल खोजें"
+  },
+  "nothing": {
+   "en": "Nothing found — try another word or write to support.",
+   "ru": "Ничего не найдено — попробуйте другое слово или напишите в поддержку.",
+   "fr": "Aucun résultat — essayez un autre mot ou écrivez à l'assistance.",
+   "es": "No se ha encontrado nada: pruebe con otra palabra o escriba a soporte.",
+   "it": "Nessun risultato — provare con un'altra parola o scrivere all'assistenza.",
+   "de": "Nichts gefunden — versuchen Sie ein anderes Wort oder schreiben Sie an den Support.",
+   "zh": "没有找到结果——试试其他关键词，或联系支持。",
+   "vi": "Không tìm thấy gì — hãy thử từ khác hoặc viết cho bộ phận hỗ trợ.",
+   "hi": "कुछ नहीं मिला — कोई और शब्द आज़माएँ या सहायता टीम को लिखें।"
+  },
+  "all": {
+   "en": "All topics",
+   "ru": "Все темы",
+   "fr": "Tous les sujets",
+   "es": "Todos los temas",
+   "it": "Tutti gli argomenti",
+   "de": "Alle Themen",
+   "zh": "全部主题",
+   "vi": "Tất cả chủ đề",
+   "hi": "सभी विषय"
+  },
+  "cats": {
+   "device": {
+    "en": "Device",
+    "ru": "Устройство",
+    "fr": "Dispositif",
+    "es": "Dispositivo",
+    "it": "Dispositivo",
+    "de": "Gerät",
+    "zh": "设备",
+    "vi": "Thiết bị",
+    "hi": "डिवाइस"
+   },
+   "app": {
+    "en": "App",
+    "ru": "Приложение",
+    "fr": "Application",
+    "es": "Aplicación",
+    "it": "App",
+    "de": "App",
+    "zh": "应用",
+    "vi": "Ứng dụng",
+    "hi": "ऐप"
+   },
+   "purchase": {
+    "en": "Buying",
+    "ru": "Покупка",
+    "fr": "Achat",
+    "es": "Compra",
+    "it": "Acquisto",
+    "de": "Kauf",
+    "zh": "购买",
+    "vi": "Mua hàng",
+    "hi": "ख़रीदना"
+   },
+   "partners": {
+    "en": "Partners",
+    "ru": "Партнёры",
+    "fr": "Partenaires",
+    "es": "Socios",
+    "it": "Partner",
+    "de": "Partner",
+    "zh": "合作伙伴",
+    "vi": "Đối tác",
+    "hi": "साझेदार"
+   },
+   "clinicians": {
+    "en": "Clinicians",
+    "ru": "Врачам",
+    "fr": "Professionnels de santé",
+    "es": "Profesionales sanitarios",
+    "it": "Medici",
+    "de": "Fachkreise",
+    "zh": "医疗专业人员",
+    "vi": "Nhân viên y tế",
+    "hi": "डॉक्टर"
+   },
+   "support": {
+    "en": "Support",
+    "ru": "Поддержка",
+    "fr": "Assistance",
+    "es": "Soporte",
+    "it": "Assistenza",
+    "de": "Support",
+    "zh": "支持",
+    "vi": "Hỗ trợ",
+    "hi": "सहायता"
+   }
+  }
+ },
+ "map": {
+  "present": {
+   "en": "Distributor present",
+   "ru": "Есть дистрибьютор",
+   "fr": "Distributeur présent",
+   "es": "Distribuidor presente",
+   "it": "Distributore presente",
+   "de": "Vertriebspartner vorhanden",
+   "zh": "已有经销商",
+   "vi": "Đã có nhà phân phối",
+   "hi": "वितरक मौजूद"
+  },
+  "negotiation": {
+   "en": "In negotiation",
+   "ru": "Идут переговоры",
+   "fr": "En négociation",
+   "es": "En negociación",
+   "it": "In trattativa",
+   "de": "In Verhandlung",
+   "zh": "洽谈中",
+   "vi": "Đang đàm phán",
+   "hi": "बातचीत जारी"
+  },
+  "free": {
+   "en": "Open region",
+   "ru": "Открытый регион",
+   "fr": "Région ouverte",
+   "es": "Región abierta",
+   "it": "Regione aperta",
+   "de": "Offene Region",
+   "zh": "开放地区",
+   "vi": "Khu vực đang mở",
+   "hi": "खुला क्षेत्र"
+  },
+  "legend": {
+   "en": "Legend",
+   "ru": "Обозначения",
+   "fr": "Légende",
+   "es": "Leyenda",
+   "it": "Legenda",
+   "de": "Legende",
+   "zh": "图例",
+   "vi": "Chú giải",
+   "hi": "संकेत"
+  },
+  "choose": {
+   "en": "Choose a country",
+   "ru": "Выберите страну",
+   "fr": "Choisissez un pays",
+   "es": "Elija un país",
+   "it": "Scegliere un paese",
+   "de": "Land wählen",
+   "zh": "选择国家/地区",
+   "vi": "Chọn quốc gia",
+   "hi": "देश चुनें"
+  },
+  "no_distributor": {
+   "en": "No distributor yet — your message goes to our team.",
+   "ru": "Дистрибьютора пока нет — ваше сообщение уйдёт нашей команде.",
+   "fr": "Pas encore de distributeur — votre message arrive à notre équipe.",
+   "es": "Todavía no hay distribuidor: su mensaje llega a nuestro equipo.",
+   "it": "Nessun distributore per ora — il messaggio arriva al nostro team.",
+   "de": "Noch kein Vertriebspartner — Ihre Nachricht geht an unser Team.",
+   "zh": "尚无经销商——您的消息将发送给我们的团队。",
+   "vi": "Chưa có nhà phân phối — tin nhắn của bạn sẽ được gửi đến đội ngũ của chúng tôi.",
+   "hi": "अभी कोई वितरक नहीं — आपका संदेश हमारी टीम के पास जाता है।"
+  },
+  "regions": {
+   "middle_east": {
+    "en": "Middle East",
+    "ru": "Ближний Восток",
+    "fr": "Moyen-Orient",
+    "es": "Oriente Medio",
+    "it": "Medio Oriente",
+    "de": "Naher Osten",
+    "zh": "中东",
+    "vi": "Trung Đông",
+    "hi": "मध्य पूर्व"
+   },
+   "europe": {
+    "en": "Europe",
+    "ru": "Европа",
+    "fr": "Europe",
+    "es": "Europa",
+    "it": "Europa",
+    "de": "Europa",
+    "zh": "欧洲",
+    "vi": "Châu Âu",
+    "hi": "यूरोप"
+   },
+   "africa": {
+    "en": "Africa",
+    "ru": "Африка",
+    "fr": "Afrique",
+    "es": "África",
+    "it": "Africa",
+    "de": "Afrika",
+    "zh": "非洲",
+    "vi": "Châu Phi",
+    "hi": "अफ़्रीका"
+   },
+   "asia": {
+    "en": "Asia",
+    "ru": "Азия",
+    "fr": "Asie",
+    "es": "Asia",
+    "it": "Asia",
+    "de": "Asien",
+    "zh": "亚洲",
+    "vi": "Châu Á",
+    "hi": "एशिया"
+   },
+   "americas": {
+    "en": "Americas",
+    "ru": "Америка",
+    "fr": "Amériques",
+    "es": "América",
+    "it": "Americhe",
+    "de": "Amerika",
+    "zh": "美洲",
+    "vi": "Châu Mỹ",
+    "hi": "अमेरिका महाद्वीप"
+   },
+   "cis": {
+    "en": "CIS",
+    "ru": "СНГ",
+    "fr": "CEI",
+    "es": "CEI",
+    "it": "CSI",
+    "de": "GUS",
+    "zh": "独联体",
+    "vi": "SNG",
+    "hi": "CIS देश"
+   }
+  }
+ },
+ "common": {
+  "learn_more": {
+   "en": "Learn more",
+   "ru": "Подробнее",
+   "fr": "En savoir plus",
+   "es": "Más información",
+   "it": "Scopri di più",
+   "de": "Mehr erfahren",
+   "zh": "了解更多",
+   "vi": "Tìm hiểu thêm",
+   "hi": "और जानें"
+  },
+  "download": {
+   "en": "Download",
+   "ru": "Скачать",
+   "fr": "Télécharger",
+   "es": "Descargar",
+   "it": "Scarica",
+   "de": "Herunterladen",
+   "zh": "下载",
+   "vi": "Tải về",
+   "hi": "डाउनलोड"
+  },
+  "pdf": {
+   "en": "PDF",
+   "ru": "PDF",
+   "fr": "PDF",
+   "es": "PDF",
+   "it": "PDF",
+   "de": "PDF",
+   "zh": "PDF",
+   "vi": "PDF",
+   "hi": "PDF"
+  },
+  "version": {
+   "en": "Version",
+   "ru": "Версия",
+   "fr": "Version",
+   "es": "Versión",
+   "it": "Versione",
+   "de": "Version",
+   "zh": "版本",
+   "vi": "Phiên bản",
+   "hi": "संस्करण"
+  },
+  "updated": {
+   "en": "Updated",
+   "ru": "Обновлено",
+   "fr": "Mis à jour",
+   "es": "Actualizado",
+   "it": "Aggiornato",
+   "de": "Aktualisiert",
+   "zh": "更新日期",
+   "vi": "Cập nhật",
+   "hi": "अपडेट किया गया"
+  },
+  "generated": {
+   "en": "Visualisation",
+   "ru": "Визуализация",
+   "fr": "Visualisation",
+   "es": "Visualización",
+   "it": "Visualizzazione",
+   "de": "Visualisierung",
+   "zh": "示意图",
+   "vi": "Hình ảnh mô phỏng",
+   "hi": "विज़ुअलाइज़ेशन"
+  },
+  "generated_hint": {
+   "en": "Computer-generated image — real photographs will follow production audits.",
+   "ru": "Компьютерное изображение — настоящие фотографии появятся после производственных аудитов.",
+   "fr": "Image de synthèse — de vraies photographies suivront les audits de production.",
+   "es": "Imagen generada por ordenador; las fotografías reales llegarán tras las auditorías de producción.",
+   "it": "Immagine generata al computer — le fotografie reali seguiranno gli audit di produzione.",
+   "de": "Computergeneriertes Bild — echte Fotos folgen nach den Produktionsaudits.",
+   "zh": "计算机生成图像——生产审核后将替换为实拍照片。",
+   "vi": "Hình ảnh do máy tính tạo — ảnh chụp thật sẽ có sau các đợt kiểm tra sản xuất.",
+   "hi": "कंप्यूटर से बनाई गई छवि — उत्पादन ऑडिट के बाद असली तस्वीरें आएँगी।"
+  },
+  "scroll": {
+   "en": "Scroll",
+   "ru": "Листать",
+   "fr": "Faire défiler",
+   "es": "Desplazar",
+   "it": "Scorri",
+   "de": "Scrollen",
+   "zh": "向下滚动",
+   "vi": "Cuộn",
+   "hi": "स्क्रॉल करें"
+  },
+  "play": {
+   "en": "Play video",
+   "ru": "Воспроизвести видео",
+   "fr": "Lire la vidéo",
+   "es": "Reproducir vídeo",
+   "it": "Riproduci il video",
+   "de": "Video abspielen",
+   "zh": "播放视频",
+   "vi": "Phát video",
+   "hi": "वीडियो चलाएँ"
+  },
+  "pause": {
+   "en": "Pause",
+   "ru": "Пауза",
+   "fr": "Pause",
+   "es": "Pausa",
+   "it": "Pausa",
+   "de": "Pause",
+   "zh": "暂停",
+   "vi": "Tạm dừng",
+   "hi": "रोकें"
+  },
+  "mmol": {
+   "en": "mmol/L",
+   "ru": "ммоль/л",
+   "fr": "mmol/L",
+   "es": "mmol/L",
+   "it": "mmol/L",
+   "de": "mmol/l",
+   "zh": "mmol/L",
+   "vi": "mmol/L",
+   "hi": "mmol/L"
+  },
+  "mgdl": {
+   "en": "mg/dL",
+   "ru": "мг/дл",
+   "fr": "mg/dL",
+   "es": "mg/dL",
+   "it": "mg/dL",
+   "de": "mg/dl",
+   "zh": "mg/dL",
+   "vi": "mg/dL",
+   "hi": "mg/dL"
+  },
+  "contents": {
+   "en": "Contents",
+   "ru": "Содержание",
+   "fr": "Sommaire",
+   "es": "Contenido",
+   "it": "Indice",
+   "de": "Inhalt",
+   "zh": "目录",
+   "vi": "Mục lục",
+   "hi": "विषय-सूची"
+  },
+  "soon": {
+   "en": "Coming soon",
+   "ru": "Скоро",
+   "fr": "Bientôt disponible",
+   "es": "Próximamente",
+   "it": "Prossimamente",
+   "de": "Demnächst",
+   "zh": "即将推出",
+   "vi": "Sắp ra mắt",
+   "hi": "जल्द आ रहा है"
+  },
+  "app_store": {
+   "en": "App Store",
+   "ru": "App Store",
+   "fr": "App Store",
+   "es": "App Store",
+   "it": "App Store",
+   "de": "App Store",
+   "zh": "App Store",
+   "vi": "App Store",
+   "hi": "App Store"
+  },
+  "google_play": {
+   "en": "Google Play",
+   "ru": "Google Play",
+   "fr": "Google Play",
+   "es": "Google Play",
+   "it": "Google Play",
+   "de": "Google Play",
+   "zh": "Google Play",
+   "vi": "Google Play",
+   "hi": "Google Play"
+  },
+  "notify_app": {
+   "en": "Tell me when the app is live",
+   "ru": "Сообщите, когда приложение выйдет",
+   "fr": "Prévenez-moi quand l'application sera disponible",
+   "es": "Avisarme cuando la aplicación esté disponible",
+   "it": "Avvisami quando l'app è disponibile",
+   "de": "Benachrichtigen, wenn die App verfügbar ist",
+   "zh": "应用上线时通知我",
+   "vi": "Báo cho tôi khi ứng dụng ra mắt",
+   "hi": "ऐप उपलब्ध होने पर मुझे बताएँ"
+  },
+  "demo_badge": {
+   "en": "Demo version — not indexed",
+   "ru": "Демоверсия — не индексируется",
+   "fr": "Version de démonstration — non indexée",
+   "es": "Versión de demostración — no indexada",
+   "it": "Versione demo — non indicizzata",
+   "de": "Demoversion — nicht indexiert",
+   "zh": "演示版本——不被搜索引擎收录",
+   "vi": "Phiên bản thử nghiệm — không được lập chỉ mục",
+   "hi": "डेमो संस्करण — अनुक्रमित नहीं"
+  },
+  "reduced_motion": {
+   "en": "Animations are reduced according to your system settings.",
+   "ru": "Анимации сокращены в соответствии с настройками вашей системы.",
+   "fr": "Les animations sont réduites conformément aux réglages de votre système.",
+   "es": "Las animaciones están reducidas según la configuración de su sistema.",
+   "it": "Le animazioni sono ridotte in base alle impostazioni di sistema.",
+   "de": "Animationen sind entsprechend Ihren Systemeinstellungen reduziert.",
+   "zh": "已根据您的系统设置减少动画效果。",
+   "vi": "Hiệu ứng động được giảm theo cài đặt hệ thống của bạn.",
+   "hi": "आपकी सिस्टम सेटिंग के अनुसार एनिमेशन कम किए गए हैं।"
+  }
+ },
+ "errors": {
+  "404_title": {
+   "en": "Page not found",
+   "ru": "Страница не найдена",
+   "fr": "Page introuvable",
+   "es": "Página no encontrada",
+   "it": "Pagina non trovata",
+   "de": "Seite nicht gefunden",
+   "zh": "页面未找到",
+   "vi": "Không tìm thấy trang",
+   "hi": "पृष्ठ नहीं मिला"
+  },
+  "404_text": {
+   "en": "The address may be wrong or the page has moved. Try the home page or the menu.",
+   "ru": "Возможно, адрес неверный или страница переехала. Попробуйте главную страницу или меню.",
+   "fr": "L'adresse est peut-être erronée ou la page a été déplacée. Essayez la page d'accueil ou le menu.",
+   "es": "Puede que la dirección sea incorrecta o que la página se haya movido. Pruebe con la página de inicio o el menú.",
+   "it": "L'indirizzo potrebbe essere errato o la pagina è stata spostata. Provare dalla home page o dal menu.",
+   "de": "Die Adresse ist möglicherweise falsch, oder die Seite wurde verschoben. Versuchen Sie es über die Startseite oder das Menü.",
+   "zh": "地址可能有误，或页面已移动。请试试首页或菜单。",
+   "vi": "Địa chỉ có thể sai hoặc trang đã được chuyển đi. Hãy thử trang chủ hoặc menu.",
+   "hi": "पता ग़लत हो सकता है या पृष्ठ स्थानांतरित हो गया है। होम पेज या मेन्यू आज़माएँ।"
+  },
+  "500_title": {
+   "en": "Something went wrong",
+   "ru": "Что-то пошло не так",
+   "fr": "Une erreur s'est produite",
+   "es": "Algo ha fallado",
+   "it": "Qualcosa è andato storto",
+   "de": "Etwas ist schiefgelaufen",
+   "zh": "出了点问题",
+   "vi": "Đã xảy ra lỗi",
+   "hi": "कुछ गड़बड़ हो गई"
+  },
+  "500_text": {
+   "en": "We already know about it. Please try again in a minute.",
+   "ru": "Мы уже знаем об этом. Попробуйте ещё раз через минуту.",
+   "fr": "Nous sommes déjà au courant. Veuillez réessayer dans une minute.",
+   "es": "Ya estamos al tanto. Inténtelo de nuevo en un minuto.",
+   "it": "Ne siamo già al corrente. Riprovare tra un minuto.",
+   "de": "Wir wissen schon Bescheid. Bitte versuchen Sie es in einer Minute noch einmal.",
+   "zh": "我们已经知道了。请稍等一分钟再试。",
+   "vi": "Chúng tôi đã biết về sự cố này. Vui lòng thử lại sau một phút.",
+   "hi": "हमें इसके बारे में पहले से पता है। कृपया एक मिनट बाद फिर कोशिश करें।"
+  },
+  "home": {
+   "en": "Go to the home page",
+   "ru": "На главную",
+   "fr": "Aller à la page d'accueil",
+   "es": "Ir a la página de inicio",
+   "it": "Vai alla home page",
+   "de": "Zur Startseite",
+   "zh": "返回首页",
+   "vi": "Về trang chủ",
+   "hi": "होम पेज पर जाएँ"
+  }
+ },
+ "thanks": {
+  "title": {
+   "en": "Thank you",
+   "ru": "Спасибо",
+   "fr": "Merci",
+   "es": "Gracias",
+   "it": "Grazie",
+   "de": "Vielen Dank",
+   "zh": "谢谢",
+   "vi": "Cảm ơn bạn",
+   "hi": "धन्यवाद"
+  },
+  "waitlist": {
+   "en": "You are on the waiting list. We will write to you when Flystat is available in your country.",
+   "ru": "Вы в листе ожидания. Мы напишем, когда Flystat появится в вашей стране.",
+   "fr": "Vous êtes sur la liste d'attente. Nous vous écrirons quand Flystat sera disponible dans votre pays.",
+   "es": "Está en la lista de espera. Le escribiremos cuando Flystat esté disponible en su país.",
+   "it": "L'iscrizione alla lista d'attesa è confermata. Scriveremo quando Flystat sarà disponibile nel suo paese.",
+   "de": "Sie stehen auf der Warteliste. Wir schreiben Ihnen, sobald Flystat in Ihrem Land verfügbar ist.",
+   "zh": "您已加入候补名单。Flystat 在您所在的国家/地区上市时，我们会写信通知您。",
+   "vi": "Bạn đã có tên trong danh sách chờ. Chúng tôi sẽ viết thư cho bạn khi Flystat có mặt tại nước bạn.",
+   "hi": "आप प्रतीक्षा सूची में हैं। जब Flystat आपके देश में उपलब्ध होगा, हम आपको लिखेंगे।"
+  },
+  "distribution": {
+   "en": "Your request has been received. We will write within two working days to arrange a call.",
+   "ru": "Ваш запрос получен. Мы напишем в течение двух рабочих дней, чтобы договориться о созвоне.",
+   "fr": "Votre demande a bien été reçue. Nous vous écrirons sous deux jours ouvrés pour convenir d'un appel.",
+   "es": "Hemos recibido su solicitud. Le escribiremos en dos días laborables para concertar una llamada.",
+   "it": "La richiesta è stata ricevuta. Scriveremo entro due giorni lavorativi per fissare una chiamata.",
+   "de": "Ihre Anfrage ist eingegangen. Wir melden uns innerhalb von zwei Werktagen, um ein Gespräch zu vereinbaren.",
+   "zh": "您的申请已收到。我们会在两个工作日内写信给您安排通话。",
+   "vi": "Chúng tôi đã nhận được yêu cầu của bạn. Chúng tôi sẽ viết thư trong vòng hai ngày làm việc để sắp xếp cuộc gọi.",
+   "hi": "आपका अनुरोध मिल गया है। कॉल तय करने के लिए हम दो कार्यदिवसों के भीतर लिखेंगे।"
+  },
+  "support": {
+   "en": "Your request has been registered. The ticket number is on its way to your email.",
+   "ru": "Ваше обращение зарегистрировано. Номер обращения уже отправлен вам на почту.",
+   "fr": "Votre demande a été enregistrée. Le numéro de ticket arrive dans votre boîte mail.",
+   "es": "Su solicitud ha quedado registrada. El número de ticket va de camino a su correo.",
+   "it": "La richiesta è stata registrata. Il numero di ticket è in arrivo via email.",
+   "de": "Ihre Anfrage ist registriert. Die Ticketnummer ist auf dem Weg in Ihr E-Mail-Postfach.",
+   "zh": "您的请求已登记。工单号正在发往您的邮箱。",
+   "vi": "Yêu cầu của bạn đã được ghi nhận. Số phiếu đang được gửi đến email của bạn.",
+   "hi": "आपका अनुरोध दर्ज हो गया है। टिकट नंबर आपके ईमेल पर आ रहा है।"
+  },
+  "default": {
+   "en": "Your message has been received.",
+   "ru": "Ваше сообщение получено.",
+   "fr": "Votre message a bien été reçu.",
+   "es": "Hemos recibido su mensaje.",
+   "it": "Il messaggio è stato ricevuto.",
+   "de": "Ihre Nachricht ist eingegangen.",
+   "zh": "您的消息已收到。",
+   "vi": "Chúng tôi đã nhận được tin nhắn của bạn.",
+   "hi": "आपका संदेश मिल गया है।"
+  },
+  "back": {
+   "en": "Back to the site",
+   "ru": "Вернуться на сайт",
+   "fr": "Retour au site",
+   "es": "Volver al sitio",
+   "it": "Torna al sito",
+   "de": "Zurück zur Website",
+   "zh": "返回网站",
+   "vi": "Quay lại website",
+   "hi": "साइट पर वापस जाएँ"
+  },
+  "meanwhile": {
+   "en": "Meanwhile",
+   "ru": "А пока",
+   "fr": "En attendant",
+   "es": "Mientras tanto",
+   "it": "Nel frattempo",
+   "de": "In der Zwischenzeit",
+   "zh": "与此同时",
+   "vi": "Trong lúc chờ",
+   "hi": "इस बीच"
+  }
+ },
+ "seo": {
+  "suffix": {
+   "en": "Flystat",
+   "ru": "Flystat",
+   "fr": "Flystat",
+   "es": "Flystat",
+   "it": "Flystat",
+   "de": "Flystat",
+   "zh": "Flystat",
+   "vi": "Flystat",
+   "hi": "Flystat"
+  },
+  "default_description": {
+   "en": "Flystat — a continuous glucose monitoring system: 15-day sensor, readings every minute, no finger-prick calibration.",
+   "ru": "Flystat — система непрерывного мониторинга глюкозы: сенсор на 15 дней, показания каждую минуту, без калибровки проколами пальца.",
+   "fr": "Flystat — un système de mesure du glucose en continu : capteur de 15 jours, une mesure chaque minute, aucune calibration par piqûre au doigt.",
+   "es": "Flystat — un sistema de monitorización continua de glucosa: sensor de 15 días, lecturas cada minuto, sin calibración con pinchazos en el dedo.",
+   "it": "Flystat — un sistema di monitoraggio continuo del glucosio: sensore da 15 giorni, letture ogni minuto, nessuna calibrazione con puntura del dito.",
+   "de": "Flystat — ein System zur kontinuierlichen Glukosemessung: Sensor für 15 Tage, Messwerte jede Minute, keine Kalibrierung per Fingerstich.",
+   "zh": "Flystat — 持续葡萄糖监测系统：15 天传感器，每分钟一次读数，无需指尖采血校准。",
+   "vi": "Flystat — hệ thống theo dõi đường huyết liên tục: cảm biến dùng 15 ngày, số đo mỗi phút, không cần chích máu đầu ngón tay để hiệu chuẩn.",
+   "hi": "Flystat — निरंतर ग्लूकोज़ निगरानी प्रणाली: 15 दिन का सेंसर, हर मिनट रीडिंग, उंगली से रक्त जाँच द्वारा कैलिब्रेशन की ज़रूरत नहीं।"
+  }
+ }
+}

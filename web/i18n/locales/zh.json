@@ -1,0 +1,186 @@
+{
+ "nav": {
+  "people": "面向用户",
+  "partners": "面向合作伙伴",
+  "menu": "菜单",
+  "close": "关闭",
+  "account": "个人账户",
+  "language": "语言",
+  "units": "单位",
+  "skip": "跳至正文",
+  "waitlist": "加入候补名单"
+ },
+ "footer": {
+  "company": "Flystat 是 MLC 集团旗下的品牌。",
+  "rights": "保留所有权利。",
+  "legal": "法律信息",
+  "contacts": "联系方式",
+  "newsletter": "邮件订阅新闻",
+  "newsletter_text": "每月一封邮件——产品动态、认证进展、活动。",
+  "subscribe": "订阅",
+  "cookies": "Cookie",
+  "made": "正在接受符合性评估的医疗器械。暂不销售。",
+  "channels": "Telegram 频道",
+  "address": "地址"
+ },
+ "cookie": {
+  "title": "flystat.com 上的 Cookie",
+  "text": "我们使用必要的 Cookie 来保证网站运行，并在您同意后使用分析类 Cookie 来了解哪些页面有用。没有广告 Cookie。",
+  "accept": "接受分析类 Cookie",
+  "decline": "仅必要的",
+  "settings": "Cookie 政策"
+ },
+ "form": {
+  "name": "姓名",
+  "email": "邮箱",
+  "phone": "电话（含国家代码）",
+  "company": "公司",
+  "position": "职位",
+  "country": "国家/地区",
+  "city": "城市",
+  "website": "公司网站",
+  "channels": "销售渠道",
+  "channels_opts": {
+   "pharmacies": "药店",
+   "clinics": "诊所与医院",
+   "ecom": "电商",
+   "tenders": "招标与公共采购"
+  },
+  "volume": "预期年销量",
+  "volume_opts": {
+   "lt1k": "1 000 个传感器以下",
+   "1k": "1 000 – 10 000",
+   "10k": "10 000 – 50 000",
+   "50k": "50 000 以上"
+  },
+  "for_whom": "为谁申请",
+  "for_opts": {
+   "me": "为我自己",
+   "relative": "为亲属",
+   "child": "为孩子"
+  },
+  "role": "您的身份",
+  "role_opts": {
+   "user": "用户 / 患者",
+   "clinician": "医疗专业人员",
+   "partner": "合作伙伴 / 经销商",
+   "other": "其他"
+  },
+  "kind": "请求类型",
+  "kind_opts": {
+   "bug": "网站错误",
+   "question": "关于设备或应用的问题",
+   "idea": "建议",
+   "other": "其他"
+  },
+  "subject": "主题",
+  "message": "留言",
+  "comment": "备注",
+  "attachment": "附件（截图或照片，最大 10 MB）",
+  "direction": "方向",
+  "direction_opts": {
+   "investment": "投资",
+   "supplier": "供应商",
+   "clinic": "诊所",
+   "research": "研究",
+   "press": "媒体",
+   "other": "其他"
+  },
+  "distributor_country": "经销商所在国家/地区",
+  "consent": "我同意按照{privacy}和{consent}中的说明处理我的个人数据。",
+  "privacy": "隐私政策",
+  "consent_doc": "同意书",
+  "required": "必填项",
+  "invalid_email": "请检查邮箱地址",
+  "invalid_phone": "请检查电话号码",
+  "sending": "发送中……",
+  "error": "出了点问题，消息未能发送。请重试，或通过邮件联系我们。",
+  "too_many": "来自此网络的请求过多。请稍后再试。",
+  "success_title": "已发送",
+  "optional": "选填",
+  "select": "请选择……",
+  "other_country": "其他"
+ },
+ "news": {
+  "all": "全部",
+  "news": "新闻",
+  "events": "事件",
+  "research": "研究",
+  "company": "公司",
+  "read": "阅读",
+  "more": "更多新闻",
+  "back": "全部新闻",
+  "share": "分享",
+  "related": "延伸阅读"
+ },
+ "faq": {
+  "search": "搜索问题",
+  "nothing": "没有找到结果——试试其他关键词，或联系支持。",
+  "all": "全部主题",
+  "cats": {
+   "device": "设备",
+   "app": "应用",
+   "purchase": "购买",
+   "partners": "合作伙伴",
+   "clinicians": "医疗专业人员",
+   "support": "支持"
+  }
+ },
+ "map": {
+  "present": "已有经销商",
+  "negotiation": "洽谈中",
+  "free": "开放地区",
+  "legend": "图例",
+  "choose": "选择国家/地区",
+  "no_distributor": "尚无经销商——您的消息将发送给我们的团队。",
+  "regions": {
+   "middle_east": "中东",
+   "europe": "欧洲",
+   "africa": "非洲",
+   "asia": "亚洲",
+   "americas": "美洲",
+   "cis": "独联体"
+  }
+ },
+ "common": {
+  "learn_more": "了解更多",
+  "download": "下载",
+  "pdf": "PDF",
+  "version": "版本",
+  "updated": "更新日期",
+  "generated": "示意图",
+  "generated_hint": "计算机生成图像——生产审核后将替换为实拍照片。",
+  "scroll": "向下滚动",
+  "play": "播放视频",
+  "pause": "暂停",
+  "mmol": "mmol/L",
+  "mgdl": "mg/dL",
+  "contents": "目录",
+  "soon": "即将推出",
+  "app_store": "App Store",
+  "google_play": "Google Play",
+  "notify_app": "应用上线时通知我",
+  "demo_badge": "演示版本——不被搜索引擎收录",
+  "reduced_motion": "已根据您的系统设置减少动画效果。"
+ },
+ "errors": {
+  "404_title": "页面未找到",
+  "404_text": "地址可能有误，或页面已移动。请试试首页或菜单。",
+  "500_title": "出了点问题",
+  "500_text": "我们已经知道了。请稍等一分钟再试。",
+  "home": "返回首页"
+ },
+ "thanks": {
+  "title": "谢谢",
+  "waitlist": "您已加入候补名单。Flystat 在您所在的国家/地区上市时，我们会写信通知您。",
+  "distribution": "您的申请已收到。我们会在两个工作日内写信给您安排通话。",
+  "support": "您的请求已登记。工单号正在发往您的邮箱。",
+  "default": "您的消息已收到。",
+  "back": "返回网站",
+  "meanwhile": "与此同时"
+ },
+ "seo": {
+  "suffix": "Flystat",
+  "default_description": "Flystat — 持续葡萄糖监测系统：15 天传感器，每分钟一次读数，无需指尖采血校准。"
+ }
+}

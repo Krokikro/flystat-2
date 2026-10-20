@@ -1,0 +1,893 @@
+[
+ {
+  "category": "device",
+  "question": {
+   "en": "Does applying the sensor hurt?",
+   "ru": "Больно ли ставить сенсор?",
+   "fr": "La pose du capteur fait-elle mal ?",
+   "es": "¿Duele aplicar el sensor?",
+   "it": "Applicare il sensore fa male?",
+   "de": "Tut das Anlegen des Sensors weh?",
+   "zh": "佩戴传感器疼吗？",
+   "vi": "Gắn cảm biến có đau không?",
+   "hi": "क्या सेंसर लगाने में दर्द होता है?"
+  },
+  "answer": {
+   "en": "<p>Most people describe it as a tap rather than a prick. The applicator places a flexible filament 5.5 mm long and half a millimetre wide under the skin in one spring-loaded motion; the guide needle retracts immediately. The back of the upper arm has few nerve endings, which is why it is the recommended site.</p>",
+   "ru": "<p>Большинство описывает это как хлопок, а не укол. Аппликатор одним пружинным движением размещает под кожей гибкую нить длиной 5,5 мм и шириной полмиллиметра; направляющая игла сразу убирается. На задней поверхности плеча мало нервных окончаний — поэтому именно это место рекомендовано.</p>",
+   "fr": "<p>La plupart des gens décrivent une petite tape plutôt qu'une piqûre. L'applicateur place sous la peau un filament souple de 5,5 mm de long et d'un demi-millimètre de large, en un seul mouvement à ressort ; l'aiguille-guide se rétracte immédiatement. L'arrière du haut du bras compte peu de terminaisons nerveuses, c'est pourquoi c'est l'emplacement recommandé.</p>",
+   "es": "<p>La mayoría de las personas lo describen como un toque más que como un pinchazo. El aplicador coloca bajo la piel un filamento flexible de 5,5 mm de largo y medio milímetro de ancho en un solo movimiento de resorte; la aguja guía se retrae de inmediato. La parte posterior del brazo tiene pocas terminaciones nerviosas, y por eso es el lugar recomendado.</p>",
+   "it": "<p>La maggior parte delle persone lo descrive come un tocco più che una puntura. L'applicatore inserisce sotto la pelle un filamento flessibile lungo 5,5 mm e largo mezzo millimetro con un unico movimento a molla; l'ago guida si ritrae immediatamente. Il retro della parte superiore del braccio ha poche terminazioni nervose, ed è per questo che è il sito consigliato.</p>",
+   "de": "<p>Die meisten beschreiben es eher als Tippen denn als Stich. Der Applikator setzt einen flexiblen Sensorfaden von 5,5 mm Länge und einem halben Millimeter Breite in einer federgetriebenen Bewegung unter die Haut; die Führungsnadel wird sofort zurückgezogen. Die Rückseite des Oberarms hat wenige Nervenenden, deshalb ist sie die empfohlene Stelle.</p>",
+   "zh": "<p>大多数人形容它像轻轻一拍，而不是刺痛。敷贴器通过一次弹簧驱动的动作，将一根 5.5 mm 长、半毫米宽的柔软传感丝置于皮下；导引针随即收回。上臂背侧神经末梢较少，因此是推荐的佩戴部位。</p>",
+   "vi": "<p>Phần lớn mọi người mô tả nó như một cái chạm nhẹ hơn là một mũi kim. Bộ gắn đưa một sợi cảm biến mềm dẻo dài 5,5 mm và rộng nửa milimét vào dưới da bằng một chuyển động lò xo; kim dẫn rút về ngay lập tức. Mặt sau bắp tay trên có ít đầu dây thần kinh, vì vậy đây là vị trí được khuyến nghị.</p>",
+   "hi": "<p>ज़्यादातर लोग इसे चुभन नहीं, बल्कि हल्की थपकी बताते हैं। एप्लिकेटर 5.5 mm लंबा और आधा मिलीमीटर चौड़ा लचीला फ़िलामेंट स्प्रिंग की एक गति में त्वचा के नीचे रख देता है; गाइड सुई तुरंत वापस चली जाती है। ऊपरी बाँह के पिछले हिस्से में तंत्रिका सिरे कम होते हैं, इसीलिए यह अनुशंसित जगह है।</p>"
+  },
+  "pages": null,
+  "is_published": true
+ },
+ {
+  "category": "device",
+  "question": {
+   "en": "How long does one sensor last?",
+   "ru": "Сколько работает один сенсор?",
+   "fr": "Combien de temps dure un capteur ?",
+   "es": "¿Cuánto dura un sensor?",
+   "it": "Quanto dura un sensore?",
+   "de": "Wie lange hält ein Sensor?",
+   "zh": "一个传感器能用多久？",
+   "vi": "Một cảm biến dùng được bao lâu?",
+   "hi": "एक सेंसर कितने समय चलता है?"
+  },
+  "answer": {
+   "en": "<p>15 days. The app counts down and reminds you the day before. After 15 days the sensor stops measuring and you apply a new one — the applicator always comes with the sensor already inside.</p>",
+   "ru": "<p>15 дней. Приложение ведёт обратный отсчёт и напоминает за день до окончания. Через 15 дней сенсор перестаёт измерять, и вы ставите новый — аппликатор всегда поставляется с сенсором уже внутри.</p>",
+   "fr": "<p>15 jours. L'application fait le compte à rebours et vous prévient la veille. Après 15 jours, le capteur cesse de mesurer et vous en posez un nouveau — l'applicateur est toujours livré avec le capteur déjà à l'intérieur.</p>",
+   "es": "<p>15 días. La aplicación lleva la cuenta atrás y se lo recuerda el día anterior. Pasados los 15 días el sensor deja de medir y usted aplica uno nuevo; el aplicador siempre viene con el sensor ya dentro.</p>",
+   "it": "<p>15 giorni. L'app fa il conto alla rovescia e invia un promemoria il giorno prima. Dopo 15 giorni il sensore smette di misurare e se ne applica uno nuovo — l'applicatore arriva sempre con il sensore già all'interno.</p>",
+   "de": "<p>15 Tage. Die App zählt herunter und erinnert Sie am Tag davor. Nach 15 Tagen hört der Sensor auf zu messen, und Sie legen einen neuen an — der Applikator kommt immer mit dem Sensor bereits darin.</p>",
+   "zh": "<p>15 天。应用会倒计时，并在前一天提醒您。15 天后传感器停止测量，您换上一个新的——敷贴器出厂时总是已经内置了传感器。</p>",
+   "vi": "<p>15 ngày. Ứng dụng đếm ngược và nhắc bạn trước một ngày. Sau 15 ngày, cảm biến ngừng đo và bạn gắn cảm biến mới — bộ gắn luôn đi kèm với cảm biến đã nằm sẵn bên trong.</p>",
+   "hi": "<p>15 दिन। ऐप उल्टी गिनती करता है और एक दिन पहले याद दिलाता है। 15 दिनों के बाद सेंसर मापना बंद कर देता है और आप नया लगाते हैं — एप्लिकेटर हमेशा सेंसर के साथ पहले से असेंबल आता है।</p>"
+  },
+  "pages": null,
+  "is_published": true
+ },
+ {
+  "category": "device",
+  "question": {
+   "en": "Can I shower, swim or exercise with it?",
+   "ru": "Можно ли с ним принимать душ, плавать и заниматься спортом?",
+   "fr": "Puis-je me doucher, nager ou faire du sport avec ?",
+   "es": "¿Puedo ducharme, nadar o hacer ejercicio con él?",
+   "it": "Si può fare la doccia, nuotare o fare sport con il sensore?",
+   "de": "Kann ich damit duschen, schwimmen oder Sport treiben?",
+   "zh": "戴着它可以淋浴、游泳或运动吗？",
+   "vi": "Tôi có thể tắm, bơi hay tập thể dục khi đeo không?",
+   "hi": "क्या मैं इसके साथ नहा, तैर या व्यायाम कर सकता/सकती हूँ?"
+  },
+  "answer": {
+   "en": "<p>Yes. The sensor and the patch are rated IP58: 30 minutes at a depth of 1.5 metres. Showers, pools and sweaty workouts are fine; pat the patch dry afterwards. Avoid saunas above +45 °C and long soaks in very hot water.</p>",
+   "ru": "<p>Да. Сенсор и пластырь имеют степень защиты IP58: 30 минут на глубине 1,5 метра. Душ, бассейн и потные тренировки не страшны; после просто промокните пластырь насухо. Избегайте сауны при температуре выше +45 °C и долгого пребывания в очень горячей воде.</p>",
+   "fr": "<p>Oui. Le capteur et le patch sont certifiés IP58 : 30 minutes à 1,5 mètre de profondeur. Douches, piscine et séances qui font transpirer ne posent aucun problème ; tamponnez le patch pour le sécher ensuite. Évitez les saunas au-dessus de +45 °C et les longs bains très chauds.</p>",
+   "es": "<p>Sí. El sensor y el parche tienen protección IP58: 30 minutos a 1,5 metros de profundidad. Duchas, piscinas y entrenamientos con mucho sudor no son problema; después, seque el parche con unos toques. Evite saunas por encima de +45 °C y baños largos en agua muy caliente.</p>",
+   "it": "<p>Sì. Il sensore e il cerotto hanno grado di protezione IP58: 30 minuti a 1,5 metri di profondità. Docce, piscine e allenamenti sudati non sono un problema; dopo basta tamponare il cerotto per asciugarlo. Evitare le saune oltre +45 °C e le immersioni prolungate in acqua molto calda.</p>",
+   "de": "<p>Ja. Sensor und Pflaster sind nach IP58 geschützt: 30 Minuten in 1,5 Metern Tiefe. Duschen, Schwimmbad und schweißtreibendes Training sind kein Problem; tupfen Sie das Pflaster danach trocken. Meiden Sie Saunen über +45 °C und langes Baden in sehr heißem Wasser.</p>",
+   "zh": "<p>可以。传感器和固定贴的防护等级为 IP58：可在 1.5 米水深中停留 30 分钟。淋浴、泳池和大汗淋漓的锻炼都没问题；之后把固定贴轻轻拍干即可。请避免温度超过 +45 °C 的桑拿，以及长时间浸泡在很热的水中。</p>",
+   "vi": "<p>Có. Cảm biến và miếng dán đạt chuẩn IP58: 30 phút ở độ sâu 1,5 mét. Tắm, bể bơi và tập luyện đổ mồ hôi đều không sao; thấm khô miếng dán sau đó. Tránh phòng xông hơi trên +45 °C và ngâm lâu trong nước rất nóng.</p>",
+   "hi": "<p>हाँ। सेंसर और पैच IP58 रेटेड हैं: 1.5 मीटर की गहराई पर 30 मिनट। नहाना, स्विमिंग पूल और पसीने वाली कसरत ठीक है; बाद में पैच को थपथपाकर सुखा लें। +45 °C से ऊपर के सॉना और बहुत गर्म पानी में लंबे समय तक रहने से बचें।</p>"
+  },
+  "pages": null,
+  "is_published": true
+ },
+ {
+  "category": "device",
+  "question": {
+   "en": "Do I need to calibrate it with finger pricks?",
+   "ru": "Нужно ли калибровать его проколами пальца?",
+   "fr": "Dois-je le calibrer avec des piqûres au doigt ?",
+   "es": "¿Necesito calibrarlo con pinchazos en el dedo?",
+   "it": "Serve calibrarlo con punture del dito?",
+   "de": "Muss ich mit Fingerstichen kalibrieren?",
+   "zh": "需要用指尖采血来校准吗？",
+   "vi": "Tôi có cần hiệu chuẩn bằng cách chích máu đầu ngón tay không?",
+   "hi": "क्या मुझे इसे उंगली से रक्त जाँच द्वारा कैलिब्रेट करना होगा?"
+  },
+  "answer": {
+   "en": "<p>No. Flystat is factory-calibrated and has no user calibration function. There are no test strips, codes or numbers to enter. Your doctor may still ask you to confirm a reading with a blood glucose meter in specific situations — for example when symptoms do not match the number.</p>",
+   "ru": "<p>Нет. Flystat откалиброван на заводе, функции калибровки пользователем у него нет. Нет ни тест-полосок, ни кодов, ни цифр, которые нужно вводить. В отдельных ситуациях врач всё же может попросить вас подтвердить показание глюкометром — например, когда самочувствие не совпадает с цифрой.</p>",
+   "fr": "<p>Non. Flystat est calibré en usine et ne comporte aucune fonction de calibration par l'utilisateur. Il n'y a ni bandelettes, ni codes, ni chiffres à saisir. Votre médecin peut toutefois vous demander de confirmer une mesure avec un lecteur de glycémie dans certaines situations — par exemple quand les symptômes ne correspondent pas au chiffre.</p>",
+   "es": "<p>No. Flystat está calibrado de fábrica y no tiene función de calibración por el usuario. No hay tiras reactivas, códigos ni números que introducir. Aun así, su médico puede pedirle que confirme una lectura con un glucómetro en situaciones concretas, por ejemplo cuando los síntomas no coinciden con el número.</p>",
+   "it": "<p>No. Flystat è calibrato in fabbrica e non ha una funzione di calibrazione da parte dell'utente. Non ci sono strisce reattive, codici o numeri da inserire. Il medico potrebbe comunque chiedere di confermare una lettura con un glucometro in situazioni specifiche — per esempio quando i sintomi non corrispondono al valore.</p>",
+   "de": "<p>Nein. Flystat ist werkskalibriert und hat keine Funktion zur Kalibrierung durch Nutzer. Es gibt keine Teststreifen, Codes oder Zahlen einzugeben. Ihre Ärztin oder Ihr Arzt kann Sie trotzdem bitten, einen Wert in bestimmten Situationen mit einem Blutzuckermessgerät zu überprüfen — zum Beispiel, wenn die Symptome nicht zur Zahl passen.</p>",
+   "zh": "<p>不需要。Flystat 出厂校准，没有用户校准功能。没有试纸、代码或数字需要输入。在特定情况下，医生仍可能要求您用血糖仪确认读数——例如症状与数字不符时。</p>",
+   "vi": "<p>Không. Flystat được hiệu chuẩn tại nhà máy và không có chức năng hiệu chuẩn bởi người dùng. Không có que thử, mã số hay con số nào cần nhập. Bác sĩ vẫn có thể yêu cầu bạn xác nhận một số đo bằng máy đo đường huyết trong những tình huống cụ thể — ví dụ khi triệu chứng không khớp với con số.</p>",
+   "hi": "<p>नहीं। Flystat फ़ैक्ट्री में कैलिब्रेटेड है और इसमें उपयोगकर्ता कैलिब्रेशन का कोई विकल्प नहीं है। दर्ज करने के लिए न टेस्ट स्ट्रिप, न कोड, न संख्याएँ। आपका डॉक्टर फिर भी कुछ विशेष स्थितियों में ग्लूकोमीटर से रीडिंग की पुष्टि करने को कह सकता है — उदाहरण के लिए जब लक्षण संख्या से मेल न खाएँ।</p>"
+  },
+  "pages": null,
+  "is_published": true
+ },
+ {
+  "category": "device",
+  "question": {
+   "en": "How soon do I get the first reading?",
+   "ru": "Как скоро появится первое показание?",
+   "fr": "Au bout de combien de temps ai-je la première mesure ?",
+   "es": "¿Cuándo recibo la primera lectura?",
+   "it": "Dopo quanto arriva la prima lettura?",
+   "de": "Wann bekomme ich den ersten Messwert?",
+   "zh": "多久能看到第一个读数？",
+   "vi": "Bao lâu thì tôi có số đo đầu tiên?",
+   "hi": "पहली रीडिंग कितनी जल्दी मिलती है?"
+  },
+  "answer": {
+   "en": "<p>60 minutes after applying. During the warm-up the sensor settles in the tissue; the app shows a timer. The 15-day period starts after warm-up.</p>",
+   "ru": "<p>Через 60 минут после установки. Во время прогрева сенсор приживается в ткани; приложение показывает таймер. Отсчёт 15 дней начинается после прогрева.</p>",
+   "fr": "<p>60 minutes après la pose. Pendant le préchauffage, le capteur se stabilise dans les tissus ; l'application affiche un minuteur. La période de 15 jours commence après le préchauffage.</p>",
+   "es": "<p>60 minutos después de la aplicación. Durante el calentamiento el sensor se asienta en el tejido; la aplicación muestra un temporizador. El periodo de 15 días empieza después del calentamiento.</p>",
+   "it": "<p>60 minuti dopo l'applicazione. Durante il riscaldamento il sensore si stabilizza nel tessuto; l'app mostra un timer. Il periodo di 15 giorni inizia dopo il riscaldamento.</p>",
+   "de": "<p>60 Minuten nach dem Anlegen. Während der Aufwärmphase setzt sich der Sensor im Gewebe; die App zeigt einen Timer. Die 15 Tage beginnen nach der Aufwärmphase.</p>",
+   "zh": "<p>佩戴后 60 分钟。预热期间传感器在组织中逐渐稳定；应用会显示计时器。15 天的佩戴周期从预热结束后开始计算。</p>",
+   "vi": "<p>60 phút sau khi gắn. Trong thời gian khởi động, cảm biến ổn định trong mô; ứng dụng hiển thị bộ đếm thời gian. Thời hạn 15 ngày bắt đầu tính sau khi khởi động xong.</p>",
+   "hi": "<p>लगाने के 60 मिनट बाद। वार्म-अप के दौरान सेंसर ऊतक में स्थिर होता है; ऐप टाइमर दिखाता है। 15 दिन की अवधि वार्म-अप के बाद शुरू होती है।</p>"
+  },
+  "pages": null,
+  "is_published": true
+ },
+ {
+  "category": "device",
+  "question": {
+   "en": "Where on the body do I wear it?",
+   "ru": "Где на теле его носить?",
+   "fr": "Où sur le corps dois-je le porter ?",
+   "es": "¿En qué parte del cuerpo se lleva?",
+   "it": "Dove si indossa sul corpo?",
+   "de": "Wo am Körper trage ich ihn?",
+   "zh": "戴在身体的什么位置？",
+   "vi": "Tôi đeo nó ở đâu trên cơ thể?",
+   "hi": "इसे शरीर पर कहाँ पहनना है?"
+  },
+  "answer": {
+   "en": "<p>On the back of the upper arm — the site the device is designed and tested for. Rotate between arms with each new sensor and avoid scars, moles and areas where clothing straps rub.</p>",
+   "ru": "<p>На задней поверхности плеча — это место, для которого устройство разработано и на котором испытано. Меняйте руку с каждым новым сенсором и избегайте шрамов, родинок и мест, где натирают лямки одежды.</p>",
+   "fr": "<p>À l'arrière du haut du bras — l'emplacement pour lequel le dispositif est conçu et testé. Changez de bras à chaque nouveau capteur et évitez les cicatrices, les grains de beauté et les zones où les bretelles frottent.</p>",
+   "es": "<p>En la parte posterior del brazo, el lugar para el que el dispositivo está diseñado y probado. Alterne los brazos con cada sensor nuevo y evite cicatrices, lunares y zonas donde rocen los tirantes de la ropa.</p>",
+   "it": "<p>Sul retro della parte superiore del braccio — il sito per cui il dispositivo è progettato e testato. Alternare le braccia a ogni nuovo sensore ed evitare cicatrici, nei e zone in cui sfregano le cinghie degli indumenti.</p>",
+   "de": "<p>An der Rückseite des Oberarms — die Stelle, für die das Gerät entwickelt und geprüft ist. Wechseln Sie mit jedem neuen Sensor den Arm und meiden Sie Narben, Muttermale und Stellen, an denen Kleidungsträger reiben.</p>",
+   "zh": "<p>上臂背侧——这是设备设计和测试所针对的部位。每换一个新传感器就换一只手臂，并避开疤痕、痣以及衣物肩带摩擦的区域。</p>",
+   "vi": "<p>Ở mặt sau bắp tay trên — vị trí mà thiết bị được thiết kế và thử nghiệm. Đổi tay mỗi khi gắn cảm biến mới và tránh sẹo, nốt ruồi và những chỗ bị dây áo cọ xát.</p>",
+   "hi": "<p>ऊपरी बाँह के पीछे — वह जगह जिसके लिए डिवाइस डिज़ाइन और परीक्षित है। हर नए सेंसर के साथ बाँह बदलें और निशान, तिल और उन जगहों से बचें जहाँ कपड़ों की पट्टियाँ रगड़ती हैं।</p>"
+  },
+  "pages": null,
+  "is_published": true
+ },
+ {
+  "category": "device",
+  "question": {
+   "en": "What happens if the sensor falls off early?",
+   "ru": "Что делать, если сенсор отклеился раньше срока?",
+   "fr": "Que se passe-t-il si le capteur se décolle avant la fin ?",
+   "es": "¿Qué pasa si el sensor se despega antes de tiempo?",
+   "it": "Cosa succede se il sensore si stacca prima del tempo?",
+   "de": "Was passiert, wenn der Sensor vorzeitig abfällt?",
+   "zh": "如果传感器提前脱落怎么办？",
+   "vi": "Nếu cảm biến rơi ra sớm thì sao?",
+   "hi": "अगर सेंसर समय से पहले गिर जाए तो क्या होगा?"
+  },
+  "answer": {
+   "en": "<p>Press the patch edges firmly for ten seconds after applying and keep the area dry for the first hour; most sensors stay on for the full 15 days. If one does come off, it cannot be reapplied — log it in the app and contact support; a replacement policy will be published together with the sales terms after certification.</p>",
+   "ru": "<p>После установки плотно прижимайте края пластыря десять секунд и первый час не мочите это место; большинство сенсоров держится все 15 дней. Если сенсор всё же отклеился, повторно поставить его нельзя — отметьте это в приложении и напишите в поддержку; правила замены опубликуем вместе с условиями продажи после сертификации.</p>",
+   "fr": "<p>Appuyez fermement sur les bords du patch pendant dix secondes après la pose et gardez la zone au sec pendant la première heure ; la plupart des capteurs tiennent les 15 jours complets. Si l'un d'eux se décolle, il ne peut pas être reposé — notez-le dans l'application et contactez l'assistance ; une politique de remplacement sera publiée avec les conditions de vente après la certification.</p>",
+   "es": "<p>Presione con firmeza los bordes del parche durante diez segundos tras la aplicación y mantenga la zona seca durante la primera hora; la mayoría de los sensores aguantan los 15 días completos. Si uno se despega, no puede volver a colocarse: regístrelo en la aplicación y contacte con soporte. La política de reposición se publicará junto con las condiciones de venta tras la certificación.</p>",
+   "it": "<p>Premere con decisione i bordi del cerotto per dieci secondi dopo l'applicazione e tenere la zona asciutta per la prima ora; la maggior parte dei sensori resta in posizione per tutti i 15 giorni. Se uno si stacca, non può essere riapplicato — registrarlo nell'app e contattare l'assistenza; una politica di sostituzione sarà pubblicata insieme alle condizioni di vendita dopo la certificazione.</p>",
+   "de": "<p>Drücken Sie die Pflasterränder nach dem Anlegen zehn Sekunden lang fest an und halten Sie die Stelle in der ersten Stunde trocken; die meisten Sensoren halten die vollen 15 Tage. Fällt doch einer ab, kann er nicht erneut angelegt werden — tragen Sie es in der App ein und wenden Sie sich an den Support; eine Ersatzregelung veröffentlichen wir zusammen mit den Verkaufsbedingungen nach der Zertifizierung.</p>",
+   "zh": "<p>佩戴后用力按住固定贴边缘十秒钟，并在第一个小时内保持该部位干燥；大多数传感器都能贴满 15 天。如果确实脱落了，它无法重新贴回——请在应用中记录并联系支持；更换政策将在认证后与销售条款一同公布。</p>",
+   "vi": "<p>Ấn chắc các mép miếng dán trong mười giây sau khi gắn và giữ vùng da khô trong giờ đầu tiên; phần lớn cảm biến bám trọn 15 ngày. Nếu một cảm biến rơi ra, nó không thể gắn lại — hãy ghi nhận trong ứng dụng và liên hệ bộ phận hỗ trợ; chính sách thay thế sẽ được công bố cùng điều khoản bán hàng sau khi có chứng nhận.</p>",
+   "hi": "<p>लगाने के बाद पैच के किनारों को दस सेकंड तक मज़बूती से दबाएँ और पहले घंटे उस जगह को सूखा रखें; ज़्यादातर सेंसर पूरे 15 दिन टिके रहते हैं। अगर कोई निकल जाए, तो उसे दोबारा नहीं लगाया जा सकता — इसे ऐप में दर्ज करें और सहायता टीम से संपर्क करें; बदलने की नीति प्रमाणन के बाद बिक्री की शर्तों के साथ प्रकाशित की जाएगी।</p>"
+  },
+  "pages": null,
+  "is_published": true
+ },
+ {
+  "category": "device",
+  "question": {
+   "en": "How far can the phone be from the sensor?",
+   "ru": "Как далеко телефон может находиться от сенсора?",
+   "fr": "À quelle distance du capteur le téléphone peut-il se trouver ?",
+   "es": "¿A qué distancia puede estar el teléfono del sensor?",
+   "it": "Quanto può essere lontano il telefono dal sensore?",
+   "de": "Wie weit darf das Telefon vom Sensor entfernt sein?",
+   "zh": "手机可以离传感器多远？",
+   "vi": "Điện thoại có thể cách cảm biến bao xa?",
+   "hi": "फ़ोन सेंसर से कितनी दूर हो सकता है?"
+  },
+  "answer": {
+   "en": "<p>Up to 10 metres with Bluetooth Low Energy, less through walls. If the phone is out of range the sensor keeps measuring and stores the full 15 days; the app fills the gap when you reconnect.</p>",
+   "ru": "<p>До 10 метров по Bluetooth Low Energy, через стены — меньше. Если телефон вне зоны действия, сенсор продолжает измерять и хранит данные за все 15 дней; приложение восстановит пропуск при следующем подключении.</p>",
+   "fr": "<p>Jusqu'à 10 mètres en Bluetooth Low Energy, moins à travers les murs. Si le téléphone est hors de portée, le capteur continue de mesurer et mémorise les 15 jours complets ; l'application comble le vide à la reconnexion.</p>",
+   "es": "<p>Hasta 10 metros con Bluetooth Low Energy, menos a través de paredes. Si el teléfono está fuera de alcance, el sensor sigue midiendo y almacena los 15 días completos; la aplicación rellena el hueco cuando vuelve a conectarse.</p>",
+   "it": "<p>Fino a 10 metri con Bluetooth Low Energy, meno attraverso i muri. Se il telefono è fuori portata il sensore continua a misurare e memorizza tutti i 15 giorni; l'app colma il vuoto alla riconnessione.</p>",
+   "de": "<p>Bis zu 10 Meter mit Bluetooth Low Energy, weniger durch Wände. Ist das Telefon außer Reichweite, misst der Sensor weiter und speichert die vollen 15 Tage; die App füllt die Lücke, sobald die Verbindung wieder steht.</p>",
+   "zh": "<p>通过 Bluetooth 低功耗最远 10 米，隔墙时距离会缩短。手机超出范围时传感器会继续测量并存储全部 15 天的数据；重新连接后应用会把空缺补齐。</p>",
+   "vi": "<p>Tới 10 mét với Bluetooth Low Energy, ngắn hơn khi qua tường. Nếu điện thoại ngoài tầm, cảm biến vẫn tiếp tục đo và lưu đủ 15 ngày; ứng dụng sẽ bổ sung phần thiếu khi bạn kết nối lại.</p>",
+   "hi": "<p>Bluetooth Low Energy के साथ 10 मीटर तक, दीवारों के आर-पार कम। अगर फ़ोन रेंज से बाहर है, तो सेंसर मापता रहता है और पूरे 15 दिनों का डेटा संग्रहीत करता है; दोबारा जुड़ने पर ऐप खाली जगह भर देता है।</p>"
+  },
+  "pages": null,
+  "is_published": true
+ },
+ {
+  "category": "device",
+  "question": {
+   "en": "Is the sensor affected by paracetamol, vitamin C or other medicines?",
+   "ru": "Влияют ли на сенсор парацетамол, витамин C или другие лекарства?",
+   "fr": "Le capteur est-il perturbé par le paracétamol, la vitamine C ou d'autres médicaments ?",
+   "es": "¿Afectan al sensor el paracetamol, la vitamina C u otros medicamentos?",
+   "it": "Il sensore è influenzato da paracetamolo, vitamina C o altri farmaci?",
+   "de": "Beeinflussen Paracetamol, Vitamin C oder andere Medikamente den Sensor?",
+   "zh": "对乙酰氨基酚、维生素 C 或其他药物会影响传感器吗？",
+   "vi": "Cảm biến có bị ảnh hưởng bởi paracetamol, vitamin C hay các thuốc khác không?",
+   "hi": "क्या पैरासिटामोल, विटामिन C या अन्य दवाएँ सेंसर को प्रभावित करती हैं?"
+  },
+  "answer": {
+   "en": "<p>Some substances can interfere with glucose sensors. The list of known interferences for Flystat will be published in the user manual once clinical evaluation is complete. Until then: if a reading does not match how you feel, confirm with a blood glucose meter.</p>",
+   "ru": "<p>Некоторые вещества могут влиять на сенсоры глюкозы. Список известных для Flystat помех будет опубликован в руководстве пользователя после завершения клинической оценки. До тех пор: если показание не совпадает с самочувствием, проверьте его глюкометром.</p>",
+   "fr": "<p>Certaines substances peuvent interférer avec les capteurs de glucose. La liste des interférences connues pour Flystat sera publiée dans le manuel d'utilisation une fois l'évaluation clinique terminée. D'ici là : si une mesure ne correspond pas à ce que vous ressentez, confirmez-la avec un lecteur de glycémie.</p>",
+   "es": "<p>Algunas sustancias pueden interferir con los sensores de glucosa. La lista de interferencias conocidas para Flystat se publicará en el manual de usuario cuando termine la evaluación clínica. Hasta entonces: si una lectura no coincide con cómo se siente, confírmela con un glucómetro.</p>",
+   "it": "<p>Alcune sostanze possono interferire con i sensori per il glucosio. L'elenco delle interferenze note per Flystat sarà pubblicato nel manuale d'uso al completamento della valutazione clinica. Fino ad allora: se una lettura non corrisponde a come ci si sente, confermarla con un glucometro.</p>",
+   "de": "<p>Manche Substanzen können Glukosesensoren beeinflussen. Die Liste der bekannten Störfaktoren für Flystat wird in der Gebrauchsanweisung veröffentlicht, sobald die klinische Bewertung abgeschlossen ist. Bis dahin gilt: Wenn ein Wert nicht zu Ihrem Befinden passt, prüfen Sie ihn mit einem Blutzuckermessgerät.</p>",
+   "zh": "<p>某些物质可能干扰葡萄糖传感器。Flystat 的已知干扰物清单将在临床评价完成后发布在用户手册中。在此之前：如果读数与您的感受不符，请用血糖仪确认。</p>",
+   "vi": "<p>Một số chất có thể gây nhiễu cho cảm biến glucose. Danh sách các chất gây nhiễu đã biết đối với Flystat sẽ được công bố trong hướng dẫn sử dụng khi đánh giá lâm sàng hoàn tất. Cho đến lúc đó: nếu một số đo không khớp với cảm giác của bạn, hãy xác nhận bằng máy đo đường huyết.</p>",
+   "hi": "<p>कुछ पदार्थ ग्लूकोज़ सेंसर में हस्तक्षेप कर सकते हैं। Flystat के लिए ज्ञात हस्तक्षेपों की सूची क्लिनिकल मूल्यांकन पूरा होने पर उपयोगकर्ता मैनुअल में प्रकाशित की जाएगी। तब तक: अगर रीडिंग आपकी महसूस की जा रही स्थिति से मेल न खाए, तो ग्लूकोमीटर से पुष्टि करें।</p>"
+  },
+  "pages": null,
+  "is_published": true
+ },
+ {
+  "category": "device",
+  "question": {
+   "en": "What is in the box?",
+   "ru": "Что в коробке?",
+   "fr": "Qu'y a-t-il dans la boîte ?",
+   "es": "¿Qué hay en la caja?",
+   "it": "Cosa c'è nella confezione?",
+   "de": "Was ist in der Packung?",
+   "zh": "包装里有什么？",
+   "vi": "Trong hộp có gì?",
+   "hi": "बॉक्स में क्या है?"
+  },
+  "answer": {
+   "en": "<p>An applicator with the sensor already inside, a round fixing patch 49 mm across, an alcohol wipe and a quick guide. The box is 54 × 54 × 91 mm. Nothing to assemble.</p>",
+   "ru": "<p>Аппликатор с сенсором уже внутри, круглый фиксирующий пластырь диаметром 49 мм, спиртовая салфетка и краткая инструкция. Размер коробки — 54 × 54 × 91 мм. Собирать ничего не нужно.</p>",
+   "fr": "<p>Un applicateur avec le capteur déjà à l'intérieur, un patch de fixation rond de 49 mm de diamètre, une lingette alcoolisée et un guide rapide. La boîte mesure 54 × 54 × 91 mm. Rien à assembler.</p>",
+   "es": "<p>Un aplicador con el sensor ya dentro, un parche de fijación redondo de 49 mm de diámetro, una toallita con alcohol y una guía rápida. La caja mide 54 × 54 × 91 mm. No hay nada que montar.</p>",
+   "it": "<p>Un applicatore con il sensore già all'interno, un cerotto di fissaggio rotondo da 49 mm di diametro, una salvietta imbevuta di alcol e una guida rapida. La confezione misura 54 × 54 × 91 mm. Niente da assemblare.</p>",
+   "de": "<p>Ein Applikator mit dem Sensor bereits darin, ein rundes Fixierpflaster mit 49 mm Durchmesser, ein Alkoholtupfer und eine Kurzanleitung. Die Verpackung misst 54 × 54 × 91 mm. Nichts zusammenzusetzen.</p>",
+   "zh": "<p>一个内置传感器的敷贴器、一张直径 49 mm 的圆形固定贴、一片酒精棉片和一份快速指南。包装盒尺寸 54 × 54 × 91 mm。无需组装。</p>",
+   "vi": "<p>Một bộ gắn với cảm biến đã nằm sẵn bên trong, một miếng dán cố định tròn đường kính 49 mm, một khăn tẩm cồn và một hướng dẫn nhanh. Hộp có kích thước 54 × 54 × 91 mm. Không phải lắp ráp gì.</p>",
+   "hi": "<p>सेंसर सहित पहले से असेंबल एप्लिकेटर, 49 mm चौड़ा गोल फिक्सिंग पैच, अल्कोहल वाइप और त्वरित गाइड। बॉक्स 54 × 54 × 91 mm का है। कुछ जोड़ना नहीं है।</p>"
+  },
+  "pages": null,
+  "is_published": true
+ },
+ {
+  "category": "app",
+  "question": {
+   "en": "Which phones work with the Flystat app?",
+   "ru": "Какие телефоны работают с приложением Flystat?",
+   "fr": "Quels téléphones fonctionnent avec l'application Flystat ?",
+   "es": "¿Qué teléfonos funcionan con la aplicación Flystat?",
+   "it": "Quali telefoni funzionano con l'app Flystat?",
+   "de": "Mit welchen Telefonen funktioniert die Flystat App?",
+   "zh": "哪些手机可以使用 Flystat 应用？",
+   "vi": "Điện thoại nào dùng được với ứng dụng Flystat?",
+   "hi": "Flystat ऐप किन फ़ोनों पर काम करता है?"
+  },
+  "answer": {
+   "en": "<p>iPhones and Android phones from roughly the last five years with Bluetooth Low Energy and NFC for activation. The exact list of supported models will be published with the app release.</p>",
+   "ru": "<p>iPhone и телефоны на Android примерно последних пяти лет с Bluetooth Low Energy и NFC для активации. Точный список поддерживаемых моделей опубликуем вместе с выходом приложения.</p>",
+   "fr": "<p>Les iPhone et les téléphones Android des cinq dernières années environ, équipés du Bluetooth Low Energy et du NFC pour l'activation. La liste exacte des modèles pris en charge sera publiée avec la sortie de l'application.</p>",
+   "es": "<p>iPhones y teléfonos Android de aproximadamente los últimos cinco años con Bluetooth Low Energy y NFC para la activación. La lista exacta de modelos compatibles se publicará con el lanzamiento de la aplicación.</p>",
+   "it": "<p>iPhone e telefoni Android più o meno degli ultimi cinque anni, con Bluetooth Low Energy e NFC per l'attivazione. L'elenco esatto dei modelli supportati sarà pubblicato con l'uscita dell'app.</p>",
+   "de": "<p>iPhones und Android-Telefone aus etwa den letzten fünf Jahren mit Bluetooth Low Energy und NFC für die Aktivierung. Die genaue Liste der unterstützten Modelle wird mit der Veröffentlichung der App bekannt gegeben.</p>",
+   "zh": "<p>大约近五年内、支持 Bluetooth 低功耗和用于激活的 NFC 的 iPhone 和 Android 手机。支持机型的具体清单将随应用发布一同公布。</p>",
+   "vi": "<p>iPhone và điện thoại Android ra mắt trong khoảng năm năm gần đây, có Bluetooth Low Energy và NFC để kích hoạt. Danh sách chính xác các mẫu máy được hỗ trợ sẽ được công bố khi ứng dụng ra mắt.</p>",
+   "hi": "<p>पिछले लगभग पाँच वर्षों के iPhone और Android फ़ोन, जिनमें Bluetooth Low Energy और सक्रियण के लिए NFC हो। समर्थित मॉडलों की सटीक सूची ऐप रिलीज़ के साथ प्रकाशित की जाएगी।</p>"
+  },
+  "pages": null,
+  "is_published": true
+ },
+ {
+  "category": "app",
+  "question": {
+   "en": "Can my family or doctor see my readings live?",
+   "ru": "Могут ли мои близкие или врач видеть показания в реальном времени?",
+   "fr": "Ma famille ou mon médecin peuvent-ils voir mes mesures en direct ?",
+   "es": "¿Pueden mi familia o mi médico ver mis lecturas en directo?",
+   "it": "Familiari o medico possono vedere le letture in tempo reale?",
+   "de": "Können meine Familie oder meine Ärztin meine Werte live sehen?",
+   "zh": "家人或医生可以实时看到我的读数吗？",
+   "vi": "Gia đình hay bác sĩ của tôi có xem được số đo trực tiếp không?",
+   "hi": "क्या मेरा परिवार या डॉक्टर मेरी रीडिंग लाइव देख सकते हैं?"
+  },
+  "answer": {
+   "en": "<p>Not in the first release. Live sharing with family members and clinicians is planned for a later version after certification, and we do not promise a date. Today you can export a report as a PDF in two taps and send it to anyone you choose.</p>",
+   "ru": "<p>В первой версии — нет. Передача показаний членам семьи и врачам в реальном времени запланирована на одну из следующих версий после сертификации, и дату мы не обещаем. Уже сегодня можно выгрузить отчёт в PDF в два касания и отправить его кому захотите.</p>",
+   "fr": "<p>Pas dans la première version. Le partage en direct avec les proches et les professionnels de santé est prévu dans une version ultérieure, après la certification, et nous ne promettons pas de date. Aujourd'hui, vous pouvez exporter un rapport en PDF en deux gestes et l'envoyer à qui vous voulez.</p>",
+   "es": "<p>En la primera versión, no. Compartir en directo con familiares y profesionales sanitarios está previsto para una versión posterior a la certificación, y no prometemos una fecha. Hoy puede exportar un informe en PDF en dos toques y enviárselo a quien usted elija.</p>",
+   "it": "<p>Non nella prima versione. La condivisione in tempo reale con familiari e medici è prevista per una versione successiva alla certificazione, e non promettiamo una data. Oggi è possibile esportare un report in PDF con due tocchi e inviarlo a chi si vuole.</p>",
+   "de": "<p>In der ersten Version nicht. Das Live-Teilen mit Familienmitgliedern und medizinischem Fachpersonal ist für eine spätere Version nach der Zertifizierung geplant, und ein Datum versprechen wir nicht. Heute können Sie einen Bericht mit zwei Tipps als PDF exportieren und an wen auch immer Sie möchten schicken.</p>",
+   "zh": "<p>首个版本还不行。与家庭成员和医生的实时共享计划在认证后的后续版本中推出，我们不承诺具体日期。目前您可以两步将报告导出为 PDF，发送给任何您选择的人。</p>",
+   "vi": "<p>Chưa có trong bản phát hành đầu tiên. Chia sẻ trực tiếp với người thân và bác sĩ dự kiến có trong một phiên bản sau khi có chứng nhận, và chúng tôi không hứa trước ngày cụ thể. Hiện tại bạn có thể xuất báo cáo dạng PDF chỉ với hai chạm và gửi cho bất kỳ ai bạn chọn.</p>",
+   "hi": "<p>पहले रिलीज़ में नहीं। परिवार के सदस्यों और डॉक्टरों के साथ लाइव साझा करना प्रमाणन के बाद के किसी संस्करण के लिए नियोजित है, और हम कोई तारीख़ का वादा नहीं करते। आज आप दो टैप में रिपोर्ट को PDF के रूप में एक्सपोर्ट करके जिसे चाहें भेज सकते हैं।</p>"
+  },
+  "pages": null,
+  "is_published": true
+ },
+ {
+  "category": "app",
+  "question": {
+   "en": "mmol/L or mg/dL?",
+   "ru": "ммоль/л или мг/дл?",
+   "fr": "mmol/L ou mg/dL ?",
+   "es": "¿mmol/L o mg/dL?",
+   "it": "mmol/L o mg/dL?",
+   "de": "mmol/l oder mg/dl?",
+   "zh": "mmol/L 还是 mg/dL？",
+   "vi": "mmol/L hay mg/dL?",
+   "hi": "mmol/L या mg/dL?"
+  },
+  "answer": {
+   "en": "<p>Both. The app follows your country's convention by default and you can switch at any time. The website does the same — look for the unit switch next to any glucose figure.</p>",
+   "ru": "<p>И то и другое. По умолчанию приложение использует единицы, принятые в вашей стране, и переключить их можно в любой момент. Сайт работает так же — ищите переключатель единиц рядом с любым значением глюкозы.</p>",
+   "fr": "<p>Les deux. L'application suit par défaut la convention de votre pays et vous pouvez changer à tout moment. Le site fait de même — cherchez le sélecteur d'unités à côté de n'importe quelle valeur de glucose.</p>",
+   "es": "<p>Ambas. La aplicación sigue por defecto la convención de su país y puede cambiarla en cualquier momento. El sitio web hace lo mismo: busque el selector de unidades junto a cualquier cifra de glucosa.</p>",
+   "it": "<p>Entrambi. L'app segue di default la convenzione del proprio paese e si può cambiare in qualsiasi momento. Il sito fa lo stesso — il selettore delle unità si trova accanto a ogni valore di glucosio.</p>",
+   "de": "<p>Beides. Die App folgt standardmäßig der Konvention Ihres Landes, und Sie können jederzeit umschalten. Die Website macht es genauso — achten Sie auf den Einheitenschalter neben jedem Glukosewert.</p>",
+   "zh": "<p>都支持。应用默认采用您所在国家/地区的惯例，您可以随时切换。网站也是如此——在任何葡萄糖数值旁边都能找到单位切换开关。</p>",
+   "vi": "<p>Cả hai. Ứng dụng mặc định theo quy ước của nước bạn và bạn có thể chuyển đổi bất cứ lúc nào. Website cũng vậy — hãy tìm nút chuyển đơn vị bên cạnh bất kỳ con số đường huyết nào.</p>",
+   "hi": "<p>दोनों। ऐप डिफ़ॉल्ट रूप से आपके देश की परंपरा का पालन करता है और आप कभी भी बदल सकते हैं। वेबसाइट भी ऐसा ही करती है — किसी भी ग्लूकोज़ आँकड़े के पास इकाई बदलने का स्विच देखें।</p>"
+  },
+  "pages": null,
+  "is_published": true
+ },
+ {
+  "category": "app",
+  "question": {
+   "en": "What alerts are there?",
+   "ru": "Какие есть оповещения?",
+   "fr": "Quelles alertes existe-t-il ?",
+   "es": "¿Qué alertas hay?",
+   "it": "Quali avvisi ci sono?",
+   "de": "Welche Alarme gibt es?",
+   "zh": "有哪些提醒？",
+   "vi": "Có những cảnh báo nào?",
+   "hi": "कौन-कौन से अलर्ट हैं?"
+  },
+  "answer": {
+   "en": "<p>Low, high and rapid-change alerts with thresholds you set, a quiet mode for the night, and an urgent-low alarm that always sounds. Alert settings are something to agree with your clinician.</p>",
+   "ru": "<p>Оповещения о низкой, высокой и быстро меняющейся глюкозе с порогами, которые задаёте вы, тихий ночной режим и сигнал о критически низкой глюкозе, который звучит всегда. Настройки оповещений стоит согласовать с врачом.</p>",
+   "fr": "<p>Des alertes bas, haut et variation rapide selon les seuils que vous réglez, un mode silencieux pour la nuit, et une alarme d'hypoglycémie urgente qui sonne toujours. Les réglages des alertes sont à convenir avec votre professionnel de santé.</p>",
+   "es": "<p>Alertas de hipoglucemia, hiperglucemia y cambio rápido con los umbrales que usted define, un modo silencioso para la noche y una alarma de hipoglucemia urgente que siempre suena. La configuración de las alertas es algo que conviene acordar con su profesional sanitario.</p>",
+   "it": "<p>Avvisi di ipoglicemia, iperglicemia e variazione rapida con soglie personalizzate, una modalità silenziosa per la notte e un allarme di ipoglicemia urgente che suona sempre. Le impostazioni degli avvisi vanno concordate con il proprio medico.</p>",
+   "de": "<p>Alarme bei niedrigen, hohen und schnell wechselnden Werten mit Grenzwerten, die Sie festlegen, ein Ruhemodus für die Nacht und ein Alarm bei dringend niedrigen Werten, der immer ertönt. Die Alarmeinstellungen sollten Sie mit Ihrem medizinischen Fachpersonal abstimmen.</p>",
+   "zh": "<p>按您设定的阈值发出低值、高值和快速变化提醒，夜间安静模式，以及始终会响的紧急低血糖警报。提醒设置应与您的医生商定。</p>",
+   "vi": "<p>Cảnh báo thấp, cao và thay đổi nhanh với ngưỡng do bạn đặt, chế độ yên lặng cho ban đêm, và chuông báo hạ đường huyết khẩn cấp luôn kêu. Cài đặt cảnh báo là điều bạn nên thống nhất với bác sĩ.</p>",
+   "hi": "<p>आपकी तय की हुई सीमाओं के साथ निम्न, उच्च और तेज़ बदलाव के अलर्ट, रात के लिए शांत मोड, और अति-निम्न स्तर का अलार्म जो हमेशा बजता है। अलर्ट की सेटिंग अपने डॉक्टर के साथ मिलकर तय करें।</p>"
+  },
+  "pages": null,
+  "is_published": true
+ },
+ {
+  "category": "app",
+  "question": {
+   "en": "Where is my data stored?",
+   "ru": "Где хранятся мои данные?",
+   "fr": "Où sont stockées mes données ?",
+   "es": "¿Dónde se guardan mis datos?",
+   "it": "Dove vengono conservati i dati?",
+   "de": "Wo werden meine Daten gespeichert?",
+   "zh": "我的数据存储在哪里？",
+   "vi": "Dữ liệu của tôi được lưu ở đâu?",
+   "hi": "मेरा डेटा कहाँ संग्रहीत होता है?"
+  },
+  "answer": {
+   "en": "<p>On your phone and, if you enable backup, in an encrypted cloud account tied to your login. You decide what to export and to whom. We do not sell health data and we do not show advertising.</p>",
+   "ru": "<p>На вашем телефоне и, если вы включите резервное копирование, в зашифрованной облачной учётной записи, привязанной к вашему логину. Вы решаете, что выгружать и кому. Мы не продаём данные о здоровье и не показываем рекламу.</p>",
+   "fr": "<p>Sur votre téléphone et, si vous activez la sauvegarde, dans un compte cloud chiffré lié à votre identifiant. Vous décidez quoi exporter et à qui. Nous ne vendons pas de données de santé et nous n'affichons pas de publicité.</p>",
+   "es": "<p>En su teléfono y, si activa la copia de seguridad, en una cuenta en la nube cifrada y vinculada a su inicio de sesión. Usted decide qué exportar y a quién. No vendemos datos de salud ni mostramos publicidad.</p>",
+   "it": "<p>Sul telefono e, se si attiva il backup, in un account cloud cifrato legato alle proprie credenziali. L'utente decide cosa esportare e a chi. Non vendiamo dati sanitari e non mostriamo pubblicità.</p>",
+   "de": "<p>Auf Ihrem Telefon und, wenn Sie die Sicherung aktivieren, in einem verschlüsselten Cloud-Konto, das mit Ihrem Login verknüpft ist. Sie entscheiden, was Sie exportieren und an wen. Wir verkaufen keine Gesundheitsdaten und zeigen keine Werbung.</p>",
+   "zh": "<p>在您的手机上；如果您开启了备份，还会存储在与您的登录账户绑定的加密云账户中。导出什么、给谁看由您决定。我们不出售健康数据，也不展示广告。</p>",
+   "vi": "<p>Trên điện thoại của bạn và, nếu bạn bật sao lưu, trong một tài khoản đám mây được mã hóa gắn với thông tin đăng nhập của bạn. Bạn quyết định xuất gì và cho ai. Chúng tôi không bán dữ liệu sức khỏe và không hiển thị quảng cáo.</p>",
+   "hi": "<p>आपके फ़ोन पर और, अगर आप बैकअप चालू करते हैं, तो आपके लॉगिन से जुड़े एन्क्रिप्टेड क्लाउड खाते में। क्या एक्सपोर्ट करना है और किसे, यह आप तय करते हैं। हम स्वास्थ्य डेटा नहीं बेचते और विज्ञापन नहीं दिखाते।</p>"
+  },
+  "pages": null,
+  "is_published": true
+ },
+ {
+  "category": "app",
+  "question": {
+   "en": "Does the app replace my doctor?",
+   "ru": "Заменяет ли приложение врача?",
+   "fr": "L'application remplace-t-elle mon médecin ?",
+   "es": "¿La aplicación sustituye a mi médico?",
+   "it": "L'app sostituisce il medico?",
+   "de": "Ersetzt die App meine Ärztin oder meinen Arzt?",
+   "zh": "这款应用能替代医生吗？",
+   "vi": "Ứng dụng có thay thế bác sĩ của tôi không?",
+   "hi": "क्या ऐप मेरे डॉक्टर की जगह लेता है?"
+  },
+  "answer": {
+   "en": "<p>No. Flystat is a monitoring device. Treatment decisions — doses, diet, activity — should be made with your healthcare professional, and readings that do not match your symptoms should be confirmed with a blood glucose meter.</p>",
+   "ru": "<p>Нет. Flystat — устройство для мониторинга. Решения о лечении — дозы, питание, активность — нужно принимать вместе с лечащим врачом, а показания, которые не совпадают с самочувствием, проверять глюкометром.</p>",
+   "fr": "<p>Non. Flystat est un dispositif de surveillance. Les décisions de traitement — doses, alimentation, activité — doivent être prises avec votre professionnel de santé, et les mesures qui ne correspondent pas à vos symptômes doivent être confirmées avec un lecteur de glycémie.</p>",
+   "es": "<p>No. Flystat es un dispositivo de monitorización. Las decisiones de tratamiento (dosis, dieta, actividad) deben tomarse con su profesional sanitario, y las lecturas que no coincidan con sus síntomas deben confirmarse con un glucómetro.</p>",
+   "it": "<p>No. Flystat è un dispositivo di monitoraggio. Le decisioni terapeutiche — dosi, dieta, attività — vanno prese con il proprio operatore sanitario, e le letture che non corrispondono ai sintomi vanno confermate con un glucometro.</p>",
+   "de": "<p>Nein. Flystat ist ein Gerät zur Überwachung. Therapieentscheidungen — Dosen, Ernährung, Bewegung — sollten Sie gemeinsam mit Ihrem medizinischen Fachpersonal treffen, und Werte, die nicht zu Ihren Symptomen passen, sollten Sie mit einem Blutzuckermessgerät überprüfen.</p>",
+   "zh": "<p>不能。Flystat 是一款监测设备。治疗决定——给药剂量、饮食、活动——应与您的医疗专业人员共同做出；与症状不符的读数应用血糖仪确认。</p>",
+   "vi": "<p>Không. Flystat là thiết bị theo dõi. Các quyết định điều trị — liều thuốc, chế độ ăn, vận động — cần được đưa ra cùng nhân viên y tế của bạn, và những số đo không khớp với triệu chứng cần được xác nhận bằng máy đo đường huyết.</p>",
+   "hi": "<p>नहीं। Flystat एक निगरानी उपकरण है। उपचार के निर्णय — डोज़, आहार, गतिविधि — अपने स्वास्थ्य पेशेवर के साथ मिलकर लेने चाहिए, और जो रीडिंग आपके लक्षणों से मेल न खाएँ उनकी पुष्टि ग्लूकोमीटर से करनी चाहिए।</p>"
+  },
+  "pages": null,
+  "is_published": true
+ },
+ {
+  "category": "purchase",
+  "question": {
+   "en": "When and where can I buy Flystat?",
+   "ru": "Когда и где можно купить Flystat?",
+   "fr": "Quand et où pourrai-je acheter Flystat ?",
+   "es": "¿Cuándo y dónde puedo comprar Flystat?",
+   "it": "Quando e dove si può acquistare Flystat?",
+   "de": "Wann und wo kann ich Flystat kaufen?",
+   "zh": "何时何地可以购买 Flystat？",
+   "vi": "Khi nào và ở đâu tôi có thể mua Flystat?",
+   "hi": "मैं Flystat कब और कहाँ ख़रीद सकता/सकती हूँ?"
+  },
+  "answer": {
+   "en": "<p>Flystat is not on sale yet. We are going through CE marking and expect to complete it by the end of 2027; sales start after that, country by country through distributors. Join the waiting list and we will write to you when it reaches your country.</p>",
+   "ru": "<p>Flystat пока не продаётся. Мы проходим CE-маркировку и рассчитываем завершить её к концу 2027 года; продажи начнутся после этого, страна за страной, через дистрибьюторов. Встаньте в лист ожидания, и мы напишем, когда сенсор появится в вашей стране.</p>",
+   "fr": "<p>Flystat n'est pas encore en vente. Nous sommes en cours de marquage CE et prévoyons de l'achever d'ici la fin 2027 ; les ventes commenceront ensuite, pays par pays, via des distributeurs. Rejoignez la liste d'attente et nous vous écrirons quand il arrivera dans votre pays.</p>",
+   "es": "<p>Flystat todavía no está a la venta. Estamos en el proceso de marcado CE y esperamos completarlo a finales de 2027; la venta empieza después, país por país a través de distribuidores. Únase a la lista de espera y le escribiremos cuando llegue a su país.</p>",
+   "it": "<p>Flystat non è ancora in vendita. Stiamo seguendo la procedura di marcatura CE e prevediamo di completarla entro la fine del 2027; le vendite inizieranno dopo, paese per paese tramite i distributori. Iscrivendosi alla lista d'attesa si riceverà un messaggio quando arriverà nel proprio paese.</p>",
+   "de": "<p>Flystat ist noch nicht im Handel. Wir durchlaufen gerade die CE-Kennzeichnung und rechnen mit dem Abschluss bis Ende 2027; der Verkauf beginnt danach, Land für Land über Vertriebspartner. Tragen Sie sich in die Warteliste ein, und wir schreiben Ihnen, sobald Flystat in Ihrem Land verfügbar ist.</p>",
+   "zh": "<p>Flystat 尚未开售。我们正在进行 CE 标志认证，预计 2027 年底前完成；之后通过经销商逐个国家/地区开始销售。加入候补名单，产品到达您所在的国家/地区时我们会写信通知您。</p>",
+   "vi": "<p>Flystat chưa được bán. Chúng tôi đang trong quá trình xin chứng nhận CE và dự kiến hoàn tất vào cuối năm 2027; việc bán hàng bắt đầu sau đó, theo từng quốc gia thông qua các nhà phân phối. Hãy tham gia danh sách chờ và chúng tôi sẽ viết thư khi sản phẩm đến nước bạn.</p>",
+   "hi": "<p>Flystat अभी बिक्री पर नहीं है। हम CE मार्किंग की प्रक्रिया से गुज़र रहे हैं और इसे 2027 के अंत तक पूरा करने की उम्मीद है; बिक्री उसके बाद शुरू होगी, वितरकों के ज़रिए देश-दर-देश। प्रतीक्षा सूची में शामिल हों और जब यह आपके देश में पहुँचेगा, हम आपको लिखेंगे।</p>"
+  },
+  "pages": null,
+  "is_published": true
+ },
+ {
+  "category": "purchase",
+  "question": {
+   "en": "How much will it cost?",
+   "ru": "Сколько это будет стоить?",
+   "fr": "Combien cela coûtera-t-il ?",
+   "es": "¿Cuánto costará?",
+   "it": "Quanto costerà?",
+   "de": "Was wird es kosten?",
+   "zh": "价格是多少？",
+   "vi": "Giá bao nhiêu?",
+   "hi": "इसकी कीमत कितनी होगी?"
+  },
+  "answer": {
+   "en": "<p>We do not publish prices before certification, and we will not take pre-payments. Pricing will be set with local distributors and announced per country.</p>",
+   "ru": "<p>Мы не публикуем цены до сертификации и не берём предоплату. Цены будут определены вместе с местными дистрибьюторами и объявлены для каждой страны отдельно.</p>",
+   "fr": "<p>Nous ne publions pas de prix avant la certification et nous n'acceptons pas de prépaiements. Les tarifs seront fixés avec les distributeurs locaux et annoncés pays par pays.</p>",
+   "es": "<p>No publicamos precios antes de la certificación y no aceptaremos pagos anticipados. El precio se fijará con los distribuidores locales y se anunciará por país.</p>",
+   "it": "<p>Non pubblichiamo prezzi prima della certificazione e non accettiamo pagamenti anticipati. I prezzi saranno definiti con i distributori locali e annunciati paese per paese.</p>",
+   "de": "<p>Wir veröffentlichen keine Preise vor der Zertifizierung und nehmen keine Vorauszahlungen an. Die Preise werden mit den lokalen Vertriebspartnern festgelegt und pro Land bekannt gegeben.</p>",
+   "zh": "<p>认证前我们不公布价格，也不接受预付款。定价将与当地经销商共同确定，并按国家/地区分别公布。</p>",
+   "vi": "<p>Chúng tôi không công bố giá trước khi có chứng nhận và sẽ không nhận thanh toán trước. Giá sẽ được xác định cùng các nhà phân phối địa phương và công bố theo từng quốc gia.</p>",
+   "hi": "<p>हम प्रमाणन से पहले कीमतें प्रकाशित नहीं करते, और हम अग्रिम भुगतान नहीं लेंगे। मूल्य निर्धारण स्थानीय वितरकों के साथ तय किया जाएगा और हर देश के लिए अलग से घोषित होगा।</p>"
+  },
+  "pages": null,
+  "is_published": true
+ },
+ {
+  "category": "purchase",
+  "question": {
+   "en": "Will insurance or national health systems cover it?",
+   "ru": "Будут ли его покрывать страховка или государственная система здравоохранения?",
+   "fr": "Les assurances ou les systèmes de santé nationaux le prendront-ils en charge ?",
+   "es": "¿Lo cubrirán los seguros o los sistemas nacionales de salud?",
+   "it": "Sarà coperto dalle assicurazioni o dai sistemi sanitari nazionali?",
+   "de": "Übernehmen Krankenkassen oder nationale Gesundheitssysteme die Kosten?",
+   "zh": "保险或国家医保会覆盖吗？",
+   "vi": "Bảo hiểm hay hệ thống y tế quốc gia có chi trả không?",
+   "hi": "क्या बीमा या राष्ट्रीय स्वास्थ्य प्रणालियाँ इसे कवर करेंगी?"
+  },
+  "answer": {
+   "en": "<p>That depends on each country's reimbursement rules and happens after local registration. Our distributors will handle reimbursement applications where they exist.</p>",
+   "ru": "<p>Это зависит от правил возмещения в каждой стране и происходит после локальной регистрации. Заявками на возмещение там, где такая процедура есть, будут заниматься наши дистрибьюторы.</p>",
+   "fr": "<p>Cela dépend des règles de remboursement de chaque pays et intervient après l'enregistrement local. Nos distributeurs se chargeront des demandes de remboursement là où elles existent.</p>",
+   "es": "<p>Depende de las normas de reembolso de cada país y ocurre después del registro local. Nuestros distribuidores se encargarán de las solicitudes de reembolso donde existan.</p>",
+   "it": "<p>Dipende dalle regole di rimborso di ciascun paese e avviene dopo la registrazione locale. I nostri distributori gestiranno le richieste di rimborso dove previste.</p>",
+   "de": "<p>Das hängt von den Erstattungsregeln des jeweiligen Landes ab und erfolgt nach der lokalen Registrierung. Unsere Vertriebspartner kümmern sich um Erstattungsanträge, wo es sie gibt.</p>",
+   "zh": "<p>这取决于各国的报销规则，并在本地注册之后进行。在有报销机制的地方，我们的经销商会负责申请。</p>",
+   "vi": "<p>Điều đó phụ thuộc vào quy định chi trả của từng quốc gia và diễn ra sau khi đăng ký tại địa phương. Các nhà phân phối của chúng tôi sẽ xử lý hồ sơ xin chi trả ở những nơi có cơ chế này.</p>",
+   "hi": "<p>यह हर देश के प्रतिपूर्ति नियमों पर निर्भर करता है और स्थानीय पंजीकरण के बाद होता है। जहाँ ऐसी व्यवस्था है, वहाँ प्रतिपूर्ति के आवेदन हमारे वितरक संभालेंगे।</p>"
+  },
+  "pages": null,
+  "is_published": true
+ },
+ {
+  "category": "purchase",
+  "question": {
+   "en": "Is Flystat certified?",
+   "ru": "Сертифицирован ли Flystat?",
+   "fr": "Flystat est-il certifié ?",
+   "es": "¿Flystat está certificado?",
+   "it": "Flystat è certificato?",
+   "de": "Ist Flystat zertifiziert?",
+   "zh": "Flystat 获得认证了吗？",
+   "vi": "Flystat đã được chứng nhận chưa?",
+   "hi": "क्या Flystat प्रमाणित है?"
+  },
+  "answer": {
+   "en": "<p>Not yet. The CE conformity assessment under the EU Medical Device Regulation is in progress; completion is planned for the end of 2027. We do not use CE, FDA or ISO marks on this website until they are granted.</p>",
+   "ru": "<p>Пока нет. Оценка соответствия CE по Регламенту ЕС о медицинских изделиях идёт; завершение запланировано на конец 2027 года. Мы не используем знаки CE, FDA или ISO на этом сайте, пока они не получены.</p>",
+   "fr": "<p>Pas encore. L'évaluation de la conformité CE selon le règlement européen sur les dispositifs médicaux est en cours ; son achèvement est prévu pour la fin 2027. Nous n'utilisons pas les marques CE, FDA ou ISO sur ce site tant qu'elles ne sont pas accordées.</p>",
+   "es": "<p>Todavía no. La evaluación de la conformidad CE conforme al Reglamento europeo sobre productos sanitarios está en curso; se prevé completarla a finales de 2027. No usamos las marcas CE, FDA o ISO en este sitio web hasta que se concedan.</p>",
+   "it": "<p>Non ancora. La valutazione della conformità CE ai sensi del Regolamento europeo sui dispositivi medici è in corso; il completamento è previsto per la fine del 2027. Non usiamo i marchi CE, FDA o ISO su questo sito finché non saranno concessi.</p>",
+   "de": "<p>Noch nicht. Die CE-Konformitätsbewertung nach der EU-Medizinprodukteverordnung läuft; der Abschluss ist für Ende 2027 geplant. Wir verwenden auf dieser Website keine CE-, FDA- oder ISO-Zeichen, bevor sie erteilt sind.</p>",
+   "zh": "<p>还没有。按欧盟医疗器械法规开展的 CE 符合性评估正在进行中，计划于 2027 年底完成。在获得授予之前，我们不会在本网站上使用 CE、FDA 或 ISO 标志。</p>",
+   "vi": "<p>Chưa. Quá trình đánh giá sự phù hợp CE theo Quy định về Thiết bị Y tế của EU đang diễn ra; dự kiến hoàn tất vào cuối năm 2027. Chúng tôi không dùng các dấu CE, FDA hay ISO trên website này cho đến khi được cấp.</p>",
+   "hi": "<p>अभी नहीं। EU चिकित्सा उपकरण विनियमन (MDR) के तहत CE अनुरूपता मूल्यांकन चल रहा है; इसे 2027 के अंत तक पूरा करने की योजना है। जब तक ये प्रदान नहीं किए जाते, हम इस वेबसाइट पर CE, FDA या ISO चिह्नों का उपयोग नहीं करते।</p>"
+  },
+  "pages": null,
+  "is_published": true
+ },
+ {
+  "category": "partners",
+  "question": {
+   "en": "Which regions are you looking for distributors in?",
+   "ru": "В каких регионах вы ищете дистрибьюторов?",
+   "fr": "Dans quelles régions cherchez-vous des distributeurs ?",
+   "es": "¿En qué regiones buscan distribuidores?",
+   "it": "In quali regioni cercate distributori?",
+   "de": "In welchen Regionen suchen Sie Vertriebspartner?",
+   "zh": "你们在哪些地区寻找经销商？",
+   "vi": "Các bạn đang tìm nhà phân phối ở những khu vực nào?",
+   "hi": "आप किन क्षेत्रों में वितरक खोज रहे हैं?"
+  },
+  "answer": {
+   "en": "<p>Our priority is the Middle East, Europe and Africa, followed by Asia and the Americas. Countries with a signed partner are shown on the map on the partners page; everything else is open.</p>",
+   "ru": "<p>Наш приоритет — Ближний Восток, Европа и Африка, затем Азия и Америка. Страны с подписанным партнёром показаны на карте на странице для партнёров; всё остальное открыто.</p>",
+   "fr": "<p>Notre priorité est le Moyen-Orient, l'Europe et l'Afrique, puis l'Asie et les Amériques. Les pays avec un partenaire signé figurent sur la carte de la page partenaires ; tout le reste est ouvert.</p>",
+   "es": "<p>Nuestra prioridad es Oriente Medio, Europa y África, seguidas de Asia y América. Los países con un socio firmado se muestran en el mapa de la página de socios; todo lo demás está abierto.</p>",
+   "it": "<p>La nostra priorità è Medio Oriente, Europa e Africa, seguiti da Asia e Americhe. I paesi con un partner già firmato sono indicati sulla mappa nella pagina dei partner; tutto il resto è aperto.</p>",
+   "de": "<p>Unsere Schwerpunkte sind der Nahe Osten, Europa und Afrika, danach Asien und Amerika. Länder mit einem unterzeichneten Partner sind auf der Karte auf der Partnerseite markiert; alles andere ist offen.</p>",
+   "zh": "<p>我们的优先地区是中东、欧洲和非洲，其次是亚洲和美洲。已签约合作伙伴的国家/地区显示在合作伙伴页面的地图上；其余均为开放地区。</p>",
+   "vi": "<p>Ưu tiên của chúng tôi là Trung Đông, châu Âu và châu Phi, tiếp theo là châu Á và châu Mỹ. Các nước đã có đối tác ký kết được hiển thị trên bản đồ ở trang đối tác; mọi nơi còn lại đều đang mở.</p>",
+   "hi": "<p>हमारी प्राथमिकता मध्य पूर्व, यूरोप और अफ़्रीका है, उसके बाद एशिया और अमेरिका महाद्वीप। जिन देशों में साझेदार के साथ हस्ताक्षर हो चुके हैं, वे साझेदार पृष्ठ के नक्शे पर दिखाए गए हैं; बाकी सब खुला है।</p>"
+  },
+  "pages": [
+   "partners"
+  ],
+  "is_published": true
+ },
+ {
+  "category": "partners",
+  "question": {
+   "en": "What does a memorandum of understanding commit me to?",
+   "ru": "К чему меня обязывает меморандум о взаимопонимании?",
+   "fr": "À quoi un protocole d'accord m'engage-t-il ?",
+   "es": "¿A qué me compromete un memorando de entendimiento?",
+   "it": "A cosa impegna un memorandum d'intesa?",
+   "de": "Wozu verpflichtet mich eine Absichtserklärung?",
+   "zh": "谅解备忘录会让我承担什么义务？",
+   "vi": "Biên bản ghi nhớ ràng buộc tôi những gì?",
+   "hi": "समझौता ज्ञापन मुझे किस बात के लिए प्रतिबद्ध करता है?"
+  },
+  "answer": {
+   "en": "<p>Intent, region and timeline — not purchase volumes. The memorandum lets both sides prepare the market before certification; supply agreements with volumes and prices follow CE marking.</p>",
+   "ru": "<p>К намерениям, региону и срокам — не к объёмам закупок. Меморандум позволяет обеим сторонам подготовить рынок до сертификации; договоры поставки с объёмами и ценами заключаются после CE-маркировки.</p>",
+   "fr": "<p>À une intention, une région et un calendrier — pas à des volumes d'achat. Le protocole permet aux deux parties de préparer le marché avant la certification ; les contrats d'approvisionnement avec volumes et prix suivent le marquage CE.</p>",
+   "es": "<p>A la intención, la región y el calendario, no a volúmenes de compra. El memorando permite a ambas partes preparar el mercado antes de la certificación; los acuerdos de suministro con volúmenes y precios vienen después del marcado CE.</p>",
+   "it": "<p>Intenzione, regione e tempistiche — non volumi di acquisto. Il memorandum consente a entrambe le parti di preparare il mercato prima della certificazione; gli accordi di fornitura con volumi e prezzi seguono la marcatura CE.</p>",
+   "de": "<p>Zu Absicht, Region und Zeitplan — nicht zu Abnahmemengen. Die Absichtserklärung erlaubt beiden Seiten, den Markt vor der Zertifizierung vorzubereiten; Lieferverträge mit Mengen und Preisen folgen nach der CE-Kennzeichnung.</p>",
+   "zh": "<p>意向、地区和时间表——不涉及采购量。备忘录让双方能在认证前准备市场；含采购量和价格的供货协议在取得 CE 标志后签署。</p>",
+   "vi": "<p>Ý định, khu vực và lộ trình — không phải sản lượng mua. Biên bản ghi nhớ cho phép cả hai bên chuẩn bị thị trường trước khi có chứng nhận; hợp đồng cung ứng với sản lượng và giá sẽ được ký sau khi có chứng nhận CE.</p>",
+   "hi": "<p>इरादा, क्षेत्र और समय-सीमा — ख़रीद की मात्रा नहीं। समझौता ज्ञापन दोनों पक्षों को प्रमाणन से पहले बाज़ार तैयार करने देता है; मात्रा और कीमतों वाले आपूर्ति समझौते CE मार्किंग के बाद होते हैं।</p>"
+  },
+  "pages": [
+   "partners"
+  ],
+  "is_published": true
+ },
+ {
+  "category": "partners",
+  "question": {
+   "en": "Can I get exclusivity?",
+   "ru": "Могу ли я получить эксклюзив?",
+   "fr": "Puis-je obtenir une exclusivité ?",
+   "es": "¿Puedo obtener exclusividad?",
+   "it": "È possibile ottenere l'esclusiva?",
+   "de": "Kann ich Exklusivität bekommen?",
+   "zh": "可以获得独家经销权吗？",
+   "vi": "Tôi có thể được độc quyền không?",
+   "hi": "क्या मुझे विशिष्टता (exclusivity) मिल सकती है?"
+  },
+  "answer": {
+   "en": "<p>Yes, for partners who commit to a launch plan: country or regional exclusivity for a defined period, with milestones. We discuss the terms on the first call.</p>",
+   "ru": "<p>Да, для партнёров, которые берут на себя план запуска: эксклюзив на страну или регион на определённый срок, с контрольными точками. Условия обсуждаем на первом созвоне.</p>",
+   "fr": "<p>Oui, pour les partenaires qui s'engagent sur un plan de lancement : exclusivité nationale ou régionale pour une période définie, avec des jalons. Nous discutons des conditions lors du premier appel.</p>",
+   "es": "<p>Sí, para los socios que se comprometan con un plan de lanzamiento: exclusividad nacional o regional durante un periodo definido, con hitos. Las condiciones se tratan en la primera llamada.</p>",
+   "it": "<p>Sì, per i partner che si impegnano su un piano di lancio: esclusiva nazionale o regionale per un periodo definito, con tappe intermedie. Le condizioni si discutono nella prima chiamata.</p>",
+   "de": "<p>Ja, für Partner, die sich zu einem Launch-Plan verpflichten: Länder- oder regionale Exklusivität für einen festgelegten Zeitraum, mit Meilensteinen. Die Bedingungen besprechen wir im ersten Gespräch.</p>",
+   "zh": "<p>可以，面向承诺上市计划的合作伙伴：在约定期限内的国家或区域独家经销权，附带里程碑。具体条款在第一次通话中讨论。</p>",
+   "vi": "<p>Có, đối với các đối tác cam kết với kế hoạch ra mắt: độc quyền theo quốc gia hoặc khu vực trong một khoảng thời gian xác định, kèm các mốc cần đạt. Chúng tôi sẽ trao đổi điều khoản trong cuộc gọi đầu tiên.</p>",
+   "hi": "<p>हाँ, लॉन्च योजना के लिए प्रतिबद्ध साझेदारों के लिए: एक निर्धारित अवधि के लिए देश या क्षेत्रीय विशिष्टता, मील के पत्थरों के साथ। शर्तों पर हम पहली कॉल में चर्चा करते हैं।</p>"
+  },
+  "pages": [
+   "partners"
+  ],
+  "is_published": true
+ },
+ {
+  "category": "partners",
+  "question": {
+   "en": "What materials and training do you provide?",
+   "ru": "Какие материалы и обучение вы предоставляете?",
+   "fr": "Quels supports et quelles formations fournissez-vous ?",
+   "es": "¿Qué materiales y formación proporcionan?",
+   "it": "Quali materiali e quale formazione fornite?",
+   "de": "Welche Materialien und Schulungen stellen Sie bereit?",
+   "zh": "你们提供哪些材料和培训？",
+   "vi": "Các bạn cung cấp những tài liệu và đào tạo gì?",
+   "hi": "आप कौन सी सामग्री और प्रशिक्षण देते हैं?"
+  },
+  "answer": {
+   "en": "<p>Presentation, specification sheet, press kit, renders and video, website content in nine languages, product and application training for your teams, and a single contact in our regulatory team for local registration.</p>",
+   "ru": "<p>Презентация, лист характеристик, пресс-кит, рендеры и видео, контент сайта на девяти языках, обучение продукту и установке сенсора для ваших команд и один контакт в нашей регуляторной команде для локальной регистрации.</p>",
+   "fr": "<p>Présentation, fiche technique, dossier de presse, rendus et vidéo, contenu du site web en neuf langues, formation au produit et à la pose pour vos équipes, et un interlocuteur unique dans notre équipe réglementaire pour l'enregistrement local.</p>",
+   "es": "<p>Presentación, ficha de especificaciones, kit de prensa, renders y vídeo, contenido web en nueve idiomas, formación sobre el producto y su aplicación para sus equipos, y un único contacto en nuestro equipo regulatorio para el registro local.</p>",
+   "it": "<p>Presentazione, scheda tecnica, press kit, render e video, contenuti del sito in nove lingue, formazione sul prodotto e sull'applicazione per i vostri team e un unico referente nel nostro team regolatorio per la registrazione locale.</p>",
+   "de": "<p>Präsentation, Datenblatt, Pressemappe, Renderings und Video, Website-Inhalte in neun Sprachen, Produkt- und Anwendungsschulungen für Ihre Teams und eine feste Ansprechperson in unserem Regulatory-Team für die lokale Registrierung.</p>",
+   "zh": "<p>演示文稿、规格表、媒体资料包、渲染图和视频、九种语言的网站内容、面向您团队的产品与佩戴操作培训，以及我们法规团队负责本地注册的单一对接人。</p>",
+   "vi": "<p>Bài thuyết trình, bảng thông số kỹ thuật, bộ tài liệu báo chí, hình ảnh dựng và video, nội dung website bằng chín ngôn ngữ, đào tạo về sản phẩm và cách gắn cho đội ngũ của bạn, và một đầu mối liên hệ duy nhất trong đội ngũ pháp lý của chúng tôi cho việc đăng ký tại địa phương.</p>",
+   "hi": "<p>प्रेज़ेंटेशन, विनिर्देश शीट, प्रेस किट, रेंडर और वीडियो, नौ भाषाओं में वेबसाइट सामग्री, आपकी टीमों के लिए उत्पाद और उपयोग का प्रशिक्षण, और स्थानीय पंजीकरण के लिए हमारी नियामक टीम में एक ही संपर्क व्यक्ति।</p>"
+  },
+  "pages": [
+   "partners"
+  ],
+  "is_published": true
+ },
+ {
+  "category": "partners",
+  "question": {
+   "en": "What about local registration after CE?",
+   "ru": "Как быть с локальной регистрацией после CE?",
+   "fr": "Et l'enregistrement local après le CE ?",
+   "es": "¿Y el registro local después del CE?",
+   "it": "E la registrazione locale dopo la CE?",
+   "de": "Wie läuft die lokale Registrierung nach der CE-Kennzeichnung?",
+   "zh": "CE 之后的本地注册怎么办？",
+   "vi": "Còn việc đăng ký tại địa phương sau CE thì sao?",
+   "hi": "CE के बाद स्थानीय पंजीकरण का क्या?"
+  },
+  "answer": {
+   "en": "<p>We supply the technical documentation and support the registration in each country; the distributor leads the local process. Timelines differ by regulator and we plan them together.</p>",
+   "ru": "<p>Мы предоставляем техническую документацию и поддерживаем регистрацию в каждой стране; локальный процесс ведёт дистрибьютор. Сроки у регуляторов разные, и мы планируем их вместе.</p>",
+   "fr": "<p>Nous fournissons la documentation technique et accompagnons l'enregistrement dans chaque pays ; le distributeur pilote la procédure locale. Les délais varient selon l'autorité et nous les planifions ensemble.</p>",
+   "es": "<p>Suministramos la documentación técnica y apoyamos el registro en cada país; el distribuidor lidera el proceso local. Los plazos varían según el regulador y los planificamos juntos.</p>",
+   "it": "<p>Forniamo la documentazione tecnica e supportiamo la registrazione in ciascun paese; il distributore guida il processo locale. Le tempistiche variano a seconda dell'autorità regolatoria e le pianifichiamo insieme.</p>",
+   "de": "<p>Wir liefern die technische Dokumentation und unterstützen die Registrierung in jedem Land; der Vertriebspartner führt das lokale Verfahren. Die Zeitpläne unterscheiden sich je nach Behörde, und wir planen sie gemeinsam.</p>",
+   "zh": "<p>我们提供技术文档并支持各国的注册；经销商主导本地流程。各监管机构的时间表不同，我们会一起规划。</p>",
+   "vi": "<p>Chúng tôi cung cấp hồ sơ kỹ thuật và hỗ trợ việc đăng ký ở từng quốc gia; nhà phân phối dẫn dắt quy trình tại địa phương. Thời hạn khác nhau tùy cơ quan quản lý và chúng ta sẽ cùng lên kế hoạch.</p>",
+   "hi": "<p>हम तकनीकी दस्तावेज़ देते हैं और हर देश में पंजीकरण में सहयोग करते हैं; स्थानीय प्रक्रिया का नेतृत्व वितरक करता है। समय-सीमा नियामक के अनुसार अलग होती है और हम इसकी योजना साथ मिलकर बनाते हैं।</p>"
+  },
+  "pages": [
+   "partners"
+  ],
+  "is_published": true
+ },
+ {
+  "category": "clinicians",
+  "question": {
+   "en": "What does the sensor measure?",
+   "ru": "Что измеряет сенсор?",
+   "fr": "Que mesure le capteur ?",
+   "es": "¿Qué mide el sensor?",
+   "it": "Cosa misura il sensore?",
+   "de": "Was misst der Sensor?",
+   "zh": "传感器测量的是什么？",
+   "vi": "Cảm biến đo gì?",
+   "hi": "सेंसर क्या मापता है?"
+  },
+  "answer": {
+   "en": "<p>Glucose in the interstitial fluid, with an enzymatic filament 5.5 mm long. Interstitial values lag blood glucose by several minutes, which is why trend arrows matter as much as the number.</p>",
+   "ru": "<p>Глюкозу в межклеточной жидкости с помощью ферментативной нити длиной 5,5 мм. Значения в межклеточной жидкости отстают от глюкозы крови на несколько минут — поэтому стрелки тренда важны не меньше самой цифры.</p>",
+   "fr": "<p>Le glucose dans le liquide interstitiel, avec un filament enzymatique de 5,5 mm. Les valeurs interstitielles ont plusieurs minutes de retard sur la glycémie, c'est pourquoi les flèches de tendance comptent autant que le chiffre.</p>",
+   "es": "<p>La glucosa en el líquido intersticial, con un filamento enzimático de 5,5 mm. Los valores intersticiales van varios minutos por detrás de la glucosa en sangre, y por eso las flechas de tendencia importan tanto como el número.</p>",
+   "it": "<p>Il glucosio nel liquido interstiziale, con un filamento enzimatico lungo 5,5 mm. I valori interstiziali seguono la glicemia con un ritardo di alcuni minuti, ed è per questo che le frecce di tendenza contano quanto il numero.</p>",
+   "de": "<p>Glukose in der interstitiellen Flüssigkeit, mit einem enzymatischen Sensorfaden von 5,5 mm Länge. Interstitielle Werte hinken dem Blutzucker um einige Minuten hinterher, deshalb sind Trendpfeile genauso wichtig wie die Zahl.</p>",
+   "zh": "<p>组织间液中的葡萄糖，通过一根 5.5 mm 长的酶传感丝测量。组织间液数值比血糖滞后数分钟，这正是趋势箭头与数字本身同样重要的原因。</p>",
+   "vi": "<p>Glucose trong dịch kẽ, bằng một sợi cảm biến enzym dài 5,5 mm. Giá trị dịch kẽ chậm hơn đường huyết trong máu vài phút, vì vậy mũi tên xu hướng cũng quan trọng không kém con số.</p>",
+   "hi": "<p>अंतरालीय द्रव में ग्लूकोज़, 5.5 mm लंबे एंज़ाइमी फ़िलामेंट से। अंतरालीय मान रक्त ग्लूकोज़ से कई मिनट पीछे चलते हैं, इसीलिए ट्रेंड ऐरो संख्या जितने ही महत्वपूर्ण हैं।</p>"
+  },
+  "pages": [
+   "clinicians"
+  ],
+  "is_published": true
+ },
+ {
+  "category": "clinicians",
+  "question": {
+   "en": "What is the accuracy (MARD)?",
+   "ru": "Какова точность (MARD)?",
+   "fr": "Quelle est la précision (MARD) ?",
+   "es": "¿Cuál es la exactitud (MARD)?",
+   "it": "Qual è l'accuratezza (MARD)?",
+   "de": "Wie genau ist der Sensor (MARD)?",
+   "zh": "准确度（MARD）是多少？",
+   "vi": "Độ chính xác (MARD) là bao nhiêu?",
+   "hi": "सटीकता (MARD) कितनी है?"
+  },
+  "answer": {
+   "en": "<p>We will publish MARD and consensus error grid results when our clinical performance studies are complete, as part of CE marking. We do not present laboratory figures as clinical accuracy.</p>",
+   "ru": "<p>Мы опубликуем MARD и результаты по консенсусной сетке ошибок, когда завершатся исследования клинической эффективности в рамках CE-маркировки. Мы не выдаём лабораторные цифры за клиническую точность.</p>",
+   "fr": "<p>Nous publierons les résultats de MARD et de grille d'erreur consensuelle une fois nos études de performance clinique terminées, dans le cadre du marquage CE. Nous ne présentons pas de chiffres de laboratoire comme une précision clinique.</p>",
+   "es": "<p>Publicaremos el MARD y los resultados de la cuadrícula de error de consenso cuando terminen nuestros estudios de rendimiento clínico, como parte del marcado CE. No presentamos cifras de laboratorio como exactitud clínica.</p>",
+   "it": "<p>Pubblicheremo i risultati di MARD e consensus error grid al completamento dei nostri studi di prestazione clinica, nell'ambito della marcatura CE. Non presentiamo dati di laboratorio come accuratezza clinica.</p>",
+   "de": "<p>MARD und Consensus-Error-Grid-Ergebnisse veröffentlichen wir, sobald unsere klinischen Leistungsstudien abgeschlossen sind, als Teil der CE-Kennzeichnung. Laborwerte geben wir nicht als klinische Genauigkeit aus.</p>",
+   "zh": "<p>临床性能研究完成后，我们将作为 CE 标志认证的一部分公布 MARD 和共识误差网格结果。我们不会把实验室数据当作临床准确度来呈现。</p>",
+   "vi": "<p>Chúng tôi sẽ công bố kết quả MARD và lưới sai số đồng thuận khi các nghiên cứu hiệu năng lâm sàng hoàn tất, như một phần của chứng nhận CE. Chúng tôi không trình bày số liệu phòng thí nghiệm như độ chính xác lâm sàng.</p>",
+   "hi": "<p>हम CE मार्किंग के हिस्से के रूप में अपने क्लिनिकल प्रदर्शन अध्ययन पूरे होने पर MARD और consensus error grid के परिणाम प्रकाशित करेंगे। हम प्रयोगशाला के आँकड़ों को क्लिनिकल सटीकता के रूप में पेश नहीं करते।</p>"
+  },
+  "pages": [
+   "clinicians"
+  ],
+  "is_published": true
+ },
+ {
+  "category": "clinicians",
+  "question": {
+   "en": "Can patients export data in a standard format?",
+   "ru": "Могут ли пациенты выгружать данные в стандартном формате?",
+   "fr": "Les patients peuvent-ils exporter leurs données dans un format standard ?",
+   "es": "¿Pueden los pacientes exportar datos en un formato estándar?",
+   "it": "I pazienti possono esportare i dati in un formato standard?",
+   "de": "Können Patientinnen und Patienten Daten in einem Standardformat exportieren?",
+   "zh": "患者能以标准格式导出数据吗？",
+   "vi": "Bệnh nhân có thể xuất dữ liệu ở định dạng chuẩn không?",
+   "hi": "क्या मरीज़ डेटा को मानक प्रारूप में एक्सपोर्ट कर सकते हैं?"
+  },
+  "answer": {
+   "en": "<p>The app exports an AGP-style PDF report and a CSV of readings and events. A clinic web view with patient consent is planned for a later release.</p>",
+   "ru": "<p>Приложение выгружает PDF-отчёт в формате AGP и CSV с показаниями и событиями. Веб-доступ для клиники с согласия пациента запланирован на одну из следующих версий.</p>",
+   "fr": "<p>L'application exporte un rapport PDF de type AGP et un CSV des mesures et des événements. Une vue web pour les cabinets, avec le consentement du patient, est prévue dans une version ultérieure.</p>",
+   "es": "<p>La aplicación exporta un informe tipo AGP en PDF y un CSV con lecturas y eventos. Una vista web para la consulta, con consentimiento del paciente, está prevista para una versión posterior.</p>",
+   "it": "<p>L'app esporta un report PDF in stile AGP e un CSV con letture ed eventi. Una vista web per l'ambulatorio con il consenso del paziente è prevista per una versione successiva.</p>",
+   "de": "<p>Die App exportiert einen PDF-Bericht im AGP-Stil und eine CSV-Datei mit Messwerten und Ereignissen. Eine Web-Ansicht für die Praxis mit Einwilligung der Patientin oder des Patienten ist für eine spätere Version geplant.</p>",
+   "zh": "<p>应用可导出 AGP 式 PDF 报告，以及包含读数和事件的 CSV 文件。经患者同意的诊所网页端视图计划在后续版本中推出。</p>",
+   "vi": "<p>Ứng dụng xuất báo cáo PDF kiểu AGP và tệp CSV gồm số đo và sự kiện. Giao diện web cho phòng khám với sự đồng ý của bệnh nhân dự kiến có trong một bản phát hành sau.</p>",
+   "hi": "<p>ऐप AGP-शैली की PDF रिपोर्ट और रीडिंग व घटनाओं की CSV एक्सपोर्ट करता है। मरीज़ की सहमति से क्लिनिक वेब व्यू बाद के रिलीज़ के लिए नियोजित है।</p>"
+  },
+  "pages": [
+   "clinicians"
+  ],
+  "is_published": true
+ },
+ {
+  "category": "clinicians",
+  "question": {
+   "en": "Can my clinic take part in studies or pilots?",
+   "ru": "Может ли моя клиника участвовать в исследованиях или пилотах?",
+   "fr": "Mon établissement peut-il participer à des études ou à des pilotes ?",
+   "es": "¿Puede mi clínica participar en estudios o pilotos?",
+   "it": "La mia struttura può partecipare a studi o programmi pilota?",
+   "de": "Kann meine Klinik an Studien oder Pilotprojekten teilnehmen?",
+   "zh": "我的诊所可以参与研究或试点吗？",
+   "vi": "Phòng khám của tôi có thể tham gia nghiên cứu hoặc thí điểm không?",
+   "hi": "क्या मेरा क्लिनिक अध्ययनों या पायलट में भाग ले सकता है?"
+  },
+  "answer": {
+   "en": "<p>Clinical studies are planned for 2027 as part of the conformity assessment; pilots follow certification. Write to clinical@flycgm.com and we will keep you informed.</p>",
+   "ru": "<p>Клинические исследования запланированы на 2027 год в рамках оценки соответствия; пилоты — после сертификации. Напишите на clinical@flycgm.com, и мы будем держать вас в курсе.</p>",
+   "fr": "<p>Les études cliniques sont prévues pour 2027 dans le cadre de l'évaluation de la conformité ; les pilotes suivront la certification. Écrivez à clinical@flycgm.com et nous vous tiendrons informé.</p>",
+   "es": "<p>Los estudios clínicos están previstos para 2027 como parte de la evaluación de la conformidad; los pilotos vienen después de la certificación. Escriba a clinical@flycgm.com y le mantendremos informado.</p>",
+   "it": "<p>Gli studi clinici sono previsti per il 2027 nell'ambito della valutazione della conformità; i programmi pilota seguono la certificazione. Scrivendo a clinical@flycgm.com si resta aggiornati.</p>",
+   "de": "<p>Klinische Studien sind für 2027 als Teil der Konformitätsbewertung geplant; Pilotprojekte folgen nach der Zertifizierung. Schreiben Sie an clinical@flycgm.com, und wir halten Sie auf dem Laufenden.</p>",
+   "zh": "<p>临床研究计划于 2027 年作为符合性评估的一部分开展；试点在认证后进行。请写信至 clinical@flycgm.com，我们会随时向您通报进展。</p>",
+   "vi": "<p>Các nghiên cứu lâm sàng dự kiến diễn ra năm 2027 như một phần của đánh giá sự phù hợp; các chương trình thí điểm sẽ theo sau chứng nhận. Hãy viết thư đến clinical@flycgm.com và chúng tôi sẽ thông tin cho bạn.</p>",
+   "hi": "<p>अनुरूपता मूल्यांकन के हिस्से के रूप में क्लिनिकल अध्ययन 2027 के लिए नियोजित हैं; पायलट प्रमाणन के बाद होंगे। clinical@flycgm.com पर लिखें और हम आपको सूचित रखेंगे।</p>"
+  },
+  "pages": [
+   "clinicians"
+  ],
+  "is_published": true
+ },
+ {
+  "category": "support",
+  "question": {
+   "en": "I found a problem on the website. Where do I report it?",
+   "ru": "Я нашёл проблему на сайте. Куда о ней сообщить?",
+   "fr": "J'ai trouvé un problème sur le site. Où le signaler ?",
+   "es": "He encontrado un problema en el sitio web. ¿Dónde lo comunico?",
+   "it": "Ho trovato un problema sul sito. Dove lo segnalo?",
+   "de": "Ich habe ein Problem auf der Website gefunden. Wo melde ich es?",
+   "zh": "我在网站上发现了问题，到哪里报告？",
+   "vi": "Tôi phát hiện sự cố trên website. Tôi báo ở đâu?",
+   "hi": "मुझे वेबसाइट पर कोई समस्या मिली। इसकी सूचना कहाँ दूँ?"
+  },
+  "answer": {
+   "en": "<p>Use the support form and choose “website error”. The page address, your browser and screen size are attached automatically; add a screenshot if you can. You will receive a ticket number by email.</p>",
+   "ru": "<p>Воспользуйтесь формой поддержки и выберите «Ошибка на сайте». Адрес страницы, браузер и размер экрана прикрепятся автоматически; если можете, добавьте скриншот. Номер обращения придёт вам на email.</p>",
+   "fr": "<p>Utilisez le formulaire d'assistance et choisissez « Erreur sur le site ». L'adresse de la page, votre navigateur et la taille de l'écran sont joints automatiquement ; ajoutez une capture d'écran si vous le pouvez. Vous recevrez un numéro de ticket par e-mail.</p>",
+   "es": "<p>Use el formulario de soporte y elija «error en el sitio web». La dirección de la página, su navegador y el tamaño de pantalla se adjuntan automáticamente; añada una captura de pantalla si puede. Recibirá un número de ticket por correo electrónico.</p>",
+   "it": "<p>Usare il modulo di assistenza e scegliere «errore sul sito». L'indirizzo della pagina, il browser e le dimensioni dello schermo vengono allegati automaticamente; se possibile, aggiungere uno screenshot. Il numero di ticket arriverà via email.</p>",
+   "de": "<p>Nutzen Sie das Supportformular und wählen Sie „Fehler auf der Website“. Die Seitenadresse, Ihr Browser und die Bildschirmgröße werden automatisch angehängt; fügen Sie nach Möglichkeit einen Screenshot hinzu. Sie erhalten eine Ticketnummer per E-Mail.</p>",
+   "zh": "<p>请使用支持表单并选择“网站错误”。页面地址、您的浏览器和屏幕尺寸会自动附上；如果方便，请添加一张截图。您会通过邮件收到工单号。</p>",
+   "vi": "<p>Hãy dùng biểu mẫu hỗ trợ và chọn “lỗi trên website”. Địa chỉ trang, trình duyệt và kích thước màn hình của bạn được đính kèm tự động; thêm ảnh chụp màn hình nếu có thể. Bạn sẽ nhận được số phiếu qua email.</p>",
+   "hi": "<p>सहायता फ़ॉर्म का उपयोग करें और “वेबसाइट में त्रुटि” चुनें। पृष्ठ का पता, आपका ब्राउज़र और स्क्रीन का आकार अपने आप जुड़ जाते हैं; हो सके तो स्क्रीनशॉट जोड़ें। आपको ईमेल से टिकट नंबर मिलेगा।</p>"
+  },
+  "pages": [
+   "support",
+   "manual"
+  ],
+  "is_published": true
+ },
+ {
+  "category": "support",
+  "question": {
+   "en": "How do I remove the sensor?",
+   "ru": "Как снять сенсор?",
+   "fr": "Comment retirer le capteur ?",
+   "es": "¿Cómo retiro el sensor?",
+   "it": "Come si rimuove il sensore?",
+   "de": "Wie entferne ich den Sensor?",
+   "zh": "如何取下传感器？",
+   "vi": "Làm thế nào để tháo cảm biến?",
+   "hi": "सेंसर कैसे हटाऊँ?"
+  },
+  "answer": {
+   "en": "<p>Peel the patch slowly from the edge, folding it back on itself; warm water or baby oil at the edge helps. The filament comes out with the sensor. Dispose of the sensor as described in the manual — it contains a battery.</p>",
+   "ru": "<p>Медленно отклейте пластырь с края, подворачивая его на себя; тёплая вода или детское масло у края помогут. Нить выходит вместе с сенсором. Утилизируйте сенсор так, как описано в руководстве, — в нём есть батарея.</p>",
+   "fr": "<p>Décollez le patch lentement en partant du bord, en le repliant sur lui-même ; un peu d'eau chaude ou d'huile pour bébé sur le bord aide. Le filament sort avec le capteur. Éliminez le capteur comme indiqué dans le manuel — il contient une pile.</p>",
+   "es": "<p>Despegue el parche despacio desde el borde, doblándolo sobre sí mismo; un poco de agua tibia o aceite para bebés en el borde ayuda. El filamento sale junto con el sensor. Deseche el sensor como se describe en el manual: contiene una pila.</p>",
+   "it": "<p>Staccare lentamente il cerotto dal bordo, ripiegandolo su se stesso; acqua tiepida o olio per bambini sul bordo aiutano. Il filamento esce insieme al sensore. Smaltire il sensore come descritto nel manuale — contiene una batteria.</p>",
+   "de": "<p>Ziehen Sie das Pflaster langsam vom Rand her ab und falten Sie es dabei auf sich selbst zurück; warmes Wasser oder Babyöl am Rand hilft. Der Sensorfaden kommt mit dem Sensor heraus. Entsorgen Sie den Sensor wie in der Gebrauchsanweisung beschrieben — er enthält eine Batterie.</p>",
+   "zh": "<p>从边缘慢慢揭起固定贴，向内对折着撕下；在边缘涂一点温水或婴儿油会有帮助。传感丝会随传感器一起取出。请按手册说明处置传感器——它内含电池。</p>",
+   "vi": "<p>Bóc miếng dán từ từ từ mép, gập ngược lại lên chính nó; nước ấm hoặc dầu em bé ở mép sẽ giúp dễ hơn. Sợi cảm biến ra cùng với cảm biến. Thải bỏ cảm biến theo mô tả trong hướng dẫn sử dụng — nó có chứa pin.</p>",
+   "hi": "<p>पैच को किनारे से धीरे-धीरे छीलें, उसे अपने ऊपर ही मोड़ते हुए; किनारे पर गर्म पानी या बेबी ऑयल मदद करता है। फ़िलामेंट सेंसर के साथ बाहर आ जाता है। सेंसर का निपटान मैनुअल में बताए अनुसार करें — इसमें बैटरी है।</p>"
+  },
+  "pages": [
+   "support",
+   "manual"
+  ],
+  "is_published": true
+ },
+ {
+  "category": "support",
+  "question": {
+   "en": "How do I dispose of a used sensor and applicator?",
+   "ru": "Как утилизировать использованный сенсор и аппликатор?",
+   "fr": "Comment jeter un capteur et un applicateur usagés ?",
+   "es": "¿Cómo desecho un sensor y un aplicador usados?",
+   "it": "Come si smaltiscono un sensore e un applicatore usati?",
+   "de": "Wie entsorge ich einen gebrauchten Sensor und Applikator?",
+   "zh": "如何处置用过的传感器和敷贴器？",
+   "vi": "Thải bỏ cảm biến và bộ gắn đã dùng như thế nào?",
+   "hi": "इस्तेमाल किए गए सेंसर और एप्लिकेटर का निपटान कैसे करूँ?"
+  },
+  "answer": {
+   "en": "<p>The applicator is household plastic waste after the guide needle has retracted. The sensor contains a lithium cell and electronics and should go to electronic or battery waste collection according to local rules; details are in the manual.</p>",
+   "ru": "<p>Аппликатор после того, как направляющая игла убралась внутрь, — это бытовые пластиковые отходы. Сенсор содержит литиевый элемент и электронику, его нужно сдать в пункт приёма электроники или батареек по местным правилам; подробности — в руководстве.</p>",
+   "fr": "<p>L'applicateur est un déchet plastique ménager une fois l'aiguille-guide rétractée. Le capteur contient une pile au lithium et de l'électronique : il doit être déposé dans la collecte des déchets électroniques ou des piles selon les règles locales ; les détails sont dans le manuel.</p>",
+   "es": "<p>El aplicador es residuo plástico doméstico una vez que la aguja guía se ha retraído. El sensor contiene una pila de litio y electrónica, y debe ir a un punto de recogida de residuos electrónicos o de pilas según las normas locales; los detalles están en el manual.</p>",
+   "it": "<p>L'applicatore, una volta ritratto l'ago guida, è un rifiuto domestico in plastica. Il sensore contiene una cella al litio e componenti elettronici e va conferito nella raccolta dei rifiuti elettronici o delle batterie secondo le regole locali; i dettagli sono nel manuale.</p>",
+   "de": "<p>Der Applikator ist Haushaltsplastikmüll, sobald die Führungsnadel zurückgezogen ist. Der Sensor enthält eine Lithiumzelle und Elektronik und gehört nach den örtlichen Vorschriften in die Elektro- oder Batteriesammlung; Einzelheiten stehen in der Gebrauchsanweisung.</p>",
+   "zh": "<p>导引针收回后，敷贴器可作为家庭塑料垃圾处理。传感器内含锂电池和电子元件，应按当地规定投放到电子垃圾或电池回收点；详情见手册。</p>",
+   "vi": "<p>Bộ gắn là rác thải nhựa sinh hoạt sau khi kim dẫn đã rút về. Cảm biến chứa pin lithium và linh kiện điện tử nên cần đưa đến điểm thu gom rác thải điện tử hoặc pin theo quy định địa phương; chi tiết có trong hướng dẫn sử dụng.</p>",
+   "hi": "<p>गाइड सुई वापस जाने के बाद एप्लिकेटर घरेलू प्लास्टिक कचरा है। सेंसर में लिथियम सेल और इलेक्ट्रॉनिक्स हैं और इसे स्थानीय नियमों के अनुसार इलेक्ट्रॉनिक या बैटरी कचरा संग्रह में देना चाहिए; विवरण मैनुअल में है।</p>"
+  },
+  "pages": [
+   "support",
+   "manual"
+  ],
+  "is_published": true
+ }
+]

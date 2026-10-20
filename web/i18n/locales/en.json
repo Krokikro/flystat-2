@@ -1,0 +1,186 @@
+{
+ "nav": {
+  "people": "For people",
+  "partners": "For partners",
+  "menu": "Menu",
+  "close": "Close",
+  "account": "Personal account",
+  "language": "Language",
+  "units": "Units",
+  "skip": "Skip to content",
+  "waitlist": "Join the waiting list"
+ },
+ "footer": {
+  "company": "Flystat is a brand of the MLC group.",
+  "rights": "All rights reserved.",
+  "legal": "Legal",
+  "contacts": "Contacts",
+  "newsletter": "News by email",
+  "newsletter_text": "One email a month — product updates, certification progress, events.",
+  "subscribe": "Subscribe",
+  "cookies": "Cookies",
+  "made": "Medical device under conformity assessment. Not available for sale.",
+  "channels": "Telegram channels",
+  "address": "Address"
+ },
+ "cookie": {
+  "title": "Cookies on flystat.com",
+  "text": "We use necessary cookies to make the site work and, with your consent, analytics cookies to see which pages are useful. No advertising cookies.",
+  "accept": "Accept analytics",
+  "decline": "Only necessary",
+  "settings": "Cookie policy"
+ },
+ "form": {
+  "name": "Name",
+  "email": "Email",
+  "phone": "Phone with country code",
+  "company": "Company",
+  "position": "Position",
+  "country": "Country",
+  "city": "City",
+  "website": "Company website",
+  "channels": "Sales channels",
+  "channels_opts": {
+   "pharmacies": "Pharmacies",
+   "clinics": "Clinics and hospitals",
+   "ecom": "E-commerce",
+   "tenders": "Tenders and public procurement"
+  },
+  "volume": "Expected volume per year",
+  "volume_opts": {
+   "lt1k": "under 1 000 sensors",
+   "1k": "1 000 – 10 000",
+   "10k": "10 000 – 50 000",
+   "50k": "over 50 000"
+  },
+  "for_whom": "For whom",
+  "for_opts": {
+   "me": "For myself",
+   "relative": "For a relative",
+   "child": "For a child"
+  },
+  "role": "Your role",
+  "role_opts": {
+   "user": "User / patient",
+   "clinician": "Clinician",
+   "partner": "Partner / distributor",
+   "other": "Other"
+  },
+  "kind": "Type of request",
+  "kind_opts": {
+   "bug": "Error on the website",
+   "question": "Question about the device or app",
+   "idea": "Suggestion",
+   "other": "Other"
+  },
+  "subject": "Subject",
+  "message": "Message",
+  "comment": "Comment",
+  "attachment": "Attachment (screenshot or photo, up to 10 MB)",
+  "direction": "Direction",
+  "direction_opts": {
+   "investment": "Investment",
+   "supplier": "Suppliers",
+   "clinic": "Clinics",
+   "research": "Research",
+   "press": "Press",
+   "other": "Other"
+  },
+  "distributor_country": "Distributor's country",
+  "consent": "I agree to the processing of my personal data as described in the {privacy} and the {consent}.",
+  "privacy": "Privacy Policy",
+  "consent_doc": "Consent",
+  "required": "Required field",
+  "invalid_email": "Please check the email address",
+  "invalid_phone": "Please check the phone number",
+  "sending": "Sending…",
+  "error": "Something went wrong and the message was not sent. Please try again or write to us by email.",
+  "too_many": "Too many requests from this network. Please try again later.",
+  "success_title": "Sent",
+  "optional": "optional",
+  "select": "Select…",
+  "other_country": "Other"
+ },
+ "news": {
+  "all": "All",
+  "news": "News",
+  "events": "Events",
+  "research": "Research",
+  "company": "Company",
+  "read": "Read",
+  "more": "More news",
+  "back": "All news",
+  "share": "Share",
+  "related": "Also read"
+ },
+ "faq": {
+  "search": "Search questions",
+  "nothing": "Nothing found — try another word or write to support.",
+  "all": "All topics",
+  "cats": {
+   "device": "Device",
+   "app": "App",
+   "purchase": "Buying",
+   "partners": "Partners",
+   "clinicians": "Clinicians",
+   "support": "Support"
+  }
+ },
+ "map": {
+  "present": "Distributor present",
+  "negotiation": "In negotiation",
+  "free": "Open region",
+  "legend": "Legend",
+  "choose": "Choose a country",
+  "no_distributor": "No distributor yet — your message goes to our team.",
+  "regions": {
+   "middle_east": "Middle East",
+   "europe": "Europe",
+   "africa": "Africa",
+   "asia": "Asia",
+   "americas": "Americas",
+   "cis": "CIS"
+  }
+ },
+ "common": {
+  "learn_more": "Learn more",
+  "download": "Download",
+  "pdf": "PDF",
+  "version": "Version",
+  "updated": "Updated",
+  "generated": "Visualisation",
+  "generated_hint": "Computer-generated image — real photographs will follow production audits.",
+  "scroll": "Scroll",
+  "play": "Play video",
+  "pause": "Pause",
+  "mmol": "mmol/L",
+  "mgdl": "mg/dL",
+  "contents": "Contents",
+  "soon": "Coming soon",
+  "app_store": "App Store",
+  "google_play": "Google Play",
+  "notify_app": "Tell me when the app is live",
+  "demo_badge": "Demo version — not indexed",
+  "reduced_motion": "Animations are reduced according to your system settings."
+ },
+ "errors": {
+  "404_title": "Page not found",
+  "404_text": "The address may be wrong or the page has moved. Try the home page or the menu.",
+  "500_title": "Something went wrong",
+  "500_text": "We already know about it. Please try again in a minute.",
+  "home": "Go to the home page"
+ },
+ "thanks": {
+  "title": "Thank you",
+  "waitlist": "You are on the waiting list. We will write to you when Flystat is available in your country.",
+  "distribution": "Your request has been received. We will write within two working days to arrange a call.",
+  "support": "Your request has been registered. The ticket number is on its way to your email.",
+  "default": "Your message has been received.",
+  "back": "Back to the site",
+  "meanwhile": "Meanwhile"
+ },
+ "seo": {
+  "suffix": "Flystat",
+  "default_description": "Flystat — a continuous glucose monitoring system: 15-day sensor, readings every minute, no finger-prick calibration."
+ }
+}

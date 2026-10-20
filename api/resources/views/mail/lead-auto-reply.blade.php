@@ -1,5 +1,5 @@
 <x-mail::message>
-# {{ __('mail.greeting', ['name' => $lead->name ?: '']) }}
+# {{ __('mail.greeting', ['name' => $lead->name ? ', '.$lead->name : '']) }}
 
 {{ __('mail.body_'.($lead->cohort === 'support' ? 'support' : ($lead->cohort === 'distribution' ? 'distribution' : 'default'))) }}
 

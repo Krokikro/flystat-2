@@ -1,0 +1,141 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:'ALS Hauss';font-weight:400;src:url('../public/fonts/hauss-regular.woff2')}
+@font-face{font-family:'ALS Hauss';font-weight:500;src:url('../public/fonts/hauss-medium.woff2')}
+@font-face{font-family:'ALS Hauss';font-weight:700;src:url('../public/fonts/hauss-bold.woff2')}
+@font-face{font-family:'ALS Hauss';font-weight:900;src:url('../public/fonts/hauss-black.woff2')}
+:root{--navy:#102A56;--muted:#6D81A2;--alt:#F0F4FE;--purple:#7A5AF8;--purple-d:#5925DC;--blue:#2E90FA;--ok:#12B76A;--warn:#F79009;--danger:#F04438;--line:#E3EAF5;--carb:#F79009;--ins:#2E90FA;--act:#12B76A}
+*{box-sizing:border-box} body{margin:0;background:#333;font-family:'ALS Hauss',system-ui,sans-serif;color:var(--navy)}
+.screen{width:390px;height:844px;background:#fff;position:relative;overflow:hidden;display:flex;flex-direction:column}
+.status{height:54px;display:flex;justify-content:space-between;align-items:flex-end;padding:0 28px 8px;font-size:15px;font-weight:700}
+.status .r{display:flex;gap:6px;align-items:center;font-size:12px}
+.top{padding:10px 20px 0;display:flex;justify-content:space-between;align-items:center}
+.top h1{font-size:28px;font-weight:900;letter-spacing:-.02em;margin:0}
+.avatar{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#7A5AF8,#2E90FA)}
+.pill{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border-radius:999px;background:var(--alt);font-size:12px;font-weight:700;color:var(--muted)}
+.card{margin:14px 20px 0;background:#fff;border:1px solid var(--line);border-radius:22px;padding:18px}
+.card.alt{background:var(--alt);border-color:transparent}
+.card h3{margin:0 0 6px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.big{display:flex;align-items:baseline;gap:8px}
+.big b{font-size:72px;font-weight:900;letter-spacing:-.05em;line-height:1}
+.big span{font-size:16px;color:var(--muted);font-weight:500}
+.arrow{width:44px;height:44px;border-radius:14px;background:#E6F4EA;color:var(--ok);display:grid;place-items:center;font-size:24px;font-weight:900}
+.range{height:10px;border-radius:5px;background:linear-gradient(90deg,#F04438 0 18%,#12B76A 18% 72%,#F79009 72% 100%);position:relative;margin-top:16px}
+.range i{position:absolute;top:-5px;width:20px;height:20px;border-radius:50%;background:#fff;border:3px solid var(--navy);transform:translateX(-50%)}
+.row{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin-top:8px}
+svg{display:block}
+.tab{margin-top:auto;height:84px;border-top:1px solid var(--line);display:flex;justify-content:space-around;align-items:flex-start;padding-top:12px;font-size:10px;color:var(--muted);font-weight:700}
+.tab div{display:grid;justify-items:center;gap:4px} .tab i{width:24px;height:24px;border-radius:7px;background:var(--line);display:block} .tab .on{color:var(--purple-d)} .tab .on i{background:var(--purple)}
+.fab{position:absolute;right:20px;bottom:100px;width:56px;height:56px;border-radius:50%;background:var(--purple);color:#fff;display:grid;place-items:center;font-size:30px;box-shadow:0 10px 24px rgba(89,37,220,.35)}
+.ev{display:flex;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)} .ev:last-child{border:0}
+.ev .ic{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;color:#fff;font-weight:900}
+.ev .t{flex:1;display:grid;gap:2px} .ev .t b{font-size:15px} .ev .t small{color:var(--muted);font-size:12px} .ev .v{font-weight:700;font-size:14px}
+.toggle{width:44px;height:26px;border-radius:13px;background:var(--purple);position:relative} .toggle::after{content:"";position:absolute;right:3px;top:3px;width:20px;height:20px;border-radius:50%;background:#fff}
+.toggle.off{background:#D5DCEA} .toggle.off::after{right:auto;left:3px}
+.set{display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-bottom:1px solid var(--line)} .set:last-child{border:0} .set b{font-size:15px;display:block} .set small{color:var(--muted);font-size:12px}
+.chip{display:inline-block;padding:6px 12px;border-radius:999px;border:1px solid var(--line);font-size:12px;font-weight:700;margin-right:6px} .chip.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.tir{display:flex;height:160px;gap:6px;align-items:flex-end;margin-top:12px}
+.tir div{flex:1;border-radius:8px 8px 4px 4px;position:relative} .tir div span{position:absolute;top:-20px;left:0;right:0;text-align:center;font-size:12px;font-weight:700}
+.kpi{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:4px} .kpi div{background:#fff;border-radius:14px;padding:12px} .kpi b{font-size:22px;font-weight:900;display:block;letter-spacing:-.02em} .kpi small{font-size:11px;color:var(--muted)}
+.chat{display:grid;gap:10px;padding:14px 20px} .bub{max-width:82%;padding:12px 14px;border-radius:18px;font-size:14px;line-height:1.4} .me{background:var(--navy);color:#fff;justify-self:end;border-bottom-right-radius:6px} .ai{background:var(--alt);border-bottom-left-radius:6px}
+.ai b{display:block;font-size:11px;letter-spacing:.08em;color:var(--purple-d);margin-bottom:4px}
+.input{margin:auto 20px 20px;display:flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:999px;padding:10px 10px 10px 16px;color:var(--muted);font-size:14px} .input i{margin-left:auto;width:36px;height:36px;border-radius:50%;background:var(--purple);display:block}
+.btn{display:block;margin:14px 20px 0;background:var(--purple);color:#fff;text-align:center;padding:14px;border-radius:14px;font-weight:700}
+</style></head><body>
+<div id="home" class="screen">
+  <div class="status"><span>9:41</span><span class="r">●●● ▲ ▮</span></div>
+  <div class="top"><div><div class="pill">● Sensor · 11 days left</div><h1 style="margin-top:8px">Right now</h1></div><div class="avatar"></div></div>
+  <div class="card alt"><h3>Glucose</h3><div class="big"><b>6.2</b><span>mmol/L</span><div class="arrow" style="margin-left:auto">→</div></div>
+    <div class="range"><i style="left:46%"></i></div><div class="row"><span>3.9</span><span>In range · 2 h 40 min</span><span>10.0</span></div></div>
+  <div class="card"><h3>Last 3 hours</h3><svg id="spark" width="312" height="110" viewBox="0 0 312 110"></svg><div class="row"><span>10:40</span><span>11:40</span><span>12:40</span><span>13:40</span></div></div>
+  <div class="card" style="display:flex;gap:12px;align-items:center"><div class="ev" style="border:0;padding:0;flex:1"><div class="ic" style="background:var(--carb)">C</div><div class="t"><b>Lunch · 45 g carbs</b><small>12:10 · rice, salmon</small></div></div><div class="ev" style="border:0;padding:0;flex:1"><div class="ic" style="background:var(--ins)">I</div><div class="t"><b>4 U</b><small>12:05</small></div></div></div>
+  <div class="fab">+</div>
+  <div class="tab"><div class="on"><i></i>Home</div><div><i></i>Graph</div><div><i></i>Events</div><div><i></i>Reports</div><div><i></i>Profile</div></div>
+</div>
+
+<div id="graph" class="screen">
+  <div class="status"><span>9:41</span><span class="r">●●● ▲ ▮</span></div>
+  <div class="top"><h1>Today</h1><div class="pill">mmol/L</div></div>
+  <div style="padding:12px 20px 0"><span class="chip">3 h</span><span class="chip">6 h</span><span class="chip">12 h</span><span class="chip on">24 h</span></div>
+  <div class="card" style="padding:14px 10px 10px"><svg id="day" width="330" height="300" viewBox="0 0 330 300"></svg><div class="row" style="padding:0 8px"><span>00:00</span><span>06:00</span><span>12:00</span><span>18:00</span><span>24:00</span></div></div>
+  <div class="card alt"><div class="kpi"><div><b>71 %</b><small>time in range</small></div><div><b>6.8</b><small>average, mmol/L</small></div><div><b>2</b><small>lows</small></div><div><b>14:20</b><small>longest high</small></div></div></div>
+  <div class="tab"><div><i></i>Home</div><div class="on"><i></i>Graph</div><div><i></i>Events</div><div><i></i>Reports</div><div><i></i>Profile</div></div>
+</div>
+
+<div id="events" class="screen">
+  <div class="status"><span>9:41</span><span class="r">●●● ▲ ▮</span></div>
+  <div class="top"><h1>Events</h1><div class="pill">Today</div></div>
+  <div class="card alt" style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;text-align:center;font-size:11px;font-weight:700">
+    <div><div class="ic" style="margin:0 auto 6px;width:48px;height:48px;border-radius:16px;background:var(--carb);color:#fff;display:grid;place-items:center;font-size:18px">C</div>Meal</div>
+    <div><div class="ic" style="margin:0 auto 6px;width:48px;height:48px;border-radius:16px;background:var(--ins);color:#fff;display:grid;place-items:center;font-size:18px">I</div>Insulin</div>
+    <div><div class="ic" style="margin:0 auto 6px;width:48px;height:48px;border-radius:16px;background:var(--act);color:#fff;display:grid;place-items:center;font-size:18px">A</div>Activity</div>
+    <div><div class="ic" style="margin:0 auto 6px;width:48px;height:48px;border-radius:16px;background:var(--purple);color:#fff;display:grid;place-items:center;font-size:18px">☺</div>Feeling</div>
+  </div>
+  <div class="card">
+    <div class="ev"><div class="ic" style="background:var(--act)">A</div><div class="t"><b>Walk · 35 min</b><small>18:05 → 18:40 · 3.1 km</small></div><div class="v" style="color:var(--ok)">−1.4</div></div>
+    <div class="ev"><div class="ic" style="background:var(--carb)">C</div><div class="t"><b>Dinner · 60 g carbs</b><small>19:30 · pasta, salad</small></div><div class="v">+2.8</div></div>
+    <div class="ev"><div class="ic" style="background:var(--ins)">I</div><div class="t"><b>Rapid insulin · 6 U</b><small>19:25</small></div><div class="v"></div></div>
+    <div class="ev"><div class="ic" style="background:var(--purple)">☺</div><div class="t"><b>Feeling · tired</b><small>21:10 · note: long day</small></div><div class="v"></div></div>
+    <div class="ev"><div class="ic" style="background:var(--carb)">C</div><div class="t"><b>Snack · 15 g carbs</b><small>22:40 · apple</small></div><div class="v">+0.9</div></div>
+  </div>
+  <div class="fab">+</div>
+  <div class="tab"><div><i></i>Home</div><div><i></i>Graph</div><div class="on"><i></i>Events</div><div><i></i>Reports</div><div><i></i>Profile</div></div>
+</div>
+
+<div id="alerts" class="screen">
+  <div class="status"><span>9:41</span><span class="r">●●● ▲ ▮</span></div>
+  <div class="top"><h1>Alerts</h1></div>
+  <div class="card alt"><h3>Thresholds</h3>
+    <div class="set"><div><b>Low glucose</b><small>Below 3.9 mmol/L</small></div><div class="toggle"></div></div>
+    <div class="set"><div><b>High glucose</b><small>Above 10.0 mmol/L · delay 20 min</small></div><div class="toggle"></div></div>
+    <div class="set"><div><b>Rapid change</b><small>Faster than 0.2 mmol/L per minute</small></div><div class="toggle off"></div></div>
+  </div>
+  <div class="card"><h3>Quiet mode</h3>
+    <div class="set"><div><b>Night · 23:00 – 07:00</b><small>Sounds off, vibration on</small></div><div class="toggle"></div></div>
+    <div class="set"><div><b>Urgent low always sounds</b><small>Below 3.0 mmol/L, overrides quiet mode</small></div><div style="color:var(--danger);font-weight:700;font-size:12px">ALWAYS ON</div></div>
+  </div>
+  <div class="card"><h3>Sensor</h3>
+    <div class="set"><div><b>Signal lost</b><small>After 20 minutes without readings</small></div><div class="toggle"></div></div>
+    <div class="set"><div><b>Sensor ends soon</b><small>1 day before</small></div><div class="toggle"></div></div>
+  </div>
+  <div class="tab"><div><i></i>Home</div><div><i></i>Graph</div><div><i></i>Events</div><div><i></i>Reports</div><div class="on"><i></i>Profile</div></div>
+</div>
+
+<div id="reports" class="screen">
+  <div class="status"><span>9:41</span><span class="r">●●● ▲ ▮</span></div>
+  <div class="top"><h1>Reports</h1><div class="pill">14 days</div></div>
+  <div class="card alt"><h3>Time in range</h3>
+    <div class="tir"><div style="height:8%;background:#F04438"><span>3 %</span></div><div style="height:14%;background:#FDA29B"><span>5 %</span></div><div style="height:100%;background:#12B76A"><span>71 %</span></div><div style="height:38%;background:#FEC84B"><span>16 %</span></div><div style="height:18%;background:#F79009"><span>5 %</span></div></div>
+    <div class="row"><span>&lt;3.0</span><span>3.0–3.9</span><span>3.9–10</span><span>10–13.9</span><span>&gt;13.9</span></div></div>
+  <div class="card"><h3>Ambulatory glucose profile</h3><svg id="agp" width="312" height="150" viewBox="0 0 312 150"></svg><div class="row"><span>00</span><span>06</span><span>12</span><span>18</span><span>24</span></div></div>
+  <div class="card alt"><div class="kpi"><div><b>6.9</b><small>average, mmol/L</small></div><div><b>6.3 %</b><small>GMI</small></div><div><b>31 %</b><small>variability (CV)</small></div><div><b>97 %</b><small>sensor active</small></div></div></div>
+  <div class="btn">Export PDF for your doctor</div>
+  <div class="tab"><div><i></i>Home</div><div><i></i>Graph</div><div><i></i>Events</div><div class="on"><i></i>Reports</div><div><i></i>Profile</div></div>
+</div>
+
+<div id="assistant" class="screen">
+  <div class="status"><span>9:41</span><span class="r">●●● ▲ ▮</span></div>
+  <div class="top"><h1>Assistant</h1><div class="pill" style="background:#EDE9FE;color:var(--purple-d)">✦ AI</div></div>
+  <div class="chat">
+    <div class="bub me">Why was I high after lunch yesterday?</div>
+    <div class="bub ai"><b>FLYSTAT ASSISTANT</b>Yesterday you logged 45 g of carbs at 12:10 and 4 U of insulin at 12:05. Glucose rose from 6.1 to 11.8 mmol/L in 70 minutes and came back into range by 15:20.<br><br>Compared with the previous five lunches, this one had a later insulin-to-meal gap and no walk afterwards. On days with a 15-minute walk the peak stayed under 9.5.</div>
+    <div class="bub ai"><b>WORTH DISCUSSING WITH YOUR DOCTOR</b>This is an observation from your own data, not a dose recommendation. Timing changes should be agreed with your clinician.</div>
+    <div class="bub me">Show me those five lunches</div>
+  </div>
+  <div class="input">Ask about your data…<i></i></div>
+  <div class="tab"><div><i></i>Home</div><div><i></i>Graph</div><div><i></i>Events</div><div><i></i>Reports</div><div class="on"><i></i>Profile</div></div>
+</div>
+<script>
+function series(n, base, amp, seed){let x=seed,out=[];for(let i=0;i<n;i++){x=(x*9301+49297)%233280;out.push(base+Math.sin(i/n*Math.PI*2.3+seed)*amp+ (x/233280-0.5)*0.6);}return out}
+function path(vals,w,h,min,max){return vals.map((v,i)=>`${i?'L':'M'}${(i/(vals.length-1)*w).toFixed(1)},${(h-(v-min)/(max-min)*h).toFixed(1)}`).join(' ')}
+const sp=document.getElementById('spark');const v=series(36,6.4,1.2,7);
+sp.innerHTML=`<rect x="0" y="${110-(10-3)/(12-3)*110}" width="312" height="${(10-3.9)/(12-3)*110}" fill="#E6F4EA"/><path d="${path(v,312,110,3,12)}" fill="none" stroke="#102A56" stroke-width="3" stroke-linecap="round"/><circle cx="312" cy="${110-(v[35]-3)/9*110}" r="6" fill="#102A56"/>`;
+const d=document.getElementById('day');const dv=series(96,6.8,2.4,3).map((x,i)=>i>50&&i<58?x+3.5:i>20&&i<26?x-2.2:x);
+d.innerHTML=`<rect x="0" y="${300-(10-2)/(16-2)*300}" width="330" height="${(10-3.9)/14*300}" fill="#E6F4EA"/>
+<line x1="0" x2="330" y1="${300-(3.9-2)/14*300}" y2="${300-(3.9-2)/14*300}" stroke="#F04438" stroke-dasharray="4 4"/><line x1="0" x2="330" y1="${300-(10-2)/14*300}" y2="${300-(10-2)/14*300}" stroke="#F79009" stroke-dasharray="4 4"/>
+<path d="${path(dv,330,300,2,16)}" fill="none" stroke="#102A56" stroke-width="3"/>
+<g font-size="11" font-weight="700" fill="#fff"><rect x="150" y="30" width="20" height="20" rx="6" fill="#F79009"/><text x="156" y="44">C</text><rect x="140" y="56" width="20" height="20" rx="6" fill="#2E90FA"/><text x="147" y="70">I</text><rect x="245" y="40" width="20" height="20" rx="6" fill="#12B76A"/><text x="251" y="54">A</text></g>`;
+const a=document.getElementById('agp');const med=series(48,6.6,1.4,5),lo=med.map(x=>x-1.6),hi=med.map(x=>x+1.8),lo2=med.map(x=>x-0.8),hi2=med.map(x=>x+0.9);
+const area=(top,bot)=>path(top,312,150,2,14)+' '+bot.map((v,i)=>`L${((bot.length-1-i)/(bot.length-1)*312).toFixed(1)},${(150-(bot[bot.length-1-i]-2)/12*150).toFixed(1)}`).join(' ')+' Z';
+a.innerHTML=`<rect x="0" y="${150-(10-2)/12*150}" width="312" height="${(10-3.9)/12*150}" fill="#E6F4EA"/><path d="${area(hi,lo)}" fill="#C7D7F5"/><path d="${area(hi2,lo2)}" fill="#8FB0E8"/><path d="${path(med,312,150,2,14)}" fill="none" stroke="#102A56" stroke-width="3"/>`;
+</script></body></html>

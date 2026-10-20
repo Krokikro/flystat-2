@@ -1,0 +1,186 @@
+{
+ "nav": {
+  "people": "Dành cho người dùng",
+  "partners": "Dành cho đối tác",
+  "menu": "Menu",
+  "close": "Đóng",
+  "account": "Tài khoản cá nhân",
+  "language": "Ngôn ngữ",
+  "units": "Đơn vị",
+  "skip": "Chuyển đến nội dung",
+  "waitlist": "Tham gia danh sách chờ"
+ },
+ "footer": {
+  "company": "Flystat là thương hiệu của tập đoàn MLC.",
+  "rights": "Bảo lưu mọi quyền.",
+  "legal": "Pháp lý",
+  "contacts": "Liên hệ",
+  "newsletter": "Tin tức qua email",
+  "newsletter_text": "Một email mỗi tháng — cập nhật sản phẩm, tiến độ chứng nhận, sự kiện.",
+  "subscribe": "Đăng ký nhận tin",
+  "cookies": "Cookie",
+  "made": "Thiết bị y tế đang trong quá trình đánh giá sự phù hợp. Chưa được bán.",
+  "channels": "Kênh Telegram",
+  "address": "Địa chỉ"
+ },
+ "cookie": {
+  "title": "Cookie trên flystat.com",
+  "text": "Chúng tôi dùng cookie cần thiết để website hoạt động và, với sự đồng ý của bạn, cookie phân tích để xem những trang nào hữu ích. Không có cookie quảng cáo.",
+  "accept": "Chấp nhận phân tích",
+  "decline": "Chỉ cookie cần thiết",
+  "settings": "Chính sách cookie"
+ },
+ "form": {
+  "name": "Họ tên",
+  "email": "Email",
+  "phone": "Số điện thoại kèm mã quốc gia",
+  "company": "Công ty",
+  "position": "Chức vụ",
+  "country": "Quốc gia",
+  "city": "Thành phố",
+  "website": "Website công ty",
+  "channels": "Kênh bán hàng",
+  "channels_opts": {
+   "pharmacies": "Nhà thuốc",
+   "clinics": "Phòng khám và bệnh viện",
+   "ecom": "Thương mại điện tử",
+   "tenders": "Đấu thầu và mua sắm công"
+  },
+  "volume": "Sản lượng dự kiến mỗi năm",
+  "volume_opts": {
+   "lt1k": "dưới 1 000 cảm biến",
+   "1k": "1 000 – 10 000",
+   "10k": "10 000 – 50 000",
+   "50k": "trên 50 000"
+  },
+  "for_whom": "Dành cho ai",
+  "for_opts": {
+   "me": "Cho bản thân tôi",
+   "relative": "Cho người thân",
+   "child": "Cho con"
+  },
+  "role": "Vai trò của bạn",
+  "role_opts": {
+   "user": "Người dùng / bệnh nhân",
+   "clinician": "Nhân viên y tế",
+   "partner": "Đối tác / nhà phân phối",
+   "other": "Khác"
+  },
+  "kind": "Loại yêu cầu",
+  "kind_opts": {
+   "bug": "Lỗi trên website",
+   "question": "Câu hỏi về thiết bị hoặc ứng dụng",
+   "idea": "Góp ý",
+   "other": "Khác"
+  },
+  "subject": "Chủ đề",
+  "message": "Tin nhắn",
+  "comment": "Ghi chú",
+  "attachment": "Tệp đính kèm (ảnh chụp màn hình hoặc ảnh, tối đa 10 MB)",
+  "direction": "Lĩnh vực",
+  "direction_opts": {
+   "investment": "Đầu tư",
+   "supplier": "Nhà cung cấp",
+   "clinic": "Phòng khám",
+   "research": "Nghiên cứu",
+   "press": "Báo chí",
+   "other": "Khác"
+  },
+  "distributor_country": "Quốc gia của nhà phân phối",
+  "consent": "Tôi đồng ý cho xử lý dữ liệu cá nhân của mình như được mô tả trong {privacy} và {consent}.",
+  "privacy": "Chính sách bảo mật",
+  "consent_doc": "Văn bản đồng ý",
+  "required": "Trường bắt buộc",
+  "invalid_email": "Vui lòng kiểm tra lại địa chỉ email",
+  "invalid_phone": "Vui lòng kiểm tra lại số điện thoại",
+  "sending": "Đang gửi…",
+  "error": "Đã xảy ra lỗi và tin nhắn chưa được gửi. Vui lòng thử lại hoặc viết cho chúng tôi qua email.",
+  "too_many": "Quá nhiều yêu cầu từ mạng này. Vui lòng thử lại sau.",
+  "success_title": "Đã gửi",
+  "optional": "không bắt buộc",
+  "select": "Chọn…",
+  "other_country": "Khác"
+ },
+ "news": {
+  "all": "Tất cả",
+  "news": "Tin tức",
+  "events": "Sự kiện",
+  "research": "Nghiên cứu",
+  "company": "Công ty",
+  "read": "Đọc",
+  "more": "Thêm tin tức",
+  "back": "Tất cả tin tức",
+  "share": "Chia sẻ",
+  "related": "Đọc thêm"
+ },
+ "faq": {
+  "search": "Tìm câu hỏi",
+  "nothing": "Không tìm thấy gì — hãy thử từ khác hoặc viết cho bộ phận hỗ trợ.",
+  "all": "Tất cả chủ đề",
+  "cats": {
+   "device": "Thiết bị",
+   "app": "Ứng dụng",
+   "purchase": "Mua hàng",
+   "partners": "Đối tác",
+   "clinicians": "Nhân viên y tế",
+   "support": "Hỗ trợ"
+  }
+ },
+ "map": {
+  "present": "Đã có nhà phân phối",
+  "negotiation": "Đang đàm phán",
+  "free": "Khu vực đang mở",
+  "legend": "Chú giải",
+  "choose": "Chọn quốc gia",
+  "no_distributor": "Chưa có nhà phân phối — tin nhắn của bạn sẽ được gửi đến đội ngũ của chúng tôi.",
+  "regions": {
+   "middle_east": "Trung Đông",
+   "europe": "Châu Âu",
+   "africa": "Châu Phi",
+   "asia": "Châu Á",
+   "americas": "Châu Mỹ",
+   "cis": "SNG"
+  }
+ },
+ "common": {
+  "learn_more": "Tìm hiểu thêm",
+  "download": "Tải về",
+  "pdf": "PDF",
+  "version": "Phiên bản",
+  "updated": "Cập nhật",
+  "generated": "Hình ảnh mô phỏng",
+  "generated_hint": "Hình ảnh do máy tính tạo — ảnh chụp thật sẽ có sau các đợt kiểm tra sản xuất.",
+  "scroll": "Cuộn",
+  "play": "Phát video",
+  "pause": "Tạm dừng",
+  "mmol": "mmol/L",
+  "mgdl": "mg/dL",
+  "contents": "Mục lục",
+  "soon": "Sắp ra mắt",
+  "app_store": "App Store",
+  "google_play": "Google Play",
+  "notify_app": "Báo cho tôi khi ứng dụng ra mắt",
+  "demo_badge": "Phiên bản thử nghiệm — không được lập chỉ mục",
+  "reduced_motion": "Hiệu ứng động được giảm theo cài đặt hệ thống của bạn."
+ },
+ "errors": {
+  "404_title": "Không tìm thấy trang",
+  "404_text": "Địa chỉ có thể sai hoặc trang đã được chuyển đi. Hãy thử trang chủ hoặc menu.",
+  "500_title": "Đã xảy ra lỗi",
+  "500_text": "Chúng tôi đã biết về sự cố này. Vui lòng thử lại sau một phút.",
+  "home": "Về trang chủ"
+ },
+ "thanks": {
+  "title": "Cảm ơn bạn",
+  "waitlist": "Bạn đã có tên trong danh sách chờ. Chúng tôi sẽ viết thư cho bạn khi Flystat có mặt tại nước bạn.",
+  "distribution": "Chúng tôi đã nhận được yêu cầu của bạn. Chúng tôi sẽ viết thư trong vòng hai ngày làm việc để sắp xếp cuộc gọi.",
+  "support": "Yêu cầu của bạn đã được ghi nhận. Số phiếu đang được gửi đến email của bạn.",
+  "default": "Chúng tôi đã nhận được tin nhắn của bạn.",
+  "back": "Quay lại website",
+  "meanwhile": "Trong lúc chờ"
+ },
+ "seo": {
+  "suffix": "Flystat",
+  "default_description": "Flystat — hệ thống theo dõi đường huyết liên tục: cảm biến dùng 15 ngày, số đo mỗi phút, không cần chích máu đầu ngón tay để hiệu chuẩn."
+ }
+}

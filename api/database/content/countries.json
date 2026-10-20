@@ -1,0 +1,1141 @@
+[
+ {
+  "code": "AE",
+  "name": {
+   "en": "United Arab Emirates",
+   "ru": "Объединённые Арабские Эмираты",
+   "fr": "Émirats arabes unis",
+   "es": "Emiratos Árabes Unidos",
+   "it": "Emirati Arabi Uniti",
+   "de": "Vereinigte Arabische Emirate",
+   "zh": "阿拉伯联合酋长国",
+   "vi": "Các Tiểu vương quốc Ả Rập Thống nhất",
+   "hi": "संयुक्त अरब अमीरात"
+  },
+  "region": "middle_east",
+  "status": "negotiation",
+  "is_priority": true
+ },
+ {
+  "code": "SA",
+  "name": {
+   "en": "Saudi Arabia",
+   "ru": "Саудовская Аравия",
+   "fr": "Arabie saoudite",
+   "es": "Arabia Saudí",
+   "it": "Arabia Saudita",
+   "de": "Saudi-Arabien",
+   "zh": "沙特阿拉伯",
+   "vi": "Ả Rập Xê Út",
+   "hi": "सऊदी अरब"
+  },
+  "region": "middle_east",
+  "status": "free",
+  "is_priority": true
+ },
+ {
+  "code": "QA",
+  "name": {
+   "en": "Qatar",
+   "ru": "Катар",
+   "fr": "Qatar",
+   "es": "Catar",
+   "it": "Qatar",
+   "de": "Katar",
+   "zh": "卡塔尔",
+   "vi": "Qatar",
+   "hi": "क़तर"
+  },
+  "region": "middle_east",
+  "status": "free",
+  "is_priority": true
+ },
+ {
+  "code": "KW",
+  "name": {
+   "en": "Kuwait",
+   "ru": "Кувейт",
+   "fr": "Koweït",
+   "es": "Kuwait",
+   "it": "Kuwait",
+   "de": "Kuwait",
+   "zh": "科威特",
+   "vi": "Kuwait",
+   "hi": "कुवैत"
+  },
+  "region": "middle_east",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "BH",
+  "name": {
+   "en": "Bahrain",
+   "ru": "Бахрейн",
+   "fr": "Bahreïn",
+   "es": "Baréin",
+   "it": "Bahrein",
+   "de": "Bahrain",
+   "zh": "巴林",
+   "vi": "Bahrain",
+   "hi": "बहरीन"
+  },
+  "region": "middle_east",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "OM",
+  "name": {
+   "en": "Oman",
+   "ru": "Оман",
+   "fr": "Oman",
+   "es": "Omán",
+   "it": "Oman",
+   "de": "Oman",
+   "zh": "阿曼",
+   "vi": "Oman",
+   "hi": "ओमान"
+  },
+  "region": "middle_east",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "JO",
+  "name": {
+   "en": "Jordan",
+   "ru": "Иордания",
+   "fr": "Jordanie",
+   "es": "Jordania",
+   "it": "Giordania",
+   "de": "Jordanien",
+   "zh": "约旦",
+   "vi": "Jordan",
+   "hi": "जॉर्डन"
+  },
+  "region": "middle_east",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "IQ",
+  "name": {
+   "en": "Iraq",
+   "ru": "Ирак",
+   "fr": "Irak",
+   "es": "Irak",
+   "it": "Iraq",
+   "de": "Irak",
+   "zh": "伊拉克",
+   "vi": "Iraq",
+   "hi": "इराक़"
+  },
+  "region": "middle_east",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "EG",
+  "name": {
+   "en": "Egypt",
+   "ru": "Египет",
+   "fr": "Égypte",
+   "es": "Egipto",
+   "it": "Egitto",
+   "de": "Ägypten",
+   "zh": "埃及",
+   "vi": "Ai Cập",
+   "hi": "मिस्र"
+  },
+  "region": "middle_east",
+  "status": "free",
+  "is_priority": true
+ },
+ {
+  "code": "TR",
+  "name": {
+   "en": "Türkiye",
+   "ru": "Турция",
+   "fr": "Turquie",
+   "es": "Turquía",
+   "it": "Turchia",
+   "de": "Türkei",
+   "zh": "土耳其",
+   "vi": "Thổ Nhĩ Kỳ",
+   "hi": "तुर्किये"
+  },
+  "region": "middle_east",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "IL",
+  "name": {
+   "en": "Israel",
+   "ru": "Израиль",
+   "fr": "Israël",
+   "es": "Israel",
+   "it": "Israele",
+   "de": "Israel",
+   "zh": "以色列",
+   "vi": "Israel",
+   "hi": "इज़राइल"
+  },
+  "region": "middle_east",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "LB",
+  "name": {
+   "en": "Lebanon",
+   "ru": "Ливан",
+   "fr": "Liban",
+   "es": "Líbano",
+   "it": "Libano",
+   "de": "Libanon",
+   "zh": "黎巴嫩",
+   "vi": "Liban",
+   "hi": "लेबनान"
+  },
+  "region": "middle_east",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "DE",
+  "name": {
+   "en": "Germany",
+   "ru": "Германия",
+   "fr": "Allemagne",
+   "es": "Alemania",
+   "it": "Germania",
+   "de": "Deutschland",
+   "zh": "德国",
+   "vi": "Đức",
+   "hi": "जर्मनी"
+  },
+  "region": "europe",
+  "status": "free",
+  "is_priority": true
+ },
+ {
+  "code": "FR",
+  "name": {
+   "en": "France",
+   "ru": "Франция",
+   "fr": "France",
+   "es": "Francia",
+   "it": "Francia",
+   "de": "Frankreich",
+   "zh": "法国",
+   "vi": "Pháp",
+   "hi": "फ़्रांस"
+  },
+  "region": "europe",
+  "status": "free",
+  "is_priority": true
+ },
+ {
+  "code": "IT",
+  "name": {
+   "en": "Italy",
+   "ru": "Италия",
+   "fr": "Italie",
+   "es": "Italia",
+   "it": "Italia",
+   "de": "Italien",
+   "zh": "意大利",
+   "vi": "Ý",
+   "hi": "इटली"
+  },
+  "region": "europe",
+  "status": "free",
+  "is_priority": true
+ },
+ {
+  "code": "ES",
+  "name": {
+   "en": "Spain",
+   "ru": "Испания",
+   "fr": "Espagne",
+   "es": "España",
+   "it": "Spagna",
+   "de": "Spanien",
+   "zh": "西班牙",
+   "vi": "Tây Ban Nha",
+   "hi": "स्पेन"
+  },
+  "region": "europe",
+  "status": "free",
+  "is_priority": true
+ },
+ {
+  "code": "GB",
+  "name": {
+   "en": "United Kingdom",
+   "ru": "Великобритания",
+   "fr": "Royaume-Uni",
+   "es": "Reino Unido",
+   "it": "Regno Unito",
+   "de": "Vereinigtes Königreich",
+   "zh": "英国",
+   "vi": "Vương quốc Anh",
+   "hi": "यूनाइटेड किंगडम"
+  },
+  "region": "europe",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "NL",
+  "name": {
+   "en": "Netherlands",
+   "ru": "Нидерланды",
+   "fr": "Pays-Bas",
+   "es": "Países Bajos",
+   "it": "Paesi Bassi",
+   "de": "Niederlande",
+   "zh": "荷兰",
+   "vi": "Hà Lan",
+   "hi": "नीदरलैंड"
+  },
+  "region": "europe",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "BE",
+  "name": {
+   "en": "Belgium",
+   "ru": "Бельгия",
+   "fr": "Belgique",
+   "es": "Bélgica",
+   "it": "Belgio",
+   "de": "Belgien",
+   "zh": "比利时",
+   "vi": "Bỉ",
+   "hi": "बेल्जियम"
+  },
+  "region": "europe",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "AT",
+  "name": {
+   "en": "Austria",
+   "ru": "Австрия",
+   "fr": "Autriche",
+   "es": "Austria",
+   "it": "Austria",
+   "de": "Österreich",
+   "zh": "奥地利",
+   "vi": "Áo",
+   "hi": "ऑस्ट्रिया"
+  },
+  "region": "europe",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "CH",
+  "name": {
+   "en": "Switzerland",
+   "ru": "Швейцария",
+   "fr": "Suisse",
+   "es": "Suiza",
+   "it": "Svizzera",
+   "de": "Schweiz",
+   "zh": "瑞士",
+   "vi": "Thụy Sĩ",
+   "hi": "स्विट्ज़रलैंड"
+  },
+  "region": "europe",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "PL",
+  "name": {
+   "en": "Poland",
+   "ru": "Польша",
+   "fr": "Pologne",
+   "es": "Polonia",
+   "it": "Polonia",
+   "de": "Polen",
+   "zh": "波兰",
+   "vi": "Ba Lan",
+   "hi": "पोलैंड"
+  },
+  "region": "europe",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "CZ",
+  "name": {
+   "en": "Czechia",
+   "ru": "Чехия",
+   "fr": "Tchéquie",
+   "es": "Chequia",
+   "it": "Repubblica Ceca",
+   "de": "Tschechien",
+   "zh": "捷克",
+   "vi": "Séc",
+   "hi": "चेकिया"
+  },
+  "region": "europe",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "PT",
+  "name": {
+   "en": "Portugal",
+   "ru": "Португалия",
+   "fr": "Portugal",
+   "es": "Portugal",
+   "it": "Portogallo",
+   "de": "Portugal",
+   "zh": "葡萄牙",
+   "vi": "Bồ Đào Nha",
+   "hi": "पुर्तगाल"
+  },
+  "region": "europe",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "GR",
+  "name": {
+   "en": "Greece",
+   "ru": "Греция",
+   "fr": "Grèce",
+   "es": "Grecia",
+   "it": "Grecia",
+   "de": "Griechenland",
+   "zh": "希腊",
+   "vi": "Hy Lạp",
+   "hi": "ग्रीस"
+  },
+  "region": "europe",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "SE",
+  "name": {
+   "en": "Sweden",
+   "ru": "Швеция",
+   "fr": "Suède",
+   "es": "Suecia",
+   "it": "Svezia",
+   "de": "Schweden",
+   "zh": "瑞典",
+   "vi": "Thụy Điển",
+   "hi": "स्वीडन"
+  },
+  "region": "europe",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "NO",
+  "name": {
+   "en": "Norway",
+   "ru": "Норвегия",
+   "fr": "Norvège",
+   "es": "Noruega",
+   "it": "Norvegia",
+   "de": "Norwegen",
+   "zh": "挪威",
+   "vi": "Na Uy",
+   "hi": "नॉर्वे"
+  },
+  "region": "europe",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "DK",
+  "name": {
+   "en": "Denmark",
+   "ru": "Дания",
+   "fr": "Danemark",
+   "es": "Dinamarca",
+   "it": "Danimarca",
+   "de": "Dänemark",
+   "zh": "丹麦",
+   "vi": "Đan Mạch",
+   "hi": "डेनमार्क"
+  },
+  "region": "europe",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "FI",
+  "name": {
+   "en": "Finland",
+   "ru": "Финляндия",
+   "fr": "Finlande",
+   "es": "Finlandia",
+   "it": "Finlandia",
+   "de": "Finnland",
+   "zh": "芬兰",
+   "vi": "Phần Lan",
+   "hi": "फ़िनलैंड"
+  },
+  "region": "europe",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "IE",
+  "name": {
+   "en": "Ireland",
+   "ru": "Ирландия",
+   "fr": "Irlande",
+   "es": "Irlanda",
+   "it": "Irlanda",
+   "de": "Irland",
+   "zh": "爱尔兰",
+   "vi": "Ireland",
+   "hi": "आयरलैंड"
+  },
+  "region": "europe",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "RO",
+  "name": {
+   "en": "Romania",
+   "ru": "Румыния",
+   "fr": "Roumanie",
+   "es": "Rumanía",
+   "it": "Romania",
+   "de": "Rumänien",
+   "zh": "罗马尼亚",
+   "vi": "Romania",
+   "hi": "रोमानिया"
+  },
+  "region": "europe",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "HU",
+  "name": {
+   "en": "Hungary",
+   "ru": "Венгрия",
+   "fr": "Hongrie",
+   "es": "Hungría",
+   "it": "Ungheria",
+   "de": "Ungarn",
+   "zh": "匈牙利",
+   "vi": "Hungary",
+   "hi": "हंगरी"
+  },
+  "region": "europe",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "RS",
+  "name": {
+   "en": "Serbia",
+   "ru": "Сербия",
+   "fr": "Serbie",
+   "es": "Serbia",
+   "it": "Serbia",
+   "de": "Serbien",
+   "zh": "塞尔维亚",
+   "vi": "Serbia",
+   "hi": "सर्बिया"
+  },
+  "region": "europe",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "CY",
+  "name": {
+   "en": "Cyprus",
+   "ru": "Кипр",
+   "fr": "Chypre",
+   "es": "Chipre",
+   "it": "Cipro",
+   "de": "Zypern",
+   "zh": "塞浦路斯",
+   "vi": "Síp",
+   "hi": "साइप्रस"
+  },
+  "region": "europe",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "MA",
+  "name": {
+   "en": "Morocco",
+   "ru": "Марокко",
+   "fr": "Maroc",
+   "es": "Marruecos",
+   "it": "Marocco",
+   "de": "Marokko",
+   "zh": "摩洛哥",
+   "vi": "Maroc",
+   "hi": "मोरक्को"
+  },
+  "region": "africa",
+  "status": "free",
+  "is_priority": true
+ },
+ {
+  "code": "DZ",
+  "name": {
+   "en": "Algeria",
+   "ru": "Алжир",
+   "fr": "Algérie",
+   "es": "Argelia",
+   "it": "Algeria",
+   "de": "Algerien",
+   "zh": "阿尔及利亚",
+   "vi": "Algeria",
+   "hi": "अल्जीरिया"
+  },
+  "region": "africa",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "TN",
+  "name": {
+   "en": "Tunisia",
+   "ru": "Тунис",
+   "fr": "Tunisie",
+   "es": "Túnez",
+   "it": "Tunisia",
+   "de": "Tunesien",
+   "zh": "突尼斯",
+   "vi": "Tunisia",
+   "hi": "ट्यूनीशिया"
+  },
+  "region": "africa",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "NG",
+  "name": {
+   "en": "Nigeria",
+   "ru": "Нигерия",
+   "fr": "Nigeria",
+   "es": "Nigeria",
+   "it": "Nigeria",
+   "de": "Nigeria",
+   "zh": "尼日利亚",
+   "vi": "Nigeria",
+   "hi": "नाइजीरिया"
+  },
+  "region": "africa",
+  "status": "free",
+  "is_priority": true
+ },
+ {
+  "code": "KE",
+  "name": {
+   "en": "Kenya",
+   "ru": "Кения",
+   "fr": "Kenya",
+   "es": "Kenia",
+   "it": "Kenya",
+   "de": "Kenia",
+   "zh": "肯尼亚",
+   "vi": "Kenya",
+   "hi": "केन्या"
+  },
+  "region": "africa",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "ZA",
+  "name": {
+   "en": "South Africa",
+   "ru": "ЮАР",
+   "fr": "Afrique du Sud",
+   "es": "Sudáfrica",
+   "it": "Sudafrica",
+   "de": "Südafrika",
+   "zh": "南非",
+   "vi": "Nam Phi",
+   "hi": "दक्षिण अफ़्रीका"
+  },
+  "region": "africa",
+  "status": "free",
+  "is_priority": true
+ },
+ {
+  "code": "GH",
+  "name": {
+   "en": "Ghana",
+   "ru": "Гана",
+   "fr": "Ghana",
+   "es": "Ghana",
+   "it": "Ghana",
+   "de": "Ghana",
+   "zh": "加纳",
+   "vi": "Ghana",
+   "hi": "घाना"
+  },
+  "region": "africa",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "CI",
+  "name": {
+   "en": "Côte d'Ivoire",
+   "ru": "Кот-д’Ивуар",
+   "fr": "Côte d'Ivoire",
+   "es": "Costa de Marfil",
+   "it": "Costa d'Avorio",
+   "de": "Côte d'Ivoire",
+   "zh": "科特迪瓦",
+   "vi": "Bờ Biển Ngà",
+   "hi": "कोत दिवुआर"
+  },
+  "region": "africa",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "SN",
+  "name": {
+   "en": "Senegal",
+   "ru": "Сенегал",
+   "fr": "Sénégal",
+   "es": "Senegal",
+   "it": "Senegal",
+   "de": "Senegal",
+   "zh": "塞内加尔",
+   "vi": "Senegal",
+   "hi": "सेनेगल"
+  },
+  "region": "africa",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "BF",
+  "name": {
+   "en": "Burkina Faso",
+   "ru": "Буркина-Фасо",
+   "fr": "Burkina Faso",
+   "es": "Burkina Faso",
+   "it": "Burkina Faso",
+   "de": "Burkina Faso",
+   "zh": "布基纳法索",
+   "vi": "Burkina Faso",
+   "hi": "बुर्किना फ़ासो"
+  },
+  "region": "africa",
+  "status": "negotiation",
+  "is_priority": false
+ },
+ {
+  "code": "CM",
+  "name": {
+   "en": "Cameroon",
+   "ru": "Камерун",
+   "fr": "Cameroun",
+   "es": "Camerún",
+   "it": "Camerun",
+   "de": "Kamerun",
+   "zh": "喀麦隆",
+   "vi": "Cameroon",
+   "hi": "कैमरून"
+  },
+  "region": "africa",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "ET",
+  "name": {
+   "en": "Ethiopia",
+   "ru": "Эфиопия",
+   "fr": "Éthiopie",
+   "es": "Etiopía",
+   "it": "Etiopia",
+   "de": "Äthiopien",
+   "zh": "埃塞俄比亚",
+   "vi": "Ethiopia",
+   "hi": "इथियोपिया"
+  },
+  "region": "africa",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "TZ",
+  "name": {
+   "en": "Tanzania",
+   "ru": "Танзания",
+   "fr": "Tanzanie",
+   "es": "Tanzania",
+   "it": "Tanzania",
+   "de": "Tansania",
+   "zh": "坦桑尼亚",
+   "vi": "Tanzania",
+   "hi": "तंज़ानिया"
+  },
+  "region": "africa",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "CN",
+  "name": {
+   "en": "China",
+   "ru": "Китай",
+   "fr": "Chine",
+   "es": "China",
+   "it": "Cina",
+   "de": "China",
+   "zh": "中国",
+   "vi": "Trung Quốc",
+   "hi": "चीन"
+  },
+  "region": "asia",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "HK",
+  "name": {
+   "en": "Hong Kong",
+   "ru": "Гонконг",
+   "fr": "Hong Kong",
+   "es": "Hong Kong",
+   "it": "Hong Kong",
+   "de": "Hongkong",
+   "zh": "中国香港",
+   "vi": "Hồng Kông",
+   "hi": "हांगकांग"
+  },
+  "region": "asia",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "IN",
+  "name": {
+   "en": "India",
+   "ru": "Индия",
+   "fr": "Inde",
+   "es": "India",
+   "it": "India",
+   "de": "Indien",
+   "zh": "印度",
+   "vi": "Ấn Độ",
+   "hi": "भारत"
+  },
+  "region": "asia",
+  "status": "free",
+  "is_priority": true
+ },
+ {
+  "code": "VN",
+  "name": {
+   "en": "Vietnam",
+   "ru": "Вьетнам",
+   "fr": "Vietnam",
+   "es": "Vietnam",
+   "it": "Vietnam",
+   "de": "Vietnam",
+   "zh": "越南",
+   "vi": "Việt Nam",
+   "hi": "वियतनाम"
+  },
+  "region": "asia",
+  "status": "free",
+  "is_priority": true
+ },
+ {
+  "code": "TH",
+  "name": {
+   "en": "Thailand",
+   "ru": "Таиланд",
+   "fr": "Thaïlande",
+   "es": "Tailandia",
+   "it": "Thailandia",
+   "de": "Thailand",
+   "zh": "泰国",
+   "vi": "Thái Lan",
+   "hi": "थाईलैंड"
+  },
+  "region": "asia",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "MY",
+  "name": {
+   "en": "Malaysia",
+   "ru": "Малайзия",
+   "fr": "Malaisie",
+   "es": "Malasia",
+   "it": "Malesia",
+   "de": "Malaysia",
+   "zh": "马来西亚",
+   "vi": "Malaysia",
+   "hi": "मलेशिया"
+  },
+  "region": "asia",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "SG",
+  "name": {
+   "en": "Singapore",
+   "ru": "Сингапур",
+   "fr": "Singapour",
+   "es": "Singapur",
+   "it": "Singapore",
+   "de": "Singapur",
+   "zh": "新加坡",
+   "vi": "Singapore",
+   "hi": "सिंगापुर"
+  },
+  "region": "asia",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "ID",
+  "name": {
+   "en": "Indonesia",
+   "ru": "Индонезия",
+   "fr": "Indonésie",
+   "es": "Indonesia",
+   "it": "Indonesia",
+   "de": "Indonesien",
+   "zh": "印度尼西亚",
+   "vi": "Indonesia",
+   "hi": "इंडोनेशिया"
+  },
+  "region": "asia",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "PH",
+  "name": {
+   "en": "Philippines",
+   "ru": "Филиппины",
+   "fr": "Philippines",
+   "es": "Filipinas",
+   "it": "Filippine",
+   "de": "Philippinen",
+   "zh": "菲律宾",
+   "vi": "Philippines",
+   "hi": "फ़िलीपींस"
+  },
+  "region": "asia",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "PK",
+  "name": {
+   "en": "Pakistan",
+   "ru": "Пакистан",
+   "fr": "Pakistan",
+   "es": "Pakistán",
+   "it": "Pakistan",
+   "de": "Pakistan",
+   "zh": "巴基斯坦",
+   "vi": "Pakistan",
+   "hi": "पाकिस्तान"
+  },
+  "region": "asia",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "BD",
+  "name": {
+   "en": "Bangladesh",
+   "ru": "Бангладеш",
+   "fr": "Bangladesh",
+   "es": "Bangladés",
+   "it": "Bangladesh",
+   "de": "Bangladesch",
+   "zh": "孟加拉国",
+   "vi": "Bangladesh",
+   "hi": "बांग्लादेश"
+  },
+  "region": "asia",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "KZ",
+  "name": {
+   "en": "Kazakhstan",
+   "ru": "Казахстан",
+   "fr": "Kazakhstan",
+   "es": "Kazajistán",
+   "it": "Kazakistan",
+   "de": "Kasachstan",
+   "zh": "哈萨克斯坦",
+   "vi": "Kazakhstan",
+   "hi": "कज़ाख़स्तान"
+  },
+  "region": "asia",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "UZ",
+  "name": {
+   "en": "Uzbekistan",
+   "ru": "Узбекистан",
+   "fr": "Ouzbékistan",
+   "es": "Uzbekistán",
+   "it": "Uzbekistan",
+   "de": "Usbekistan",
+   "zh": "乌兹别克斯坦",
+   "vi": "Uzbekistan",
+   "hi": "उज़्बेकिस्तान"
+  },
+  "region": "asia",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "US",
+  "name": {
+   "en": "United States",
+   "ru": "США",
+   "fr": "États-Unis",
+   "es": "Estados Unidos",
+   "it": "Stati Uniti",
+   "de": "Vereinigte Staaten",
+   "zh": "美国",
+   "vi": "Hoa Kỳ",
+   "hi": "संयुक्त राज्य अमेरिका"
+  },
+  "region": "americas",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "CA",
+  "name": {
+   "en": "Canada",
+   "ru": "Канада",
+   "fr": "Canada",
+   "es": "Canadá",
+   "it": "Canada",
+   "de": "Kanada",
+   "zh": "加拿大",
+   "vi": "Canada",
+   "hi": "कनाडा"
+  },
+  "region": "americas",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "MX",
+  "name": {
+   "en": "Mexico",
+   "ru": "Мексика",
+   "fr": "Mexique",
+   "es": "México",
+   "it": "Messico",
+   "de": "Mexiko",
+   "zh": "墨西哥",
+   "vi": "Mexico",
+   "hi": "मेक्सिको"
+  },
+  "region": "americas",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "BR",
+  "name": {
+   "en": "Brazil",
+   "ru": "Бразилия",
+   "fr": "Brésil",
+   "es": "Brasil",
+   "it": "Brasile",
+   "de": "Brasilien",
+   "zh": "巴西",
+   "vi": "Brazil",
+   "hi": "ब्राज़ील"
+  },
+  "region": "americas",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "AR",
+  "name": {
+   "en": "Argentina",
+   "ru": "Аргентина",
+   "fr": "Argentine",
+   "es": "Argentina",
+   "it": "Argentina",
+   "de": "Argentinien",
+   "zh": "阿根廷",
+   "vi": "Argentina",
+   "hi": "अर्जेंटीना"
+  },
+  "region": "americas",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "CL",
+  "name": {
+   "en": "Chile",
+   "ru": "Чили",
+   "fr": "Chili",
+   "es": "Chile",
+   "it": "Cile",
+   "de": "Chile",
+   "zh": "智利",
+   "vi": "Chile",
+   "hi": "चिली"
+  },
+  "region": "americas",
+  "status": "free",
+  "is_priority": false
+ },
+ {
+  "code": "CO",
+  "name": {
+   "en": "Colombia",
+   "ru": "Колумбия",
+   "fr": "Colombie",
+   "es": "Colombia",
+   "it": "Colombia",
+   "de": "Kolumbien",
+   "zh": "哥伦比亚",
+   "vi": "Colombia",
+   "hi": "कोलंबिया"
+  },
+  "region": "americas",
+  "status": "free",
+  "is_priority": false
+ }
+]
