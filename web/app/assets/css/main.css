@@ -10,6 +10,7 @@
   --bg: #FFFFFF; --bg-alt: #F0F4FE; --warm: #F6E7D7; --warm-2: #FBF4EC;
   --blue: #2E90FA; --blue-d: #1570EF; --sky: #8FB0E8; --purple: #7A5AF8; --purple-d: #5925DC;
   --ok: #12B76A; --warn: #F79009; --danger: #F04438;
+  --amber-bg: #FFFAEB; --amber-line: #FEDF89; --amber-fg: #B54708;
   --fg: var(--ink); --fg-on-dark: #F2F5FB; --muted-on-dark: #B9C6E2;
   --radius: 22px; --radius-lg: 32px; --radius-sm: 14px;
   --shadow: 0 12px 40px rgba(16, 42, 86, .10); --shadow-dark: 0 40px 60px rgba(0, 0, 0, .45);
@@ -99,7 +100,7 @@ p { margin: 0; }
 .field { display: grid; gap: 6px; min-width: 0; }
 .field label { font-size: .85rem; font-weight: 700; color: var(--ink); }
 .field label small { font-weight: 400; color: var(--muted); }
-.field input, .field select, .field textarea { width: 100%; font: inherit; font-size: 1rem; padding: .85rem .95rem; border-radius: 12px; border: 1px solid var(--line); background: #fff; color: var(--ink); transition: border-color .2s, box-shadow .2s; }
+.field input:not([type=checkbox]):not([type=radio]), .field select, .field textarea { width: 100%; font: inherit; font-size: 1rem; padding: .85rem .95rem; border-radius: 12px; border: 1px solid var(--line); background: #fff; color: var(--ink); transition: border-color .2s, box-shadow .2s; }
 .field input:focus, .field select:focus, .field textarea:focus { border-color: var(--blue); box-shadow: 0 0 0 4px rgba(46, 144, 250, .15); outline: none; }
 .field.has-error input, .field.has-error select, .field.has-error textarea { border-color: var(--danger); }
 .field .err { font-size: .8rem; color: var(--danger); }
