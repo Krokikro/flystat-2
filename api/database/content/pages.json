@@ -6446,42 +6446,41 @@
     "enabled": true,
     "data": {
      "title": {
-      "en": "How the sensor is made",
-      "ru": "Как делают сенсор",
-      "fr": "Comment le capteur est fabriqué",
-      "es": "Cómo se fabrica el sensor",
-      "it": "Come viene prodotto il sensore",
-      "de": "Wie der Sensor hergestellt wird",
-      "zh": "传感器如何制造",
-      "vi": "Cảm biến được làm ra như thế nào",
-      "hi": "सेंसर कैसे बनता है"
+      "en": "The sensor and applicator, up close",
+      "ru": "Сенсор и аппликатор крупным планом",
+      "fr": "Le capteur et l’applicateur de près",
+      "es": "El sensor y el aplicador de cerca",
+      "it": "Il sensore e l’applicatore da vicino",
+      "de": "Sensor und Applikator aus der Nähe",
+      "zh": "近距离看传感器与敷贴器",
+      "vi": "Cảm biến và dụng cụ gắn, cận cảnh",
+      "hi": "सेंसर और एप्लिकेटर, नज़दीक से"
      },
-     "video": "/media/production.mp4",
+     "video": "/media/hero-device.mp4",
      "poster": {
-      "src": "/media/production/cleanroom.webp",
+      "src": "/media/renders/front.webp",
       "alt": {
-       "en": "Production visualisation",
-       "ru": "Визуализация производства",
-       "fr": "Visualisation de la production",
-       "es": "Visualización de la producción",
-       "it": "Visualizzazione della produzione",
-       "de": "Visualisierung der Produktion",
-       "zh": "生产过程可视化示意",
-       "vi": "Hình ảnh mô phỏng sản xuất",
-       "hi": "उत्पादन का विज़ुअलाइज़ेशन"
+       "en": "Flystat sensor and applicator",
+       "ru": "Сенсор и аппликатор Flystat",
+       "fr": "Capteur et applicateur Flystat",
+       "es": "Sensor y aplicador Flystat",
+       "it": "Sensore e applicatore Flystat",
+       "de": "Flystat-Sensor und Applikator",
+       "zh": "Flystat 传感器与敷贴器",
+       "vi": "Cảm biến và dụng cụ gắn Flystat",
+       "hi": "Flystat सेंसर और एप्लिकेटर"
       }
      },
-     "generated_badge": true,
      "caption": {
-      "en": "Visualisation of the assembly process. Real footage from the production line will replace it after the next audit.",
-      "ru": "Визуализация процесса сборки. После следующего аудита её заменят реальные съёмки с производственной линии.",
-      "fr": "Visualisation du processus d'assemblage. De vraies images de la ligne de production la remplaceront après le prochain audit.",
-      "es": "Visualización del proceso de montaje. Las imágenes reales de la línea de producción la sustituirán tras la próxima auditoría.",
-      "it": "Visualizzazione del processo di assemblaggio. Dopo il prossimo audit sarà sostituita da riprese reali della linea di produzione.",
-      "de": "Visualisierung des Montageprozesses. Echte Aufnahmen aus der Produktion ersetzen sie nach dem nächsten Audit.",
-      "zh": "装配过程的可视化示意。下一次审核后，将替换为生产线的真实影像。",
-      "vi": "Hình ảnh mô phỏng quá trình lắp ráp. Cảnh quay thật từ dây chuyền sản xuất sẽ thay thế sau đợt kiểm tra tiếp theo.",
-      "hi": "असेंबली प्रक्रिया का विज़ुअलाइज़ेशन। अगले ऑडिट के बाद इसकी जगह उत्पादन लाइन की असली फ़ुटेज लेगी।"
+      "en": "Studio animation of the current sensor and applicator design.",
+      "ru": "Студийная анимация текущего дизайна сенсора и аппликатора.",
+      "fr": "Animation studio du design actuel du capteur et de l’applicateur.",
+      "es": "Animación de estudio del diseño actual del sensor y el aplicador.",
+      "it": "Animazione in studio del design attuale di sensore e applicatore.",
+      "de": "Studio-Animation des aktuellen Designs von Sensor und Applikator.",
+      "zh": "当前传感器与敷贴器设计的工作室动画。",
+      "vi": "Hoạt hình studio về thiết kế hiện tại của cảm biến và dụng cụ gắn.",
+      "hi": "सेंसर और एप्लिकेटर के वर्तमान डिज़ाइन का स्टूडियो एनीमेशन।"
      }
     }
    },
