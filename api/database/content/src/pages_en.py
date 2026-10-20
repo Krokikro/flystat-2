@@ -63,14 +63,14 @@ PAGES.append(page("", "home", T("Flystat — continuous glucose monitoring"), na
             eyebrow=T("How it works"), title=T("Three parts. One habit you will not notice."),
             text=T("A sensor on the back of your arm, a phone in your pocket, and a report you can share with your doctor whenever you choose."),
             items=[
-                item(T("A sensor the size of two coins"), T("The applicator places a tiny flexible filament just under the skin in one click. You feel a tap, not a prick. The sensor stays on for 15 days — through showers, swimming and sport."), icon="disc"),
-                item(T("Readings every minute in the app"), T("The sensor measures glucose in the fluid between your cells and sends it to your phone by Bluetooth. Fast changes are reported every minute, steady periods every five."), icon="smartphone"),
-                item(T("Reports you decide to share"), T("Export a clear report for your appointment — trends, time in range, events. Your data stays yours; you choose when a doctor sees it."), icon="file-text"),
+                item(T("A sensor the size of two coins"), T("The applicator places a tiny flexible filament just under the skin in one click. You feel a tap, not a prick. The sensor stays on for 15 days — through showers, swimming and sport."), icon="disc", image=img("renders/sensor.webp", T("Flystat applicator and sensor"))),
+                item(T("Readings every minute in the app"), T("The sensor measures glucose in the fluid between your cells and sends it to your phone by Bluetooth. Fast changes are reported every minute, steady periods every five."), icon="smartphone", image=img("app/home.webp", T("App home screen"))),
+                item(T("Reports you decide to share"), T("Export a clear report for your appointment — trends, time in range, events. Your data stays yours; you choose when a doctor sees it."), icon="file-text", image=img("app/reports.webp", T("Reports screen"))),
             ])),
         block("text_media", anchor="device-teaser", data=dict(
             eyebrow=T("The device"), title=T("Designed to be forgotten on your arm"),
             text=T("<p>The sensor is 24 mm across and 4.5 mm thin, weighs two grams and sits under a round patch. The disposable applicator comes assembled with the sensor inside, so applying it is one step: press, click, done.</p><p>Both are rated IP58 — showers, pools and sweaty workouts are fine.</p>"),
-            image=img("renders/front.webp", T("Flystat applicator and sensor")), media_side="right", tone="light",
+            image=img("renders/applicator-front.webp", T("Flystat applicator and sensor")), media_side="right", tone="light", chips=["Ø 24 mm", "4.5 mm", "2 g", "IP58"],
             cta=cta(T("Explore the device"), "/device"))),
         block("app_screens", anchor="app", data=dict(
             eyebrow=T("The app"), title=T("Your glucose, explained — not just plotted"),
@@ -104,7 +104,7 @@ PAGES.append(page("", "home", T("Flystat — continuous glucose monitoring"), na
         block("text_media", anchor="company-teaser", data=dict(
             eyebrow=T("The company"), title=T("Made carefully, said honestly"),
             text=T("<p>Flystat is developed by the MLC group and produced on contract manufacturing lines under our engineering control — clean rooms, biocompatibility testing and batch traceability.</p><p>We are in the middle of the CE marking procedure, which we expect to complete by the end of 2027. Until then we do not sell the device and we do not quote prices or dates we cannot keep.</p>"),
-            image=img("production/cleanroom.webp", T("Visualisation of the production line")), generated_badge=True, media_side="left", tone="warm",
+            image=img("renders/sensor-exploded.webp", T("Sensor layers: housing, board and adhesive patch")), media_side="left", tone="warm",
             cta=cta(T("About the company"), "/company"))),
         block("news", anchor="news", data=dict(title=T("News and events"), limit=3)),
         PARTNER_CTA,
@@ -124,7 +124,7 @@ PAGES.append(page("device", "device", T("The Flystat device"), nav=T("Device"), 
         block("text_media", anchor="exploded", data=dict(
             eyebrow=T("What is inside"), title=T("Three parts you never have to think about"),
             text=T("<p><strong>The cap</strong> protects the sensor until you peel the seal.</p><p><strong>The sensor</strong> — a 24 mm disc, 4.5 mm thin, two grams — carries the electronics, a 3 V lithium cell for the full 15 days and a flexible filament 5.5 mm long that sits just under the skin.</p><p><strong>The base</strong> holds the spring mechanism that places the sensor in one controlled motion and retracts the guide needle immediately.</p>"),
-            image=img("renders/exploded.webp", T("Exploded view: cap, sensor and base")), media_side="right", tone="dark")),
+            image=img("renders/exploded.webp", T("Exploded view: cap, sensor and base")), media_side="right", tone="dark", chips=["Ø 24 mm", "4.5 mm", "2 g", "IP58"])),
         block("spec_table", anchor="specs", data=dict(
             title=T("Technical specifications"),
             rows=[
@@ -340,7 +340,7 @@ PAGES.append(page("company", "company", T("About Flystat and MLC"), nav=T("Compa
     blocks=[
         block("hero_light", anchor="top", data=dict(eyebrow=T("The company"), title=T("A small team making a sensor people can rely on"),
             text=T("Flystat is a brand of the MLC group. We design the sensor, the applicator and the app, and we produce them on contract manufacturing lines under our own engineering control. We say what is finished and what is not."),
-            image=img("production/line.webp", T("Visualisation of the production line")), cta=cta(T("Partner with us"), "/partners"), cta2=cta(T("Press kit"), "#documents"))),
+            image=img("renders/applicator-angle.webp", T("Flystat applicator")), cta=cta(T("Partner with us"), "/partners"), cta2=cta(T("Press kit"), "#documents"))),
         block("timeline", anchor="timeline", data=dict(title=T("Timeline"),
             items=[
                 dict(date="2025", title=T("Company founded"), text=T("Shenzhen Mailian Testing Technology Co., Ltd. registered in May 2025 as the legal entity behind Flystat.")),

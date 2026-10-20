@@ -1,6 +1,6 @@
 <script setup lang="ts">
 /** One form component, presets per cohort (PRD A5). Posts to /api/v2/leads; support requests become JSM tickets on the API side. */
-import { Paperclip } from '@lucide/vue'
+import { Paperclip, Check } from '@lucide/vue'
 const props = defineProps<{ data: Record<string, any>; compact?: boolean }>()
 const { t, locale } = useI18n(); const route = useRoute(); const localePath = useLocalePath()
 const boot = inject<any>('boot', null)
@@ -59,14 +59,16 @@ const opt = (k: string) => Object.entries((t(`form.${k}_opts`, {}, { returnObjec
 const uid = Math.random().toString(36).slice(2, 7)
 </script>
 <template>
-  <section class="section lf" :class="[`tone-${data.tone || 'light'}`, { 'form-dark': data.tone === 'dark' }]">
+  <section class="section lf" :class="[`tone-${data.tone || 'light'}`, `cohort-${cohort}`, { 'form-dark': data.tone === 'dark', compact }]">
+    <i class="light" aria-hidden="true" />
     <div class="container inner">
-      <div class="copy" v-reveal>
-        <h2>{{ data.title }}</h2>
-        <p v-if="data.text" class="lead">{{ data.text }}</p>
+      <div class="copy">
+        <p v-if="data.eyebrow" class="eyebrow" v-reveal>{{ data.eyebrow }}</p>
+        <h2 v-reveal>{{ data.title }}</h2>
+        <p v-if="data.text" class="lead" v-reveal="80">{{ data.text }}</p>
       </div>
-      <form class="form" novalidate v-reveal="100" @submit.prevent="submit">
-        <p v-if="state === 'ok'" class="ok">✓ {{ data.success || t('thanks.default') }}</p>
+      <form class="form" :class="{ done: state === 'ok' }" novalidate v-reveal="140" @submit.prevent="submit">
+        <div v-if="state === 'ok'" class="ok" role="status"><span class="okic"><Check :size="28" :stroke-width="2.5" /></span><p>{{ data.success || t('thanks.default') }}</p></div>
         <template v-else>
           <input v-model="f.website_url" type="text" name="website_url" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
           <div class="fields">
@@ -104,20 +106,34 @@ const uid = Math.random().toString(36).slice(2, 7)
   </section>
 </template>
 <style scoped>
-.lf.tone-dark { background: var(--navy-800); color: var(--fg-on-dark); } .tone-dark .lead { color: var(--muted-on-dark); }
+.lf { position: relative; overflow: hidden; isolation: isolate; }
+.light { position: absolute; z-index: 0; pointer-events: none; width: 50vw; height: 50vw; max-width: 800px; max-height: 800px; left: -12%; bottom: -30%; border-radius: 50%; background: radial-gradient(closest-side, rgba(46,144,250,.16), transparent 70%); }
+.lf.tone-dark { background: linear-gradient(180deg, var(--navy-800), var(--navy-900)); color: var(--fg-on-dark); } .tone-dark .lead { color: var(--muted-on-dark); } .tone-dark .eyebrow { color: #8FB7FF; }
+.tone-dark .light { background: radial-gradient(closest-side, rgba(46,144,250,.35), transparent 70%); }
 .lf.tone-light { background: var(--bg-alt); }
-.inner { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(24px, 4vw, 64px); align-items: start; }
-.copy { display: grid; gap: 14px; position: sticky; top: calc(var(--header-h) + 24px); }
-.form { display: grid; gap: 16px; background: #fff; border: 1px solid var(--line); border-radius: var(--radius-lg); padding: clamp(20px, 3vw, 36px); }
-.tone-dark .form { background: rgba(255,255,255,.04); border-color: rgba(255,255,255,.12); }
-.fields { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; } .full { grid-column: 1 / -1; }
+.inner { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(32px, 5vw, 96px); align-items: start; }
+.copy { display: grid; gap: clamp(14px, 1.4vw, 22px); position: sticky; top: calc(var(--header-h) + 32px); }
+.copy h2 { font-size: clamp(2rem, 1rem + 2.4vw, 3.6rem); letter-spacing: -.03em; }
+.copy .lead { font-size: clamp(1.05rem, 1rem + .3vw, 1.3rem); }
+.form { position: relative; display: grid; gap: 20px; background: #fff; border: 1px solid var(--line); border-radius: var(--radius-lg); padding: clamp(24px, 3.2vw, 48px); box-shadow: 0 30px 80px -30px rgba(16,42,86,.25); min-width: 0; }
+.tone-dark .form { background: rgba(255,255,255,.05); border-color: rgba(255,255,255,.12); backdrop-filter: blur(12px); box-shadow: 0 40px 80px -30px rgba(0,0,0,.5); }
+.cohort-subscribe .inner { grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); }
+.fields { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 18px; } .full { grid-column: 1 / -1; }
+.form .field label { font-size: .9rem; }
+.form .field input, .form .field select, .form .field textarea { padding: 1rem 1.1rem; border-radius: 14px; font-size: 1.02rem; }
+.form .field textarea { min-height: 7.5rem; resize: vertical; }
 .hp { position: absolute; left: -9999px; }
-.chips { display: flex; flex-wrap: wrap; gap: 8px; } .chip { display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 999px; font-size: 0.8438rem; cursor: pointer; } .chip:has(input:checked) { background: var(--ink); color: #fff; border-color: var(--ink); } .chip input { position: absolute; opacity: 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; } .chip { position: relative; display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid var(--line); border-radius: 999px; font-size: .9rem; cursor: pointer; transition: background .3s, color .3s, border-color .3s; } .chip:has(input:checked) { background: var(--ink); color: #fff; border-color: var(--ink); } .chip input { position: absolute; opacity: 0; }
 .tone-dark .chip { border-color: rgba(255,255,255,.2); } .tone-dark .chip:has(input:checked) { background: var(--blue); border-color: var(--blue); }
-.file { display: flex; gap: 10px; align-items: center; border: 1px dashed var(--line); border-radius: 12px; padding: 12px 14px; cursor: pointer; color: var(--muted); font-size: 0.875rem; } .file input { display: none; }
-.actions { display: grid; gap: 8px; justify-items: start; }
-.ok { font-weight: 700; color: var(--ok); font-size: 1.0625rem; }
-.err { color: var(--danger); font-size: 0.8125rem; }
-@media (max-width: 860px) { .inner { grid-template-columns: 1fr; } .copy { position: static; } }
-@media (max-width: 560px) { .fields { grid-template-columns: 1fr; } }
+.file { display: flex; gap: 10px; align-items: center; border: 1px dashed var(--line); border-radius: 14px; padding: 14px 16px; cursor: pointer; color: var(--muted); font-size: .9rem; } .file input { display: none; }
+.form .check { font-size: .9rem; }
+.actions { display: grid; gap: 10px; justify-items: start; }
+.actions .btn { padding: 1.1rem 2rem; font-size: 1.05rem; }
+.ok { display: grid; grid-template-columns: auto 1fr; gap: 18px; align-items: center; padding: 8px 0; }
+.okic { width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center; background: rgba(18,183,106,.14); color: var(--ok); animation: pop .6s var(--ease) both; }
+.ok p { font-weight: 700; font-size: clamp(1.1rem, 1rem + .4vw, 1.4rem); letter-spacing: -.01em; line-height: 1.3; }
+@keyframes pop { from { transform: scale(.4); opacity: 0; } to { transform: none; opacity: 1; } }
+.err { color: var(--danger); font-size: .85rem; }
+@media (max-width: 860px) { .inner, .cohort-subscribe .inner { grid-template-columns: 1fr; gap: 28px; } .copy { position: static; } }
+@media (max-width: 560px) { .fields { grid-template-columns: 1fr; } .form { padding: 22px 18px; } .ok { grid-template-columns: 1fr; } }
 </style>
