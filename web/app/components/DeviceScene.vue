@@ -36,6 +36,7 @@ async function initLive() {
   try {
     const { createDeviceScene } = await import('~/utils/device-scene.js')
     scene = await createDeviceScene(canvas.value, { url: '/models/flystat.glb', onProgress: (f: number) => { loadPct.value = Math.round(f * 100) } })
+    if (import.meta.dev || (window as any).__fsDebug) (window as any).__fs = scene
     if (!alive) { scene.dispose(); return }
     fit(); ready.value = true
     const loop = () => {
@@ -125,8 +126,8 @@ defineExpose({ ready, mode })
 <style scoped>
 .dev { position: absolute; inset: 0; overflow: hidden; background: radial-gradient(70% 70% at 68% 48%, #0C2F63 0%, #06264D 55%, #041C3B 100%); }
 .gl, .poster { position: absolute; inset: 0; width: 100%; height: 100%; }
-.poster { object-fit: cover; object-position: 68% 50%; opacity: 1; transition: opacity .8s ease .1s; }
-.gl { opacity: 0; transition: opacity .8s ease; display: block; }
+.poster { object-fit: cover; object-position: 68% 50%; opacity: 1; transition: opacity .35s ease .05s; }
+.gl { opacity: 0; transition: opacity .35s ease; display: block; }
 .dev.ready .gl { opacity: 1; } .dev.ready .poster { opacity: 0; }
 .load { position: absolute; left: 0; right: 0; bottom: 0; height: 2px; background: rgba(255,255,255,.08); } .load i { display: block; height: 100%; background: #8FB7FF; transition: width .3s ease; }
 .vignette { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(6,38,77,.9) 0%, rgba(6,38,77,.45) 30%, rgba(6,38,77,0) 52%), linear-gradient(180deg, rgba(6,38,77,.25) 0%, rgba(6,38,77,0) 22%, rgba(6,38,77,0) 72%, rgba(6,38,77,1) 100%); pointer-events: none; }

@@ -60,7 +60,7 @@ export async function createDeviceScene(canvas, opts) {
     if (!o.isMesh) return
     o.frustumCulled = false
     const m = o.material; const name = m.name || ''
-    if (/659 ?C Pantone/.test(name) && !/translucence/.test(o.parent?.name || '') && m.opacity === 1) {
+    if (/659 ?C (Pantone|Shiny)/.test(name) && !/translucence/.test(o.parent?.name || '') && m.opacity === 1) {
       // light-blue applicator shell: glossy ABS with a clearcoat
       const pm = new THREE.MeshPhysicalMaterial({ color: COLORS.shell, roughness: 0.42, metalness: 0, clearcoat: 0.3, clearcoatRoughness: 0.35, envMapIntensity: 0.55 })
       if (/Shiny/.test(name)) { pm.roughness = 0.18; pm.color.set(COLORS.shellDark) } // embossed logo / emblem
