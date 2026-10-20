@@ -774,5 +774,13 @@
  "Flystat — a continuous glucose monitoring system: 15-day sensor, readings every minute, no finger-prick calibration.": "Flystat — निरंतर ग्लूकोज़ निगरानी प्रणाली: 15 दिन का सेंसर, हर मिनट रीडिंग, उंगली से रक्त जाँच द्वारा कैलिब्रेशन की ज़रूरत नहीं।",
  "The sensor and applicator, up close": "सेंसर और एप्लिकेटर, नज़दीक से",
  "Flystat sensor and applicator": "Flystat सेंसर और एप्लिकेटर",
- "Studio animation of the current sensor and applicator design.": "सेंसर और एप्लिकेटर के वर्तमान डिज़ाइन का स्टूडियो एनीमेशन।"
+ "Studio animation of the current sensor and applicator design.": "सेंसर और एप्लिकेटर के वर्तमान डिज़ाइन का स्टूडियो एनीमेशन।",
+ "The sensor is already inside": "सेंसर पहले से अंदर है",
+ "No assembly, no separate inserter. The applicator holds the sensor sterile until the moment you press it to your arm.": "कुछ जोड़ना नहीं, अलग से कोई इंसर्टर नहीं। एप्लिकेटर सेंसर को तब तक स्टेराइल रखता है जब तक आप उसे बांह पर दबाते नहीं।",
+ "Housing — 24 mm across, 4.5 mm thin, IP58": "केस — 24 मिमी चौड़ा, 4.5 मिमी पतला, IP58",
+ "Board and battery — 15 days on one charge, Bluetooth and NFC": "बोर्ड और बैटरी — एक चार्ज में 15 दिन, Bluetooth और NFC",
+ "Adhesive patch — 28 mm, skin-friendly, holds through showers and sport": "चिपकने वाला पैच — 28 मिमी, त्वचा के अनुकूल, नहाने और खेल में भी टिका रहता है",
+ "Applicator base — sterile cap you remove right before use": "एप्लिकेटर का आधार — स्टेराइल ढक्कन जिसे इस्तेमाल से ठीक पहले हटाते हैं",
+ "That is all you wear": "बस इतना ही पहनना है",
+ "A 24-millimetre disc on the back of your arm. One reading a minute, straight to your phone.": "बांह के पिछले हिस्से पर 24 मिलीमीटर की एक डिस्क। हर मिनट एक रीडिंग, सीधे आपके फ़ोन में।"
 }

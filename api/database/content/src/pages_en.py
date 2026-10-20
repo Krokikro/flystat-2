@@ -4,6 +4,19 @@ Facts come from the Flystat technical specification v3 and PRD A1; nothing beyon
 
 from helpers import T, block, page, cta, item, img
 
+HERO_STAGES = dict(
+    stage2_title=T("The sensor is already inside"),
+    stage2_text=T("No assembly, no separate inserter. The applicator holds the sensor sterile until the moment you press it to your arm."),
+    labels=dict(
+        housing=T("Housing — 24 mm across, 4.5 mm thin, IP58"),
+        internals=T("Board and battery — 15 days on one charge, Bluetooth and NFC"),
+        patch=T("Adhesive patch — 28 mm, skin-friendly, holds through showers and sport"),
+        cap=T("Applicator base — sterile cap you remove right before use"),
+    ),
+    stage4_title=T("That is all you wear"),
+    stage4_text=T("A 24-millimetre disc on the back of your arm. One reading a minute, straight to your phone."),
+)
+
 # ---------------------------------------------------------------- shared pieces
 STATS = block("stats", anchor="numbers", data=dict(
     title=T("The numbers that matter"),
@@ -44,7 +57,7 @@ PAGES.append(page("", "home", T("Flystat — continuous glucose monitoring"), na
             eyebrow=T("Continuous glucose monitoring"),
             title=T("A small sensor. A lot more freedom."),
             text=T("Flystat reads your glucose every minute for 15 days — while you run, sleep, travel and live. No finger pricks to calibrate, no guesswork, and an app that shows what is happening right now."),
-            cta=cta(T("Join the waiting list"), "#waitlist"), cta2=cta(T("For distributors"), "/partners"))),
+            cta=cta(T("Join the waiting list"), "#waitlist"), cta2=cta(T("For distributors"), "/partners"), **HERO_STAGES)),
         STATS,
         block("how_it_works", anchor="how", data=dict(
             eyebrow=T("How it works"), title=T("Three parts. One habit you will not notice."),
@@ -107,7 +120,7 @@ PAGES.append(page("device", "device", T("The Flystat device"), nav=T("Device"), 
             scene="rotate", eyebrow=T("The device"),
             title=T("One click. Fifteen days."),
             text=T("The applicator comes with the sensor already inside. Press it to the back of your arm, hear the click, and the sensor is in place for the next 15 days."),
-            cta=cta(T("See the specifications"), "#specs"), cta2=cta(T("How to apply it"), "/manual#install"))),
+            cta=cta(T("See the specifications"), "#specs"), cta2=cta(T("How to apply it"), "/manual#install"), **HERO_STAGES)),
         block("text_media", anchor="exploded", data=dict(
             eyebrow=T("What is inside"), title=T("Three parts you never have to think about"),
             text=T("<p><strong>The cap</strong> protects the sensor until you peel the seal.</p><p><strong>The sensor</strong> — a 24 mm disc, 4.5 mm thin, two grams — carries the electronics, a 3 V lithium cell for the full 15 days and a flexible filament 5.5 mm long that sits just under the skin.</p><p><strong>The base</strong> holds the spring mechanism that places the sensor in one controlled motion and retracts the guide needle immediately.</p>"),

@@ -1,0 +1,19 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>html,body{margin:0;background:#06264D;overflow:hidden}html.none,html.none body{background:transparent}canvas{display:block}</style>
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js","three/examples/jsm/":"/node_modules/three/examples/jsm/"}}</script>
+</head><body><canvas id="c"></canvas>
+<script type="module">
+import { createDeviceScene } from '/web/app/utils/device-scene.js';
+const q = new URLSearchParams(location.search); if (q.get('bg') === 'none') document.documentElement.classList.add('none');
+const W = +q.get('w') || 1600, H = +q.get('h') || 900;
+const c = document.getElementById('c'); c.width = W; c.height = H; c.style.width = W + 'px'; c.style.height = H + 'px';
+try {
+  const sc = await createDeviceScene(c, { url: '/web/public/models/flystat.glb', dpr: 1, background: q.get('bg') === 'none' ? null : undefined });
+  sc.resize(W, H);
+  window.__scene = sc;
+  window.__renderCustom = (ov) => { sc.setOverride(ov); sc.setProgress(ov.p || 0); sc.render(0); };
+  window.__renderAt = (p) => { sc.setProgress(p); const st = sc.render(0); return { anchors: sc.anchors(), text: st.text }; };
+  window.__last = window.__renderAt(+q.get('p') || 0);
+  window.__ready = true;
+} catch (e) { console.error(e); window.__error = String(e && e.stack || e); }
+</script></body></html>

@@ -20,3 +20,6 @@ api/public/build
 web/proto/*.png
 web/proto/*.jpg
 .DS_Store
+assets3d/out/
+assets-app/previews-lowres/
+__pycache__/

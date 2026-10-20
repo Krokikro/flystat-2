@@ -1,0 +1,75 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>html,body{margin:0;background:#06264D;overflow:hidden}canvas{display:block}</style>
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js","three/addons/":"/node_modules/three/examples/jsm/"}}</script>
+</head><body>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';
+import { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';
+
+const q = new URLSearchParams(location.search);
+const W = +q.get('w') || 1600, H = +q.get('h') || 900;
+const bg = q.get('bg') ?? '06264D';
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: bg === 'none', preserveDrawingBuffer: true });
+renderer.setPixelRatio(1); renderer.setSize(W, H);
+renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = +q.get('exp') || 0.9;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+document.body.appendChild(renderer.domElement);
+const scene = new THREE.Scene();
+if (bg !== 'none') scene.background = new THREE.Color('#' + bg);
+const pmrem = new THREE.PMREMGenerator(renderer);
+scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+scene.environmentIntensity = +q.get('env') || 0.7;
+
+const key = new THREE.DirectionalLight(0xffffff, +q.get('key') || 1.2); key.position.set(2, 3, 2); scene.add(key);
+const rim = new THREE.DirectionalLight(0x9cc8ff, +q.get('rim') || 1.0); rim.position.set(-3, 1, -2); scene.add(rim);
+const fill = new THREE.DirectionalLight(0xffffff, 0.6); fill.position.set(-2, -1, 3); scene.add(fill);
+
+const camera = new THREE.PerspectiveCamera(+q.get('fov') || 28, W / H, 0.001, 100);
+window.__ready = false;
+const loader = new GLTFLoader(); const dl = new DRACOLoader(); dl.setDecoderPath('/node_modules/three/examples/jsm/libs/draco/'); loader.setDRACOLoader(dl); loader.setMeshoptDecoder(MeshoptDecoder);
+loader.load(q.get('file') || '/assets3d/Flystat_01.glb', (gltf) => {
+  const root = gltf.scene;
+  // metres → unit box around centre
+  const box = new THREE.Box3().setFromObject(root);
+  const size = box.getSize(new THREE.Vector3()); const centre = box.getCenter(new THREE.Vector3());
+  const s = 1 / Math.max(size.x, size.y, size.z); root.scale.setScalar(s); root.position.copy(centre).multiplyScalar(-s);
+  scene.add(root);
+  window.__root = root; window.__THREE = THREE; window.__scene = scene; window.__camera = camera; window.__renderer = renderer;
+  // explode helper: move named groups along Y
+  const parts = {};
+  root.traverse(o => { if (o.name) (parts[o.name] ||= []).push(o); });
+  window.__parts = parts;
+  const only = q.get('only'); const hide = q.get('hide');
+  // tokens match by substring of node name (names contain spaces/parentheses, awkward in URLs)
+  const norm = (x) => x.replace(/[^\p{L}\p{N}]+/gu, '').toLowerCase();
+  const find = (tok) => { const t = norm(tok); return Object.keys(parts).filter(n => norm(n).includes(t)).flatMap(n => parts[n]); };
+  window.__find = find;
+  if (only) { root.traverse(o => { if (o.isMesh) o.visible = false; }); only.split('|').forEach(t => find(t).forEach(o => o.traverse(c => { c.visible = true; }))); }
+  if (hide) hide.split('|').forEach(t => find(t).forEach(o => { o.visible = false; }));
+  if (q.get('fit')) { // re-centre on visible meshes
+    const bb = new THREE.Box3(); root.updateMatrixWorld(true);
+    root.traverse(o => { if (o.isMesh && o.visible) { let v = true; o.traverseAncestors(a => { if (!a.visible) v = false; }); if (v) bb.expandByObject(o); } });
+    const c = bb.getCenter(new THREE.Vector3()), sz = bb.getSize(new THREE.Vector3()); const k = 1 / Math.max(sz.x, sz.y, sz.z);
+    root.scale.multiplyScalar(k); root.position.sub(c).multiplyScalar(k);
+  }
+  const explode = +q.get('explode') || 0;
+  // explode offsets in model units (mm; the KeyShot root carries the 0.001 scale) along Y (applicator up, patch/cap down)
+  const EXPLODE = [['Аппликатор', 70], ['Датчик/(Clear)', 70], ['Корпус датчика', 16], ['Внутренние компоненты', 8], ['Patch and Glue', -6], ['translucence', 30]];
+  const pathOf = (o) => { const a = []; o.traverseAncestors(x => a.unshift(x.name)); return a.join('/') + '/' + o.name; };
+  if (explode) for (const [tok, dy] of EXPLODE) {
+    const [parentTok, selfTok] = tok.includes('/') ? tok.split('/') : [null, tok];
+    for (const o of find(selfTok)) { if (parentTok && norm(o.parent?.name || '') !== norm(parentTok)) continue; o.position.y += dy * explode; }
+  }
+  if (q.get('nocap')) find('translucence').forEach(o => { o.visible = false; });
+  // camera from spherical params
+  const az = THREE.MathUtils.degToRad(+q.get('az') || 35), el = THREE.MathUtils.degToRad(+q.get('el') || 15), dist = +q.get('dist') || 3.2;
+  camera.position.set(dist * Math.cos(el) * Math.sin(az), dist * Math.sin(el), dist * Math.cos(el) * Math.cos(az));
+  camera.lookAt(0, +q.get('ty') || 0, 0);
+  renderer.render(scene, camera);
+  window.__ready = true;
+}, undefined, (e) => { console.error(e); window.__error = String(e); });
+</script>
+</body></html>

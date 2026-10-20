@@ -122,6 +122,96 @@
        "hi": "वितरकों के लिए"
       },
       "href": "/partners"
+     },
+     "stage2_title": {
+      "en": "The sensor is already inside",
+      "ru": "Сенсор уже внутри",
+      "fr": "Le capteur est déjà à l’intérieur",
+      "es": "El sensor ya está dentro",
+      "it": "Il sensore è già all’interno",
+      "de": "Der Sensor ist schon drin",
+      "zh": "传感器已在其中",
+      "vi": "Cảm biến đã nằm sẵn bên trong",
+      "hi": "सेंसर पहले से अंदर है"
+     },
+     "stage2_text": {
+      "en": "No assembly, no separate inserter. The applicator holds the sensor sterile until the moment you press it to your arm.",
+      "ru": "Ничего не нужно собирать, отдельного устройства для установки нет. Аппликатор хранит сенсор стерильным до момента, когда вы прижмёте его к руке.",
+      "fr": "Rien à assembler, pas d’inserteur séparé. L’applicateur garde le capteur stérile jusqu’au moment où vous l’appuyez sur votre bras.",
+      "es": "Nada que montar, sin insertador aparte. El aplicador mantiene el sensor estéril hasta el momento en que lo presiona contra el brazo.",
+      "it": "Niente da assemblare, nessun inseritore separato. L’applicatore mantiene il sensore sterile fino al momento in cui lo premi sul braccio.",
+      "de": "Nichts zusammenbauen, kein separater Inserter. Der Applikator hält den Sensor steril, bis Sie ihn an den Arm drücken.",
+      "zh": "无需组装，没有单独的植入器。敷贴器在您将它按到手臂上之前，一直保持传感器无菌。",
+      "vi": "Không cần lắp ráp, không có dụng cụ gắn riêng. Dụng cụ gắn giữ cảm biến vô trùng cho đến khi bạn ấn nó vào cánh tay.",
+      "hi": "कुछ जोड़ना नहीं, अलग से कोई इंसर्टर नहीं। एप्लिकेटर सेंसर को तब तक स्टेराइल रखता है जब तक आप उसे बांह पर दबाते नहीं।"
+     },
+     "labels": {
+      "housing": {
+       "en": "Housing — 24 mm across, 4.5 mm thin, IP58",
+       "ru": "Корпус — 24 мм в диаметре, 4,5 мм толщиной, IP58",
+       "fr": "Boîtier — 24 mm de diamètre, 4,5 mm d’épaisseur, IP58",
+       "es": "Carcasa — 24 mm de diámetro, 4,5 mm de grosor, IP58",
+       "it": "Corpo — 24 mm di diametro, 4,5 mm di spessore, IP58",
+       "de": "Gehäuse — 24 mm Durchmesser, 4,5 mm dünn, IP58",
+       "zh": "外壳 — 直径 24 毫米，厚 4.5 毫米，IP58",
+       "vi": "Vỏ — đường kính 24 mm, mỏng 4,5 mm, IP58",
+       "hi": "केस — 24 मिमी चौड़ा, 4.5 मिमी पतला, IP58"
+      },
+      "internals": {
+       "en": "Board and battery — 15 days on one charge, Bluetooth and NFC",
+       "ru": "Плата и батарея — 15 дней без подзарядки, Bluetooth и NFC",
+       "fr": "Carte et batterie — 15 jours sur une charge, Bluetooth et NFC",
+       "es": "Placa y batería — 15 días con una carga, Bluetooth y NFC",
+       "it": "Scheda e batteria — 15 giorni con una carica, Bluetooth e NFC",
+       "de": "Platine und Batterie — 15 Tage mit einer Ladung, Bluetooth und NFC",
+       "zh": "电路板与电池 — 一次充电使用 15 天，支持蓝牙和 NFC",
+       "vi": "Bo mạch và pin — 15 ngày cho một lần sạc, Bluetooth và NFC",
+       "hi": "बोर्ड और बैटरी — एक चार्ज में 15 दिन, Bluetooth और NFC"
+      },
+      "patch": {
+       "en": "Adhesive patch — 28 mm, skin-friendly, holds through showers and sport",
+       "ru": "Пластырь — 28 мм, бережный к коже, держится в душе и на тренировке",
+       "fr": "Patch adhésif — 28 mm, doux pour la peau, tient sous la douche et pendant le sport",
+       "es": "Parche adhesivo — 28 mm, respetuoso con la piel, aguanta la ducha y el deporte",
+       "it": "Cerotto adesivo — 28 mm, delicato sulla pelle, resiste a doccia e sport",
+       "de": "Klebepflaster — 28 mm, hautfreundlich, hält unter der Dusche und beim Sport",
+       "zh": "粘贴贴片 — 28 毫米，亲肤，淋浴和运动时也牢固",
+       "vi": "Miếng dán — 28 mm, dịu nhẹ với da, bám chắc khi tắm và chơi thể thao",
+       "hi": "चिपकने वाला पैच — 28 मिमी, त्वचा के अनुकूल, नहाने और खेल में भी टिका रहता है"
+      },
+      "cap": {
+       "en": "Applicator base — sterile cap you remove right before use",
+       "ru": "Основание аппликатора — стерильная крышка, которую снимают перед установкой",
+       "fr": "Base de l’applicateur — capuchon stérile à retirer juste avant la pose",
+       "es": "Base del aplicador — tapa estéril que se retira justo antes de usarlo",
+       "it": "Base dell’applicatore — cappuccio sterile da togliere subito prima dell’uso",
+       "de": "Applikatorboden — sterile Kappe, die Sie direkt vor dem Setzen abnehmen",
+       "zh": "敷贴器底座 — 使用前才取下的无菌盖",
+       "vi": "Đế dụng cụ gắn — nắp vô trùng tháo ra ngay trước khi dùng",
+       "hi": "एप्लिकेटर का आधार — स्टेराइल ढक्कन जिसे इस्तेमाल से ठीक पहले हटाते हैं"
+      }
+     },
+     "stage4_title": {
+      "en": "That is all you wear",
+      "ru": "Это всё, что вы носите",
+      "fr": "C’est tout ce que vous portez",
+      "es": "Eso es todo lo que lleva puesto",
+      "it": "È tutto ciò che indossi",
+      "de": "Mehr tragen Sie nicht",
+      "zh": "您佩戴的只有这个",
+      "vi": "Bạn chỉ đeo đúng chừng này",
+      "hi": "बस इतना ही पहनना है"
+     },
+     "stage4_text": {
+      "en": "A 24-millimetre disc on the back of your arm. One reading a minute, straight to your phone.",
+      "ru": "Диск 24 миллиметра на задней поверхности плеча. Одно измерение в минуту — сразу в телефон.",
+      "fr": "Un disque de 24 millimètres à l’arrière du bras. Une mesure par minute, directement sur votre téléphone.",
+      "es": "Un disco de 24 milímetros en la parte posterior del brazo. Una lectura por minuto, directa a su teléfono.",
+      "it": "Un disco di 24 millimetri sul retro del braccio. Una lettura al minuto, direttamente sul telefono.",
+      "de": "Eine 24-Millimeter-Scheibe an der Rückseite des Oberarms. Ein Messwert pro Minute, direkt aufs Telefon.",
+      "zh": "上臂后侧一枚 24 毫米的圆片。每分钟一次读数，直接传到手机。",
+      "vi": "Một đĩa 24 mm ở mặt sau cánh tay. Mỗi phút một kết quả, gửi thẳng vào điện thoại.",
+      "hi": "बांह के पिछले हिस्से पर 24 मिलीमीटर की एक डिस्क। हर मिनट एक रीडिंग, सीधे आपके फ़ोन में।"
      }
     }
    },
@@ -1376,6 +1466,96 @@
        "hi": "इसे कैसे लगाएँ"
       },
       "href": "/manual#install"
+     },
+     "stage2_title": {
+      "en": "The sensor is already inside",
+      "ru": "Сенсор уже внутри",
+      "fr": "Le capteur est déjà à l’intérieur",
+      "es": "El sensor ya está dentro",
+      "it": "Il sensore è già all’interno",
+      "de": "Der Sensor ist schon drin",
+      "zh": "传感器已在其中",
+      "vi": "Cảm biến đã nằm sẵn bên trong",
+      "hi": "सेंसर पहले से अंदर है"
+     },
+     "stage2_text": {
+      "en": "No assembly, no separate inserter. The applicator holds the sensor sterile until the moment you press it to your arm.",
+      "ru": "Ничего не нужно собирать, отдельного устройства для установки нет. Аппликатор хранит сенсор стерильным до момента, когда вы прижмёте его к руке.",
+      "fr": "Rien à assembler, pas d’inserteur séparé. L’applicateur garde le capteur stérile jusqu’au moment où vous l’appuyez sur votre bras.",
+      "es": "Nada que montar, sin insertador aparte. El aplicador mantiene el sensor estéril hasta el momento en que lo presiona contra el brazo.",
+      "it": "Niente da assemblare, nessun inseritore separato. L’applicatore mantiene il sensore sterile fino al momento in cui lo premi sul braccio.",
+      "de": "Nichts zusammenbauen, kein separater Inserter. Der Applikator hält den Sensor steril, bis Sie ihn an den Arm drücken.",
+      "zh": "无需组装，没有单独的植入器。敷贴器在您将它按到手臂上之前，一直保持传感器无菌。",
+      "vi": "Không cần lắp ráp, không có dụng cụ gắn riêng. Dụng cụ gắn giữ cảm biến vô trùng cho đến khi bạn ấn nó vào cánh tay.",
+      "hi": "कुछ जोड़ना नहीं, अलग से कोई इंसर्टर नहीं। एप्लिकेटर सेंसर को तब तक स्टेराइल रखता है जब तक आप उसे बांह पर दबाते नहीं।"
+     },
+     "labels": {
+      "housing": {
+       "en": "Housing — 24 mm across, 4.5 mm thin, IP58",
+       "ru": "Корпус — 24 мм в диаметре, 4,5 мм толщиной, IP58",
+       "fr": "Boîtier — 24 mm de diamètre, 4,5 mm d’épaisseur, IP58",
+       "es": "Carcasa — 24 mm de diámetro, 4,5 mm de grosor, IP58",
+       "it": "Corpo — 24 mm di diametro, 4,5 mm di spessore, IP58",
+       "de": "Gehäuse — 24 mm Durchmesser, 4,5 mm dünn, IP58",
+       "zh": "外壳 — 直径 24 毫米，厚 4.5 毫米，IP58",
+       "vi": "Vỏ — đường kính 24 mm, mỏng 4,5 mm, IP58",
+       "hi": "केस — 24 मिमी चौड़ा, 4.5 मिमी पतला, IP58"
+      },
+      "internals": {
+       "en": "Board and battery — 15 days on one charge, Bluetooth and NFC",
+       "ru": "Плата и батарея — 15 дней без подзарядки, Bluetooth и NFC",
+       "fr": "Carte et batterie — 15 jours sur une charge, Bluetooth et NFC",
+       "es": "Placa y batería — 15 días con una carga, Bluetooth y NFC",
+       "it": "Scheda e batteria — 15 giorni con una carica, Bluetooth e NFC",
+       "de": "Platine und Batterie — 15 Tage mit einer Ladung, Bluetooth und NFC",
+       "zh": "电路板与电池 — 一次充电使用 15 天，支持蓝牙和 NFC",
+       "vi": "Bo mạch và pin — 15 ngày cho một lần sạc, Bluetooth và NFC",
+       "hi": "बोर्ड और बैटरी — एक चार्ज में 15 दिन, Bluetooth और NFC"
+      },
+      "patch": {
+       "en": "Adhesive patch — 28 mm, skin-friendly, holds through showers and sport",
+       "ru": "Пластырь — 28 мм, бережный к коже, держится в душе и на тренировке",
+       "fr": "Patch adhésif — 28 mm, doux pour la peau, tient sous la douche et pendant le sport",
+       "es": "Parche adhesivo — 28 mm, respetuoso con la piel, aguanta la ducha y el deporte",
+       "it": "Cerotto adesivo — 28 mm, delicato sulla pelle, resiste a doccia e sport",
+       "de": "Klebepflaster — 28 mm, hautfreundlich, hält unter der Dusche und beim Sport",
+       "zh": "粘贴贴片 — 28 毫米，亲肤，淋浴和运动时也牢固",
+       "vi": "Miếng dán — 28 mm, dịu nhẹ với da, bám chắc khi tắm và chơi thể thao",
+       "hi": "चिपकने वाला पैच — 28 मिमी, त्वचा के अनुकूल, नहाने और खेल में भी टिका रहता है"
+      },
+      "cap": {
+       "en": "Applicator base — sterile cap you remove right before use",
+       "ru": "Основание аппликатора — стерильная крышка, которую снимают перед установкой",
+       "fr": "Base de l’applicateur — capuchon stérile à retirer juste avant la pose",
+       "es": "Base del aplicador — tapa estéril que se retira justo antes de usarlo",
+       "it": "Base dell’applicatore — cappuccio sterile da togliere subito prima dell’uso",
+       "de": "Applikatorboden — sterile Kappe, die Sie direkt vor dem Setzen abnehmen",
+       "zh": "敷贴器底座 — 使用前才取下的无菌盖",
+       "vi": "Đế dụng cụ gắn — nắp vô trùng tháo ra ngay trước khi dùng",
+       "hi": "एप्लिकेटर का आधार — स्टेराइल ढक्कन जिसे इस्तेमाल से ठीक पहले हटाते हैं"
+      }
+     },
+     "stage4_title": {
+      "en": "That is all you wear",
+      "ru": "Это всё, что вы носите",
+      "fr": "C’est tout ce que vous portez",
+      "es": "Eso es todo lo que lleva puesto",
+      "it": "È tutto ciò che indossi",
+      "de": "Mehr tragen Sie nicht",
+      "zh": "您佩戴的只有这个",
+      "vi": "Bạn chỉ đeo đúng chừng này",
+      "hi": "बस इतना ही पहनना है"
+     },
+     "stage4_text": {
+      "en": "A 24-millimetre disc on the back of your arm. One reading a minute, straight to your phone.",
+      "ru": "Диск 24 миллиметра на задней поверхности плеча. Одно измерение в минуту — сразу в телефон.",
+      "fr": "Un disque de 24 millimètres à l’arrière du bras. Une mesure par minute, directement sur votre téléphone.",
+      "es": "Un disco de 24 milímetros en la parte posterior del brazo. Una lectura por minuto, directa a su teléfono.",
+      "it": "Un disco di 24 millimetri sul retro del braccio. Una lettura al minuto, direttamente sul telefono.",
+      "de": "Eine 24-Millimeter-Scheibe an der Rückseite des Oberarms. Ein Messwert pro Minute, direkt aufs Telefon.",
+      "zh": "上臂后侧一枚 24 毫米的圆片。每分钟一次读数，直接传到手机。",
+      "vi": "Một đĩa 24 mm ở mặt sau cánh tay. Mỗi phút một kết quả, gửi thẳng vào điện thoại.",
+      "hi": "बांह के पिछले हिस्से पर 24 मिलीमीटर की एक डिस्क। हर मिनट एक रीडिंग, सीधे आपके फ़ोन में।"
      }
     }
    },

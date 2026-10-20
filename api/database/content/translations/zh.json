@@ -774,5 +774,13 @@
  "Flystat — a continuous glucose monitoring system: 15-day sensor, readings every minute, no finger-prick calibration.": "Flystat — 持续葡萄糖监测系统：15 天传感器，每分钟一次读数，无需指尖采血校准。",
  "The sensor and applicator, up close": "近距离看传感器与敷贴器",
  "Flystat sensor and applicator": "Flystat 传感器与敷贴器",
- "Studio animation of the current sensor and applicator design.": "当前传感器与敷贴器设计的工作室动画。"
+ "Studio animation of the current sensor and applicator design.": "当前传感器与敷贴器设计的工作室动画。",
+ "The sensor is already inside": "传感器已在其中",
+ "No assembly, no separate inserter. The applicator holds the sensor sterile until the moment you press it to your arm.": "无需组装，没有单独的植入器。敷贴器在您将它按到手臂上之前，一直保持传感器无菌。",
+ "Housing — 24 mm across, 4.5 mm thin, IP58": "外壳 — 直径 24 毫米，厚 4.5 毫米，IP58",
+ "Board and battery — 15 days on one charge, Bluetooth and NFC": "电路板与电池 — 一次充电使用 15 天，支持蓝牙和 NFC",
+ "Adhesive patch — 28 mm, skin-friendly, holds through showers and sport": "粘贴贴片 — 28 毫米，亲肤，淋浴和运动时也牢固",
+ "Applicator base — sterile cap you remove right before use": "敷贴器底座 — 使用前才取下的无菌盖",
+ "That is all you wear": "您佩戴的只有这个",
+ "A 24-millimetre disc on the back of your arm. One reading a minute, straight to your phone.": "上臂后侧一枚 24 毫米的圆片。每分钟一次读数，直接传到手机。"
 }
