@@ -20,5 +20,7 @@ useHead({ meta: () => isDemo.value ? [{ name: 'robots', content: 'noindex, nofol
 <style>
 .skip { position: absolute; left: -999px; top: 8px; background: var(--ink); color: #fff; padding: 10px 14px; border-radius: 10px; z-index: 100; }
 .skip:focus { left: 12px; }
-.demo-badge { position: fixed; left: 12px; bottom: 12px; z-index: 60; background: rgba(16,42,86,.85); color: #fff; padding: 6px 10px; border-radius: 8px; font-size: 0.625rem; pointer-events: none; }
+.demo-badge { position: fixed; left: 14px; bottom: max(14px, env(safe-area-inset-bottom)); z-index: 60; display: inline-flex; align-items: center; gap: 8px; background: rgba(7, 15, 36, .78); color: #fff; padding: 7px 12px; border-radius: 999px; font-size: 0.65rem; letter-spacing: .12em; pointer-events: none; backdrop-filter: blur(8px); border: 1px solid rgba(255, 255, 255, .12); }
+.site:has(.demo-badge) .cb { bottom: calc(max(14px, env(safe-area-inset-bottom)) + 44px); }
+.demo-badge::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--warn); box-shadow: 0 0 0 3px rgba(247, 144, 9, .25); }
 </style>
