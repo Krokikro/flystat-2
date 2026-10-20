@@ -1272,7 +1272,75 @@
    }
   }
  },
+ "compare": {
+  "market": {
+   "en": "Typical CGM",
+   "ru": "Типичный CGM",
+   "fr": "CGM typique",
+   "es": "CGM típico",
+   "it": "CGM tipico",
+   "de": "Typisches CGM",
+   "zh": "常见 CGM",
+   "vi": "CGM thông thường",
+   "hi": "सामान्य CGM"
+  },
+  "finger": {
+   "en": "Finger-prick meter",
+   "ru": "Глюкометр с проколом пальца",
+   "fr": "Lecteur à piqûre au doigt",
+   "es": "Glucómetro de punción",
+   "it": "Glucometro a puntura",
+   "de": "Blutzuckermessgerät",
+   "zh": "指尖采血血糖仪",
+   "vi": "Máy đo chích ngón tay",
+   "hi": "उंगली चुभाने वाला ग्लूकोमीटर"
+  }
+ },
  "common": {
+  "back": {
+   "en": "Back",
+   "ru": "Назад",
+   "fr": "Retour",
+   "es": "Volver",
+   "it": "Indietro",
+   "de": "Zurück",
+   "zh": "返回",
+   "vi": "Quay lại",
+   "hi": "वापस"
+  },
+  "copy_link": {
+   "en": "Copy link",
+   "ru": "Скопировать ссылку",
+   "fr": "Copier le lien",
+   "es": "Copiar enlace",
+   "it": "Copia link",
+   "de": "Link kopieren",
+   "zh": "复制链接",
+   "vi": "Sao chép liên kết",
+   "hi": "लिंक कॉपी करें"
+  },
+  "copied": {
+   "en": "Copied",
+   "ru": "Скопировано",
+   "fr": "Copié",
+   "es": "Copiado",
+   "it": "Copiato",
+   "de": "Kopiert",
+   "zh": "已复制",
+   "vi": "Đã sao chép",
+   "hi": "कॉपी हो गया"
+  },
+  "send": {
+   "en": "Send",
+   "ru": "Отправить",
+   "fr": "Envoyer",
+   "es": "Enviar",
+   "it": "Invia",
+   "de": "Senden",
+   "zh": "发送",
+   "vi": "Gửi",
+   "hi": "भेजें"
+  },
   "learn_more": {
    "en": "Learn more",
    "ru": "Подробнее",

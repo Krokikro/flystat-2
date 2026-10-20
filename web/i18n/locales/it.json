@@ -142,7 +142,15 @@
    "cis": "CSI"
   }
  },
+ "compare": {
+  "market": "CGM tipico",
+  "finger": "Glucometro a puntura"
+ },
  "common": {
+  "back": "Indietro",
+  "copy_link": "Copia link",
+  "copied": "Copiato",
+  "send": "Invia",
   "learn_more": "Scopri di più",
   "download": "Scarica",
   "pdf": "PDF",

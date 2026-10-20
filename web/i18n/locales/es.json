@@ -142,7 +142,15 @@
    "cis": "CEI"
   }
  },
+ "compare": {
+  "market": "CGM típico",
+  "finger": "Glucómetro de punción"
+ },
  "common": {
+  "back": "Volver",
+  "copy_link": "Copiar enlace",
+  "copied": "Copiado",
+  "send": "Enviar",
   "learn_more": "Más información",
   "download": "Descargar",
   "pdf": "PDF",

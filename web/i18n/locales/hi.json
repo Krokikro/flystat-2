@@ -142,7 +142,15 @@
    "cis": "CIS देश"
   }
  },
+ "compare": {
+  "market": "सामान्य CGM",
+  "finger": "उंगली चुभाने वाला ग्लूकोमीटर"
+ },
  "common": {
+  "back": "वापस",
+  "copy_link": "लिंक कॉपी करें",
+  "copied": "कॉपी हो गया",
+  "send": "भेजें",
   "learn_more": "और जानें",
   "download": "डाउनलोड",
   "pdf": "PDF",

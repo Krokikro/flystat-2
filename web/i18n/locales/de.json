@@ -142,7 +142,15 @@
    "cis": "GUS"
   }
  },
+ "compare": {
+  "market": "Typisches CGM",
+  "finger": "Blutzuckermessgerät"
+ },
  "common": {
+  "back": "Zurück",
+  "copy_link": "Link kopieren",
+  "copied": "Kopiert",
+  "send": "Senden",
   "learn_more": "Mehr erfahren",
   "download": "Herunterladen",
   "pdf": "PDF",

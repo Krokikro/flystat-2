@@ -6,7 +6,7 @@ const ICONS = ['calendar-days', 'timer', 'droplet-off', 'package-open', 'waves',
 const icon = (i: number) => ICONS[i] || 'circle'
 const rows = computed(() => (props.data.rows || []) as { label: string; flystat: string; market: string }[])
 // No dedicated key for the second column yet; keep the English wording where the UI is English.
-const marketLabel = computed(() => (t('faq.cats.device') === 'Device' ? 'Typical CGM' : 'CGM'))
+const marketLabel = computed(() => t('compare.market'))
 </script>
 <template>
   <section class="section cmp band-alt">

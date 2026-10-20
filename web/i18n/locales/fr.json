@@ -142,7 +142,15 @@
    "cis": "CEI"
   }
  },
+ "compare": {
+  "market": "CGM typique",
+  "finger": "Lecteur à piqûre au doigt"
+ },
  "common": {
+  "back": "Retour",
+  "copy_link": "Copier le lien",
+  "copied": "Copié",
+  "send": "Envoyer",
   "learn_more": "En savoir plus",
   "download": "Télécharger",
   "pdf": "PDF",

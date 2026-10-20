@@ -142,7 +142,15 @@
    "cis": "SNG"
   }
  },
+ "compare": {
+  "market": "CGM thông thường",
+  "finger": "Máy đo chích ngón tay"
+ },
  "common": {
+  "back": "Quay lại",
+  "copy_link": "Sao chép liên kết",
+  "copied": "Đã sao chép",
+  "send": "Gửi",
   "learn_more": "Tìm hiểu thêm",
   "download": "Tải về",
   "pdf": "PDF",

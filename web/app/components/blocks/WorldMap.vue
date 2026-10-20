@@ -15,7 +15,7 @@ const regions = computed(() => { const m: Record<string, any[]> = {}; for (const
 const byStatus = (s: string) => (props.data.countries || []).filter((c: any) => c.status === s)
 const counts = computed(() => ({ present: byStatus('present').length, negotiation: byStatus('negotiation').length, free: byStatus('free').length }))
 const pins = computed(() => Object.entries(world.countries as Record<string, any>).filter(([code]) => countries.value[code] && countries.value[code].status !== 'free').map(([code, c]) => ({ code, x: c.c[0], y: c.c[1], status: countries.value[code].status })))
-const formData = computed(() => ({ cohort: 'distributor_contact', tone: 'light', title: sel.value?.name || t('map.choose'), text: distributors.value.length ? distributors.value.map((d: any) => d.name).join(', ') : t('map.no_distributor'), button: t('form.success_title') }))
+const formData = computed(() => ({ cohort: 'distributor_contact', tone: 'light', title: sel.value?.name || t('map.choose'), text: distributors.value.length ? distributors.value.map((d: any) => d.name).join(', ') : t('map.no_distributor'), button: t('common.send') }))
 const onMove = (e: MouseEvent) => { const r = (e.currentTarget as HTMLElement).getBoundingClientRect(); tipPos.value = { x: e.clientX - r.left, y: e.clientY - r.top } }
 const pick = (code: string) => { if (countries.value[code]) selected.value = code }
 </script>

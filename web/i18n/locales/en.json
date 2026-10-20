@@ -142,7 +142,15 @@
    "cis": "CIS"
   }
  },
+ "compare": {
+  "market": "Typical CGM",
+  "finger": "Finger-prick meter"
+ },
  "common": {
+  "back": "Back",
+  "copy_link": "Copy link",
+  "copied": "Copied",
+  "send": "Send",
   "learn_more": "Learn more",
   "download": "Download",
   "pdf": "PDF",

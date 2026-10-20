@@ -822,17 +822,17 @@
        "icon": "activity",
        "href": "/for/diabetes",
        "image": {
-        "src": "/media/lifestyle/city.webp",
+        "src": "/media/photo/arm-kitchen.webp",
         "alt": {
-         "en": "Man with a sensor in the city",
-         "ru": "Мужчина с сенсором в городе",
-         "fr": "Homme portant un capteur en ville",
-         "es": "Hombre con un sensor en la ciudad",
-         "it": "Uomo con un sensore in città",
-         "de": "Mann mit Sensor in der Stadt",
-         "zh": "城市中佩戴传感器的男士",
-         "vi": "Người đàn ông đeo cảm biến trong thành phố",
-         "hi": "शहर में सेंसर लगाए एक व्यक्ति"
+         "en": "Woman with a Flystat sensor on her arm at home",
+         "ru": "Женщина с сенсором Flystat на руке дома",
+         "fr": "Femme portant un capteur Flystat sur le bras, chez elle",
+         "es": "Mujer con un sensor Flystat en el brazo, en casa",
+         "it": "Donna con un sensore Flystat sul braccio, a casa",
+         "de": "Frau mit einem Flystat-Sensor am Arm, zu Hause",
+         "zh": "在家中手臂上佩戴 Flystat 传感器的女性",
+         "vi": "Người phụ nữ đeo cảm biến Flystat trên cánh tay tại nhà",
+         "hi": "घर पर बांह पर Flystat सेंसर पहने महिला"
         }
        }
       },
@@ -862,17 +862,17 @@
        "icon": "heart",
        "href": "/for/family",
        "image": {
-        "src": "/media/lifestyle/older.webp",
+        "src": "/media/photo/family.webp",
         "alt": {
-         "en": "Older woman with a sensor",
-         "ru": "Пожилая женщина с сенсором",
-         "fr": "Femme âgée portant un capteur",
-         "es": "Mujer mayor con un sensor",
-         "it": "Donna anziana con un sensore",
-         "de": "Ältere Frau mit Sensor",
-         "zh": "佩戴传感器的年长女士",
-         "vi": "Người phụ nữ lớn tuổi đeo cảm biến",
-         "hi": "सेंसर लगाए एक बुज़ुर्ग महिला"
+         "en": "Father and daughter at the kitchen table, the daughter wearing a sensor",
+         "ru": "Отец и дочь за кухонным столом, у дочери сенсор на руке",
+         "fr": "Père et fille à la table de la cuisine, la fille porte un capteur",
+         "es": "Padre e hija en la mesa de la cocina, la hija lleva un sensor",
+         "it": "Padre e figlia al tavolo della cucina, la figlia indossa un sensore",
+         "de": "Vater und Tochter am Küchentisch, die Tochter trägt einen Sensor",
+         "zh": "厨房餐桌旁的父女，女儿佩戴着传感器",
+         "vi": "Cha và con gái bên bàn bếp, con gái đeo cảm biến",
+         "hi": "रसोई की मेज़ पर पिता और बेटी, बेटी ने सेंसर पहना है"
         }
        }
       },
@@ -902,17 +902,17 @@
        "icon": "zap",
        "href": "/for/sport",
        "image": {
-        "src": "/media/lifestyle/run.webp",
+        "src": "/media/photo/run.webp",
         "alt": {
-         "en": "Running with a sensor",
-         "ru": "Пробежка с сенсором",
-         "fr": "Course à pied avec un capteur",
-         "es": "Corriendo con un sensor",
-         "it": "Corsa con un sensore",
-         "de": "Laufen mit Sensor",
-         "zh": "佩戴传感器跑步",
-         "vi": "Chạy bộ với cảm biến",
-         "hi": "सेंसर के साथ दौड़ते हुए"
+         "en": "Running with a Flystat sensor",
+         "ru": "Пробежка с сенсором Flystat",
+         "fr": "Course à pied avec un capteur Flystat",
+         "es": "Corriendo con un sensor Flystat",
+         "it": "Corsa con un sensore Flystat",
+         "de": "Laufen mit einem Flystat-Sensor",
+         "zh": "佩戴 Flystat 传感器跑步",
+         "vi": "Chạy bộ với cảm biến Flystat",
+         "hi": "Flystat सेंसर के साथ दौड़"
         }
        }
       },
@@ -3564,7 +3564,7 @@
       "hi": "चाहे आप दिन में कई बार इंसुलिन लेते हों या गोलियों और खान-पान से संभालते हों, हर मिनट ग्लूकोज़ देखने से आपकी नज़र में आने वाली चीज़ें बदल जाती हैं — नाश्ते के बाद धीमी चढ़ाई, सैर के दौरान गिरावट, वह रात जिसके बारे में आपको पता ही नहीं था।"
      },
      "image": {
-      "src": "/media/lifestyle/city.webp",
+      "src": "/media/photo/arm-kitchen.webp",
       "alt": {
        "en": "Living with diabetes",
        "ru": "Жизнь с диабетом",
@@ -3984,7 +3984,7 @@
       "hi": "टाइप 1 वाला बच्चा, अकेले रहने वाले माता-पिता, जाँच करना भूल जाने वाला जीवनसाथी। Flystat पहनने वाले को संख्या दिखाता है — और उन्हें आपको दिखाने के लिए कुछ सरल देता है।"
      },
      "image": {
-      "src": "/media/lifestyle/older.webp",
+      "src": "/media/photo/family.webp",
       "alt": {
        "en": "Parents and families",
        "ru": "Родители и семьи",
@@ -4404,7 +4404,7 @@
       "hi": "खिलाड़ी और वे लोग जो बस बेहतर खाना चाहते हैं, निरंतर ग्लूकोज़ डेटा से ईंधन, रिकवरी और उन भोजनों को समझते हैं जो उन्हें तीन बजे सुस्त छोड़ देते हैं।"
      },
      "image": {
-      "src": "/media/lifestyle/run.webp",
+      "src": "/media/photo/run.webp",
       "alt": {
        "en": "Sport and nutrition",
        "ru": "Спорт и питание",
@@ -6485,17 +6485,17 @@
       "hi": "Flystat MLC समूह का ब्रांड है। हम सेंसर, एप्लिकेटर और ऐप डिज़ाइन करते हैं, और उन्हें अपने इंजीनियरिंग नियंत्रण में कॉन्ट्रैक्ट मैन्युफ़ैक्चरिंग लाइनों पर बनाते हैं। हम साफ़ कहते हैं कि क्या पूरा हो चुका है और क्या नहीं।"
      },
      "image": {
-      "src": "/media/renders/applicator-angle.webp",
+      "src": "/media/photo/cleanroom.webp",
       "alt": {
-       "en": "Flystat applicator",
-       "ru": "Аппликатор Flystat",
-       "fr": "Applicateur Flystat",
-       "es": "Aplicador Flystat",
-       "it": "Applicatore Flystat",
-       "de": "Flystat Applikator",
-       "zh": "Flystat 敷贴器",
-       "vi": "Bộ gắn Flystat",
-       "hi": "Flystat एप्लिकेटर"
+       "en": "Flystat applicators on a tray in the clean room",
+       "ru": "Аппликаторы Flystat на подносе в чистой комнате",
+       "fr": "Applicateurs Flystat sur un plateau en salle blanche",
+       "es": "Aplicadores Flystat en una bandeja en la sala limpia",
+       "it": "Applicatori Flystat su un vassoio in camera bianca",
+       "de": "Flystat-Applikatoren auf einem Tablett im Reinraum",
+       "zh": "洁净室托盘上的 Flystat 敷贴器",
+       "vi": "Dụng cụ gắn Flystat trên khay trong phòng sạch",
+       "hi": "क्लीन रूम में ट्रे पर Flystat एप्लिकेटर"
       }
      },
      "cta": {
@@ -6691,7 +6691,7 @@
      },
      "video": "/media/hero-device.mp4",
      "poster": {
-      "src": "/media/hero/h_000.webp",
+      "src": "/media/hero/poster.webp",
       "alt": {
        "en": "Flystat sensor and applicator",
        "ru": "Сенсор и аппликатор Flystat",

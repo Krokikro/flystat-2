@@ -2,7 +2,7 @@
 /** One form component, presets per cohort (PRD A5). Posts to /api/v2/leads; support requests become JSM tickets on the API side. */
 import { Paperclip, Check } from '@lucide/vue'
 const props = defineProps<{ data: Record<string, any>; compact?: boolean }>()
-const { t, locale } = useI18n(); const route = useRoute(); const localePath = useLocalePath()
+const { t, locale, tm, rt } = useI18n(); const route = useRoute(); const localePath = useLocalePath()
 const boot = inject<any>('boot', null)
 const cohort = computed(() => props.data.cohort || 'waitlist')
 const countries = ref<{ code: string; name: string }[]>([])
@@ -55,7 +55,7 @@ async function submit() {
 }
 const privacy = computed(() => localePath('/legal/privacy')); const consentDoc = computed(() => localePath('/legal/consent'))
 const consentHtml = computed(() => t('form.consent', { privacy: `<a href="${privacy.value}" target="_blank">${t('form.privacy')}</a>`, consent: `<a href="${consentDoc.value}" target="_blank">${t('form.consent_doc')}</a>` }))
-const opt = (k: string) => Object.entries((t(`form.${k}_opts`, {}, { returnObjects: true } as any) as any) || {})
+const opt = (k: string) => Object.entries((tm(`form.${k}_opts`) as Record<string, any>) || {}).map(([key, v]) => [key, typeof v === 'string' ? v : rt(v as any)] as [string, string])
 const uid = Math.random().toString(36).slice(2, 7)
 </script>
 <template>
