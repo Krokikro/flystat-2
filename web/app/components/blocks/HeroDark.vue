@@ -19,7 +19,9 @@ onMounted(() => {
     progress.value = total > 0 ? Math.min(1, Math.max(0, -r.top / total)) : 0
   }
   onScroll(); window.addEventListener('scroll', onScroll, { passive: true }); window.addEventListener('resize', onScroll)
-  onBeforeUnmount(() => { window.removeEventListener('scroll', onScroll); window.removeEventListener('resize', onScroll) })
+  // keep the fixed header dark while the dark hero is still on screen
+  const stop = watch(progress, (v) => document.body.classList.toggle('in-dark-hero', v < 0.985), { immediate: true })
+  onBeforeUnmount(() => { stop(); document.body.classList.remove('in-dark-hero'); window.removeEventListener('scroll', onScroll); window.removeEventListener('resize', onScroll) })
 })
 const fade = (o: number, dy = 24) => ({ opacity: String(o), transform: `translateY(${(1 - o) * dy}px)`, pointerEvents: o > 0.5 ? 'auto' : 'none' })
 const headStyle = computed(() => fade(start.value > 0 ? 1 - Math.min(1, progress.value * 2.5) : st.value.text.headline, -40))

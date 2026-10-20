@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   ssr: true,
   modules: ['@nuxtjs/i18n', '@nuxt/image', '@nuxt/fonts', '@nuxtjs/sitemap'],
-  css: ['~/assets/css/main.css'],
+  css: ['~/assets/css/main.css', '@fontsource/noto-sans-sc/400.css', '@fontsource/noto-sans-sc/500.css', '@fontsource/noto-sans-sc/700.css', '@fontsource/noto-sans-devanagari/400.css', '@fontsource/noto-sans-devanagari/500.css', '@fontsource/noto-sans-devanagari/700.css', '@fontsource/noto-sans/vietnamese-400.css', '@fontsource/noto-sans/vietnamese-500.css', '@fontsource/noto-sans/vietnamese-700.css', '@fontsource/jetbrains-mono/400.css', '@fontsource/jetbrains-mono/500.css'],
   app: {
     head: {
       htmlAttrs: { lang: 'en' },
@@ -33,14 +33,7 @@ export default defineNuxtConfig({
     detectBrowserLanguage: { useCookie: true, cookieKey: 'flystat_lang', redirectOn: 'root', alwaysRedirect: false, fallbackLocale: 'en' },
     baseUrl: process.env.SITE_URL || 'http://localhost:3000',
   },
-  fonts: {
-    families: [
-      { name: 'ALS Hauss', provider: 'local', weights: [400, 500, 700, 900] },
-      { name: 'Noto Sans SC', provider: 'google', weights: [400, 500, 700, 900], subsets: ['chinese-simplified'] },
-      { name: 'Noto Sans Devanagari', provider: 'google', weights: [400, 500, 700, 900], subsets: ['devanagari'] },
-      { name: 'JetBrains Mono', provider: 'google', weights: [400, 500] },
-    ],
-  },
+  fonts: { families: [{ name: 'ALS Hauss', provider: 'local', weights: [400, 500, 700, 900] }], providers: { google: false, googleicons: false, bunny: false, fontshare: false, fontsource: false, adobe: false } },
   image: { domains: [], format: ['webp'], quality: 80 },
   site: { url: process.env.SITE_URL || 'http://localhost:3000', name: 'Flystat' },
   sitemap: { sources: ['/api/__sitemap'], exclude: ['/*/thanks/**'] },

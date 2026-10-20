@@ -22,9 +22,11 @@
   --fs: clamp(16px, 13.4px + 0.28vw, 19.5px);
   --ease: cubic-bezier(.22, 1, .36, 1);
 }
-html[lang^="zh"] { --font: 'ALS Hauss', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif; }
-html[lang^="hi"] { --font: 'ALS Hauss', 'Noto Sans Devanagari', 'Mangal', system-ui, sans-serif; }
-html[lang^="vi"] { --font: 'ALS Hauss', 'Noto Sans', 'Segoe UI', system-ui, sans-serif; }
+/* CJK / Devanagari fallbacks: written as literal font-family declarations so @nuxt/fonts picks them up */
+html[lang^="zh"] body { font-family: 'ALS Hauss', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif; }
+html[lang^="hi"] body { font-family: 'ALS Hauss', 'Noto Sans Devanagari', 'Mangal', system-ui, sans-serif; }
+html[lang^="vi"] body { font-family: 'ALS Hauss', 'Noto Sans', 'Segoe UI', system-ui, sans-serif; }
+html[lang^="zh"] h1, html[lang^="zh"] h2, html[lang^="zh"] h3, html[lang^="hi"] h1, html[lang^="hi"] h2, html[lang^="hi"] h3 { letter-spacing: 0; line-height: 1.2; hyphens: manual; }
 
 *, *::before, *::after { box-sizing: border-box; }
 html { font-size: var(--fs); -webkit-text-size-adjust: 100%; scroll-behavior: smooth; scroll-padding-top: calc(var(--header-h) + 12px); }

@@ -50,6 +50,7 @@ const link = (slug: string) => localePath('/' + slug)
 .hdr { position: fixed; inset: 0 0 auto; z-index: 50; height: var(--header-h); display: flex; align-items: center; transition: background .4s, box-shadow .4s, color .4s; color: var(--ink); background: rgba(255,255,255,0); }
 .hdr.scrolled, .hdr.open { background: rgba(255,255,255,.88); backdrop-filter: blur(16px); box-shadow: 0 1px 0 var(--line); }
 body.has-dark-hero .hdr:not(.scrolled):not(.open) { color: #fff; }
+body.in-dark-hero .hdr.scrolled:not(.open) { color: #fff; background: rgba(6,38,77,.72); box-shadow: 0 1px 0 rgba(255,255,255,.08); }
 .hdr-in { width: 100%; display: flex; align-items: center; gap: clamp(16px, 2vw, 36px); }
 .logo { font-weight: 900; letter-spacing: .08em; font-size: 1.2rem; flex: none; }
 .nav { display: flex; align-items: center; gap: clamp(14px, 1.4vw, 26px); font-size: .95rem; font-weight: 500; min-width: 0; }
