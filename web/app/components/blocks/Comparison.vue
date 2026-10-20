@@ -16,11 +16,11 @@ defineProps<{ data: Record<string, any> }>()
   </section>
 </template>
 <style scoped>
-table { width: 100%; border-collapse: collapse; font-size: 15.5px; min-width: 560px; background: #fff; }
+table { width: 100%; border-collapse: collapse; font-size: 0.9688rem; min-width: 560px; background: #fff; }
 th, td { padding: 16px 20px; border-bottom: 1px solid var(--line); text-align: left; }
-thead th { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+thead th { font-size: 0.75rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
 tbody th { font-weight: 600; width: 30%; }
 .fs { background: #EAF2FF; font-weight: 700; color: var(--ink); }
 tr:last-child td, tr:last-child th { border-bottom: 0; }
-.foot { margin-top: 18px; font-size: 13.5px; color: var(--muted); max-width: 80ch; }
+.foot { margin-top: 18px; font-size: 0.8438rem; color: var(--muted); max-width: 80ch; }
 </style>

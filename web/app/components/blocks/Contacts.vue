@@ -37,9 +37,9 @@ const copy = async (e: string) => { try { await navigator.clipboard.writeText(e)
 .list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
 .list li { display: grid; grid-template-columns: auto 1fr auto; gap: 14px; align-items: center; padding: 14px 16px; border: 1px solid var(--line); border-radius: 16px; }
 .ic { width: 40px; height: 40px; border-radius: 12px; background: var(--bg-alt); color: var(--blue-d); display: grid; place-items: center; }
-.t { display: grid; } .t b { font-size: 15px; } .t a { color: var(--blue-d); font-weight: 600; } .t small { color: var(--muted); font-size: 13px; }
+.t { display: grid; } .t b { font-size: 0.9375rem; } .t a { color: var(--blue-d); font-weight: 600; } .t small { color: var(--muted); font-size: 0.8125rem; }
 .cp { width: 36px; height: 36px; border-radius: 10px; color: var(--muted); display: grid; place-items: center; } .cp:hover { background: var(--bg-alt); }
 .legal { gap: 8px; } .cn { color: var(--muted); }
-dl { display: grid; gap: 8px; margin: 10px 0 0; } dl div { display: grid; grid-template-columns: 90px 1fr; gap: 8px; font-size: 14px; } dt { color: var(--muted); } dd { margin: 0; }
+dl { display: grid; gap: 8px; margin: 10px 0 0; } dl div { display: grid; grid-template-columns: 90px 1fr; gap: 8px; font-size: 0.875rem; } dt { color: var(--muted); } dd { margin: 0; }
 @media (max-width: 860px) { .inner { grid-template-columns: 1fr; } }
 </style>

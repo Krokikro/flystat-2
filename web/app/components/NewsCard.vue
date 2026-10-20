@@ -19,6 +19,6 @@ const fmt = (d: string | null) => d ? new Intl.DateTimeFormat(locale.value, { da
 .ncard:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
 .img { aspect-ratio: 16/10; background: var(--bg-alt); overflow: hidden; } .img img { width: 100%; height: 100%; object-fit: cover; transition: transform .8s var(--ease); } .ncard:hover img { transform: scale(1.04); }
 .body { padding: 18px 20px 22px; display: grid; gap: 8px; }
-.meta { color: var(--muted); font-size: 11px; }
-.ex { color: var(--ink-2); font-size: 14.5px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.meta { color: var(--muted); font-size: 0.6875rem; }
+.ex { color: var(--ink-2); font-size: 0.9062rem; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 </style>

@@ -52,13 +52,13 @@ svg { width: 100%; height: auto; }
 .c.st-free { fill: #C2D4F0; cursor: pointer; } .c.st-negotiation { fill: #8FB0E8; cursor: pointer; } .c.st-present { fill: var(--blue-d); cursor: pointer; }
 .c.hov, .c.sel { fill: var(--ink); }
 .pin { fill: #fff; stroke-width: 3; pointer-events: none; } .pin.st-present { stroke: var(--blue-d); } .pin.st-negotiation { stroke: #8FB0E8; }
-.tip { position: absolute; left: 12px; top: 12px; background: var(--ink); color: #fff; font-size: 13px; padding: 6px 10px; border-radius: 8px; pointer-events: none; }
-.legend { list-style: none; margin: 10px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 16px; font-size: 13px; color: var(--ink-2); } .legend i { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
+.tip { position: absolute; left: 12px; top: 12px; background: var(--ink); color: #fff; font-size: 0.8125rem; padding: 6px 10px; border-radius: 8px; pointer-events: none; }
+.legend { list-style: none; margin: 10px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 16px; font-size: 0.8125rem; color: var(--ink-2); } .legend i { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
 i.st-present { background: var(--blue-d); } i.st-negotiation { background: #8FB0E8; } i.st-free { background: #C2D4F0; }
 .side { display: grid; gap: 16px; }
 .info { display: grid; gap: 6px; padding: 20px; border: 1px solid var(--line); border-radius: var(--radius); }
 .st { font-weight: 700; } .txt-present { color: var(--ok); } .txt-negotiation { color: var(--warn); } .txt-free { color: var(--muted); }
-.dists { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 6px; font-size: 14px; } .dists a { color: var(--blue-d); display: block; }
+.dists { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 6px; font-size: 0.875rem; } .dists a { color: var(--blue-d); display: block; }
 .mini { padding-block: 32px 0; }
 @media (max-width: 860px) { .layout { grid-template-columns: 1fr; } }
 </style>

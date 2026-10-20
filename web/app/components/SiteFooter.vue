@@ -48,12 +48,12 @@ const { reset } = useConsent()
 <style scoped>
 .ftr { background: var(--navy-900); color: var(--muted-on-dark); padding-block: clamp(48px, 6vw, 80px) 28px; margin-top: 0; }
 .top { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1.2fr; gap: 32px; }
-.logo { color: #fff; font-weight: 900; letter-spacing: .08em; font-size: 20px; margin-bottom: 14px; }
-.note { font-size: 13.5px; max-width: 36ch; line-height: 1.55; margin-bottom: 18px; }
-.col { display: grid; gap: 10px; align-content: start; font-size: 14.5px; }
+.logo { color: #fff; font-weight: 900; letter-spacing: .08em; font-size: 1.25rem; margin-bottom: 14px; }
+.note { font-size: 0.8438rem; max-width: 36ch; line-height: 1.55; margin-bottom: 18px; }
+.col { display: grid; gap: 10px; align-content: start; font-size: 0.9062rem; }
 .col a:hover { color: #fff; }
-.h { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; font-weight: 700; color: #fff; opacity: .6; }
-.bottom { margin-top: 40px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,.1); display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-size: 12.5px; }
+.h { font-size: 0.6875rem; letter-spacing: .14em; text-transform: uppercase; font-weight: 700; color: #fff; opacity: .6; }
+.bottom { margin-top: 40px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,.1); display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-size: 0.7812rem; }
 .legal { display: flex; flex-wrap: wrap; gap: 6px 18px; } .legal a:hover, .legal button:hover { color: #fff; }
 @media (max-width: 900px) { .top { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 520px) { .top { grid-template-columns: 1fr; } }

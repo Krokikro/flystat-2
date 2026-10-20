@@ -78,20 +78,20 @@ const labelStyle = (k: string, i: number) => {
 .lead { color: var(--muted-on-dark); }
 .ctas { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
 .stage { position: absolute; left: var(--gutter); top: 50%; transform: translateY(-50%); max-width: 460px; display: grid; gap: 14px; will-change: transform, opacity; }
-.stage h2 { font-size: clamp(30px, 3.2vw, 46px); line-height: 1.08; letter-spacing: -0.02em; }
-.scroll-hint { position: absolute; left: var(--gutter); bottom: 28px; display: flex; align-items: center; gap: 10px; color: var(--muted-on-dark); font-size: 11px; }
+.stage h2 { font-size: clamp(1.875rem, 3.2vw, 2.875rem); line-height: 1.08; letter-spacing: -0.02em; }
+.scroll-hint { position: absolute; left: var(--gutter); bottom: 28px; display: flex; align-items: center; gap: 10px; color: var(--muted-on-dark); font-size: 0.6875rem; }
 .scroll-hint i { width: 28px; height: 1px; background: currentColor; display: block; animation: hint 1.8s infinite; }
 @keyframes hint { 0% { transform: scaleX(.2); transform-origin: left; } 50% { transform: scaleX(1); } 100% { transform: scaleX(.2); transform-origin: right; } }
 .callouts { position: absolute; inset: 0; z-index: 3; pointer-events: none; }
 .callout { position: absolute; display: flex; align-items: center; gap: 12px; transform: translate(0, -50%); white-space: nowrap; transition: opacity .35s ease; }
 .callout i { width: 72px; height: 1px; background: linear-gradient(90deg, #8FB7FF, rgba(143,183,255,0)); position: relative; flex: none; }
 .callout i::before { content: ""; position: absolute; left: -4px; top: -4px; width: 9px; height: 9px; border-radius: 50%; background: #8FB7FF; box-shadow: 0 0 0 5px rgba(143,183,255,.18); }
-.callout span { font-size: 14.5px; color: #fff; background: rgba(6,38,77,.55); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,.12); padding: 8px 12px; border-radius: 10px; }
-.callout-list { position: absolute; left: var(--gutter); right: var(--gutter); bottom: 12vh; z-index: 3; display: grid; gap: 8px; list-style: none; margin: 0; padding: 0; font-size: 14px; color: #fff; transition: opacity .3s; pointer-events: none; }
+.callout span { font-size: 0.9062rem; color: #fff; background: rgba(6,38,77,.55); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,.12); padding: 8px 12px; border-radius: 10px; }
+.callout-list { position: absolute; left: var(--gutter); right: var(--gutter); bottom: 12vh; z-index: 3; display: grid; gap: 8px; list-style: none; margin: 0; padding: 0; font-size: 0.875rem; color: #fff; transition: opacity .3s; pointer-events: none; }
 .callout-list li { padding-left: 16px; position: relative; } .callout-list li::before { content: ""; position: absolute; left: 0; top: .55em; width: 7px; height: 7px; border-radius: 50%; background: #8FB7FF; }
 @media (max-width: 760px) {
-  .hero { height: 320svh; } .inner { align-content: end; padding-bottom: 72px; } .copy { max-width: none; } h1 { font-size: clamp(34px, 9.5vw, 46px); }
-  .stage { top: auto; bottom: 72px; transform: none; max-width: none; right: var(--gutter); } .stage h2 { font-size: clamp(26px, 7.5vw, 34px); }
+  .hero { height: 320svh; } .inner { align-content: end; padding-bottom: 72px; } .copy { max-width: none; } h1 { font-size: clamp(2.125rem, 9.5vw, 2.875rem); }
+  .stage { top: auto; bottom: 72px; transform: none; max-width: none; right: var(--gutter); } .stage h2 { font-size: clamp(1.625rem, 7.5vw, 2.125rem); }
 }
 @media (prefers-reduced-motion: reduce) { .hero { height: 100svh; } .copy { opacity: 1 !important; transform: none !important; } .stage, .callout-list { display: none; } }
 </style>

@@ -15,7 +15,7 @@ watch(decided, (v) => { if (v) show.value = false })
 </template>
 <style scoped>
 .cb { position: fixed; z-index: 70; left: 16px; right: 16px; bottom: max(16px, env(safe-area-inset-bottom)); margin-inline: auto; max-width: 760px; background: #fff; color: var(--ink); border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--shadow); padding: 18px 20px; display: flex; gap: 18px; align-items: center; flex-wrap: wrap; }
-.txt { flex: 1 1 320px; font-size: 13.5px; } .txt p { color: var(--ink-2); margin-top: 4px; } .txt a { text-decoration: underline; }
-.acts { display: flex; gap: 8px; } .acts .btn { padding: 10px 14px; font-size: 13px; }
+.txt { flex: 1 1 320px; font-size: 0.8438rem; } .txt p { color: var(--ink-2); margin-top: 4px; } .txt a { text-decoration: underline; }
+.acts { display: flex; gap: 8px; } .acts .btn { padding: 10px 14px; font-size: 0.8125rem; }
 .cb-enter-active, .cb-leave-active { transition: opacity .3s, transform .3s; } .cb-enter-from, .cb-leave-to { opacity: 0; transform: translateY(12px); }
 </style>

@@ -20,7 +20,7 @@ const cats = ['', 'news', 'events', 'research', 'company']
 </template>
 <style scoped>
 .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 28px; }
-.chip { padding: 8px 14px; border-radius: 999px; border: 1px solid var(--line); font-size: 13.5px; font-weight: 600; }
+.chip { padding: 8px 14px; border-radius: 999px; border: 1px solid var(--line); font-size: 0.8438rem; font-weight: 600; }
 .chip.active { background: var(--ink); color: #fff; border-color: var(--ink); }
 .pager { display: flex; gap: 8px; margin-top: 32px; }
 </style>

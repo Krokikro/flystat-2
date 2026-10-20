@@ -28,7 +28,7 @@ const share = () => { if (navigator.share) navigator.share({ title: item.value.t
 <style scoped>
 .art { padding-top: calc(var(--header-h) + 32px); padding-bottom: 80px; }
 .art .container { max-width: 880px; display: grid; gap: 18px; }
-.back { color: var(--muted); font-weight: 600; font-size: 14px; }
+.back { color: var(--muted); font-weight: 600; font-size: 0.875rem; }
 .meta { color: var(--muted); }
 .cover img { border-radius: var(--radius-lg); width: 100%; aspect-ratio: 16/9; object-fit: cover; }
 .body { margin-top: 10px; }

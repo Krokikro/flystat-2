@@ -29,13 +29,13 @@ const open = ref<number | null>(null)
 .inner { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr); gap: clamp(24px, 4vw, 64px); align-items: start; }
 .side { position: sticky; top: calc(var(--header-h) + 24px); display: grid; gap: 14px; }
 .search { display: flex; align-items: center; gap: 10px; border: 1px solid var(--line); border-radius: 12px; padding: 0 12px; color: var(--muted); }
-.search input { flex: 1; border: 0; padding: 12px 0; font: inherit; font-size: 15px; outline: none; background: transparent; color: var(--ink); min-width: 0; }
-.cats { display: flex; flex-wrap: wrap; gap: 6px; } .cats button { padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); font-size: 13px; font-weight: 600; } .cats button.on { background: var(--ink); color: #fff; border-color: var(--ink); }
+.search input { flex: 1; border: 0; padding: 12px 0; font: inherit; font-size: 0.9375rem; outline: none; background: transparent; color: var(--ink); min-width: 0; }
+.cats { display: flex; flex-wrap: wrap; gap: 6px; } .cats button { padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); font-size: 0.8125rem; font-weight: 600; } .cats button.on { background: var(--ink); color: #fff; border-color: var(--ink); }
 details { border-bottom: 1px solid var(--line); }
-summary { list-style: none; cursor: pointer; display: flex; justify-content: space-between; gap: 16px; align-items: center; padding: 20px 0; font-weight: 700; font-size: 17px; letter-spacing: -.01em; }
+summary { list-style: none; cursor: pointer; display: flex; justify-content: space-between; gap: 16px; align-items: center; padding: 20px 0; font-weight: 700; font-size: 1.0625rem; letter-spacing: -.01em; }
 summary::-webkit-details-marker { display: none; }
 summary svg { flex: none; transition: transform .3s var(--ease); color: var(--muted); } details[open] summary svg { transform: rotate(180deg); }
-.a { padding: 0 0 22px; font-size: 16px; }
+.a { padding: 0 0 22px; font-size: 1rem; }
 .none { color: var(--muted); padding: 20px 0; }
 @media (max-width: 860px) { .inner { grid-template-columns: 1fr; } .side { position: static; } }
 </style>

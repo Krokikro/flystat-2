@@ -22,10 +22,10 @@ onMounted(() => { const h = (e: MouseEvent) => { if (!root.value?.contains(e.tar
 <style scoped>
 .lang { position: relative; }
 .lang-btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 10px; border-radius: 10px; font-weight: 700; }
-.lang-btn .mono { font-size: 12px; }
+.lang-btn .mono { font-size: 0.75rem; }
 .menu { position: absolute; right: 0; top: calc(100% + 8px); margin: 0; padding: 8px; list-style: none; background: #fff; color: var(--ink); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); min-width: 200px; display: grid; }
-.menu a { display: flex; gap: 12px; align-items: center; padding: 9px 10px; border-radius: 10px; font-size: 14px; font-weight: 500; }
+.menu a { display: flex; gap: 12px; align-items: center; padding: 9px 10px; border-radius: 10px; font-size: 0.875rem; font-weight: 500; }
 .menu a:hover, .menu a.active { background: var(--bg-alt); }
-.code { width: 22px; color: var(--muted); font-size: 11px; }
+.code { width: 22px; color: var(--muted); font-size: 0.6875rem; }
 .pop-enter-active, .pop-leave-active { transition: opacity .18s, transform .18s; } .pop-enter-from, .pop-leave-to { opacity: 0; transform: translateY(-4px); }
 </style>

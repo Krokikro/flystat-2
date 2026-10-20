@@ -31,7 +31,7 @@ onMounted(() => {
 .stats { background: linear-gradient(180deg, var(--navy-800) 0%, var(--navy-900) 100%); }
 .h { margin-bottom: 40px; max-width: 600px; }
 .stat { display: grid; gap: 10px; padding-top: 22px; border-top: 1px solid rgba(255,255,255,.14); }
-.val { display: flex; align-items: baseline; gap: 4px; font-weight: 900; font-size: clamp(48px, 6vw, 84px); letter-spacing: -.04em; line-height: 1; color: #fff; font-variant-numeric: tabular-nums; }
+.val { display: flex; align-items: baseline; gap: 4px; font-weight: 900; font-size: clamp(3rem, 6vw, 5.25rem); letter-spacing: -.04em; line-height: 1; color: #fff; font-variant-numeric: tabular-nums; }
 .val small { font-size: .35em; font-weight: 700; color: #8FB7FF; letter-spacing: 0; }
-.stat h3 { color: #fff; } .stat p { color: var(--muted-on-dark); font-size: 15px; }
+.stat h3 { color: #fff; } .stat p { color: var(--muted-on-dark); font-size: 0.9375rem; }
 </style>

@@ -30,7 +30,7 @@ const screens = computed(() => props.data.screens || [])
 .feats button { width: 100%; text-align: left; display: grid; grid-template-columns: 36px 1fr; gap: 10px; padding: 16px 18px; border-radius: 16px; transition: background .3s; }
 .feats li.on button { background: #fff; box-shadow: var(--shadow); }
 .n { color: var(--purple-d); padding-top: 3px; }
-.t { display: grid; gap: 4px; } .t b { font-size: 17px; letter-spacing: -.01em; } .t small { font-size: 14px; color: var(--ink-2); line-height: 1.45; }
+.t { display: grid; gap: 4px; } .t b { font-size: 1.0625rem; letter-spacing: -.01em; } .t small { font-size: 0.875rem; color: var(--ink-2); line-height: 1.45; }
 .phone { justify-self: center; }
 .frame { width: 300px; aspect-ratio: 9/19.5; border-radius: 44px; background: #0B1A3A; padding: 10px; box-shadow: 0 40px 80px rgba(89,37,220,.25), inset 0 0 0 2px rgba(255,255,255,.08); position: relative; overflow: hidden; }
 .frame img { position: absolute; inset: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: cover; border-radius: 36px; background: #fff; }

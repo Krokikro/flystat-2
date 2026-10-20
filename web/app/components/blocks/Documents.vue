@@ -18,4 +18,4 @@ const localePath = useLocalePath(); const { t } = useI18n()
     </div>
   </section>
 </template>
-<style scoped>.doc p { font-size: 11px; color: var(--muted); } .dl { display: inline-flex; gap: 6px; align-items: center; color: var(--blue-d); font-weight: 700; font-size: 14px; }</style>
+<style scoped>.doc p { font-size: 0.6875rem; color: var(--muted); } .dl { display: inline-flex; gap: 6px; align-items: center; color: var(--blue-d); font-weight: 700; font-size: 0.875rem; }</style>

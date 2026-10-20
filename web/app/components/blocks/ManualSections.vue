@@ -22,8 +22,8 @@ const toc = computed(() => { const out: { id: string; title: string }[] = []; co
 <style scoped>
 .inner { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: clamp(24px, 4vw, 72px); align-items: start; }
 .toc { position: sticky; top: calc(var(--header-h) + 24px); display: grid; gap: 14px; }
-.toc nav { display: grid; gap: 8px; font-size: 14px; } .toc nav a { color: var(--ink-2); } .toc nav a:hover { color: var(--blue-d); }
-.ver { font-size: 11px; color: var(--muted); }
+.toc nav { display: grid; gap: 8px; font-size: 0.875rem; } .toc nav a { color: var(--ink-2); } .toc nav a:hover { color: var(--blue-d); }
+.ver { font-size: 0.6875rem; color: var(--muted); }
 .body :deep(h2) { scroll-margin-top: calc(var(--header-h) + 16px); }
 @media (max-width: 860px) { .inner { grid-template-columns: 1fr; } .toc { position: static; } }
 </style>

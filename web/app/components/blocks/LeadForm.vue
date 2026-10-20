@@ -112,12 +112,12 @@ const uid = Math.random().toString(36).slice(2, 7)
 .tone-dark .form { background: rgba(255,255,255,.04); border-color: rgba(255,255,255,.12); }
 .fields { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; } .full { grid-column: 1 / -1; }
 .hp { position: absolute; left: -9999px; }
-.chips { display: flex; flex-wrap: wrap; gap: 8px; } .chip { display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 999px; font-size: 13.5px; cursor: pointer; } .chip:has(input:checked) { background: var(--ink); color: #fff; border-color: var(--ink); } .chip input { position: absolute; opacity: 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; } .chip { display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 999px; font-size: 0.8438rem; cursor: pointer; } .chip:has(input:checked) { background: var(--ink); color: #fff; border-color: var(--ink); } .chip input { position: absolute; opacity: 0; }
 .tone-dark .chip { border-color: rgba(255,255,255,.2); } .tone-dark .chip:has(input:checked) { background: var(--blue); border-color: var(--blue); }
-.file { display: flex; gap: 10px; align-items: center; border: 1px dashed var(--line); border-radius: 12px; padding: 12px 14px; cursor: pointer; color: var(--muted); font-size: 14px; } .file input { display: none; }
+.file { display: flex; gap: 10px; align-items: center; border: 1px dashed var(--line); border-radius: 12px; padding: 12px 14px; cursor: pointer; color: var(--muted); font-size: 0.875rem; } .file input { display: none; }
 .actions { display: grid; gap: 8px; justify-items: start; }
-.ok { font-weight: 700; color: var(--ok); font-size: 17px; }
-.err { color: var(--danger); font-size: 13px; }
+.ok { font-weight: 700; color: var(--ok); font-size: 1.0625rem; }
+.err { color: var(--danger); font-size: 0.8125rem; }
 @media (max-width: 860px) { .inner { grid-template-columns: 1fr; } .copy { position: static; } }
 @media (max-width: 560px) { .fields { grid-template-columns: 1fr; } }
 </style>

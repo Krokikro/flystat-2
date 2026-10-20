@@ -26,11 +26,11 @@ const conv = (v: string) => units.value === 'mgdl' ? v.replace(/2[.,]2[–-]22[.
 <style scoped>
 .head { display: flex; justify-content: space-between; align-items: end; gap: 20px; flex-wrap: wrap; }
 .units { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 3px; margin-bottom: clamp(28px, 4vw, 56px); }
-.units button { padding: 7px 14px; border-radius: 999px; font-size: 13px; font-weight: 700; color: var(--muted); } .units button.on { background: var(--ink); color: #fff; }
-table { width: 100%; border-collapse: collapse; font-size: 15.5px; min-width: 640px; }
+.units button { padding: 7px 14px; border-radius: 999px; font-size: 0.8125rem; font-weight: 700; color: var(--muted); } .units button.on { background: var(--ink); color: #fff; }
+table { width: 100%; border-collapse: collapse; font-size: 0.9688rem; min-width: 640px; }
 th { text-align: left; font-weight: 700; padding: 16px 20px; width: 28%; border-bottom: 1px solid var(--line); background: var(--bg-alt); }
-td { padding: 16px 20px; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; } td.note { color: var(--muted); font-size: 14px; }
+td { padding: 16px 20px; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; } td.note { color: var(--muted); font-size: 0.875rem; }
 tr:last-child th, tr:last-child td { border-bottom: 0; }
-.foot { margin-top: 18px; font-size: 13.5px; color: var(--muted); max-width: 80ch; }
-.cert { margin-top: 10px; color: var(--warn); font-size: 11px; }
+.foot { margin-top: 18px; font-size: 0.8438rem; color: var(--muted); max-width: 80ch; }
+.cert { margin-top: 10px; color: var(--warn); font-size: 0.6875rem; }
 </style>

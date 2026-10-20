@@ -23,10 +23,10 @@ async function submit() {
 </template>
 <style scoped>
 .nl { display: grid; gap: 8px; max-width: 420px; }
-.h { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; font-weight: 700; color: #fff; opacity: .6; }
-.hint { font-size: 13px; }
+.h { font-size: 0.6875rem; letter-spacing: .14em; text-transform: uppercase; font-weight: 700; color: #fff; opacity: .6; }
+.hint { font-size: 0.8125rem; }
 .row { display: flex; gap: 8px; }
-.row input { flex: 1; min-width: 0; padding: 11px 12px; border-radius: 12px; border: 1px solid rgba(255,255,255,.18); background: rgba(255,255,255,.06); color: #fff; font: inherit; font-size: 14px; }
-.row .btn { padding: 10px 14px; font-size: 13px; }
-.ok { color: #8FD7A8; font-size: 13px; } .err { color: #FDA29B; font-size: 12px; }
+.row input { flex: 1; min-width: 0; padding: 11px 12px; border-radius: 12px; border: 1px solid rgba(255,255,255,.18); background: rgba(255,255,255,.06); color: #fff; font: inherit; font-size: 0.875rem; }
+.row .btn { padding: 10px 14px; font-size: 0.8125rem; }
+.ok { color: #8FD7A8; font-size: 0.8125rem; } .err { color: #FDA29B; font-size: 0.75rem; }
 </style>

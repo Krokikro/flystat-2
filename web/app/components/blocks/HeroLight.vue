@@ -23,7 +23,7 @@ defineProps<{ data: Record<string, any> }>()
 .copy { display: grid; gap: 20px; }
 .ctas { display: flex; flex-wrap: wrap; gap: 10px; }
 .stats { display: flex; gap: 28px; flex-wrap: wrap; margin-top: 12px; padding-top: 20px; border-top: 1px solid var(--line); }
-.stats div { display: grid; gap: 2px; } .stats b { font-size: 26px; font-weight: 900; letter-spacing: -.02em; font-variant-numeric: tabular-nums; } .stats span { font-size: 13px; color: var(--muted); }
+.stats div { display: grid; gap: 2px; } .stats b { font-size: 1.625rem; font-weight: 900; letter-spacing: -.02em; font-variant-numeric: tabular-nums; } .stats span { font-size: 0.8125rem; color: var(--muted); }
 .art :deep(img) { max-height: 560px; width: auto; margin-inline: auto; object-fit: contain; filter: drop-shadow(0 30px 40px rgba(16,42,86,.18)); }
 .art :deep(.pic) { background: radial-gradient(60% 60% at 50% 50%, #E9F0FF 0%, transparent 70%); border-radius: var(--radius-lg); }
 @media (max-width: 860px) { .inner { grid-template-columns: 1fr; } .art :deep(img) { max-height: 360px; } }

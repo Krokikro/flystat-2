@@ -20,5 +20,5 @@ useHead({ meta: () => isDemo.value ? [{ name: 'robots', content: 'noindex, nofol
 <style>
 .skip { position: absolute; left: -999px; top: 8px; background: var(--ink); color: #fff; padding: 10px 14px; border-radius: 10px; z-index: 100; }
 .skip:focus { left: 12px; }
-.demo-badge { position: fixed; left: 12px; bottom: 12px; z-index: 60; background: rgba(16,42,86,.85); color: #fff; padding: 6px 10px; border-radius: 8px; font-size: 10px; pointer-events: none; }
+.demo-badge { position: fixed; left: 12px; bottom: 12px; z-index: 60; background: rgba(16,42,86,.85); color: #fff; padding: 6px 10px; border-radius: 8px; font-size: 0.625rem; pointer-events: none; }
 </style>

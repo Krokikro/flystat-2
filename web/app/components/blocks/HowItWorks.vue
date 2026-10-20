@@ -23,6 +23,6 @@ defineProps<{ data: Record<string, any> }>()
 .steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 28px; counter-reset: s; }
 .steps li { display: grid; gap: 12px; align-content: start; padding: 28px; border-radius: var(--radius-lg); background: var(--bg-alt); position: relative; }
 .num { display: flex; align-items: center; justify-content: space-between; color: var(--blue-d); margin-bottom: 8px; }
-.num span { font-family: var(--mono); font-size: 13px; letter-spacing: .14em; }
+.num span { font-family: var(--mono); font-size: 0.8125rem; letter-spacing: .14em; }
 .steps p { color: var(--ink-2); }
 </style>
