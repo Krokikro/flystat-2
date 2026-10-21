@@ -1452,7 +1452,7 @@
     "anchor": "top",
     "enabled": true,
     "data": {
-     "scene": "rotate",
+     "scene": "device",
      "eyebrow": {
       "en": "The device",
       "ru": "Устройство",
@@ -1583,26 +1583,26 @@
       }
      },
      "stage4_title": {
-      "en": "That is all you wear",
-      "ru": "Это всё, что вы носите",
-      "fr": "C’est tout ce que vous portez",
-      "es": "Eso es todo lo que lleva puesto",
-      "it": "È tutto ciò che indossi",
-      "de": "Mehr tragen Sie nicht",
-      "zh": "您佩戴的只有这个",
-      "vi": "Bạn chỉ đeo đúng chừng này",
-      "hi": "बस इतना ही पहनना है"
+      "en": "One piece, ready to use",
+      "ru": "Единое целое, готовое к применению",
+      "fr": "Une seule pièce, prête à l'emploi",
+      "es": "Una sola pieza, lista para usar",
+      "it": "Un unico pezzo, pronto all'uso",
+      "de": "Ein Teil, sofort einsatzbereit",
+      "zh": "一体式，开箱即用",
+      "vi": "Một khối liền, sẵn sàng dùng ngay",
+      "hi": "एक ही इकाई, उपयोग के लिए तैयार"
      },
      "stage4_text": {
-      "en": "A 24-millimetre disc on the back of your arm. One reading a minute, straight to your phone.",
-      "ru": "Диск 24 миллиметра на задней поверхности плеча. Одно измерение в минуту — сразу в телефон.",
-      "fr": "Un disque de 24 millimètres à l’arrière du bras. Une mesure par minute, directement sur votre téléphone.",
-      "es": "Un disco de 24 milímetros en la parte posterior del brazo. Una lectura por minuto, directa a su teléfono.",
-      "it": "Un disco di 24 millimetri sul retro del braccio. Una lettura al minuto, direttamente sul telefono.",
-      "de": "Eine 24-Millimeter-Scheibe an der Rückseite des Oberarms. Ein Messwert pro Minute, direkt aufs Telefon.",
-      "zh": "上臂后侧一枚 24 毫米的圆片。每分钟一次读数，直接传到手机。",
-      "vi": "Một đĩa 24 mm ở mặt sau cánh tay. Mỗi phút một kết quả, gửi thẳng vào điện thoại.",
-      "hi": "बांह के पिछले हिस्से पर 24 मिलीमीटर की एक डिस्क। हर मिनट एक रीडिंग, सीधे आपके फ़ोन में।"
+      "en": "Applicator, sensor and sterile cap come assembled. Peel the seal, press it to your arm, hear the click — nothing to put together.",
+      "ru": "Аппликатор, сенсор и стерильная крышка поставляются в сборе. Снимите пломбу, прижмите к руке, услышьте щелчок — собирать ничего не нужно.",
+      "fr": "Applicateur, capteur et capuchon stérile sont livrés assemblés. Retirez le sceau, appuyez sur le bras, écoutez le clic — rien à monter.",
+      "es": "Aplicador, sensor y tapa estéril vienen montados. Retira el precinto, presiónalo contra el brazo, escucha el clic: no hay nada que ensamblar.",
+      "it": "Applicatore, sensore e cappuccio sterile arrivano già assemblati. Togli il sigillo, premi sul braccio, senti il clic: niente da montare.",
+      "de": "Applikator, Sensor und sterile Kappe kommen montiert. Siegel abziehen, an den Arm drücken, Klick hören — nichts zusammenzusetzen.",
+      "zh": "敷贴器、传感器和无菌护盖出厂时已组装好。撕开封条，按在手臂上，听到咔哒一声即可——无需任何组装。",
+      "vi": "Dụng cụ gắn, cảm biến và nắp vô trùng được lắp sẵn. Bóc niêm phong, ấn vào cánh tay, nghe tiếng tách — không cần lắp ráp gì.",
+      "hi": "एप्लिकेटर, सेंसर और स्टेराइल कैप जुड़े हुए आते हैं। सील हटाएँ, बाँह पर दबाएँ, क्लिक सुनें — कुछ भी जोड़ना नहीं पड़ता।"
      }
     }
    },

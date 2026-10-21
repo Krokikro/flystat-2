@@ -17,6 +17,12 @@ HERO_STAGES = dict(
     stage4_text=T("A 24-millimetre disc on the back of your arm. One reading a minute, straight to your phone."),
 )
 
+# the device page tells the story the other way round: it ends on the finished applicator
+DEVICE_STAGES = dict(HERO_STAGES,
+    stage4_title=T("One piece, ready to use"),
+    stage4_text=T("Applicator, sensor and sterile cap come assembled. Peel the seal, press it to your arm, hear the click — nothing to put together."),
+)
+
 # ---------------------------------------------------------------- shared pieces
 STATS = block("stats", anchor="numbers", data=dict(
     title=T("The numbers that matter"),
@@ -117,10 +123,10 @@ PAGES.append(page("device", "device", T("The Flystat device"), nav=T("Device"), 
     seo_desc=T("A 15-day glucose sensor 24 mm across, a one-click disposable applicator, Bluetooth and NFC, IP58 protection. Full technical specifications of the Flystat CGM system."),
     blocks=[
         block("hero_dark", anchor="top", data=dict(
-            scene="rotate", eyebrow=T("The device"),
+            scene="device", eyebrow=T("The device"),
             title=T("One click. Fifteen days."),
             text=T("The applicator comes with the sensor already inside. Press it to the back of your arm, hear the click, and the sensor is in place for the next 15 days."),
-            cta=cta(T("See the specifications"), "#specs"), cta2=cta(T("How to apply it"), "/manual#install"), **HERO_STAGES)),
+            cta=cta(T("See the specifications"), "#specs"), cta2=cta(T("How to apply it"), "/manual#install"), **DEVICE_STAGES)),
         block("text_media", anchor="exploded", data=dict(
             eyebrow=T("What is inside"), title=T("Three parts you never have to think about"),
             text=T("<p><strong>The cap</strong> protects the sensor until you peel the seal.</p><p><strong>The sensor</strong> — a 24 mm disc, 4.5 mm thin, two grams — carries the electronics, a 3 V lithium cell for the full 15 days and a flexible filament 5.5 mm long that sits just under the skin.</p><p><strong>The base</strong> holds the spring mechanism that places the sensor in one controlled motion and retracts the guide needle immediately.</p>"),

@@ -10,7 +10,8 @@ const { t } = useI18n()
 // pages that open on the sensor (app page) start the story near its end
 const start = computed(() => (props.data.scene === 'sensor' ? 0.86 : 0))
 const p = computed(() => start.value + progress.value * (1 - start.value))
-const st = computed(() => story(p.value))
+const variant = computed<'rotate' | 'device'>(() => (props.data.scene === 'device' ? 'device' : 'rotate'))
+const st = computed(() => story(p.value, variant.value))
 
 onMounted(() => {
   const onScroll = () => {
@@ -37,7 +38,7 @@ const labelStyle = (k: string, i: number) => {
 <template>
   <section ref="root" class="hero" :class="{ short: start > 0 }">
     <div class="sticky">
-      <ClientOnly><DeviceScene :progress="p" @anchors="anchors = $event" @mode="mode = $event" /></ClientOnly>
+      <ClientOnly><DeviceScene :progress="p" :variant="variant" @anchors="anchors = $event" @mode="mode = $event" /></ClientOnly>
       <div class="container inner">
         <div class="copy" :style="headStyle">
           <p v-if="data.eyebrow" class="tag mono">{{ data.eyebrow }}</p>

@@ -4,7 +4,7 @@
  * driven by scroll progress — assembled → applicator lifts → sensor exploded → sensor close-up.
  * Phones, reduced-motion and no-WebGL get the same story as a baked frame sequence.
  */
-const props = withDefaults(defineProps<{ progress: number }>(), {})
+const props = withDefaults(defineProps<{ progress: number; variant?: 'rotate' | 'device' }>(), { variant: 'rotate' })
 const emit = defineEmits<{ (e: 'anchors', v: Record<string, { x: number; y: number; z: number }>): void; (e: 'mode', v: 'live' | 'frames'): void }>()
 
 const wrap = ref<HTMLElement | null>(null)
@@ -37,7 +37,7 @@ async function initLive() {
   if (!canvas.value || !wrap.value) return
   try {
     const { createDeviceScene } = await import('~/utils/device-scene.js')
-    scene = await createDeviceScene(canvas.value, { url: '/models/flystat.glb', onProgress: (f: number) => { loadPct.value = Math.round(f * 100) } })
+    scene = await createDeviceScene(canvas.value, { url: '/models/flystat.glb', variant: props.variant, onProgress: (f: number) => { loadPct.value = Math.round(f * 100) } })
     if (import.meta.dev || (window as any).__fsDebug) (window as any).__fs = scene
     if (!alive) { scene.dispose(); return }
     fit(); ready.value = true
@@ -99,7 +99,7 @@ function initFrames() {
     const i = order[idx++]; const im = new Image(); im.decoding = 'async'
     im.onload = () => { images[i] = im; done++; loadPct.value = Math.round(done / FRAMES * 100); if (!ready.value) { ready.value = true; fit() } drawFrame(frameFor(props.progress)); next() }
     im.onerror = () => next()
-    im.src = `/media/hero-m/m_${String(i).padStart(3, '0')}.webp`
+    im.src = `/media/${props.variant === 'device' ? 'hero-d' : 'hero-m'}/m_${String(i).padStart(3, '0')}.webp`
   }
   for (let k = 0; k < 4; k++) next()
 }
@@ -124,7 +124,7 @@ defineExpose({ ready, mode })
 </script>
 <template>
   <div ref="wrap" class="dev" :class="{ ready, live: mode === 'live' }" @pointermove="onPointer">
-    <img class="poster" src="/media/hero/poster.webp" alt="" aria-hidden="true" decoding="async" fetchpriority="high">
+    <img class="poster" :src="props.variant === 'device' ? '/media/hero/poster-device.webp' : '/media/hero/poster.webp'" alt="" aria-hidden="true" decoding="async" fetchpriority="high">
     <canvas v-if="mode === 'live'" ref="canvas" class="gl" role="img" aria-label="Flystat applicator and sensor, 3D" />
     <canvas v-else ref="frameCanvas" class="gl" role="img" aria-label="Flystat applicator and sensor" />
     <div v-if="!ready" class="load" aria-hidden="true"><i :style="{ width: loadPct + '%' }" /></div>

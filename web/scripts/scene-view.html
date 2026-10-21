@@ -8,7 +8,7 @@ const q = new URLSearchParams(location.search); if (q.get('bg') === 'none') docu
 const W = +q.get('w') || 1600, H = +q.get('h') || 900;
 const c = document.getElementById('c'); c.width = W; c.height = H; c.style.width = W + 'px'; c.style.height = H + 'px';
 try {
-  const sc = await createDeviceScene(c, { url: '/web/public/models/flystat.glb', dpr: 1, background: q.get('bg') === 'none' ? null : undefined });
+  const sc = await createDeviceScene(c, { url: '/web/public/models/flystat.glb', dpr: 1, background: q.get('bg') === 'none' ? null : undefined, variant: q.get('variant') || 'rotate' });
   sc.resize(W, H);
   window.__scene = sc;
   window.__renderCustom = (ov) => { sc.setOverride(ov); sc.setProgress(ov.p || 0); sc.render(0); };
