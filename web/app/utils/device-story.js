@@ -28,20 +28,21 @@ export const SENSOR_Y_MM = -28 // relative to the model centre (housing 53.5–5
 
 export function story(p) {
   p = clamp01(p)
-  // ---- phases
-  const A = seg(p, 0.0, 0.22)   // turntable
-  const B = seg(p, 0.22, 0.5)   // applicator lifts
-  const C = seg(p, 0.5, 0.8)    // sensor explodes
-  const D = seg(p, 0.8, 1.0)    // settle on the sensor
-  // ---- camera (spherical, degrees / normalised units)
-  const az = 28 + A * 26 + B * 30 + C * 40 + D * 30
-  const el = lerp(lerp(lerp(12, 7, B), 16, C), 24, D)
-  const dist = lerp(lerp(lerp(3.1, 2.0, B), 1.3, C), 0.95, D)
-  const ty = lerp(lerp(0.02, SENSOR_Y_MM * MM, B), SENSOR_Y_MM * MM + 0.03, C)
+  // ---- phases (slow: the hero section is ~7 viewports tall)
+  const A = seg(p, 0.0, 0.3)    // turntable, logo facing the camera
+  const B = seg(p, 0.3, 0.62)   // applicator lifts, camera stays wide so the body (and its logo) is seen leaving
+  const C = seg(p, 0.62, 0.86)  // sensor explodes
+  const D = seg(p, 0.86, 1.0)   // settle on the sensor
+  const Bc = Math.pow(B, 2.2)   // the camera follows late: first the body rises, then we go down to the sensor
+  // ---- camera (spherical, degrees / normalised units). Logo is readable between az ≈ 15° and 60°.
+  const az = 22 + A * 22 + B * 12 + C * 38 + D * 26
+  const el = lerp(lerp(lerp(11, 9, Bc), 16, C), 24, D)
+  const dist = lerp(lerp(lerp(3.1, 2.4, Bc), 1.3, C), 0.95, D)
+  const ty = lerp(lerp(0.02, SENSOR_Y_MM * MM, Bc), SENSOR_Y_MM * MM + 0.03, C)
   // horizontal composition offset: model sits right of centre while the headline is on the left
-  const shift = lerp(0.34, 0.12, B) * (1 - D * 0.4)
-  // ---- explode (mm)
-  const lift = lerp(0, 95, B) + C * 40
+  const shift = lerp(0.34, 0.14, Bc) * (1 - D * 0.4)
+  // ---- explode (mm). The lift eases in slowly so the first centimetres read as a gentle separation.
+  const lift = Math.pow(B, 1.35) * 130 + C * 60
   const ex = {
     applicator: lift,
     needle: lift,
@@ -50,14 +51,13 @@ export function story(p) {
     patch: -lerp(0, 7, C) * (1 - D),
     cap: -lerp(0, 9, C) - D * 6,
   }
-  // ---- turntable spin (radians) while idle at the top, blended out as the story starts
-  const spin = (1 - B) * 0.0
+  const spin = 0
   // ---- copy stages
   const text = {
-    headline: 1 - seg(p, 0.05, 0.2),
-    stage2: seg(p, 0.3, 0.42) * (1 - seg(p, 0.5, 0.58)),
-    labels: seg(p, 0.62, 0.72) * (1 - seg(p, 0.82, 0.9)),
-    stage4: seg(p, 0.9, 1.0),
+    headline: 1 - seg(p, 0.08, 0.26),
+    stage2: seg(p, 0.4, 0.5) * (1 - seg(p, 0.62, 0.68)),
+    labels: seg(p, 0.72, 0.8) * (1 - seg(p, 0.88, 0.93)),
+    stage4: seg(p, 0.93, 1.0),
   }
   return { cam: { az, el, dist, ty, shift }, explode: ex, spin, text, phase: { A, B, C, D } }
 }

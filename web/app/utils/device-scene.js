@@ -10,7 +10,7 @@ import { story, PARTS, MM } from './device-story.js'
 
 const norm = (x) => String(x || '').replace(/[^\p{L}\p{N}]+/gu, '').toLowerCase()
 
-export const COLORS = { bg: 0x06264d, shell: 0x6f9cd9, shellDark: 0x5583c6, cap: 0x244b8c, glue: 0xe9f2d2 }
+export const COLORS = { bg: 0x06264d, shell: 0x6f9cd9, shellDark: 0x5583c6, shellLogo: 0xa9c9f2, cap: 0x244b8c, glue: 0xe9f2d2 }
 
 /**
  * @param {HTMLCanvasElement} canvas
@@ -60,10 +60,12 @@ export async function createDeviceScene(canvas, opts) {
     if (!o.isMesh) return
     o.frustumCulled = false
     const m = o.material; const name = m.name || ''
-    if (/659 ?C (Pantone|Shiny)/.test(name) && !/translucence/.test(o.parent?.name || '') && m.opacity === 1) {
+    if (/659 ?C Shiny/.test(name)) {
+      // embossed logo / emblem: keep the exporter's own material (a replacement loses the emboss), just polish it
+      m.roughness = 0.08; m.metalness = 0; m.color.set(COLORS.shellLogo); m.envMapIntensity = 1.3
+    } else if (/659 ?C Pantone/.test(name) && !/translucence/.test(o.parent?.name || '') && m.opacity === 1) {
       // light-blue applicator shell: glossy ABS with a clearcoat
       const pm = new THREE.MeshPhysicalMaterial({ color: COLORS.shell, roughness: 0.42, metalness: 0, clearcoat: 0.3, clearcoatRoughness: 0.35, envMapIntensity: 0.55 })
-      if (/Shiny/.test(name)) { pm.roughness = 0.18; pm.color.set(COLORS.shellDark) } // embossed logo / emblem
       o.material = pm; shellMats.add(pm)
     } else if (m.transparent && /659C/.test(name)) {
       // translucent dark-blue base cap
@@ -110,7 +112,7 @@ export async function createDeviceScene(canvas, opts) {
     if (override) { Object.assign(st.cam, override.cam || {}); Object.assign(st.explode, override.explode || {}); if (override.hide) for (const k of override.hide) for (const o of parts[k] || []) o.visible = false; if (override.show) for (const k of override.show) for (const o of parts[k] || []) o.visible = true }
     for (const [k, mm] of Object.entries(st.explode)) for (const o of parts[k] || []) { const b = base.get(o); o.position.y = b.y0 + mm * MM * b.k }
     // idle turntable before the story starts, pointer parallax always (damped)
-    idle = progress < 0.02 ? idle + 0.0025 : idle * 0.96
+    idle = progress < 0.02 ? idle + 0.0016 : idle * 0.96
     pivot.rotation.y = idle
     const az = THREE.MathUtils.degToRad(st.cam.az) + pointerX * 0.12
     const el = THREE.MathUtils.degToRad(st.cam.el) - pointerY * 0.06

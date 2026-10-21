@@ -71,7 +71,7 @@ const labelStyle = (k: string, i: number) => {
   </section>
 </template>
 <style scoped>
-.hero { position: relative; height: 420svh; background: var(--navy-800); color: var(--fg-on-dark); }
+.hero { position: relative; height: 720svh; background: var(--navy-800); color: var(--fg-on-dark); }
 .hero.short { height: 160svh; }
 .sticky { position: sticky; top: 0; height: 100svh; overflow: hidden; }
 .inner { position: relative; z-index: 2; height: 100%; display: grid; align-content: center; }
@@ -92,7 +92,7 @@ const labelStyle = (k: string, i: number) => {
 .callout-list { position: absolute; left: var(--gutter); right: var(--gutter); bottom: 12vh; z-index: 3; display: grid; gap: 8px; list-style: none; margin: 0; padding: 0; font-size: 0.875rem; color: #fff; transition: opacity .3s; pointer-events: none; }
 .callout-list li { padding-left: 16px; position: relative; } .callout-list li::before { content: ""; position: absolute; left: 0; top: .55em; width: 7px; height: 7px; border-radius: 50%; background: #8FB7FF; }
 @media (max-width: 760px) {
-  .hero { height: 320svh; } .inner { align-content: end; padding-bottom: 72px; } .copy { max-width: none; } h1 { font-size: clamp(2.125rem, 9.5vw, 2.875rem); }
+  .hero { height: 480svh; } .inner { align-content: end; padding-bottom: 72px; } .copy { max-width: none; } h1 { font-size: clamp(2.125rem, 9.5vw, 2.875rem); }
   .stage { top: auto; bottom: 72px; transform: none; max-width: none; right: var(--gutter); } .stage h2 { font-size: clamp(1.625rem, 7.5vw, 2.125rem); }
 }
 @media (prefers-reduced-motion: reduce) { .hero { height: 100svh; } .copy { opacity: 1 !important; transform: none !important; } .stage, .callout-list { display: none; } }

@@ -19,9 +19,11 @@ let raf = 0
 let visible = true
 let alive = true
 let pointer = { x: 0, y: 0 }, smooth = { x: 0, y: 0 }
-let lastP = -1, dirty = true
+let lastP = -1, dirty = true, shown = 0
+let noSpin = false // set by ?nospin (screenshots) — otherwise the model turns slowly while idle at the top
 
 function chooseMode() {
+  noSpin = /[?&]nospin/.test(location.search)
   const small = window.matchMedia('(max-width: 760px)').matches
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
   const save = (navigator as any).connection?.saveData
@@ -39,18 +41,24 @@ async function initLive() {
     if (import.meta.dev || (window as any).__fsDebug) (window as any).__fs = scene
     if (!alive) { scene.dispose(); return }
     fit(); ready.value = true
-    const loop = () => {
+    let last = performance.now()
+    const loop = (now: number) => {
       if (!alive) return
       raf = requestAnimationFrame(loop)
       if (!visible) return
-      smooth.x += (pointer.x - smooth.x) * 0.06; smooth.y += (pointer.y - smooth.y) * 0.06
-      const idle = props.progress < 0.02
-      const moved = Math.abs(props.progress - lastP) > 0.0005 || Math.abs(pointer.x - smooth.x) > 0.002 || Math.abs(pointer.y - smooth.y) > 0.002
+      const dt = Math.min(0.1, (now - last) / 1000); last = now
+      const k = 1 - Math.exp(-dt / 0.16) // frame-rate independent easing, ~160 ms time constant
+      smooth.x += (pointer.x - smooth.x) * k * 0.7; smooth.y += (pointer.y - smooth.y) * k * 0.7
+      // ease the displayed progress towards the scroll position: scroll wheels jump, the model should glide
+      shown += (props.progress - shown) * k
+      if (Math.abs(props.progress - shown) < 0.0004) shown = props.progress
+      const idle = shown < 0.02 && !noSpin
+      const moved = Math.abs(shown - lastP) > 0.0003 || Math.abs(pointer.x - smooth.x) > 0.002 || Math.abs(pointer.y - smooth.y) > 0.002
       if (!idle && !moved && !dirty) return
-      dirty = false; lastP = props.progress
-      scene.setPointer(smooth.x, smooth.y); scene.setProgress(props.progress)
+      dirty = false; lastP = shown
+      scene.setPointer(smooth.x, smooth.y); scene.setProgress(shown)
       scene.render(performance.now())
-      if (props.progress > 0.45) emit('anchors', scene.anchors())
+      if (shown > 0.5) emit('anchors', scene.anchors())
     }
     raf = requestAnimationFrame(loop)
   } catch (e) {

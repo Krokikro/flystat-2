@@ -12,7 +12,7 @@ const desktop = () => window.matchMedia('(min-width: 1024px)').matches
 
 onMounted(() => {
   if (!desktop()) return
-  io = new IntersectionObserver((es) => { es.forEach((e) => { if (e.isIntersecting) active.value = Number((e.target as HTMLElement).dataset.i) }) }, { rootMargin: '-45% 0px -45% 0px', threshold: 0 })
+  io = new IntersectionObserver((es) => { es.forEach((e) => { if (e.isIntersecting) active.value = Number((e.target as HTMLElement).dataset.i) }) }, { rootMargin: '-40% 0px -40% 0px', threshold: 0 })
   feats.value.forEach((el) => io!.observe(el))
 })
 onBeforeUnmount(() => io?.disconnect())
@@ -54,8 +54,8 @@ const current = computed(() => screens.value[active.value] || {})
 .app :deep(.eyebrow) { color: var(--purple-d); }
 .layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(32px, 5vw, 96px); align-items: start; }
 .feats { list-style: none; margin: 0; padding: 0; display: grid; }
-.feats li { min-height: 46vh; display: grid; align-items: center; }
-.feats li:first-child { min-height: 32vh; align-items: start; } .feats li:last-child { min-height: 32vh; align-items: end; }
+.feats { padding-block: 10vh 38vh; } /* bottom padding keeps the phone pinned until the last feature has been read */
+.feats li { min-height: 60vh; display: grid; align-items: center; }
 .feats button { position: relative; width: 100%; text-align: left; display: grid; grid-template-columns: 48px 1fr; gap: 16px; padding: 22px 26px; border-radius: var(--radius); transition: background .5s var(--ease), box-shadow .5s var(--ease), transform .5s var(--ease); }
 .feats li.on button { background: #fff; box-shadow: 0 30px 60px -24px rgba(89,37,220,.28), 0 2px 0 rgba(255,255,255,.8) inset; }
 .n { color: var(--purple-d); padding-top: 6px; font-size: .8rem; }
@@ -64,10 +64,10 @@ const current = computed(() => screens.value[active.value] || {})
 .bar { position: absolute; left: 0; top: 26px; bottom: 26px; width: 3px; border-radius: 3px; background: var(--purple); transform: scaleY(0); transform-origin: top; transition: transform .6s var(--ease); }
 .feats li.on .bar { transform: scaleY(1); }
 .stage { position: relative; align-self: stretch; }
-.pin { position: sticky; top: calc(var(--header-h) + 40px); display: grid; justify-items: center; padding-block: 20px; }
+.pin { position: sticky; top: max(calc(var(--header-h) + 24px), calc(50vh - 380px)); display: grid; justify-items: center; padding-block: 20px; }
 .halo { position: absolute; inset: 0; margin: auto; width: min(120%, 720px); aspect-ratio: 1; border-radius: 50%; background: radial-gradient(closest-side, rgba(122,90,248,.22) 0%, rgba(46,144,250,.12) 50%, transparent 72%); pointer-events: none; }
 .ph { --pw: clamp(260px, 22vw, 340px); width: var(--pw); position: relative; z-index: 1; }
-.ph :deep(img) { opacity: 0; transform: translateY(18px) scale(.985); transition: opacity .55s var(--ease), transform .55s var(--ease); }
+.ph :deep(img) { opacity: 0; transform: translateY(18px) scale(.985); transition: opacity .9s var(--ease), transform .9s var(--ease); }
 .ph :deep(img.on) { opacity: 1; transform: none; }
 .mob-text { display: none; }
 @media (max-width: 1023px) {

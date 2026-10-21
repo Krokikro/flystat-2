@@ -7,9 +7,16 @@ useScrollFx(({ gsap }) => {
   if (!root.value) return
   const fill = root.value.querySelector('.fill'); const lis = Array.from(root.value.querySelectorAll<HTMLElement>('.step'))
   const horizontal = window.matchMedia('(min-width: 1100px)').matches
-  const tl = gsap.timeline({ scrollTrigger: { trigger: root.value.querySelector('.list'), start: horizontal ? 'top 75%' : 'top 70%', end: horizontal ? 'bottom 60%' : 'bottom 55%', scrub: .6 } })
-  tl.fromTo(fill, horizontal ? { scaleX: 0 } : { scaleY: 0 }, horizontal ? { scaleX: 1, ease: 'none' } : { scaleY: 1, ease: 'none' }, 0)
-  tl.eventCallback('onUpdate', () => { const p = tl.progress(); lis.forEach((li, i) => li.classList.toggle('lit', p > (i + .4) / lis.length)) })
+  // Desktop: the section is pinned for ~1.4 viewports while the line is drawn step by step and each step fades in as the line reaches it.
+  // Phones: no pin, the vertical line follows a longer scroll range.
+  const tl = gsap.timeline({ scrollTrigger: horizontal
+    ? { trigger: root.value, start: 'top top', end: '+=140%', pin: true, scrub: 1.2, anticipatePin: 1 }
+    : { trigger: root.value.querySelector('.list'), start: 'top 80%', end: 'bottom 45%', scrub: 1 } })
+  const n = lis.length
+  tl.fromTo(fill, horizontal ? { scaleX: 0 } : { scaleY: 0 }, horizontal ? { scaleX: 1, ease: 'none', duration: n } : { scaleY: 1, ease: 'none', duration: n }, 0)
+  lis.forEach((li, i) => { const body = li.querySelectorAll('.n, h3, p'); gsap.set(body, { opacity: horizontal ? 0.18 : 1, y: horizontal ? 14 : 0 }); if (horizontal) tl.to(body, { opacity: 1, y: 0, duration: .5, ease: 'power2.out', stagger: .04 }, i + .35) })
+  tl.eventCallback('onUpdate', () => { const p = tl.progress(); lis.forEach((li, i) => li.classList.toggle('lit', p > (i + .4) / n)) })
+  if (horizontal) tl.to({}, { duration: .8 }) // a beat at the end so the last step can be read before the pin releases
   return tl
 })
 </script>
