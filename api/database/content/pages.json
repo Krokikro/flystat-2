@@ -822,17 +822,17 @@
        "icon": "activity",
        "href": "/for/diabetes",
        "image": {
-        "src": "/media/photo/arm-kitchen.webp",
+        "src": "/media/people/city.webp",
         "alt": {
-         "en": "Woman with a Flystat sensor on her arm at home",
-         "ru": "Женщина с сенсором Flystat на руке дома",
-         "fr": "Femme portant un capteur Flystat sur le bras, chez elle",
-         "es": "Mujer con un sensor Flystat en el brazo, en casa",
-         "it": "Donna con un sensore Flystat sul braccio, a casa",
-         "de": "Frau mit einem Flystat-Sensor am Arm, zu Hause",
-         "zh": "在家中手臂上佩戴 Flystat 传感器的女性",
-         "vi": "Người phụ nữ đeo cảm biến Flystat trên cánh tay tại nhà",
-         "hi": "घर पर बांह पर Flystat सेंसर पहने महिला"
+         "en": "Man with a Flystat sensor on his arm in the city",
+         "ru": "Мужчина с сенсором Flystat на руке в городе",
+         "fr": "Homme portant un capteur Flystat sur le bras en ville",
+         "es": "Hombre con un sensor Flystat en el brazo en la ciudad",
+         "it": "Uomo con un sensore Flystat sul braccio in città",
+         "de": "Mann mit einem Flystat-Sensor am Arm in der Stadt",
+         "zh": "城市中手臂上佩戴 Flystat 传感器的男性",
+         "vi": "Người đàn ông đeo cảm biến Flystat trên cánh tay trong thành phố",
+         "hi": "शहर में बांह पर Flystat सेंसर पहने पुरुष"
         }
        }
       },
@@ -862,17 +862,17 @@
        "icon": "heart",
        "href": "/for/family",
        "image": {
-        "src": "/media/photo/family.webp",
+        "src": "/media/people/couple.webp",
         "alt": {
-         "en": "Father and daughter at the kitchen table, the daughter wearing a sensor",
-         "ru": "Отец и дочь за кухонным столом, у дочери сенсор на руке",
-         "fr": "Père et fille à la table de la cuisine, la fille porte un capteur",
-         "es": "Padre e hija en la mesa de la cocina, la hija lleva un sensor",
-         "it": "Padre e figlia al tavolo della cucina, la figlia indossa un sensore",
-         "de": "Vater und Tochter am Küchentisch, die Tochter trägt einen Sensor",
-         "zh": "厨房餐桌旁的父女，女儿佩戴着传感器",
-         "vi": "Cha và con gái bên bàn bếp, con gái đeo cảm biến",
-         "hi": "रसोई की मेज़ पर पिता और बेटी, बेटी ने सेंसर पहना है"
+         "en": "Couple at home, he is wearing a Flystat sensor",
+         "ru": "Пара дома, у него на руке сенсор Flystat",
+         "fr": "Couple à la maison, il porte un capteur Flystat",
+         "es": "Pareja en casa, él lleva un sensor Flystat",
+         "it": "Coppia a casa, lui indossa un sensore Flystat",
+         "de": "Paar zu Hause, er trägt einen Flystat-Sensor",
+         "zh": "家中的一对伴侣，男士佩戴着 Flystat 传感器",
+         "vi": "Cặp đôi ở nhà, anh ấy đeo cảm biến Flystat",
+         "hi": "घर पर एक जोड़ा, पुरुष ने Flystat सेंसर पहना है"
         }
        }
       },
@@ -902,17 +902,17 @@
        "icon": "zap",
        "href": "/for/sport",
        "image": {
-        "src": "/media/photo/run.webp",
+        "src": "/media/people/tennis.webp",
         "alt": {
-         "en": "Running with a Flystat sensor",
-         "ru": "Пробежка с сенсором Flystat",
-         "fr": "Course à pied avec un capteur Flystat",
-         "es": "Corriendo con un sensor Flystat",
-         "it": "Corsa con un sensore Flystat",
-         "de": "Laufen mit einem Flystat-Sensor",
-         "zh": "佩戴 Flystat 传感器跑步",
-         "vi": "Chạy bộ với cảm biến Flystat",
-         "hi": "Flystat सेंसर के साथ दौड़"
+         "en": "Playing tennis with a Flystat sensor",
+         "ru": "Игра в теннис с сенсором Flystat",
+         "fr": "Partie de tennis avec un capteur Flystat",
+         "es": "Jugando al tenis con un sensor Flystat",
+         "it": "Partita di tennis con un sensore Flystat",
+         "de": "Tennis spielen mit einem Flystat-Sensor",
+         "zh": "佩戴 Flystat 传感器打网球",
+         "vi": "Chơi quần vợt với cảm biến Flystat",
+         "hi": "Flystat सेंसर के साथ टेनिस खेलते हुए"
         }
        }
       },
@@ -942,7 +942,7 @@
        "icon": "sun",
        "href": "/for/pregnancy",
        "image": {
-        "src": "/media/photo/pregnant.webp",
+        "src": "/media/people/pregnant.webp",
         "alt": {
          "en": "Pregnant woman with a Flystat sensor on her arm",
          "ru": "Беременная женщина с сенсором Flystat на руке",
@@ -3564,7 +3564,7 @@
       "hi": "चाहे आप दिन में कई बार इंसुलिन लेते हों या गोलियों और खान-पान से संभालते हों, हर मिनट ग्लूकोज़ देखने से आपकी नज़र में आने वाली चीज़ें बदल जाती हैं — नाश्ते के बाद धीमी चढ़ाई, सैर के दौरान गिरावट, वह रात जिसके बारे में आपको पता ही नहीं था।"
      },
      "image": {
-      "src": "/media/photo/arm-kitchen.webp",
+      "src": "/media/people/city.webp",
       "alt": {
        "en": "Living with diabetes",
        "ru": "Жизнь с диабетом",
@@ -3984,7 +3984,7 @@
       "hi": "टाइप 1 वाला बच्चा, अकेले रहने वाले माता-पिता, जाँच करना भूल जाने वाला जीवनसाथी। Flystat पहनने वाले को संख्या दिखाता है — और उन्हें आपको दिखाने के लिए कुछ सरल देता है।"
      },
      "image": {
-      "src": "/media/photo/family.webp",
+      "src": "/media/people/older-woman.webp",
       "alt": {
        "en": "Parents and families",
        "ru": "Родители и семьи",
@@ -4404,7 +4404,7 @@
       "hi": "खिलाड़ी और वे लोग जो बस बेहतर खाना चाहते हैं, निरंतर ग्लूकोज़ डेटा से ईंधन, रिकवरी और उन भोजनों को समझते हैं जो उन्हें तीन बजे सुस्त छोड़ देते हैं।"
      },
      "image": {
-      "src": "/media/photo/run.webp",
+      "src": "/media/people/run.webp",
       "alt": {
        "en": "Sport and nutrition",
        "ru": "Спорт и питание",
@@ -4824,7 +4824,7 @@
       "hi": "गर्भकालीन डायबिटीज़ और टाइप 1 या टाइप 2 के साथ गर्भावस्था का मतलब है ज़्यादा जाँच और संकरे लक्ष्य। हर मिनट पढ़ने वाला सेंसर उंगली की कई जाँचों की जगह लेता है और उनके बीच की तस्वीर दिखाता है।"
      },
      "image": {
-      "src": "/media/photo/pregnant.webp",
+      "src": "/media/people/pregnant.webp",
       "alt": {
        "en": "Pregnancy",
        "ru": "Беременность",

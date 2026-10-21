@@ -128,7 +128,8 @@ defineExpose({ ready, mode })
     <canvas v-if="mode === 'live'" ref="canvas" class="gl" role="img" aria-label="Flystat applicator and sensor, 3D" />
     <canvas v-else ref="frameCanvas" class="gl" role="img" aria-label="Flystat applicator and sensor" />
     <div v-if="!ready" class="load" aria-hidden="true"><i :style="{ width: loadPct + '%' }" /></div>
-    <div class="vignette" aria-hidden="true" />
+    <div class="vignette vignette-l" aria-hidden="true" />
+    <div class="vignette vignette-b" aria-hidden="true" />
   </div>
 </template>
 <style scoped>
@@ -138,6 +139,9 @@ defineExpose({ ready, mode })
 .gl { opacity: 0; transition: opacity .35s ease; display: block; }
 .dev.ready .gl { opacity: 1; } .dev.ready .poster { opacity: 0; }
 .load { position: absolute; left: 0; right: 0; bottom: 0; height: 2px; background: rgba(255,255,255,.08); } .load i { display: block; height: 100%; background: #8FB7FF; transition: width .3s ease; }
-.vignette { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(6,38,77,.9) 0%, rgba(6,38,77,.45) 30%, rgba(6,38,77,0) 52%), linear-gradient(180deg, rgba(6,38,77,.25) 0%, rgba(6,38,77,0) 22%, rgba(6,38,77,0) 72%, rgba(6,38,77,1) 100%); pointer-events: none; }
-@media (max-width: 760px) { .poster { object-position: 50% 40%; } .vignette { background: linear-gradient(180deg, rgba(6,38,77,.15) 0%, rgba(6,38,77,0) 25%, rgba(6,38,77,.7) 68%, rgba(6,38,77,1) 100%); } }
+.vignette { position: absolute; pointer-events: none; }
+/* kept away from the model: the left panel only behind the copy, the bottom strip only for the hand-off to the next section */
+.vignette-l { inset: 0 55% 0 0; background: linear-gradient(90deg, rgba(6,38,77,.85) 0%, rgba(6,38,77,.35) 60%, rgba(6,38,77,0) 100%); }
+.vignette-b { inset: auto 0 0 0; height: 22%; background: linear-gradient(180deg, rgba(6,38,77,0) 0%, rgba(6,38,77,1) 100%); }
+@media (max-width: 760px) { .poster { object-position: 50% 40%; } .vignette-l { display: none; } .vignette-b { height: 38%; } }
 </style>

@@ -84,10 +84,10 @@ PAGES.append(page("", "home", T("Flystat — continuous glucose monitoring"), na
         block("segments", anchor="for", data=dict(
             eyebrow=T("Who it is for"), title=T("Different days, same sensor"),
             items=[
-                item(T("Type 1 and type 2 diabetes"), T("Fewer finger pricks, more time in range, and a clearer conversation with your doctor."), icon="activity", href="/for/diabetes", image=img("photo/arm-kitchen.webp", T("Woman with a Flystat sensor on her arm at home"))),
-                item(T("Parents and families"), T("Readings you can check at a glance when it is your child or your parent wearing the sensor."), icon="heart", href="/for/family", image=img("photo/family.webp", T("Father and daughter at the kitchen table, the daughter wearing a sensor"))),
-                item(T("Sport and nutrition"), T("See how a long run, a late dinner or a new routine actually moves your glucose."), icon="zap", href="/for/sport", image=img("photo/run.webp", T("Running with a Flystat sensor"))),
-                item(T("Pregnancy"), T("Gentle, continuous monitoring when the targets are tighter and the stakes feel higher."), icon="sun", href="/for/pregnancy", image=img("photo/pregnant.webp", T("Pregnant woman with a Flystat sensor on her arm"))),
+                item(T("Type 1 and type 2 diabetes"), T("Fewer finger pricks, more time in range, and a clearer conversation with your doctor."), icon="activity", href="/for/diabetes", image=img("people/city.webp", T("Man with a Flystat sensor on his arm in the city"))),
+                item(T("Parents and families"), T("Readings you can check at a glance when it is your child or your parent wearing the sensor."), icon="heart", href="/for/family", image=img("people/couple.webp", T("Couple at home, he is wearing a Flystat sensor"))),
+                item(T("Sport and nutrition"), T("See how a long run, a late dinner or a new routine actually moves your glucose."), icon="zap", href="/for/sport", image=img("people/tennis.webp", T("Playing tennis with a Flystat sensor"))),
+                item(T("Pregnancy"), T("Gentle, continuous monitoring when the targets are tighter and the stakes feel higher."), icon="sun", href="/for/pregnancy", image=img("people/pregnant.webp", T("Pregnant woman with a Flystat sensor on her arm"))),
             ])),
         block("steps", anchor="install", data=dict(
             eyebrow=T("Applying the sensor"), title=T("Six steps, about a minute"),
@@ -226,7 +226,7 @@ SEGMENTS = [
       item(T("Meals"), T("Log the meal in one tap and watch the curve. In a week you know which breakfast works for you."), icon="utensils"),
       item(T("Insulin"), T("Trend arrows help you decide earlier and correct less. The app keeps the dose history next to the graph."), icon="syringe"),
       item(T("The appointment"), T("Hand over a two-page report with time in range and patterns. Spend the visit on decisions, not on reading a logbook."), icon="stethoscope")],
-     "photo/arm-kitchen.webp"),
+     "people/city.webp"),
     ("family", T("Parents and families"), T("Flystat for parents and families"),
      T("When the sensor is on someone you love"),
      T("A child with type 1, a parent who lives alone, a partner who forgets to check. Flystat makes the number visible to the person wearing it — and gives them something simple to show you."),
@@ -234,7 +234,7 @@ SEGMENTS = [
       item(T("For older parents"), T("Large numbers, a trend arrow and alerts that are hard to miss. No strips to run out of, no codes to type."), icon="glasses"),
       item(T("Family sharing — later"), T("Live sharing with family members is planned for a release after certification. Until then, reports can be exported and sent in two taps."), icon="users"),
       item(T("Peace of mind at night"), T("An urgent-low alarm that always sounds, even in quiet mode."), icon="moon")],
-     "photo/family.webp"),
+     "people/older-woman.webp"),
     ("sport", T("Sport and nutrition"), T("Flystat for sport and nutrition"),
      T("See what your body actually does"),
      T("Athletes and people who simply want to eat better use continuous glucose data to understand fuelling, recovery and the meals that leave them flat at three o'clock."),
@@ -242,7 +242,7 @@ SEGMENTS = [
       item(T("Recovery"), T("Overnight stability is one of the clearest signals of how well you recovered."), icon="bed"),
       item(T("Food"), T("Two breakfasts, two curves. The sensor settles the argument in a week."), icon="apple"),
       item(T("Built for sweat"), T("IP58 protection and a patch that stays put through showers, pools and humidity."), icon="droplets")],
-     "photo/run.webp"),
+     "people/run.webp"),
     ("pregnancy", T("Pregnancy"), T("Flystat during pregnancy"),
      T("Tighter targets, gentler monitoring"),
      T("Gestational diabetes and pregnancy with type 1 or type 2 mean more checks and narrower targets. A sensor that reads every minute replaces many of the finger pricks and shows the picture between them."),
@@ -250,7 +250,7 @@ SEGMENTS = [
       item(T("Nights"), T("Lows at night are easier to catch with an alarm than with an alarm clock."), icon="moon"),
       item(T("For the clinic"), T("Weekly reports with time in range help your team adjust the plan without guesswork."), icon="stethoscope"),
       item(T("Comfort"), T("A 24 mm sensor on the back of the arm, out of the way of everything else that is changing."), icon="heart")],
-     "photo/pregnant.webp"),
+     "people/pregnant.webp"),
 ]
 for slug, nav, h1, title, lead, items, photo in SEGMENTS:
     PAGES.append(page(f"for/{slug}", "segment", h1, nav=nav, seo_title=h1,
