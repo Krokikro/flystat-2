@@ -67,7 +67,18 @@ def main():
     clean = np.clip(clean + noise * m3, 0, 255).astype(np.uint8)
     base = Image.fromarray(cv2.cvtColor(clean, cv2.COLOR_BGR2RGB)).convert('RGBA')
     # 2. the render: major axis = patch diameter * scale
-    ren = Image.open(f'{RENDERS}/sensor-el{el_r}.png').convert('RGBA'); ren = ren.crop(ren.getbbox())
+    # the client's KeyShot top-view render (patch included), foreshortened to the measured ellipse
+    ren = Image.open('/home/claude/flystat-2/assets3d/ref/sensor-top.png').convert('RGBA'); ren = ren.crop(ren.getbbox())
+    sq = max(0.45, min(1.0, minor / major))
+    ren = ren.resize((ren.width, max(1, int(ren.height * sq))), Image.LANCZOS)
+    # fake the dome's side under foreshortening: a slightly darker lower rim
+    if sq < 0.95:
+        rim = Image.new('RGBA', ren.size, (0, 0, 0, 0)); rd = np.zeros((ren.height, ren.width), np.uint8)
+        cv2.ellipse(rd, (ren.width // 2, int(ren.height * 0.56)), (int(ren.width * 0.36), int(ren.height * 0.36)), 0, 20, 160, 255, int(ren.height * (1 - sq) * 0.35) | 1)
+        rd = cv2.GaussianBlur(rd, (0, 0), ren.width * 0.012)
+        rim.putalpha(Image.fromarray((rd * 0.35).astype(np.uint8))); rim.paste((120, 110, 100, 0), (0, 0, ren.width, ren.height), Image.fromarray(np.zeros_like(rd)))
+        shade = Image.new('RGBA', ren.size, (90, 80, 75, 0)); shade.putalpha(Image.fromarray((rd * 0.12).astype(np.uint8)))
+        a0 = ren.split()[3]; ren.alpha_composite(shade); ren.putalpha(a0)
     target_w = major * 1.17 * scale  # real patch is 28 mm over a 24 mm housing
     k = target_w / ren.width
     ren = ren.resize((max(1, int(ren.width * k)), max(1, int(ren.height * k))), Image.LANCZOS)
