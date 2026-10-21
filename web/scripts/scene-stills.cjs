@@ -1,6 +1,8 @@
 // Product stills from the real model, transparent background, for the light sections of the site.
 const { chromium } = require('playwright'); const { serve } = require('./glb-render.cjs'); const fs = require('fs'); const path = require('path');
 const STILLS = {
+  // sensor views for photo compositing: elevation sweep, cap hidden, applicator away
+  ...Object.fromEntries([30, 40, 50, 60, 70, 80, 90].map((el) => [`sensor-el${el}`, [1400, 1400, { p: 1, cam: { az: 0, el, dist: 0.95, ty: -0.33, shift: 0 }, explode: { applicator: 400, needle: 400 }, hide: ['cap'] }]])),
   // name: [w, h, override]
   'applicator-front': [1400, 1800, { p: 0, cam: { az: 22, el: 8, dist: 2.7, ty: 0, shift: 0 } }],
   'applicator-angle': [1400, 1800, { p: 0, cam: { az: 58, el: 14, dist: 2.7, ty: 0, shift: 0 } }],
