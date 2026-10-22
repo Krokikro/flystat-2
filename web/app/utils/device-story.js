@@ -92,12 +92,12 @@ function storyDevice(p) {
   const D = seg(p, 0.8, 1.0)     // full turn of the finished product
   const C = pull
   const az = 35 - A * 20 + B * 10 - C * 5 + D * 360 // 35 → 15 → 25 → 20 → 380 (≡ 20)
-  const el = lerp(lerp(14, 12, B), 10, pull) + Math.sin(D * Math.PI) * 14
+  const el = lerp(lerp(14, 12, B), 10, pull) + Math.sin(D * Math.PI) * 10
   const Cl = Math.pow(1 - land, 1.6) // the applicator eases into place: fast approach, slow last millimetres
   // the applicator enters from the top of the frame and comes down onto the sensor; the camera recentres as it lands
-  const dist = lerp(lerp(1.05, 1.2, B), 2.6, pull)
+  const dist = lerp(lerp(1.5, 1.6, B), 3.0, pull)
   const ty = lerp(SENSOR_Y_MM * MM + 0.02, lerp(SENSOR_Y_MM * MM + 0.3, 0.02, land), pull)
-  const shift = lerp(0.2, 0.3, pull)
+  const shift = lerp(0.34, 0.3, pull)
   const ex = {
     applicator: Cl * 110,
     needle: Cl * 110,
